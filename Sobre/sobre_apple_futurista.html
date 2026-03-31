@@ -153,6 +153,78 @@
         ::-webkit-scrollbar-track{background:linear-gradient(rgba(255,255,255,.03),transparent);}
         ::-webkit-scrollbar-thumb{background:linear-gradient(var(--c1),var(--c2));border-radius:4px;}
         ::-webkit-scrollbar-thumb:hover{background:linear-gradient(var(--c2),var(--c3));}
+
+        /* ═══════════════════ HAMBURGER ═══════════════════ */
+        .nav-burger{display:none;flex-direction:column;justify-content:center;align-items:center;gap:5px;width:40px;height:40px;background:none;border:none;cursor:pointer;padding:6px;border-radius:10px;transition:background .2s;margin-left:auto;flex-shrink:0}
+        .nav-burger:hover{background:rgba(255,255,255,.08)}
+        .nav-burger span{display:block;width:22px;height:2px;background:rgba(245,245,247,.75);border-radius:2px;transition:all .3s cubic-bezier(.34,1.56,.64,1);transform-origin:center}
+        .nav-burger.open span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+        .nav-burger.open span:nth-child(2){opacity:0;transform:scaleX(0)}
+        .nav-burger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+
+        /* ═══════════════════ TABLET 960px ═══════════════════ */
+        @media(max-width:960px){
+          .global-nav{padding:0 24px}
+          header{padding:0 24px}
+          .page-wrap{padding:48px 24px 80px}
+          .stats-row{grid-template-columns:repeat(2,1fr)}
+          .hero-banner{padding:40px 36px;grid-template-columns:1fr}
+          .hero-banner-badge{flex-direction:row;padding:16px 24px;gap:16px}
+        }
+
+        /* ═══════════════════ MOBILE 768px ═══════════════════ */
+        @media(max-width:768px){
+          /* Nav */
+          .global-nav{padding:0 14px}
+          .nav-burger{display:flex}
+          .nav-divider{display:none}
+          .nav-login{display:none}
+          .nav-links{
+            display:none;position:fixed;
+            top:52px;left:0;right:0;bottom:0;
+            flex-direction:column;gap:2px;
+            background:rgba(4,4,12,.97);
+            backdrop-filter:blur(48px) saturate(200%);
+            -webkit-backdrop-filter:blur(48px) saturate(200%);
+            padding:24px 16px 40px;
+            z-index:58;
+            border-top:1px solid rgba(255,255,255,.08);
+            overflow-y:auto;
+          }
+          .nav-links.open{display:flex}
+          .nav-link{font-size:15px;padding:14px 20px;border-radius:14px;color:rgba(245,245,247,.6);letter-spacing:.06em}
+
+          /* Header */
+          header{height:70px;padding:0 14px;flex-direction:row;gap:10px}
+          .header-logo-img{height:52px}
+          .header-badge{font-size:8.5px;padding:4px 10px}
+          header h1{font-size:12px}
+
+          /* Page content */
+          .page-wrap{padding:32px 14px 64px}
+
+          /* Hero banner */
+          .hero-banner{padding:28px 24px;grid-template-columns:1fr;gap:24px;border-radius:20px;margin-bottom:40px}
+          .hero-banner h2{font-size:clamp(28px,9vw,44px)}
+          .hero-banner p{font-size:15px}
+          .hero-banner-badge{flex-direction:row;justify-content:center;padding:14px 20px;gap:14px}
+          .hero-banner-badge .big{font-size:36px}
+
+          /* Stats row */
+          .stats-row{grid-template-columns:1fr 1fr;gap:10px;margin-bottom:40px}
+          .stat-num{font-size:32px}
+          .stat-card{padding:20px 16px}
+
+          /* Sections */
+          .skills-grid{grid-template-columns:1fr;gap:12px}
+          .principles-grid{grid-template-columns:1fr;gap:12px}
+          .refs-grid{grid-template-columns:repeat(2,1fr);gap:10px}
+          .ref-card{padding:16px 14px}
+          .section-title{font-size:clamp(22px,6vw,34px)}
+
+          /* CTA */
+          .cta-btn{padding:14px 28px;font-size:13px}
+        }
     </style>
 </head>
 <body>
@@ -160,7 +232,7 @@
 
     <!-- NAVBAR -->
     <nav class="global-nav">
-        <div class="nav-links">
+        <div class="nav-links" id="nav-links">
             <a href="../cerebro.html" class="nav-link">Cérebro</a>
             <a href="../CannesFlix/cannes_cerebro_fixed.html" class="nav-link">CannesFlix</a>
             <a href="../insight.html" class="nav-link">Insight</a>
@@ -169,6 +241,9 @@
         </div>
         <div class="nav-divider"></div>
         <a href="../login.html" class="nav-login">Login</a>
+        <button class="nav-burger" id="nav-burger" onclick="toggleNav()" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
     </nav>
 
     <!-- HEADER -->
@@ -333,5 +408,14 @@
         </div>
 
     </div><!-- /page-wrap -->
+
+    <script>
+    function toggleNav() {
+        const links = document.getElementById('nav-links');
+        const burger = document.getElementById('nav-burger');
+        links.classList.toggle('open');
+        burger.classList.toggle('active');
+    }
+    </script>
 </body>
 </html>

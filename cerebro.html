@@ -195,12 +195,85 @@ header{position:sticky;top:52px;z-index:55;height:200px;display:flex;align-items
 ::-webkit-scrollbar-thumb{background:rgba(255,255,255,.08);border-radius:3px}
 ::-webkit-scrollbar-thumb:hover{background:rgba(255,255,255,.16)}
 
+/* ═══════════════════ HAMBURGER ═══════════════════ */
+.nav-burger{display:none;flex-direction:column;justify-content:center;align-items:center;gap:5px;width:40px;height:40px;background:none;border:none;cursor:pointer;padding:6px;border-radius:10px;transition:background .2s;margin-left:auto;flex-shrink:0}
+.nav-burger:hover{background:rgba(255,255,255,.08)}
+.nav-burger span{display:block;width:22px;height:2px;background:rgba(245,245,247,.75);border-radius:2px;transition:all .3s cubic-bezier(.34,1.56,.64,1);transform-origin:center}
+.nav-burger.open span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.nav-burger.open span:nth-child(2){opacity:0;transform:scaleX(0)}
+.nav-burger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+
+/* ═══════════════════ TABLET 960px ═══════════════════ */
 @media(max-width:960px){
   .nav-map{grid-template-columns:1fr 1fr}
-  .result-grid{grid-template-columns:1fr}
-  .global-nav,.hero-intro,.section-label,.chat-section,.nav-map{padding-left:20px;padding-right:20px}
-  header{padding:0 20px}
-  .chat-header,.chat-messages,.chat-input-area{padding-left:20px;padding-right:20px}
+  .result-grid{grid-template-columns:1fr 1fr}
+  .global-nav,.hero-intro,.section-label,.chat-section,.nav-map{padding-left:28px;padding-right:28px}
+  header{padding:0 28px}
+  .chat-header,.chat-messages,.chat-input-area{padding-left:28px;padding-right:28px}
+}
+
+/* ═══════════════════ MOBILE 768px ═══════════════════ */
+@media(max-width:768px){
+  /* Nav */
+  .global-nav{padding:0 16px}
+  .nav-burger{display:flex}
+  .nav-divider{display:none}
+  .nav-login{display:none}
+  .nav-links{
+    display:none;position:fixed;
+    top:52px;left:0;right:0;bottom:0;
+    flex-direction:column;gap:2px;
+    background:rgba(4,4,12,.97);
+    backdrop-filter:blur(48px) saturate(200%);
+    -webkit-backdrop-filter:blur(48px) saturate(200%);
+    padding:24px 16px 40px;
+    z-index:58;
+    border-top:1px solid rgba(255,255,255,.08);
+    overflow-y:auto;
+  }
+  .nav-links.open{display:flex}
+  .nav-link{font-size:15px;padding:14px 20px;border-radius:14px;color:rgba(245,245,247,.6);letter-spacing:.06em}
+  .nav-link.active{font-size:15px}
+
+  /* Header */
+  header{height:70px;padding:0 16px;flex-direction:row;gap:12px}
+  header.sticky-after-header{top:52px}
+  .header-logo-img{height:54px}
+  .header-badge{font-size:9px;padding:4px 10px;letter-spacing:.08em}
+
+  /* Hero */
+  .hero-intro{padding:40px 16px 36px}
+  .hero-title{font-size:clamp(34px,10vw,52px)}
+  .hero-sub{font-size:15px}
+
+  /* Nav map: 1 coluna */
+  .section-label{padding:0 16px}
+  .nav-map{grid-template-columns:1fr;padding:0 16px 48px;gap:12px}
+  .map-card{padding:22px 20px}
+
+  /* Chat */
+  .chat-section{padding:0 16px 32px}
+  .chat-header{padding:20px 20px 16px;gap:12px}
+  .chat-icon{width:40px;height:40px;font-size:18px}
+  .chat-header-text h2{font-size:15px}
+  .chat-header-text p{font-size:12px}
+  .chat-messages{padding:16px 16px 0}
+  .chat-input-area{padding:16px 16px 20px}
+  .chat-input-row{flex-wrap:wrap;gap:8px}
+  .chat-input{font-size:14px;padding:13px 16px}
+  .chat-send{width:100%;justify-content:center;padding:13px 20px}
+
+  /* Chips: scroll horizontal */
+  .chips-row{flex-wrap:nowrap;overflow-x:auto;padding-bottom:6px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+  .chips-row::-webkit-scrollbar{display:none}
+  .chip{flex-shrink:0}
+
+  /* Results: 1 coluna */
+  .result-grid{grid-template-columns:1fr;gap:12px}
+  .msg-user-bubble{font-size:13px;max-width:88%}
+  .rc-body{padding:14px 16px}
+  .rc-head{padding:16px 16px 12px}
+  .rc-cta{padding:0 16px 16px}
 }
 </style>
 </head>
@@ -209,7 +282,7 @@ header{position:sticky;top:52px;z-index:55;height:200px;display:flex;align-items
 
 <!-- Navbar -->
 <nav class="global-nav">
-  <div class="nav-links">
+  <div class="nav-links" id="nav-links">
     <a href="cerebro.html" class="nav-link active">Cérebro</a>
     <a href="CannesFlix/cannes_cerebro_fixed.html" class="nav-link">CannesFlix</a>
     <a href="insight.html" class="nav-link">Insight</a>
@@ -218,6 +291,9 @@ header{position:sticky;top:52px;z-index:55;height:200px;display:flex;align-items
   </div>
   <div class="nav-divider"></div>
   <a href="login.html" class="nav-login">Login</a>
+  <button class="nav-burger" id="nav-burger" onclick="toggleNav()" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
 </nav>
 
 <!-- Header -->
@@ -330,6 +406,19 @@ header{position:sticky;top:52px;z-index:55;height:200px;display:flex;align-items
 </div><!-- /page-wrap -->
 
 <script>
+/* ── Mobile nav toggle ── */
+function toggleNav(){
+  const links = document.getElementById('nav-links');
+  const burger = document.getElementById('nav-burger');
+  links.classList.toggle('open');
+  burger.classList.toggle('open');
+}
+// Fecha o menu ao clicar em um link
+document.querySelectorAll('.nav-link').forEach(l => l.addEventListener('click', () => {
+  document.getElementById('nav-links').classList.remove('open');
+  document.getElementById('nav-burger').classList.remove('open');
+}));
+
 /* ══════════════════════════════════════════════════════════
    DADOS REAIS DO CANNESFLIX — segmentos + top marcas
    Extraídos diretamente de cannes_cerebro_fixed.html

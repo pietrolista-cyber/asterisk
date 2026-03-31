@@ -134,6 +134,60 @@
       .field{min-width:calc(50% - 8px)}
       .source-grid{grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}
     }
+
+    /* ═══════════════════ HAMBURGER ═══════════════════ */
+    .nav-burger{display:none;flex-direction:column;justify-content:center;align-items:center;gap:5px;width:40px;height:40px;background:none;border:none;cursor:pointer;padding:6px;border-radius:10px;transition:background .2s;margin-left:auto;flex-shrink:0}
+    .nav-burger:hover{background:rgba(255,255,255,.08)}
+    .nav-burger span{display:block;width:22px;height:2px;background:rgba(245,245,247,.75);border-radius:2px;transition:all .3s cubic-bezier(.34,1.56,.64,1);transform-origin:center}
+    .nav-burger.open span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+    .nav-burger.open span:nth-child(2){opacity:0;transform:scaleX(0)}
+    .nav-burger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+
+    /* ═══════════════════ MOBILE 768px ═══════════════════ */
+    @media(max-width:768px){
+      /* Nav */
+      .global-nav{padding:0 14px !important}
+      .nav-burger{display:flex}
+      .nav-divider{display:none}
+      .nav-login{display:none}
+      .nav-links{
+        display:none !important;position:fixed;
+        top:52px;left:0;right:0;bottom:0;
+        flex-direction:column;gap:2px;
+        background:rgba(4,4,12,.97);
+        backdrop-filter:blur(48px) saturate(200%);
+        -webkit-backdrop-filter:blur(48px) saturate(200%);
+        padding:24px 16px 40px;
+        z-index:58;
+        border-top:1px solid rgba(255,255,255,.08);
+        overflow-y:auto;
+      }
+      .nav-links.open{display:flex !important}
+      .nav-link{font-size:15px;padding:14px 20px;border-radius:14px;color:rgba(245,245,247,.6);letter-spacing:.06em}
+
+      /* Header */
+      header{height:auto !important;padding:14px 16px !important;flex-direction:row !important;align-items:center !important;gap:12px !important}
+      .header-mark{width:48px !important;height:48px !important;border-radius:12px}
+      .header-mark span{font-size:22px !important}
+      header h1{font-size:13px !important}
+      .header-badge{font-size:8px;padding:3px 10px}
+
+      /* Toolbar */
+      .toolbar{margin:0 !important;padding:8px 12px;top:auto !important;position:sticky;left:0;right:0}
+      .toolbar-fields{flex-wrap:wrap;gap:8px}
+      .field{min-width:calc(50% - 6px) !important;flex:1 1 calc(50% - 6px)}
+      .toolbar-meta{margin:0 !important;width:100% !important;gap:8px;flex-wrap:wrap}
+
+      /* Content */
+      .section{padding-left:14px !important;padding-right:14px !important}
+      .hero{padding:24px 14px !important;grid-template-columns:1fr !important}
+      .stats-panel{grid-template-columns:1fr 1fr !important;gap:10px}
+      .source-grid{grid-template-columns:1fr !important}
+
+      /* Cards */
+      .source-card{padding:18px 16px}
+      .source-card-title{font-size:14px}
+    }
   </style>
 </head>
 <body>
@@ -142,7 +196,7 @@
   <div class="hud-corner hud-br"></div>
 
   <nav class="global-nav">
-    <div class="nav-links">
+    <div class="nav-links" id="nav-links">
       <a href="../cerebro.html" class="nav-link">Cérebro</a>
       <a href="../CannesFlix/cannes_cerebro_fixed.html" class="nav-link">CannesFlix</a>
       <a href="../insight.html" class="nav-link">Insight</a>
@@ -151,6 +205,9 @@
     </div>
     <div class="nav-divider"></div>
     <a href="../login.html" class="nav-login">Login</a>
+    <button class="nav-burger" id="nav-burger" onclick="toggleNav()" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
   </nav>
 
   <header>
@@ -339,5 +396,22 @@
   </section>
 
   <div class="footer-space"></div>
+<script>
+function toggleNav(){
+  var l=document.getElementById('nav-links');
+  var b=document.getElementById('nav-burger');
+  l.classList.toggle('open');
+  b.classList.toggle('open');
+}
+document.addEventListener('DOMContentLoaded',function(){
+  var links=document.querySelectorAll('.nav-link');
+  for(var i=0;i<links.length;i++){
+    links[i].addEventListener('click',function(){
+      document.getElementById('nav-links').classList.remove('open');
+      document.getElementById('nav-burger').classList.remove('open');
+    });
+  }
+});
+</script>
 </body>
 </html>
