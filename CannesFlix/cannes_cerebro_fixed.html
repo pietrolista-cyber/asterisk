@@ -694,21 +694,6 @@ function setPremioFilter(premio) {
 function getFiltered(){const a=document.getElementById('f-ano').value,s=document.getElementById('f-segmento').value,m=document.getElementById('f-marca').value,q=document.getElementById('f-search').value.toLowerCase(),tg=document.getElementById('f-tag').value;return DATA.filter(d=>(!_activePremio||d.premiacao===_activePremio)&&(!a||d.ano===a)&&(!s||d.segmento===s)&&(!m||d.marca===m)&&(!q||d.campanha.toLowerCase().includes(q)||(d.agencia||'').toLowerCase().includes(q))&&(!tg||(d.tags&&d.tags.split(',').map(t=>t.trim()).includes(tg))));}
 function noThumbHTML(link){return`<div class="no-thumb"><span>SEM PREVIEW</span><a href="${link}" target="_blank" rel="noopener" onclick="event.stopPropagation()">↗ ABRIR CASE</a></div>`;}
 function buildCardMedia(d){if(d.thumbnail){return`<div class="card-thumb" data-embed="${d.video_embed}" data-link="${d.link}" onclick="playInCard(this,event)"><img src="${d.thumbnail}" alt="${d.campanha}" loading="lazy" onerror="this.parentElement.innerHTML=noThumbHTML('${d.link.replace(/'/g,'\'')}')" ><div class="play-overlay"><div class="play-btn">${PLAY_SVG}</div></div>${(!d.video_embed&&d.link&&d.link.includes('youtube'))?'<span style="position:absolute;bottom:6px;right:6px;background:#FF0000;color:#fff;font-size:8px;padding:2px 6px;letter-spacing:1px;font-family:monospace">YT ↗</span>':''}</div>`;}else if(d.video_embed){return`<div class="card-thumb"><iframe src="${d.video_embed}?autoplay=0&rel=0&modestbranding=1" loading="lazy" allowfullscreen allow="accelerometer;clipboard-write;encrypted-media;gyroscope;picture-in-picture"></iframe></div>`;}return noThumbHTML(d.link);}
-function ytFallbackUI(el, ytLink) {
-  el.style.position = 'relative';
-  el.innerHTML =
-    '<a href="' + ytLink + '" target="_blank" rel="noopener"' +
-    ' style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;' +
-    'justify-content:center;background:rgba(0,0,0,.88);text-decoration:none;gap:14px;border-radius:inherit;">' +
-    '<div style="background:#FF0000;border-radius:8px;padding:10px 24px;">' +
-    '<svg width="32" height="22" viewBox="0 0 32 22" fill="none">' +
-    '<polygon points="13,4 25,11 13,18" fill="white"/></svg></div>' +
-    '<span style="color:#fff;font-size:11px;font-family:monospace;letter-spacing:2px;font-weight:700;">' +
-    '&#9658; ASSISTIR NO YOUTUBE</span>' +
-    '<span style="color:rgba(255,255,255,.4);font-size:9px;font-family:monospace;">' +
-    'embedding desabilitado pelo autor</span></a>';
-}
-
 function playInCard(el, e) {
   e.stopPropagation();
   var embed = el.dataset.embed;
@@ -725,32 +710,6 @@ function playInCard(el, e) {
       ' style="position:absolute;inset:0;width:100%;height:100%;border:none;display:block;"></iframe>';
     var iframe = el.querySelector('iframe');
     el.onclick = null;
-
-    var re = new RegExp('embed/([a-zA-Z0-9_-]{11})');
-    var idM = embed.match(re);
-    var ytLink = idM ? 'https://www.youtube.com/watch?v=' + idM[1] : link;
-    var ready = false;
-
-    var t = setTimeout(function () {
-      if (!ready && el.contains(iframe)) ytFallbackUI(el, ytLink);
-    }, 6000);
-
-    var mh = function (ev) {
-      if (!ev.origin || ev.origin.indexOf('youtube') < 0) return;
-      try {
-        var m = typeof ev.data === 'string' ? JSON.parse(ev.data) : ev.data;
-        if (m && iframe && ev.source === iframe.contentWindow) {
-          if (m.event === 'onReady') {
-            ready = true; clearTimeout(t); window.removeEventListener('message', mh);
-          }
-          if (m.event === 'onError') {
-            ready = true; clearTimeout(t); window.removeEventListener('message', mh);
-            ytFallbackUI(el, ytLink);
-          }
-        }
-      } catch (err) {}
-    };
-    window.addEventListener('message', mh);
 
   } else {
     // Vimeo e outros
