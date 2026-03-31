@@ -1,0 +1,13 @@
+# Dependências Node
+node_modules/
+CannesFlix/node_modules/
+
+# PDFs e arquivos grandes (ficam locais)
+Insights 2020/
+backup/
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log

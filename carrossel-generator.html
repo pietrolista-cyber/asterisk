@@ -1,0 +1,1142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cerebro — Gerador de Carrosséis</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  :root {
+    --bg: #0a0a0f;
+    --surface: #13131a;
+    --surface2: #1c1c26;
+    --border: #2a2a3a;
+    --accent: #7c5cfc;
+    --accent2: #ff6b9d;
+    --accent3: #00d4aa;
+    --text: #e8e8f0;
+    --text2: #8888aa;
+    --text3: #5555777;
+    --radius: 16px;
+    --slide-w: 380px;
+    --slide-h: 380px;
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* HEADER */
+  header {
+    padding: 20px 32px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background: var(--surface);
+  }
+
+  .logo {
+    width: 40px; height: 40px;
+    background: linear-gradient(135deg, var(--accent), var(--accent2));
+    border-radius: 12px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 20px;
+  }
+
+  header h1 { font-size: 18px; font-weight: 700; letter-spacing: -0.3px; }
+  header span { font-size: 13px; color: var(--text2); margin-left: 4px; }
+
+  .header-badge {
+    margin-left: auto;
+    background: linear-gradient(135deg, var(--accent)22, var(--accent2)22);
+    border: 1px solid var(--accent)44;
+    color: var(--accent);
+    padding: 6px 14px;
+    border-radius: 100px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  /* LAYOUT */
+  .app {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+  }
+
+  /* SIDEBAR */
+  .sidebar {
+    width: 360px;
+    min-width: 360px;
+    background: var(--surface);
+    border-right: 1px solid var(--border);
+    padding: 24px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .section-label {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--text2);
+    margin-bottom: 10px;
+  }
+
+  .field-group { display: flex; flex-direction: column; gap: 6px; }
+
+  label { font-size: 13px; color: var(--text2); font-weight: 500; }
+
+  input, textarea, select {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    color: var(--text);
+    font-size: 14px;
+    padding: 10px 14px;
+    transition: border-color .2s;
+    font-family: inherit;
+    resize: vertical;
+  }
+
+  input:focus, textarea:focus, select:focus {
+    outline: none;
+    border-color: var(--accent);
+  }
+
+  textarea { min-height: 80px; }
+
+  .style-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+
+  .style-card {
+    background: var(--surface2);
+    border: 2px solid var(--border);
+    border-radius: 10px;
+    padding: 12px;
+    cursor: pointer;
+    transition: all .2s;
+    text-align: center;
+  }
+
+  .style-card:hover { border-color: var(--accent)66; }
+  .style-card.active { border-color: var(--accent); background: var(--accent)11; }
+  .style-card .icon { font-size: 22px; margin-bottom: 4px; }
+  .style-card .name { font-size: 12px; font-weight: 600; color: var(--text); }
+  .style-card .desc { font-size: 11px; color: var(--text2); margin-top: 2px; }
+
+  .palette-row {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .palette-option {
+    width: 36px; height: 36px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all .2s;
+  }
+
+  .palette-option.active { border-color: white; transform: scale(1.1); }
+
+  .slide-count-row {
+    display: flex;
+    gap: 6px;
+  }
+
+  .count-btn {
+    flex: 1;
+    background: var(--surface2);
+    border: 2px solid var(--border);
+    border-radius: 8px;
+    color: var(--text);
+    font-size: 13px;
+    font-weight: 600;
+    padding: 8px;
+    cursor: pointer;
+    transition: all .2s;
+  }
+
+  .count-btn:hover { border-color: var(--accent)66; }
+  .count-btn.active { border-color: var(--accent); background: var(--accent)11; color: var(--accent); }
+
+  .generate-btn {
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient(135deg, var(--accent), var(--accent2));
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: opacity .2s, transform .1s;
+    margin-top: 4px;
+  }
+
+  .generate-btn:hover { opacity: .9; }
+  .generate-btn:active { transform: scale(.98); }
+  .generate-btn:disabled { opacity: .5; cursor: not-allowed; }
+
+  .generate-btn .spinner {
+    display: inline-block;
+    width: 16px; height: 16px;
+    border: 2px solid white44;
+    border-top-color: white;
+    border-radius: 50%;
+    animation: spin .7s linear infinite;
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* MAIN */
+  .main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .main-toolbar {
+    padding: 16px 28px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: var(--surface);
+  }
+
+  .main-toolbar h2 { font-size: 15px; font-weight: 600; }
+  .main-toolbar .sub { font-size: 13px; color: var(--text2); }
+
+  .toolbar-actions { margin-left: auto; display: flex; gap: 8px; }
+
+  .btn-icon {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    color: var(--text);
+    font-size: 13px;
+    padding: 7px 14px;
+    cursor: pointer;
+    transition: all .2s;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .btn-icon:hover { border-color: var(--accent)66; color: var(--accent); }
+
+  /* CANVAS AREA */
+  .canvas-area {
+    flex: 1;
+    overflow-y: auto;
+    padding: 32px 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  /* SLIDES */
+  .slides-container {
+    display: flex;
+    gap: 16px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding-bottom: 16px;
+  }
+
+  .slide-wrapper {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .slide-num {
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--text2);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .slide {
+    width: var(--slide-w);
+    height: var(--slide-h);
+    border-radius: var(--radius);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all .2s;
+  }
+
+  .slide:hover { transform: translateY(-2px); box-shadow: 0 12px 40px #0008; }
+  .slide.selected { border-color: var(--accent); }
+
+  .slide-inner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 28px;
+    position: relative;
+  }
+
+  /* SLIDE THEMES */
+  .theme-dark .slide-inner { background: linear-gradient(135deg, #0f0f1a, #1a1a2e); }
+  .theme-purple .slide-inner { background: linear-gradient(135deg, #1a0533, #2d1462); }
+  .theme-coral .slide-inner { background: linear-gradient(135deg, #1a0a0a, #2d1010); }
+  .theme-teal .slide-inner { background: linear-gradient(135deg, #001a15, #00352a); }
+  .theme-gold .slide-inner { background: linear-gradient(135deg, #1a1200, #2d2000); }
+  .theme-white .slide-inner { background: linear-gradient(135deg, #f5f5f7, #ebebef); }
+
+  /* SLIDE CONTENT ELEMENTS */
+  .slide-tag {
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 4px 10px;
+    border-radius: 100px;
+    margin-bottom: 16px;
+    align-self: flex-start;
+  }
+
+  .slide-headline {
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 1.15;
+    letter-spacing: -0.5px;
+    margin-bottom: 12px;
+    width: 100%;
+  }
+
+  .slide-body {
+    font-size: 14px;
+    line-height: 1.6;
+    width: 100%;
+  }
+
+  .slide-stat {
+    font-size: 52px;
+    font-weight: 900;
+    line-height: 1;
+    letter-spacing: -2px;
+    margin-bottom: 8px;
+  }
+
+  .slide-stat-label {
+    font-size: 14px;
+    line-height: 1.5;
+    width: 100%;
+    text-align: center;
+  }
+
+  .slide-source {
+    position: absolute;
+    bottom: 14px;
+    right: 16px;
+    font-size: 10px;
+    opacity: .5;
+  }
+
+  .slide-dot-nav {
+    position: absolute;
+    bottom: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 5px;
+  }
+
+  .slide-dot {
+    width: 5px; height: 5px;
+    border-radius: 50%;
+    background: white;
+    opacity: .3;
+    transition: all .2s;
+  }
+
+  .slide-dot.active { opacity: 1; width: 14px; border-radius: 3px; }
+
+  .slide-cta-btn {
+    margin-top: 20px;
+    padding: 12px 28px;
+    border-radius: 100px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: default;
+  }
+
+  .slide-divider {
+    width: 40px; height: 3px;
+    border-radius: 2px;
+    margin: 12px 0;
+  }
+
+  /* EDIT PANEL */
+  .edit-panel {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 24px;
+  }
+
+  .edit-panel h3 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .edit-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+
+  .edit-grid .full { grid-column: 1 / -1; }
+
+  /* CAPTION SECTION */
+  .caption-section {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 24px;
+  }
+
+  .caption-section h3 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .caption-text {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 16px;
+    font-size: 14px;
+    line-height: 1.7;
+    white-space: pre-wrap;
+    color: var(--text);
+    min-height: 120px;
+  }
+
+  .hashtags {
+    margin-top: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .hashtag {
+    background: var(--accent)15;
+    border: 1px solid var(--accent)33;
+    color: var(--accent);
+    padding: 4px 10px;
+    border-radius: 100px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  /* EMPTY STATE */
+  .empty-state {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    opacity: .5;
+    padding: 60px;
+    text-align: center;
+  }
+
+  .empty-icon { font-size: 56px; }
+  .empty-state h3 { font-size: 18px; font-weight: 700; }
+  .empty-state p { font-size: 14px; color: var(--text2); max-width: 320px; line-height: 1.6; }
+
+  /* INSIGHT CHIPS */
+  .insight-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 8px;
+  }
+
+  .chip {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 100px;
+    padding: 5px 12px;
+    font-size: 12px;
+    color: var(--text2);
+    cursor: pointer;
+    transition: all .2s;
+  }
+
+  .chip:hover { border-color: var(--accent)66; color: var(--accent); }
+  .chip.used { border-color: var(--accent3)44; color: var(--accent3); background: var(--accent3)0a; }
+
+  /* SCROLLBAR */
+  ::-webkit-scrollbar { width: 6px; height: 6px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+
+  /* TOAST */
+  .toast {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    background: var(--accent3);
+    color: #001a15;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all .3s;
+    pointer-events: none;
+    z-index: 999;
+  }
+
+  .toast.show { opacity: 1; transform: translateY(0); }
+
+  /* LOADING OVERLAY */
+  .loading-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: var(--bg)cc;
+    backdrop-filter: blur(8px);
+    z-index: 100;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .loading-overlay.show { display: flex; }
+
+  .loading-ring {
+    width: 60px; height: 60px;
+    border: 3px solid var(--border);
+    border-top-color: var(--accent);
+    border-radius: 50%;
+    animation: spin .8s linear infinite;
+  }
+
+  .loading-text { font-size: 16px; color: var(--text2); }
+  .loading-sub { font-size: 13px; color: var(--text3); margin-top: 4px; }
+
+  /* RESPONSIVE */
+  @media (max-width: 900px) {
+    .app { flex-direction: column; }
+    .sidebar { width: 100%; min-width: unset; border-right: none; border-bottom: 1px solid var(--border); }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">🧠</div>
+  <div>
+    <h1>Cerebro <span>Carrossel Studio</span></h1>
+  </div>
+  <div class="header-badge">Social Media Pro · 30y exp</div>
+</header>
+
+<div class="app">
+
+  <!-- SIDEBAR -->
+  <div class="sidebar">
+
+    <div>
+      <div class="section-label">Briefing</div>
+      <div class="field-group" style="margin-bottom:12px">
+        <label>Tema / Assunto</label>
+        <input type="text" id="topic" placeholder="Ex: Tendências de consumo Gen Z" />
+      </div>
+      <div class="field-group" style="margin-bottom:12px">
+        <label>Marca / Perfil</label>
+        <input type="text" id="brand" placeholder="Ex: Natura, loja de roupas, coach..." />
+      </div>
+      <div class="field-group" style="margin-bottom:12px">
+        <label>Público-alvo</label>
+        <input type="text" id="audience" placeholder="Ex: Mulheres 25-35, millennials..." />
+      </div>
+      <div class="field-group">
+        <label>Objetivo do post</label>
+        <select id="objective">
+          <option value="educar">Educar / Informar</option>
+          <option value="engajar">Engajar / Viralizar</option>
+          <option value="vender">Vender / Converter</option>
+          <option value="posicionar">Posicionar marca</option>
+          <option value="tendencia">Mostrar tendência</option>
+        </select>
+      </div>
+    </div>
+
+    <div>
+      <div class="section-label">Estilo Visual</div>
+      <div class="style-grid">
+        <div class="style-card active" data-style="dark" onclick="selectStyle(this)">
+          <div class="icon">🌑</div>
+          <div class="name">Dark Premium</div>
+          <div class="desc">Fundo escuro, elegante</div>
+        </div>
+        <div class="style-card" data-style="bold" onclick="selectStyle(this)">
+          <div class="icon">⚡</div>
+          <div class="name">Bold Data</div>
+          <div class="desc">Números grandes, impacto</div>
+        </div>
+        <div class="style-card" data-style="clean" onclick="selectStyle(this)">
+          <div class="icon">✦</div>
+          <div class="name">Clean Minimal</div>
+          <div class="desc">Espaço, simplicidade</div>
+        </div>
+        <div class="style-card" data-style="trend" onclick="selectStyle(this)">
+          <div class="icon">🔮</div>
+          <div class="name">Trend Vibes</div>
+          <div class="desc">Moderno, Gen Z</div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="section-label">Paleta de Cores</div>
+      <div class="palette-row">
+        <div class="palette-option active" data-palette="purple" style="background:linear-gradient(135deg,#7c5cfc,#ff6b9d)" onclick="selectPalette(this)" title="Roxo-Rosa"></div>
+        <div class="palette-option" data-palette="teal" style="background:linear-gradient(135deg,#00d4aa,#0088cc)" onclick="selectPalette(this)" title="Teal-Azul"></div>
+        <div class="palette-option" data-palette="coral" style="background:linear-gradient(135deg,#ff6b6b,#ffa552)" onclick="selectPalette(this)" title="Coral-Laranja"></div>
+        <div class="palette-option" data-palette="gold" style="background:linear-gradient(135deg,#f7c948,#ff9500)" onclick="selectPalette(this)" title="Ouro"></div>
+        <div class="palette-option" data-palette="green" style="background:linear-gradient(135deg,#00e676,#00b248)" onclick="selectPalette(this)" title="Verde Neon"></div>
+        <div class="palette-option" data-palette="mono" style="background:linear-gradient(135deg,#ffffff,#888888)" onclick="selectPalette(this)" title="Monocromático"></div>
+      </div>
+    </div>
+
+    <div>
+      <div class="section-label">Número de Slides</div>
+      <div class="slide-count-row">
+        <button class="count-btn" data-n="5" onclick="selectCount(this)">5</button>
+        <button class="count-btn active" data-n="7" onclick="selectCount(this)">7</button>
+        <button class="count-btn" data-n="8" onclick="selectCount(this)">8</button>
+        <button class="count-btn" data-n="10" onclick="selectCount(this)">10</button>
+      </div>
+    </div>
+
+    <div>
+      <div class="section-label">Insights do Cerebro</div>
+      <div class="insight-chips" id="insightChips">
+        <div class="chip" onclick="addInsight(this)">Gen Z 2024 · Deloitte</div>
+        <div class="chip" onclick="addInsight(this)">Pinterest Predicts 2025</div>
+        <div class="chip" onclick="addInsight(this)">Opinion Box Consumer</div>
+        <div class="chip" onclick="addInsight(this)">We Are Social Digital</div>
+        <div class="chip" onclick="addInsight(this)">McKinsey Consumer</div>
+        <div class="chip" onclick="addInsight(this)">HubSpot Marketing 2025</div>
+        <div class="chip" onclick="addInsight(this)">Kantar Mídia 2025</div>
+        <div class="chip" onclick="addInsight(this)">WGSN Trends</div>
+      </div>
+    </div>
+
+    <button class="generate-btn" id="generateBtn" onclick="generateCarousel()">
+      ✦ Gerar Carrossel
+    </button>
+
+  </div>
+
+  <!-- MAIN -->
+  <div class="main">
+    <div class="main-toolbar">
+      <div>
+        <h2 id="mainTitle">Pronto para criar</h2>
+        <div class="sub" id="mainSub">Preencha o briefing e clique em Gerar</div>
+      </div>
+      <div class="toolbar-actions">
+        <button class="btn-icon" onclick="copyCaption()">📋 Copiar Caption</button>
+        <button class="btn-icon" onclick="copyAllCopy()">✦ Copiar Roteiro</button>
+        <button class="btn-icon" onclick="regenerate()">↻ Regenerar</button>
+      </div>
+    </div>
+
+    <div class="canvas-area" id="canvasArea">
+      <div class="empty-state" id="emptyState">
+        <div class="empty-icon">🧠</div>
+        <h3>Cerebro aguardando briefing</h3>
+        <p>Informe o tema, marca e objetivo. O Cerebro vai cruzar dados dos estudos para criar um carrossel estratégico.</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- TOAST -->
+<div class="toast" id="toast"></div>
+
+<!-- LOADING -->
+<div class="loading-overlay" id="loadingOverlay">
+  <div class="loading-ring"></div>
+  <div>
+    <div class="loading-text">Cerebro processando...</div>
+    <div class="loading-sub" id="loadingStep">Consultando estudos do acervo</div>
+  </div>
+</div>
+
+<script>
+// STATE
+let state = {
+  style: 'dark',
+  palette: 'purple',
+  count: 7,
+  insights: [],
+  slides: [],
+  caption: '',
+  hashtags: [],
+  topic: '',
+  brand: '',
+  audience: '',
+  objective: 'educar'
+};
+
+// PALETTES CONFIG
+const palettes = {
+  purple: { primary: '#7c5cfc', secondary: '#ff6b9d', accent: '#c4a9ff', text: '#ffffff', textSoft: '#ccbbff', bg1: '#1a0533', bg2: '#2d1462', theme: 'theme-purple' },
+  teal:   { primary: '#00d4aa', secondary: '#0088cc', accent: '#7fffff', text: '#ffffff', textSoft: '#aaffee', bg1: '#001a15', bg2: '#00352a', theme: 'theme-teal' },
+  coral:  { primary: '#ff6b6b', secondary: '#ffa552', accent: '#ffcc99', text: '#ffffff', textSoft: '#ffccbb', bg1: '#1a0a0a', bg2: '#2d1010', theme: 'theme-coral' },
+  gold:   { primary: '#f7c948', secondary: '#ff9500', accent: '#ffe080', text: '#ffffff', textSoft: '#ffe099', bg1: '#1a1200', bg2: '#2d2000', theme: 'theme-gold' },
+  green:  { primary: '#00e676', secondary: '#00b248', accent: '#80ffb0', text: '#ffffff', textSoft: '#aaffcc', bg1: '#001a0a', bg2: '#003015', theme: 'theme-teal' },
+  mono:   { primary: '#ffffff', secondary: '#aaaaaa', accent: '#dddddd', text: '#111111', textSoft: '#444444', bg1: '#f0f0f4', bg2: '#e0e0e8', theme: 'theme-white' }
+};
+
+// SLIDE TEMPLATES
+const templates = {
+  cover: (data) => buildCover(data),
+  problem: (data) => buildProblem(data),
+  stat: (data) => buildStat(data),
+  insight: (data) => buildInsight(data),
+  list: (data) => buildList(data),
+  quote: (data) => buildQuote(data),
+  virada: (data) => buildVirada(data),
+  cta: (data) => buildCTA(data),
+};
+
+// CONTENT LIBRARY (based on Cerebro studies)
+const contentLibrary = {
+  genz: [
+    { stat: '77%', label: 'da Gen Z sofre com estresse elevado no trabalho', source: 'Deloitte, 2024' },
+    { stat: '62%', label: 'dos jovens mudam decisões de carreira por causa do clima', source: 'Deloitte, 2024' },
+    { stat: '75%', label: 'preferem trabalho híbrido ao modelo 100% presencial', source: 'Deloitte, 2024' },
+    { stat: '#1', label: 'preocupação da Gen Z: custo de vida e instabilidade financeira', source: 'Deloitte, 2025' },
+  ],
+  consumidor: [
+    { stat: '84%', label: 'dos brasileiros usam carteiras digitais em compras online', source: 'Visa, 2024' },
+    { stat: '73%', label: 'das compras digitais no Brasil são feitas pelo celular', source: 'Visa, 2024' },
+    { stat: '144M', label: 'de brasileiros acessam o YouTube todo mês', source: 'Opinion Box, 2025' },
+    { stat: '3 em 4', label: 'brasileiros pesquisam online antes de comprar offline', source: 'Think with Google, 2024' },
+  ],
+  marketing: [
+    { stat: '64%', label: 'dos profissionais de marketing já usam IA generativa', source: 'HubSpot, 2024' },
+    { stat: 'ROI #1', label: 'vídeo curto (Reels/TikTok) lidera em retorno sobre investimento', source: 'HubSpot, 2024' },
+    { stat: '5x', label: 'micro-influenciadores geram mais engajamento que mega-influenciadores', source: 'HubSpot, 2025' },
+    { stat: '70%', label: 'dos brasileiros assistem vídeos no YouTube antes de comprar', source: 'Think with Google, 2024' },
+  ],
+  tendencias: [
+    { trend: 'Agentic AI', desc: 'IA autônoma tomando decisões em nome do consumidor', source: 'Trend Hunter, 2025' },
+    { trend: 'Neo-Nostalgia', desc: 'Reinterpretação do passado com tecnologia atual', source: 'Trend Hunter, 2025' },
+    { trend: 'Longevity Economy', desc: 'Mercado 50+ como segmento premium em ascensão', source: 'WGSN, 2025' },
+    { trend: 'Community-Led Growth', desc: 'Comunidades de marca como estratégia de retenção', source: 'HubSpot, 2025' },
+    { trend: 'Fantasy Beauty', desc: 'Maquiagem e beleza com elementos de fantasia e cristais', source: 'Pinterest Predicts, 2025' },
+    { trend: 'Butter Yellow', desc: 'Amarelo manteiga como cor dominante em moda e decoração', source: 'Pinterest Predicts, 2025' },
+  ],
+  midia: [
+    { stat: '5.56B', label: 'pessoas conectadas à internet globalmente em 2025', source: 'We Are Social, 2025' },
+    { stat: '6h22', label: 'tempo médio diário que brasileiros passam online', source: 'We Are Social, 2025' },
+    { stat: 'TikTok', label: 'é a 2ª maior plataforma de busca entre jovens — superando Google', source: 'HubSpot, 2025' },
+  ],
+};
+
+function getRelevantData(topic, objective) {
+  const t = topic.toLowerCase();
+  let pool = [];
+
+  if (t.includes('gen z') || t.includes('jovem') || t.includes('geração')) pool = [...pool, ...contentLibrary.genz];
+  if (t.includes('consumo') || t.includes('compra') || t.includes('varejo') || t.includes('e-commerce')) pool = [...pool, ...contentLibrary.consumidor];
+  if (t.includes('market') || t.includes('influenc') || t.includes('conteúdo') || t.includes('social media')) pool = [...pool, ...contentLibrary.marketing];
+  if (t.includes('tendência') || t.includes('trend') || t.includes('futuro')) pool = [...pool, ...contentLibrary.tendencias];
+  if (t.includes('mídia') || t.includes('digital') || t.includes('redes') || t.includes('instagram')) pool = [...pool, ...contentLibrary.midia];
+
+  // Default mix
+  if (pool.length < 3) {
+    pool = [...contentLibrary.consumidor.slice(0,2), ...contentLibrary.marketing.slice(0,2), ...contentLibrary.tendencias.slice(0,2)];
+  }
+
+  return pool;
+}
+
+function generateSlideContent(topic, brand, audience, objective, count) {
+  const pal = palettes[state.palette];
+  const data = getRelevantData(topic, objective);
+  const slides = [];
+
+  const objectives = {
+    educar: { hookPre: 'Você sabia que', cta: 'Salva esse post para não esquecer 💾', ctaBg: pal.primary },
+    engajar: { hookPre: '', cta: 'Comenta aqui: você já notou isso? 👇', ctaBg: pal.secondary },
+    vender: { hookPre: 'Por que', cta: 'Link na bio para saber mais →', ctaBg: pal.primary },
+    posicionar: { hookPre: 'A verdade sobre', cta: 'Segue para mais conteúdo estratégico ✦', ctaBg: pal.accent },
+    tendencia: { hookPre: 'A tendência que vai', cta: 'Compartilha com quem precisa ver isso 🔁', ctaBg: pal.secondary },
+  };
+
+  const obj = objectives[objective] || objectives.educar;
+
+  // SLIDE 1 — COVER
+  const headlines = [
+    `${topic}: o que os dados revelam`,
+    `Tudo que você precisa saber sobre ${topic}`,
+    `${topic} em 2025: prepare-se`,
+    `A verdade sobre ${topic}`,
+    `${topic}: o guia definitivo`,
+  ];
+  slides.push({ type: 'cover', headline: headlines[Math.floor(Math.random() * headlines.length)], tag: objective.toUpperCase(), pal });
+
+  // SLIDE 2 — PROBLEMA/GANCHO
+  const problems = [
+    `A maioria das marcas ainda erra feio quando o assunto é ${topic}.`,
+    `Você conhece seus dados sobre ${topic}? Quase ninguém conhece.`,
+    `O mercado mudou. Seu conteúdo sobre ${topic} acompanhou?`,
+    `${audience} está evoluindo rápido — e o que funcionava antes já não funciona.`,
+  ];
+  slides.push({ type: 'problem', text: problems[Math.floor(Math.random() * problems.length)], pal });
+
+  // SLIDES INTERNOS — dados e insights
+  const shuffled = [...data].sort(() => Math.random() - 0.5);
+  const middleCount = count - 3; // reserva capa, problema e CTA
+
+  for (let i = 0; i < middleCount && i < shuffled.length; i++) {
+    const d = shuffled[i];
+    if (d.stat) {
+      slides.push({ type: 'stat', stat: d.stat, label: d.label, source: d.source, pal });
+    } else if (d.trend) {
+      slides.push({ type: 'insight', trend: d.trend, desc: d.desc, source: d.source, pal });
+    }
+  }
+
+  // Preenche com insights genéricos se precisar
+  while (slides.length < count - 1) {
+    const extras = [
+      { type: 'insight', trend: 'Autenticidade', desc: `${audience} rejeita conteúdo genérico. Dados e história real convertem mais.`, source: 'Cerebro, 2025', pal },
+      { type: 'stat', stat: '3x', label: `posts com dados de pesquisa geram ${3}x mais salvamentos`, source: 'HubSpot, 2024', pal },
+      { type: 'insight', trend: 'Comunidade', desc: 'Marcas com comunidade ativa crescem 40% mais rápido', source: 'McKinsey, 2024', pal },
+    ];
+    slides.push(extras[slides.length % extras.length]);
+  }
+
+  // ÚLTIMO SLIDE — CTA
+  slides.push({ type: 'cta', text: obj.cta, brand: brand || '✦', pal, ctaBg: obj.ctaBg });
+
+  return slides;
+}
+
+// SLIDE RENDERERS
+function renderSlide(slideData, index, total) {
+  const pal = slideData.pal;
+  const themeClass = palettes[state.palette].theme;
+  const isWhite = state.palette === 'mono';
+
+  const slideEl = document.createElement('div');
+  slideEl.className = `slide ${themeClass}`;
+  slideEl.onclick = () => selectSlide(index);
+
+  const inner = document.createElement('div');
+  inner.className = 'slide-inner';
+
+  switch (slideData.type) {
+    case 'cover':
+      inner.innerHTML = `
+        <div class="slide-tag" style="background:${pal.primary}22;color:${pal.primary};border:1px solid ${pal.primary}44">${slideData.tag}</div>
+        <div class="slide-headline" style="color:${pal.text}">${slideData.headline}</div>
+        <div class="slide-divider" style="background:${pal.primary}"></div>
+        <div class="slide-dot-nav">${Array(total).fill(0).map((_,i)=>`<div class="slide-dot ${i===index?'active':''}"></div>`).join('')}</div>
+      `;
+      break;
+
+    case 'problem':
+      inner.innerHTML = `
+        <div class="slide-tag" style="background:${pal.secondary}22;color:${pal.secondary};border:1px solid ${pal.secondary}44">REFLEXÃO</div>
+        <div class="slide-headline" style="color:${pal.text};font-size:22px">${slideData.text}</div>
+        <div style="position:absolute;bottom:14px;right:16px;font-size:24px;opacity:.3">💡</div>
+      `;
+      break;
+
+    case 'stat':
+      inner.style.textAlign = 'center';
+      inner.innerHTML = `
+        <div class="slide-stat" style="color:${pal.primary}">${slideData.stat}</div>
+        <div class="slide-divider" style="background:${pal.primary};margin:12px auto"></div>
+        <div class="slide-stat-label" style="color:${pal.text}">${slideData.label}</div>
+        <div class="slide-source" style="color:${pal.textSoft}">${slideData.source}</div>
+      `;
+      break;
+
+    case 'insight':
+      inner.innerHTML = `
+        <div class="slide-tag" style="background:${pal.accent}22;color:${pal.accent};border:1px solid ${pal.accent}44">TENDÊNCIA</div>
+        <div class="slide-headline" style="color:${pal.primary};font-size:24px">${slideData.trend}</div>
+        <div class="slide-body" style="color:${pal.textSoft}">${slideData.desc}</div>
+        <div class="slide-source" style="color:${pal.textSoft}">${slideData.source}</div>
+      `;
+      break;
+
+    case 'cta':
+      inner.style.textAlign = 'center';
+      inner.style.background = `linear-gradient(135deg, ${pal.bg2}, ${pal.primary}33)`;
+      inner.innerHTML = `
+        <div style="font-size:32px;margin-bottom:16px">✦</div>
+        <div class="slide-headline" style="color:${pal.text};font-size:20px;text-align:center">${slideData.text}</div>
+        <div class="slide-cta-btn" style="background:${pal.primary};color:${isWhite?'#111':'white'}">${slideData.brand || '✦'}</div>
+      `;
+      break;
+  }
+
+  slideEl.appendChild(inner);
+  return slideEl;
+}
+
+function generateCaption(topic, brand, audience, objective, slides) {
+  const hooks = [
+    `Isso mudou minha forma de ver ${topic} 👇`,
+    `A maioria não sabe disso sobre ${topic}`,
+    `Dados que todo mundo que fala de ${topic} deveria conhecer`,
+    `${topic}: o que os estudos de 2024-2025 revelam`,
+  ];
+
+  const bodies = {
+    educar: `Reuní os dados mais recentes sobre ${topic} — direto dos estudos que uso como referência.\n\nSe você quer entender como o mercado está se movendo, esse carrossel é pra você.`,
+    engajar: `Fala sério — quanto disso você já sabia?\n\nDesliza os slides e me conta nos comentários qual insight te surpreendeu mais.`,
+    vender: `Antes de qualquer decisão sobre ${topic}, é isso que você precisa ver.\n\nOs dados não mentem — e eles mostram exatamente onde está a oportunidade.`,
+    posicionar: `Esse é o tipo de conteúdo que eu produzido para ${brand || 'marcas que querem crescer com base em dados'}.\n\nSe você está construindo algo relevante, esses insights vão fazer diferença.`,
+    tendencia: `As tendências que vão definir ${topic} nos próximos 12 meses — baseadas em dados reais de pesquisa.\n\nSalva esse post. Você vai querer consultar depois.`,
+  };
+
+  const caption = `${hooks[Math.floor(Math.random() * hooks.length)]}\n\n${bodies[objective] || bodies.educar}`;
+  return caption;
+}
+
+function generateHashtags(topic, brand) {
+  const base = ['#socialmedia', '#marketing', '#tendencias', '#dados', '#insights'];
+  const topicWords = topic.toLowerCase().split(' ').map(w => `#${w.replace(/[^a-z0-9]/g,'')}`).filter(w => w.length > 2);
+  const extras = ['#marketingdigital', '#estrategia', '#conteudo', '#growthmarketing', '#brandstrategy'];
+  return [...new Set([...base, ...topicWords.slice(0,3), ...extras.slice(0,3)])].slice(0, 12);
+}
+
+// MAIN GENERATE FUNCTION
+function generateCarousel() {
+  const topic = document.getElementById('topic').value.trim();
+  const brand = document.getElementById('brand').value.trim();
+  const audience = document.getElementById('audience').value.trim();
+  const objective = document.getElementById('objective').value;
+
+  if (!topic) {
+    showToast('Informe o tema do carrossel!');
+    document.getElementById('topic').focus();
+    return;
+  }
+
+  state.topic = topic;
+  state.brand = brand;
+  state.audience = audience || 'público-geral';
+  state.objective = objective;
+
+  // Loading
+  const steps = ['Consultando estudos do acervo...', 'Cruzando dados relevantes...', 'Construindo narrativa...', 'Aplicando estilo visual...', 'Finalizando slides...'];
+  let stepIdx = 0;
+  const overlay = document.getElementById('loadingOverlay');
+  const stepEl = document.getElementById('loadingStep');
+  overlay.classList.add('show');
+
+  const interval = setInterval(() => {
+    stepEl.textContent = steps[stepIdx % steps.length];
+    stepIdx++;
+  }, 350);
+
+  setTimeout(() => {
+    clearInterval(interval);
+    overlay.classList.remove('show');
+
+    // Generate
+    state.slides = generateSlideContent(topic, brand, state.audience, objective, state.count);
+    state.caption = generateCaption(topic, brand, state.audience, objective, state.slides);
+    state.hashtags = generateHashtags(topic, brand);
+
+    renderAll();
+    showToast('Carrossel gerado com sucesso!');
+  }, 1800);
+}
+
+function renderAll() {
+  const area = document.getElementById('canvasArea');
+  area.innerHTML = '';
+
+  // Update toolbar
+  document.getElementById('mainTitle').textContent = state.topic;
+  document.getElementById('mainSub').textContent = `${state.slides.length} slides · ${state.objective} · ${state.audience}`;
+
+  // Slides row
+  const slidesRow = document.createElement('div');
+  const scrollWrap = document.createElement('div');
+  scrollWrap.style.overflowX = 'auto';
+  scrollWrap.style.paddingBottom = '8px';
+
+  const slidesContainer = document.createElement('div');
+  slidesContainer.className = 'slides-container';
+  slidesContainer.style.width = 'max-content';
+
+  state.slides.forEach((slide, i) => {
+    const wrapper = document.createElement('div');
+    wrapper.className = 'slide-wrapper';
+
+    const numEl = document.createElement('div');
+    numEl.className = 'slide-num';
+    numEl.textContent = `Slide ${i+1} — ${slide.type.toUpperCase()}`;
+
+    const slideEl = renderSlide(slide, i, state.slides.length);
+    wrapper.appendChild(numEl);
+    wrapper.appendChild(slideEl);
+    slidesContainer.appendChild(wrapper);
+  });
+
+  scrollWrap.appendChild(slidesContainer);
+  area.appendChild(scrollWrap);
+
+  // Caption
+  const captionSec = document.createElement('div');
+  captionSec.className = 'caption-section';
+  captionSec.innerHTML = `
+    <h3>📝 Caption sugerida</h3>
+    <div class="caption-text" id="captionText">${state.caption}</div>
+    <div class="hashtags" id="hashtagsRow">
+      ${state.hashtags.map(h => `<span class="hashtag">${h}</span>`).join('')}
+    </div>
+  `;
+  area.appendChild(captionSec);
+
+  // Roteiro completo
+  const roteiro = document.createElement('div');
+  roteiro.className = 'caption-section';
+  roteiro.id = 'roteiroSection';
+  roteiro.innerHTML = `
+    <h3>🎬 Roteiro completo</h3>
+    <div class="caption-text" id="roteiroText">${buildRoteiro()}</div>
+  `;
+  area.appendChild(roteiro);
+}
+
+function buildRoteiro() {
+  return state.slides.map((s, i) => {
+    let text = `SLIDE ${i+1} — ${s.type.toUpperCase()}\n`;
+    if (s.headline) text += `Headline: ${s.headline}\n`;
+    if (s.tag) text += `Tag: ${s.tag}\n`;
+    if (s.text) text += `Texto: ${s.text}\n`;
+    if (s.stat) text += `Número: ${s.stat}\nLegenda: ${s.label}\nFonte: ${s.source}\n`;
+    if (s.trend) text += `Tendência: ${s.trend}\nDescrição: ${s.desc}\nFonte: ${s.source}\n`;
+    if (s.brand && s.type === 'cta') text += `CTA: ${s.text}\nMarca: ${s.brand}\n`;
+    return text;
+  }).join('\n---\n\n');
+}
+
+// CONTROLS
+function selectStyle(el) {
+  document.querySelectorAll('.style-card').forEach(c => c.classList.remove('active'));
+  el.classList.add('active');
+  state.style = el.dataset.style;
+}
+
+function selectPalette(el) {
+  document.querySelectorAll('.palette-option').forEach(c => c.classList.remove('active'));
+  el.classList.add('active');
+  state.palette = el.dataset.palette;
+}
+
+function selectCount(el) {
+  document.querySelectorAll('.count-btn').forEach(c => c.classList.remove('active'));
+  el.classList.add('active');
+  state.count = parseInt(el.dataset.n);
+}
+
+function addInsight(el) {
+  el.classList.toggle('used');
+  const insight = el.textContent;
+  if (el.classList.contains('used')) {
+    state.insights.push(insight);
+    showToast(`Insight adicionado: ${insight}`);
+  } else {
+    state.insights = state.insights.filter(i => i !== insight);
+  }
+}
+
+function selectSlide(index) {
+  document.querySelectorAll('.slide').forEach((s, i) => {
+    s.classList.toggle('selected', i === index);
+  });
+}
+
+function regenerate() {
+  if (state.topic) generateCarousel();
+}
+
+function copyCaption() {
+  const el = document.getElementById('captionText');
+  if (!el) return;
+  const tags = state.hashtags.join(' ');
+  navigator.clipboard.writeText(el.textContent + '\n\n' + tags);
+  showToast('Caption copiada!');
+}
+
+function copyAllCopy() {
+  const el = document.getElementById('roteiroText');
+  if (!el) return;
+  navigator.clipboard.writeText(el.textContent);
+  showToast('Roteiro copiado!');
+}
+
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 2500);
+}
+
+// Enter key on topic
+document.getElementById('topic').addEventListener('keydown', e => {
+  if (e.key === 'Enter') generateCarousel();
+});
+</script>
+</body>
+</html>
