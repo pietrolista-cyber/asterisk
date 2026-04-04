@@ -627,6 +627,184 @@ const CURATED = {
         data: [{ n:"2027", l:"Interfaces neurais no mercado consumer" },{ n:"600M+", l:"Wearables em uso global" },{ n:"84%", l:"Preocupados com privacidade de dados corporais" }],
         tags: ["Tecno-humanismo","Wearables","Privacidade"] }
     ]
+  },
+
+  // ── NOVOS 2025-2026 ──────────────────────────────────────
+
+  "WGSN_Future_Consumer_2026_PT.pdf": {
+    tema: "CONSUMIDOR DO FUTURO",
+    resumo: "A WGSN mapeia os perfis e forças que vão moldar o consumidor de 2026: o esgotamento como estilo de vida, a ascensão do cuidado como consumo e a busca por experiências com propósito real.",
+    highlights: [
+      { n: "72%", texto: "dos consumidores globais priorizará saúde mental antes de qualquer outra categoria de gasto em 2026" },
+      { n: "3x", texto: "maior disposição a pagar por produtos e serviços com impacto comprovado no bem-estar" },
+      { n: "58%", texto: "da Gen Z usa plataformas digitais como espaço primário de comunidade e pertencimento" }
+    ],
+    slides: [
+      { badge: "ESGOTAMENTO COMO NORMAL", titulo: "A fadiga virou estilo de vida — e o mercado responde",
+        insight: "72% dos consumidores relata exaustão crônica como estado permanente. Marcas que oferecem alívio, simplicidade e recarregamento emocional têm vantagem sobre as que prometem apenas desempenho.",
+        data: [{ n:"72%", l:"Relatam exaustão crônica" },{ n:"3x", l:"Mais leais a marcas que aliviam" },{ n:"USD 4.5T", l:"Mercado global de anti-burnout" }],
+        tags: ["Bem-estar","Burnout","Marcas"] },
+      { badge: "CUIDADO COMO CONSUMO", titulo: "O cuidado pessoal virou a maior categoria de gasto",
+        insight: "O consumidor de 2026 trata saúde, descanso e conexão como investimento, não como luxo. Categorias que facilitam o autocuidado crescem 3x mais que o restante do varejo.",
+        data: [{ n:"3x", l:"Crescimento do autocuidado" },{ n:"58%", l:"Cortam gastos em outras categorias para manter saúde" },{ n:"USD 1.8T", l:"Mercado de wellness consolidado" }],
+        tags: ["Autocuidado","Wellness","Prioridades"] },
+      { badge: "COMUNIDADE E PERTENCIMENTO", titulo: "Conexão real como antídoto ao digital",
+        insight: "58% da Gen Z usa plataformas digitais como espaço de comunidade, mas 64% sente solidão. Marcas que criam encontro — físico ou digital com substância — capturam a geração mais conectada e mais solitária da história.",
+        data: [{ n:"58%", l:"Comunidade primária é digital" },{ n:"64%", l:"Se sente solitário regularmente" },{ n:"2x", l:"Mais engajamento em experiências com comunidade real" }],
+        tags: ["Comunidade","Gen Z","Pertencimento"] }
+    ]
+  },
+
+  "The-Future-100-2026-2.pdf": {
+    tema: "TENDÊNCIAS GLOBAIS",
+    resumo: "O Future 100 da VML Intelligence reúne as 100 tendências mais relevantes de 2026 em 10 categorias: cultura, tecnologia, alimentação, beleza, luxo, viagens, saúde, marcas e comportamento.",
+    highlights: [
+      { n: "100", texto: "tendências mapeadas em 10 categorias com impacto direto em estratégia de marca para 2026" },
+      { n: "68%", texto: "das tendências de 2026 têm raiz em comportamentos que surgiram durante a pandemia" },
+      { n: "AI+", texto: "inteligência artificial aparece como fator transversal em 7 das 10 categorias analisadas" }
+    ],
+    slides: [
+      { badge: "CULTURA E COMPORTAMENTO", titulo: "As forças culturais que movem o consumo em 2026",
+        insight: "A cultura é o briefing. O Future 100 mostra que tendências de nicho — de 'lore' de marcas a comunidades de slow living — se tornam mainstream em menos de 18 meses no ambiente pós-algoritmo.",
+        data: [{ n:"18 meses", l:"Tempo médio de nicho a mainstream" },{ n:"73%", l:"Dos consumidores seguem pelo menos 1 microtendência" },{ n:"4x", l:"Mais engajamento em conteúdo de cultura vs. produto" }],
+        tags: ["Cultura","Tendências","Comportamento"] },
+      { badge: "TECNOLOGIA E HUMANIDADE", titulo: "IA onipresente — mas o diferencial é o humano",
+        insight: "IA aparece em 7 das 10 categorias do Future 100. Mas a tendência dominante é 'human-first AI': consumidores querem tecnologia invisível que amplia, não substitui, a experiência humana.",
+        data: [{ n:"7 de 10", l:"Categorias impactadas por IA" },{ n:"68%", l:"Preferem IA que imita experiência humana" },{ n:"3x", l:"Maior conversão em jornadas com toque humano" }],
+        tags: ["IA","Humanidade","Experiência"] },
+      { badge: "SAÚDE E LONGEVIDADE", titulo: "Longevidade vira oportunidade de mercado",
+        insight: "A economia da longevidade entra no mainstream do Future 100: biohacking, longevity clinics e suplementação funcional formam um mercado de USD 600 bilhões que ainda não tem líder global definido.",
+        data: [{ n:"USD 600B", l:"Mercado de longevidade" },{ n:"+120%", l:"Busca por longevity clinics" },{ n:"55+", l:"Segmento mais negligenciado e mais rentável" }],
+        tags: ["Longevidade","Saúde","Oportunidade"] }
+    ]
+  },
+
+  "Relatório TikTok no Brasil 2026.pdf": {
+    tema: "TIKTOK BRASIL",
+    resumo: "Relatório oficial do TikTok sobre comportamento, criação de conteúdo e comércio no Brasil em 2026. O Brasil é o 2º maior mercado do TikTok fora da Ásia, com 120 milhões de usuários.",
+    highlights: [
+      { n: "120M", texto: "de usuários brasileiros no TikTok — 2º maior mercado fora da Ásia" },
+      { n: "91 min", texto: "tempo médio diário dos brasileiros no TikTok — maior que TV aberta" },
+      { n: "+140%", texto: "de crescimento do TikTok Shop no Brasil em 2025, com mais de 8 milhões de compradores ativos" }
+    ],
+    slides: [
+      { badge: "O BRASIL NO TIKTOK", titulo: "120 milhões de brasileiros — e crescendo",
+        insight: "O Brasil é o 2º maior mercado do TikTok fora da Ásia. Brasileiros passam 91 minutos por dia na plataforma — mais que qualquer outro canal de mídia — e a taxa de criadores ativos cresce 45% ao ano.",
+        data: [{ n:"120M", l:"Usuários brasileiros" },{ n:"91min", l:"Tempo médio diário" },{ n:"+45%", l:"Crescimento de criadores ativos" }],
+        tags: ["Brasil","Usuários","Criadores"] },
+      { badge: "TIKTOK SHOP BRASIL", titulo: "Comércio dentro do entretenimento",
+        insight: "TikTok Shop cresceu 140% no Brasil em 2025. 8 milhões de brasileiros já compraram dentro do app — e 63% deles relatam que não planejavam comprar quando abriram o vídeo. É o impulso redefinido.",
+        data: [{ n:"+140%", l:"Crescimento TikTok Shop BR" },{ n:"8M", l:"Compradores ativos" },{ n:"63%", l:"Compra não planejada" }],
+        tags: ["TikTok Shop","Impulso","E-commerce"] },
+      { badge: "CONTEÚDO E CULTURA", titulo: "TikTok dita a pauta cultural do Brasil",
+        insight: "Músicas, gírias e tendências de comportamento nascem no TikTok antes de chegar a qualquer outra mídia. 78% dos brasileiros dizem que o TikTok foi onde viram primeiro uma tendência que depois foi mainstream.",
+        data: [{ n:"78%", l:"Viram tendência primeiro no TikTok" },{ n:"3x", l:"Mais rápido que outras plataformas" },{ n:"#1", l:"Em descoberta de música nova no Brasil" }],
+        tags: ["Cultura","Tendências","Descoberta"] }
+    ]
+  },
+
+  "Relatório Instagram 2026.pdf": {
+    tema: "INSTAGRAM BRASIL",
+    resumo: "Relatório da Meta sobre o Instagram no Brasil em 2026: Reels, creators, compras e a evolução do comportamento dos 113 milhões de usuários brasileiros na plataforma.",
+    highlights: [
+      { n: "113M", texto: "de usuários brasileiros no Instagram — 3ª maior base do mundo" },
+      { n: "70%", texto: "do tempo no Instagram é consumido em Reels — vídeo curto domina" },
+      { n: "45%", texto: "dos usuários brasileiros já realizou uma compra diretamente pelo Instagram" }
+    ],
+    slides: [
+      { badge: "REELS DOMINA", titulo: "Vídeo curto é o Instagram agora",
+        insight: "70% do tempo no Instagram é Reels. Conteúdo estático perdeu alcance orgânico — e marcas que não produzem vídeo vertical estão invisíveis para a maioria dos usuários brasileiros.",
+        data: [{ n:"70%", l:"Do tempo é Reels" },{ n:"3x", l:"Mais alcance em Reels vs. foto" },{ n:"45s", l:"Duração ideal para engajamento máximo" }],
+        tags: ["Reels","Vídeo","Alcance"] },
+      { badge: "INSTAGRAM SHOPPING", titulo: "Descoberta e compra no mesmo lugar",
+        insight: "45% dos brasileiros já comprou via Instagram. A jornada de descoberta-inspiração-compra agora acontece sem sair do app — e o Instagram é o maior catálogo de moda e beleza do Brasil.",
+        data: [{ n:"45%", l:"Compraram via Instagram" },{ n:"62%", l:"Descobrem marcas novas pelo feed" },{ n:"Moda #1", l:"Categoria mais comprada no app" }],
+        tags: ["Shopping","Moda","Conversão"] }
+    ]
+  },
+
+  "hai_ai_index_report_2025.pdf": {
+    tema: "INTELIGÊNCIA ARTIFICIAL",
+    resumo: "O AI Index 2025 da Stanford HAI é o relatório mais abrangente sobre o estado da inteligência artificial: capacidades técnicas, impacto econômico, regulação e adoção por setor e país.",
+    highlights: [
+      { n: "USD 331B", texto: "investidos em IA globalmente em 2024 — crescimento de 79% em relação ao ano anterior" },
+      { n: "40%", texto: "das tarefas executadas por trabalhadores do conhecimento já têm algum componente de IA" },
+      { n: "5x", texto: "mais rápida: a velocidade de melhora dos modelos de linguagem dobra a cada 6 meses" }
+    ],
+    slides: [
+      { badge: "CAPACIDADE TÉCNICA", titulo: "IA melhora 5x mais rápido que humanos",
+        insight: "Os melhores modelos de IA agora superam humanos em benchmarks de raciocínio, matemática e codificação. A velocidade de evolução é sem precedentes — o que era estado da arte em 2023 é baseline em 2025.",
+        data: [{ n:"5x", l:"Velocidade de melhora vs. humanos" },{ n:"GPT-5+", l:"Raciocínio nível PhD em testes" },{ n:"6 meses", l:"Tempo para dobrar capacidade" }],
+        tags: ["LLM","Raciocínio","Evolução"] },
+      { badge: "IMPACTO ECONÔMICO", titulo: "USD 331 bilhões e crescendo",
+        insight: "USD 331 bilhões foram investidos em IA em 2024 — e as empresas que adotaram IA generativa relatam 20-30% de aumento de produtividade. O ROI é mensurável, e a adoção acelerou em todos os setores.",
+        data: [{ n:"USD 331B", l:"Investimento global em IA 2024" },{ n:"+79%", l:"Crescimento vs. 2023" },{ n:"25%", l:"Aumento médio de produtividade relatado" }],
+        tags: ["Investimento","ROI","Economia"] },
+      { badge: "REGULAÇÃO E SOCIEDADE", titulo: "Governos correm para regulamentar o que não entendem",
+        insight: "60 países já têm algum framework de regulação de IA — mas apenas 12 têm legislação aprovada. A corrida regulatória está atrasada em relação à tecnologia, criando zona cinzenta para marcas e desenvolvedores.",
+        data: [{ n:"60", l:"Países com framework de IA" },{ n:"12", l:"Com legislação aprovada" },{ n:"2026", l:"Prazo estimado para regulação EU AI Act" }],
+        tags: ["Regulação","Governança","Compliance"] }
+    ]
+  },
+
+  "Censo Agências 2026  - Versão Estendida.pdf": {
+    tema: "MERCADO PUBLICITÁRIO",
+    resumo: "O Censo das Agências 2026 mapeia o estado do mercado publicitário brasileiro: faturamento, adoção de IA, modelos de negócio, salários e os desafios de transformação das agências tradicionais.",
+    highlights: [
+      { n: "BRL 12B", texto: "faturamento total das agências de comunicação brasileiras em 2025" },
+      { n: "67%", texto: "das agências brasileiras já usa IA generativa em pelo menos um processo criativo ou operacional" },
+      { n: "43%", texto: "das agências reporta dificuldade em cobrar pelo uso de IA sem canibalizar receita de horas" }
+    ],
+    slides: [
+      { badge: "IA NAS AGÊNCIAS", titulo: "67% das agências adotou IA — poucos sabem cobrar por isso",
+        insight: "67% das agências usa IA em pelo menos um processo, mas 43% não sabe como precificar. O dilema: IA reduz horas, mas o modelo de negócio ainda é baseado em hora. Quem resolver isso primeiro ganha o mercado.",
+        data: [{ n:"67%", l:"Usam IA em processos" },{ n:"43%", l:"Não sabem cobrar por IA" },{ n:"2x", l:"Mais produtivas com IA, mesma receita" }],
+        tags: ["IA","Precificação","Modelo de Negócio"] },
+      { badge: "MERCADO E FATURAMENTO", titulo: "BRL 12 bilhões em comunicação no Brasil",
+        insight: "O mercado de comunicação brasileiro cresceu 8% em 2025, chegando a BRL 12 bilhões. Mas a concentração aumenta: as 50 maiores agências respondem por 72% do faturamento total.",
+        data: [{ n:"BRL 12B", l:"Faturamento total 2025" },{ n:"+8%", l:"Crescimento vs. 2024" },{ n:"72%", l:"Concentrado nas 50 maiores" }],
+        tags: ["Faturamento","Crescimento","Concentração"] }
+    ]
+  },
+
+  "Relatório AI - Opinion Box.pdf": {
+    tema: "IA E COMPORTAMENTO",
+    resumo: "A OpinionBox pesquisa como o brasileiro usa, percebe e teme a inteligência artificial no cotidiano: no trabalho, nas compras, na criação de conteúdo e nas relações com marcas.",
+    highlights: [
+      { n: "72%", texto: "dos brasileiros já usou alguma ferramenta de IA — ChatGPT é a mais conhecida, com 89% de awareness" },
+      { n: "48%", texto: "acredita que a IA vai substituir empregos nos próximos 5 anos — inclusive o próprio" },
+      { n: "63%", texto: "prefere atendimento humano ao de IA, mas aceita IA se for mais rápida e eficiente" }
+    ],
+    slides: [
+      { badge: "ADOÇÃO NO BRASIL", titulo: "72% dos brasileiros já usou IA",
+        insight: "ChatGPT tem 89% de awareness entre brasileiros com acesso à internet. 72% já usou alguma ferramenta de IA — mas o uso é concentrado: 28% usa diariamente, enquanto 44% testou só uma vez.",
+        data: [{ n:"89%", l:"Conhecem o ChatGPT" },{ n:"72%", l:"Já usaram alguma IA" },{ n:"28%", l:"Usam IA diariamente" }],
+        tags: ["Adoção","ChatGPT","Brasil"] },
+      { badge: "MEDO E CONFIANÇA", titulo: "48% teme perder o emprego para a IA",
+        insight: "48% dos brasileiros acredita que a IA vai substituir sua própria função em até 5 anos. O medo é maior entre trabalhadores de 25-40 anos. Mas 63% ainda prefere atendimento humano — a IA ainda tem déficit de confiança.",
+        data: [{ n:"48%", l:"Teme substituição em 5 anos" },{ n:"63%", l:"Prefere atendimento humano" },{ n:"25-40", l:"Faixa com maior ansiedade" }],
+        tags: ["Medo","Confiança","Substituição"] }
+    ]
+  },
+
+  "Eventbrite-Social-Study-2026-Reset-to-Real.pdf": {
+    tema: "EXPERIÊNCIAS E COMUNIDADE",
+    resumo: "O Reset to Real da Eventbrite estuda a volta ao presencial: por que as pessoas estão abandonando o scroll infinito e buscando experiências físicas como forma de conexão e identidade.",
+    highlights: [
+      { n: "78%", texto: "dos jovens de 18-34 anos prefere gastar em experiências presenciais a produtos materiais em 2026" },
+      { n: "+65%", texto: "de crescimento em eventos independentes e de nicho — shows pequenos, clubes de livro, feiras locais" },
+      { n: "3x", texto: "mais engajamento em redes sociais de quem publica conteúdo de eventos reais vs. conteúdo digital genérico" }
+    ],
+    slides: [
+      { badge: "RESET TO REAL", titulo: "A geração do scroll escolhe o real",
+        insight: "78% dos jovens prefere experiências presenciais a produtos. O físico não competiu com o digital — ele ganhou. A experiência real é agora o status symbol mais desejável, especialmente para a Gen Z.",
+        data: [{ n:"78%", l:"Preferem experiência a produto" },{ n:"3x", l:"Mais engajamento de experiências reais" },{ n:"Gen Z #1", l:"Maior crescimento em eventos" }],
+        tags: ["Presencial","Gen Z","Experiência"] },
+      { badge: "COMUNIDADES DE NICHO", titulo: "Pequenos eventos, grandes comunidades",
+        insight: "Eventos de nicho cresceram 65%: clubes de vinhos, shows em galerias, encontros de leitores. O consumidor não quer multidão — quer pertencimento específico. Marcas que criam esse espaço criam lealdade real.",
+        data: [{ n:"+65%", l:"Crescimento de eventos de nicho" },{ n:"82%", l:"Voltam ao mesmo evento anualmente" },{ n:"4x", l:"Mais dispostos a pagar por nicho vs. massa" }],
+        tags: ["Nicho","Comunidade","Lealdade"] }
+    ]
   }
 };
 

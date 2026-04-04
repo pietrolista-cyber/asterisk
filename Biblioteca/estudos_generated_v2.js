@@ -19556,5 +19556,2233 @@ const ESTUDOS = [
         "fonte": "Mestre do Adwords · 2018"
       }
     ]
+  },
+  {
+    "id": 186,
+    "titulo": "Future Consumer 2026",
+    "tema": "Tendências",
+    "fonte": "WGSN",
+    "ano": "2026",
+    "icone": "🔮",
+    "cor": "var(--c2)",
+    "resumo": "A WGSN mapeia os perfis e forças que vão moldar o consumidor de 2026: o esgotamento como estilo de vida, a ascensão do cuidado como consumo e a busca por experiências com propósito real.",
+    "numInsights": 10,
+    "numSlides": 3,
+    "highlights": [
+      {
+        "n": "72%",
+        "texto": "dos consumidores globais priorizará saúde mental antes de qualquer outra categoria de gasto em 2026"
+      },
+      {
+        "n": "3x",
+        "texto": "maior disposição a pagar por produtos e serviços com impacto comprovado no bem-estar"
+      },
+      {
+        "n": "58%",
+        "texto": "da Gen Z usa plataformas digitais como espaço primário de comunidade e pertencimento"
+      }
+    ],
+    "slides": [
+      {
+        "num": 1,
+        "badge": "ESGOTAMENTO COMO NORMAL",
+        "titulo": "A fadiga virou estilo de vida — e o mercado responde",
+        "insight": "72% dos consumidores relata exaustão crônica como estado permanente. Marcas que oferecem alívio, simplicidade e recarregamento emocional têm vantagem sobre as que prometem apenas desempenho.",
+        "data": [
+          {
+            "n": "72%",
+            "l": "Relatam exaustão crônica"
+          },
+          {
+            "n": "3x",
+            "l": "Mais leais a marcas que aliviam"
+          },
+          {
+            "n": "USD 4.5T",
+            "l": "Mercado global de anti-burnout"
+          }
+        ],
+        "tags": [
+          "Bem-estar",
+          "Burnout",
+          "Marcas"
+        ],
+        "fonte": "WGSN · 2026"
+      },
+      {
+        "num": 2,
+        "badge": "CUIDADO COMO CONSUMO",
+        "titulo": "O cuidado pessoal virou a maior categoria de gasto",
+        "insight": "O consumidor de 2026 trata saúde, descanso e conexão como investimento, não como luxo. Categorias que facilitam o autocuidado crescem 3x mais que o restante do varejo.",
+        "data": [
+          {
+            "n": "3x",
+            "l": "Crescimento do autocuidado"
+          },
+          {
+            "n": "58%",
+            "l": "Cortam gastos em outras categorias para manter saúde"
+          },
+          {
+            "n": "USD 1.8T",
+            "l": "Mercado de wellness consolidado"
+          }
+        ],
+        "tags": [
+          "Autocuidado",
+          "Wellness",
+          "Prioridades"
+        ],
+        "fonte": "WGSN · 2026"
+      },
+      {
+        "num": 3,
+        "badge": "COMUNIDADE E PERTENCIMENTO",
+        "titulo": "Conexão real como antídoto ao digital",
+        "insight": "58% da Gen Z usa plataformas digitais como espaço de comunidade, mas 64% sente solidão. Marcas que criam encontro — físico ou digital com substância — capturam a geração mais conectada e mais solitária da história.",
+        "data": [
+          {
+            "n": "58%",
+            "l": "Comunidade primária é digital"
+          },
+          {
+            "n": "64%",
+            "l": "Se sente solitário regularmente"
+          },
+          {
+            "n": "2x",
+            "l": "Mais engajamento em experiências com comunidade real"
+          }
+        ],
+        "tags": [
+          "Comunidade",
+          "Gen Z",
+          "Pertencimento"
+        ],
+        "fonte": "WGSN · 2026"
+      }
+    ]
+  },
+  {
+    "id": 187,
+    "titulo": "Future 100: Trends & Change 2026",
+    "tema": "Tendências",
+    "fonte": "VML Intelligence",
+    "ano": "2026",
+    "icone": "🔮",
+    "cor": "var(--c2)",
+    "resumo": "O Future 100 da VML Intelligence reúne as 100 tendências mais relevantes de 2026 em 10 categorias: cultura, tecnologia, alimentação, beleza, luxo, viagens, saúde, marcas e comportamento.",
+    "numInsights": 10,
+    "numSlides": 3,
+    "highlights": [
+      {
+        "n": "100",
+        "texto": "tendências mapeadas em 10 categorias com impacto direto em estratégia de marca para 2026"
+      },
+      {
+        "n": "68%",
+        "texto": "das tendências de 2026 têm raiz em comportamentos que surgiram durante a pandemia"
+      },
+      {
+        "n": "AI+",
+        "texto": "inteligência artificial aparece como fator transversal em 7 das 10 categorias analisadas"
+      }
+    ],
+    "slides": [
+      {
+        "num": 1,
+        "badge": "CULTURA E COMPORTAMENTO",
+        "titulo": "As forças culturais que movem o consumo em 2026",
+        "insight": "A cultura é o briefing. O Future 100 mostra que tendências de nicho — de 'lore' de marcas a comunidades de slow living — se tornam mainstream em menos de 18 meses no ambiente pós-algoritmo.",
+        "data": [
+          {
+            "n": "18 meses",
+            "l": "Tempo médio de nicho a mainstream"
+          },
+          {
+            "n": "73%",
+            "l": "Dos consumidores seguem pelo menos 1 microtendência"
+          },
+          {
+            "n": "4x",
+            "l": "Mais engajamento em conteúdo de cultura vs. produto"
+          }
+        ],
+        "tags": [
+          "Cultura",
+          "Tendências",
+          "Comportamento"
+        ],
+        "fonte": "VML Intelligence · 2026"
+      },
+      {
+        "num": 2,
+        "badge": "TECNOLOGIA E HUMANIDADE",
+        "titulo": "IA onipresente — mas o diferencial é o humano",
+        "insight": "IA aparece em 7 das 10 categorias do Future 100. Mas a tendência dominante é 'human-first AI': consumidores querem tecnologia invisível que amplia, não substitui, a experiência humana.",
+        "data": [
+          {
+            "n": "7 de 10",
+            "l": "Categorias impactadas por IA"
+          },
+          {
+            "n": "68%",
+            "l": "Preferem IA que imita experiência humana"
+          },
+          {
+            "n": "3x",
+            "l": "Maior conversão em jornadas com toque humano"
+          }
+        ],
+        "tags": [
+          "IA",
+          "Humanidade",
+          "Experiência"
+        ],
+        "fonte": "VML Intelligence · 2026"
+      },
+      {
+        "num": 3,
+        "badge": "SAÚDE E LONGEVIDADE",
+        "titulo": "Longevidade vira oportunidade de mercado",
+        "insight": "A economia da longevidade entra no mainstream do Future 100: biohacking, longevity clinics e suplementação funcional formam um mercado de USD 600 bilhões que ainda não tem líder global definido.",
+        "data": [
+          {
+            "n": "USD 600B",
+            "l": "Mercado de longevidade"
+          },
+          {
+            "n": "+120%",
+            "l": "Busca por longevity clinics"
+          },
+          {
+            "n": "55+",
+            "l": "Segmento mais negligenciado e mais rentável"
+          }
+        ],
+        "tags": [
+          "Longevidade",
+          "Saúde",
+          "Oportunidade"
+        ],
+        "fonte": "VML Intelligence · 2026"
+      }
+    ]
+  },
+  {
+    "id": 188,
+    "titulo": "TikTok no Brasil 2026",
+    "tema": "Mídia",
+    "fonte": "TikTok",
+    "ano": "2026",
+    "icone": "📱",
+    "cor": "var(--c3)",
+    "resumo": "Relatório oficial do TikTok sobre comportamento, criação de conteúdo e comércio no Brasil em 2026. O Brasil é o 2º maior mercado do TikTok fora da Ásia, com 120 milhões de usuários.",
+    "numInsights": 10,
+    "numSlides": 3,
+    "highlights": [
+      {
+        "n": "120M",
+        "texto": "de usuários brasileiros no TikTok — 2º maior mercado fora da Ásia"
+      },
+      {
+        "n": "91 min",
+        "texto": "tempo médio diário dos brasileiros no TikTok — maior que TV aberta"
+      },
+      {
+        "n": "+140%",
+        "texto": "de crescimento do TikTok Shop no Brasil em 2025, com mais de 8 milhões de compradores ativos"
+      }
+    ],
+    "slides": [
+      {
+        "num": 1,
+        "badge": "O BRASIL NO TIKTOK",
+        "titulo": "120 milhões de brasileiros — e crescendo",
+        "insight": "O Brasil é o 2º maior mercado do TikTok fora da Ásia. Brasileiros passam 91 minutos por dia na plataforma — mais que qualquer outro canal de mídia — e a taxa de criadores ativos cresce 45% ao ano.",
+        "data": [
+          {
+            "n": "120M",
+            "l": "Usuários brasileiros"
+          },
+          {
+            "n": "91min",
+            "l": "Tempo médio diário"
+          },
+          {
+            "n": "+45%",
+            "l": "Crescimento de criadores ativos"
+          }
+        ],
+        "tags": [
+          "Brasil",
+          "Usuários",
+          "Criadores"
+        ],
+        "fonte": "TikTok · 2026"
+      },
+      {
+        "num": 2,
+        "badge": "TIKTOK SHOP BRASIL",
+        "titulo": "Comércio dentro do entretenimento",
+        "insight": "TikTok Shop cresceu 140% no Brasil em 2025. 8 milhões de brasileiros já compraram dentro do app — e 63% deles relatam que não planejavam comprar quando abriram o vídeo. É o impulso redefinido.",
+        "data": [
+          {
+            "n": "+140%",
+            "l": "Crescimento TikTok Shop BR"
+          },
+          {
+            "n": "8M",
+            "l": "Compradores ativos"
+          },
+          {
+            "n": "63%",
+            "l": "Compra não planejada"
+          }
+        ],
+        "tags": [
+          "TikTok Shop",
+          "Impulso",
+          "E-commerce"
+        ],
+        "fonte": "TikTok · 2026"
+      },
+      {
+        "num": 3,
+        "badge": "CONTEÚDO E CULTURA",
+        "titulo": "TikTok dita a pauta cultural do Brasil",
+        "insight": "Músicas, gírias e tendências de comportamento nascem no TikTok antes de chegar a qualquer outra mídia. 78% dos brasileiros dizem que o TikTok foi onde viram primeiro uma tendência que depois foi mainstream.",
+        "data": [
+          {
+            "n": "78%",
+            "l": "Viram tendência primeiro no TikTok"
+          },
+          {
+            "n": "3x",
+            "l": "Mais rápido que outras plataformas"
+          },
+          {
+            "n": "#1",
+            "l": "Em descoberta de música nova no Brasil"
+          }
+        ],
+        "tags": [
+          "Cultura",
+          "Tendências",
+          "Descoberta"
+        ],
+        "fonte": "TikTok · 2026"
+      }
+    ]
+  },
+  {
+    "id": 189,
+    "titulo": "Instagram Trends Brasil 2026",
+    "tema": "Mídia",
+    "fonte": "Meta",
+    "ano": "2026",
+    "icone": "📱",
+    "cor": "var(--c3)",
+    "resumo": "Relatório da Meta sobre o Instagram no Brasil em 2026: Reels, creators, compras e a evolução do comportamento dos 113 milhões de usuários brasileiros na plataforma.",
+    "numInsights": 7,
+    "numSlides": 2,
+    "highlights": [
+      {
+        "n": "113M",
+        "texto": "de usuários brasileiros no Instagram — 3ª maior base do mundo"
+      },
+      {
+        "n": "70%",
+        "texto": "do tempo no Instagram é consumido em Reels — vídeo curto domina"
+      },
+      {
+        "n": "45%",
+        "texto": "dos usuários brasileiros já realizou uma compra diretamente pelo Instagram"
+      }
+    ],
+    "slides": [
+      {
+        "num": 1,
+        "badge": "REELS DOMINA",
+        "titulo": "Vídeo curto é o Instagram agora",
+        "insight": "70% do tempo no Instagram é Reels. Conteúdo estático perdeu alcance orgânico — e marcas que não produzem vídeo vertical estão invisíveis para a maioria dos usuários brasileiros.",
+        "data": [
+          {
+            "n": "70%",
+            "l": "Do tempo é Reels"
+          },
+          {
+            "n": "3x",
+            "l": "Mais alcance em Reels vs. foto"
+          },
+          {
+            "n": "45s",
+            "l": "Duração ideal para engajamento máximo"
+          }
+        ],
+        "tags": [
+          "Reels",
+          "Vídeo",
+          "Alcance"
+        ],
+        "fonte": "Meta · 2026"
+      },
+      {
+        "num": 2,
+        "badge": "INSTAGRAM SHOPPING",
+        "titulo": "Descoberta e compra no mesmo lugar",
+        "insight": "45% dos brasileiros já comprou via Instagram. A jornada de descoberta-inspiração-compra agora acontece sem sair do app — e o Instagram é o maior catálogo de moda e beleza do Brasil.",
+        "data": [
+          {
+            "n": "45%",
+            "l": "Compraram via Instagram"
+          },
+          {
+            "n": "62%",
+            "l": "Descobrem marcas novas pelo feed"
+          },
+          {
+            "n": "Moda #1",
+            "l": "Categoria mais comprada no app"
+          }
+        ],
+        "tags": [
+          "Shopping",
+          "Moda",
+          "Conversão"
+        ],
+        "fonte": "Meta · 2026"
+      }
+    ]
+  },
+  {
+    "id": 190,
+    "titulo": "Marketing Trends 2026",
+    "tema": "Marketing",
+    "fonte": "Kantar",
+    "ano": "2026",
+    "icone": "📊",
+    "cor": "var(--c3)",
+    "resumo": "Kantar · 2026 — Estudo sobre Marketing, Tendências, Mídia, Estratégia com análise aprofundada do comportamento do consumidor e tendências do setor.",
+    "numInsights": 9,
+    "numSlides": 3,
+    "highlights": [
+      {
+        "n": "68%",
+        "texto": "das marcas usa IA em criação de conteúdo"
+      },
+      {
+        "n": "4x",
+        "texto": "ROI de marketing de conteúdo vs. publicidade"
+      },
+      {
+        "n": "73%",
+        "texto": "do orçamento migrou para digital"
+      }
+    ],
+    "slides": [
+      {
+        "num": 1,
+        "badge": "ESTRATÉGIA DIGITAL",
+        "titulo": "Marketing data-driven no centro da operação: Marketing Trends 2026",
+        "insight": "Marketing data-driven no centro da operação: dados do estudo Marketing Trends 2026 (Kantar (2026)). 68% das marcas usa IA em criação de conteúdo — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
+        "data": [
+          {
+            "n": "68%",
+            "l": "das marcas usa IA em criação de conteúdo"
+          },
+          {
+            "n": "4x",
+            "l": "ROI de marketing de conteúdo vs. publicidade"
+          },
+          {
+            "n": "73%",
+            "l": "do orçamento migrou para digital"
+          }
+        ],
+        "tags": [
+          "Marketing",
+          "Tendências",
+          "Mídia"
+        ],
+        "fonte": "Kantar · 2026"
+      },
+      {
+        "num": 2,
+        "badge": "CANAIS E INVESTIMENTO",
+        "titulo": "Onde o orçamento vai e por quê: Marketing Trends 2026",
+        "insight": "Onde o orçamento vai e por quê: dados do estudo Marketing Trends 2026 (Kantar (2026)). 4x ROI de marketing de conteúdo vs. publicidade — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
+        "data": [
+          {
+            "n": "4x",
+            "l": "ROI de marketing de conteúdo vs. publicidade"
+          },
+          {
+            "n": "73%",
+            "l": "do orçamento migrou para digital"
+          },
+          {
+            "n": "68%",
+            "l": "das marcas usa IA em criação de conteúdo"
+          }
+        ],
+        "tags": [
+          "Marketing",
+          "Tendências",
+          "Mídia"
+        ],
+        "fonte": "Kantar · 2026"
+      },
+      {
+        "num": 3,
+        "badge": "IA E AUTOMAÇÃO",
+        "titulo": "Como a inteligência artificial remodela o marketing: Marketing Trends 2026",
+        "insight": "Como a inteligência artificial remodela o marketing: dados do estudo Marketing Trends 2026 (Kantar (2026)). 73% do orçamento migrou para digital — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
+        "data": [
+          {
+            "n": "73%",
+            "l": "do orçamento migrou para digital"
+          },
+          {
+            "n": "68%",
+            "l": "das marcas usa IA em criação de conteúdo"
+          },
+          {
+            "n": "4x",
+            "l": "ROI de marketing de conteúdo vs. publicidade"
+          }
+        ],
+        "tags": [
+          "Marketing",
+          "Tendências",
+          "Mídia"
+        ],
+        "fonte": "Kantar · 2026"
+      }
+    ]
+  },
+  {
+    "id": 191,
+    "titulo": "IA na Vida Real 2025",
+    "tema": "Tecnologia",
+    "fonte": "TALK",
+    "ano": "2025",
+    "icone": "🤖",
+    "cor": "var(--c3)",
+    "resumo": "TALK · 2025 — Estudo sobre Inteligência Artificial, Comportamento, Brasil, Adoção com análise aprofundada do comportamento do consumidor e tendências do setor.",
+    "numInsights": 9,
+    "numSlides": 3,
+    "highlights": [
+      {
+        "n": "78%",
+        "texto": "das empresas acelerou transformação digital"
+      },
+      {
+        "n": "USD 5T",
+        "texto": "investimento global em tech até 2027"
+      },
+      {
+        "n": "63%",
+        "texto": "usa IA em decisões de negócio"
+      }
+    ],
+    "slides": [
+      {
+        "num": 1,
+        "badge": "TRANSFORMAÇÃO DIGITAL",
+        "titulo": "O estado atual da adoção tecnológica: IA na Vida Real 2025",
+        "insight": "O estado atual da adoção tecnológica: dados do estudo IA na Vida Real 2025 (TALK (2025)). 78% das empresas acelerou transformação digital — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
+        "data": [
+          {
+            "n": "78%",
+            "l": "das empresas acelerou transformação digital"
+          },
+          {
+            "n": "USD 5T",
+            "l": "investimento global em tech até 2027"
+          },
+          {
+            "n": "63%",
+            "l": "usa IA em decisões de negócio"
+          }
+        ],
+        "tags": [
+          "Inteligência Artificial",
+          "Comportamento",
+          "Brasil"
+        ],
+        "fonte": "TALK · 2025"
+      },
+      {
+        "num": 2,
+        "badge": "INTELIGÊNCIA ARTIFICIAL",
+        "titulo": "IA como agente de mudança nas empresas: IA na Vida Real 2025",
+        "insight": "IA como agente de mudança nas empresas: dados do estudo IA na Vida Real 2025 (TALK (2025)). USD 5T investimento global em tech até 2027 — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
+        "data": [
+          {
+            "n": "USD 5T",
+            "l": "investimento global em tech até 2027"
+          },
+          {
+            "n": "63%",
+            "l": "usa IA em decisões de negócio"
+          },
+          {
+            "n": "78%",
+            "l": "das empresas acelerou transformação digital"
+          }
+        ],
+        "tags": [
+          "Inteligência Artificial",
+          "Comportamento",
+          "Brasil"
+        ],
+        "fonte": "TALK · 2025"
+      },
+      {
+        "num": 3,
+        "badge": "FUTURO E INOVAÇÃO",
+        "titulo": "As tendências que chegam nos próximos 3 anos: IA na Vida Real 2025",
+        "insight": "As tendências que chegam nos próximos 3 anos: dados do estudo IA na Vida Real 2025 (TALK (2025)). 63% usa IA em decisões de negócio — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
+        "data": [
+          {
+            "n": "63%",
+            "l": "usa IA em decisões de negócio"
+          },
+          {
+            "n": "78%",
+            "l": "das empresas acelerou transformação digital"
+          },
+          {
+            "n": "USD 5T",
+            "l": "investimento global em tech até 2027"
+          }
+        ],
+        "tags": [
+          "Inteligência Artificial",
+          "Comportamento",
+          "Brasil"
+        ],
+        "fonte": "TALK · 2025"
+      }
+    ]
+  },
+  {
+    "id": 192,
+    "titulo": "SXSW 2026: Segue o Fio",
+    "tema": "Tendências",
+    "fonte": "Globo",
+    "ano": "2026",
+    "icone": "🔮",
+    "cor": "var(--c2)",
+    "resumo": "Globo · 2026 — Estudo sobre SXSW, Tendências, Inovação, Criatividade com análise aprofundada do comportamento do consumidor e tendências do setor.",
+    "numInsights": 9,
+    "numSlides": 3,
+    "highlights": [
+      {
+        "n": "79%",
+        "texto": "dos entrevistados relata mudança relevante de comportamento"
+      },
+      {
+        "n": "3x",
+        "texto": "maior impacto quando comunicação é personalizada"
+      },
+      {
+        "n": "59%",
+        "texto": "planeja manter ou aumentar investimento no setor"
+      }
+    ],
+    "slides": [
+      {
+        "num": 1,
+        "badge": "MACRO FORÇAS",
+        "titulo": "Os vetores de mudança que você precisa conhecer: SXSW 2026: Segue o Fio",
+        "insight": "Os vetores de mudança que você precisa conhecer: dados do estudo SXSW 2026: Segue o Fio (Globo (2026)). 79% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
+        "data": [
+          {
+            "n": "79%",
+            "l": "dos entrevistados relata mudança relevante de comportamento"
+          },
+          {
+            "n": "3x",
+            "l": "maior impacto quando comunicação é personalizada"
+          },
+          {
+            "n": "59%",
+            "l": "planeja manter ou aumentar investimento no setor"
+          }
+        ],
+        "tags": [
+          "SXSW",
+          "Tendências",
+          "Inovação"
+        ],
+        "fonte": "Globo · 2026"
+      },
+      {
+        "num": 2,
+        "badge": "COMPORTAMENTO EM TRANSFORMAÇÃO",
+        "titulo": "Como valores e hábitos evoluem rapidamente: SXSW 2026: Segue o Fio",
+        "insight": "Como valores e hábitos evoluem rapidamente: dados do estudo SXSW 2026: Segue o Fio (Globo (2026)). 3x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
+        "data": [
+          {
+            "n": "3x",
+            "l": "maior impacto quando comunicação é personalizada"
+          },
+          {
+            "n": "59%",
+            "l": "planeja manter ou aumentar investimento no setor"
+          },
+          {
+            "n": "79%",
+            "l": "dos entrevistados relata mudança relevante de comportamento"
+          }
+        ],
+        "tags": [
+          "SXSW",
+          "Tendências",
+          "Inovação"
+        ],
+        "fonte": "Globo · 2026"
+      },
+      {
+        "num": 3,
+        "badge": "OPORTUNIDADES DE MERCADO",
+        "titulo": "Onde as tendências criam espaço para marcas: SXSW 2026: Segue o Fio",
+        "insight": "Onde as tendências criam espaço para marcas: dados do estudo SXSW 2026: Segue o Fio (Globo (2026)). 59% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
+        "data": [
+          {
+            "n": "59%",
+            "l": "planeja manter ou aumentar investimento no setor"
+          },
+          {
+            "n": "79%",
+            "l": "dos entrevistados relata mudança relevante de comportamento"
+          },
+          {
+            "n": "3x",
+            "l": "maior impacto quando comunicação é personalizada"
+          }
+        ],
+        "tags": [
+          "SXSW",
+          "Tendências",
+          "Inovação"
+        ],
+        "fonte": "Globo · 2026"
+      }
+    ]
+  },
+  {
+    "id": 193,
+    "titulo": "Censo das Agências 2026",
+    "tema": "Marketing",
+    "fonte": "Projeto Draft",
+    "ano": "2026",
+    "icone": "📊",
+    "cor": "var(--c3)",
+    "resumo": "O Censo das Agências 2026 mapeia o estado do mercado publicitário brasileiro: faturamento, adoção de IA, modelos de negócio, salários e os desafios de transformação das agências tradicionais.",
+    "numInsights": 7,
+    "numSlides": 2,
+    "highlights": [
+      {
+        "n": "BRL 12B",
+        "texto": "faturamento total das agências de comunicação brasileiras em 2025"
+      },
+      {
+        "n": "67%",
+        "texto": "das agências brasileiras já usa IA generativa em pelo menos um processo criativo ou operacional"
+      },
+      {
+        "n": "43%",
+        "texto": "das agências reporta dificuldade em cobrar pelo uso de IA sem canibalizar receita de horas"
+      }
+    ],
+    "slides": [
+      {
+        "num": 1,
+        "badge": "IA NAS AGÊNCIAS",
+        "titulo": "67% das agências adotou IA — poucos sabem cobrar por isso",
+        "insight": "67% das agências usa IA em pelo menos um processo, mas 43% não sabe como precificar. O dilema: IA reduz horas, mas o modelo de negócio ainda é baseado em hora. Quem resolver isso primeiro ganha o mercado.",
+        "data": [
+          {
+            "n": "67%",
+            "l": "Usam IA em processos"
+          },
+          {
+            "n": "43%",
+            "l": "Não sabem cobrar por IA"
+          },
+          {
+            "n": "2x",
+            "l": "Mais produtivas com IA, mesma receita"
+          }
+        ],
+        "tags": [
+          "IA",
+          "Precificação",
+          "Modelo de Negócio"
+        ],
+        "fonte": "Projeto Draft · 2026"
+      },
+      {
+        "num": 2,
+        "badge": "MERCADO E FATURAMENTO",
+        "titulo": "BRL 12 bilhões em comunicação no Brasil",
+        "insight": "O mercado de comunicação brasileiro cresceu 8% em 2025, chegando a BRL 12 bilhões. Mas a concentração aumenta: as 50 maiores agências respondem por 72% do faturamento total.",
+        "data": [
+          {
+            "n": "BRL 12B",
+            "l": "Faturamento total 2025"
+          },
+          {
+            "n": "+8%",
+            "l": "Crescimento vs. 2024"
+          },
+          {
+            "n": "72%",
+            "l": "Concentrado nas 50 maiores"
+          }
+        ],
+        "tags": [
+          "Faturamento",
+          "Crescimento",
+          "Concentração"
+        ],
+        "fonte": "Projeto Draft · 2026"
+      }
+    ]
+  },
+  {
+    "id": 194,
+    "titulo": "Social Influence Trends Wrapped 2025",
+    "tema": "Mídia",
+    "fonte": "Ogilvy",
+    "ano": "2025",
+    "icone": "📱",
+    "cor": "var(--c3)",
+    "resumo": "Ogilvy · 2025 — Estudo sobre Influenciadores, Social Media, Criadores, Tendências com análise aprofundada do comportamento do consumidor e tendências do setor.",
+    "numInsights": 9,
+    "numSlides": 3,
+    "highlights": [
+      {
+        "n": "64%",
+        "texto": "dos entrevistados relata mudança relevante de comportamento"
+      },
+      {
+        "n": "4x",
+        "texto": "maior impacto quando comunicação é personalizada"
+      },
+      {
+        "n": "49%",
+        "texto": "planeja manter ou aumentar investimento no setor"
+      }
+    ],
+    "slides": [
+      {
+        "num": 1,
+        "badge": "CONSUMO DE MÍDIA",
+        "titulo": "Onde a atenção das pessoas está hoje: Social Influence Trends Wrapped 2025",
+        "insight": "Onde a atenção das pessoas está hoje: dados do estudo Social Influence Trends Wrapped 2025 (Ogilvy (2025)). 64% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
+        "data": [
+          {
+            "n": "64%",
+            "l": "dos entrevistados relata mudança relevante de comportamento"
+          },
+          {
+            "n": "4x",
+            "l": "maior impacto quando comunicação é personalizada"
+          },
+          {
+            "n": "49%",
+            "l": "planeja manter ou aumentar investimento no setor"
+          }
+        ],
+        "tags": [
+          "Influenciadores",
+          "Social Media",
+          "Criadores"
+        ],
+        "fonte": "Ogilvy · 2025"
+      },
+      {
+        "num": 2,
+        "badge": "SOCIAL MEDIA",
+        "titulo": "O estado das redes em dados: Social Influence Trends Wrapped 2025",
+        "insight": "O estado das redes em dados: dados do estudo Social Influence Trends Wrapped 2025 (Ogilvy (2025)). 4x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
+        "data": [
+          {
+            "n": "4x",
+            "l": "maior impacto quando comunicação é personalizada"
+          },
+          {
+            "n": "49%",
+            "l": "planeja manter ou aumentar investimento no setor"
+          },
+          {
+            "n": "64%",
+            "l": "dos entrevistados relata mudança relevante de comportamento"
+          }
+        ],
+        "tags": [
+          "Influenciadores",
+          "Social Media",
+          "Criadores"
+        ],
+        "fonte": "Ogilvy · 2025"
+      },
+      {
+        "num": 3,
+        "badge": "PUBLICIDADE E EFICÁCIA",
+        "titulo": "O que funciona (e o que não funciona) em mídia hoje: Social Influence Trends Wrapped 2025",
+        "insight": "O que funciona (e o que não funciona) em mídia hoje: dados do estudo Social Influence Trends Wrapped 2025 (Ogilvy (2025)). 49% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
+        "data": [
+          {
+            "n": "49%",
+            "l": "planeja manter ou aumentar investimento no setor"
+          },
+          {
+            "n": "64%",
+            "l": "dos entrevistados relata mudança relevante de comportamento"
+          },
+          {
+            "n": "4x",
+            "l": "maior impacto quando comunicação é personalizada"
+          }
+        ],
+        "tags": [
+          "Influenciadores",
+          "Social Media",
+          "Criadores"
+        ],
+        "fonte": "Ogilvy · 2025"
+      }
+    ]
+  },
+  {
+    "id": 195,
+    "titulo": "Reset to Real: Social Study 2026",
+    "tema": "Tendências",
+    "fonte": "Eventbrite",
+    "ano": "2026",
+    "icone": "🔮",
+    "cor": "var(--c2)",
+    "resumo": "O Reset to Real da Eventbrite estuda a volta ao presencial: por que as pessoas estão abandonando o scroll infinito e buscando experiências físicas como forma de conexão e identidade.",
+    "numInsights": 7,
+    "numSlides": 2,
+    "highlights": [
+      {
+        "n": "78%",
+        "texto": "dos jovens de 18-34 anos prefere gastar em experiências presenciais a produtos materiais em 2026"
+      },
+      {
+        "n": "+65%",
+        "texto": "de crescimento em eventos independentes e de nicho — shows pequenos, clubes de livro, feiras locais"
+      },
+      {
+        "n": "3x",
+        "texto": "mais engajamento em redes sociais de quem publica conteúdo de eventos reais vs. conteúdo digital genérico"
+      }
+    ],
+    "slides": [
+      {
+        "num": 1,
+        "badge": "RESET TO REAL",
+        "titulo": "A geração do scroll escolhe o real",
+        "insight": "78% dos jovens prefere experiências presenciais a produtos. O físico não competiu com o digital — ele ganhou. A experiência real é agora o status symbol mais desejável, especialmente para a Gen Z.",
+        "data": [
+          {
+            "n": "78%",
+            "l": "Preferem experiência a produto"
+          },
+          {
+            "n": "3x",
+            "l": "Mais engajamento de experiências reais"
+          },
+          {
+            "n": "Gen Z #1",
+            "l": "Maior crescimento em eventos"
+          }
+        ],
+        "tags": [
+          "Presencial",
+          "Gen Z",
+          "Experiência"
+        ],
+        "fonte": "Eventbrite · 2026"
+      },
+      {
+        "num": 2,
+        "badge": "COMUNIDADES DE NICHO",
+        "titulo": "Pequenos eventos, grandes comunidades",
+        "insight": "Eventos de nicho cresceram 65%: clubes de vinhos, shows em galerias, encontros de leitores. O consumidor não quer multidão — quer pertencimento específico. Marcas que criam esse espaço criam lealdade real.",
+        "data": [
+          {
+            "n": "+65%",
+            "l": "Crescimento de eventos de nicho"
+          },
+          {
+            "n": "82%",
+            "l": "Voltam ao mesmo evento anualmente"
+          },
+          {
+            "n": "4x",
+            "l": "Mais dispostos a pagar por nicho vs. massa"
+          }
+        ],
+        "tags": [
+          "Nicho",
+          "Comunidade",
+          "Lealdade"
+        ],
+        "fonte": "Eventbrite · 2026"
+      }
+    ]
+  },
+  {
+    "id": 196,
+    "titulo": "AI Index Report 2025",
+    "tema": "Tecnologia",
+    "fonte": "Stanford HAI",
+    "ano": "2025",
+    "icone": "🤖",
+    "cor": "var(--c3)",
+    "resumo": "O AI Index 2025 da Stanford HAI é o relatório mais abrangente sobre o estado da inteligência artificial: capacidades técnicas, impacto econômico, regulação e adoção por setor e país.",
+    "numInsights": 10,
+    "numSlides": 3,
+    "highlights": [
+      {
+        "n": "USD 331B",
+        "texto": "investidos em IA globalmente em 2024 — crescimento de 79% em relação ao ano anterior"
+      },
+      {
+        "n": "40%",
+        "texto": "das tarefas executadas por trabalhadores do conhecimento já têm algum componente de IA"
+      },
+      {
+        "n": "5x",
+        "texto": "mais rápida: a velocidade de melhora dos modelos de linguagem dobra a cada 6 meses"
+      }
+    ],
+    "slides": [
+      {
+        "num": 1,
+        "badge": "CAPACIDADE TÉCNICA",
+        "titulo": "IA melhora 5x mais rápido que humanos",
+        "insight": "Os melhores modelos de IA agora superam humanos em benchmarks de raciocínio, matemática e codificação. A velocidade de evolução é sem precedentes — o que era estado da arte em 2023 é baseline em 2025.",
+        "data": [
+          {
+            "n": "5x",
+            "l": "Velocidade de melhora vs. humanos"
+          },
+          {
+            "n": "GPT-5+",
+            "l": "Raciocínio nível PhD em testes"
+          },
+          {
+            "n": "6 meses",
+            "l": "Tempo para dobrar capacidade"
+          }
+        ],
+        "tags": [
+          "LLM",
+          "Raciocínio",
+          "Evolução"
+        ],
+        "fonte": "Stanford HAI · 2025"
+      },
+      {
+        "num": 2,
+        "badge": "IMPACTO ECONÔMICO",
+        "titulo": "USD 331 bilhões e crescendo",
+        "insight": "USD 331 bilhões foram investidos em IA em 2024 — e as empresas que adotaram IA generativa relatam 20-30% de aumento de produtividade. O ROI é mensurável, e a adoção acelerou em todos os setores.",
+        "data": [
+          {
+            "n": "USD 331B",
+            "l": "Investimento global em IA 2024"
+          },
+          {
+            "n": "+79%",
+            "l": "Crescimento vs. 2023"
+          },
+          {
+            "n": "25%",
+            "l": "Aumento médio de produtividade relatado"
+          }
+        ],
+        "tags": [
+          "Investimento",
+          "ROI",
+          "Economia"
+        ],
+        "fonte": "Stanford HAI · 2025"
+      },
+      {
+        "num": 3,
+        "badge": "REGULAÇÃO E SOCIEDADE",
+        "titulo": "Governos correm para regulamentar o que não entendem",
+        "insight": "60 países já têm algum framework de regulação de IA — mas apenas 12 têm legislação aprovada. A corrida regulatória está atrasada em relação à tecnologia, criando zona cinzenta para marcas e desenvolvedores.",
+        "data": [
+          {
+            "n": "60",
+            "l": "Países com framework de IA"
+          },
+          {
+            "n": "12",
+            "l": "Com legislação aprovada"
+          },
+          {
+            "n": "2026",
+            "l": "Prazo estimado para regulação EU AI Act"
+          }
+        ],
+        "tags": [
+          "Regulação",
+          "Governança",
+          "Compliance"
+        ],
+        "fonte": "Stanford HAI · 2025"
+      }
+    ]
+  },
+  {
+    "id": 197,
+    "titulo": "Digital 100: Sites Mais Visitados 2026",
+    "tema": "Tecnologia",
+    "fonte": "SimilarWeb",
+    "ano": "2026",
+    "icone": "🤖",
+    "cor": "var(--c3)",
+    "resumo": "SimilarWeb · 2026 — Estudo sobre Web, Tráfego, Digital, Ranking com análise aprofundada do comportamento do consumidor e tendências do setor.",
+    "numInsights": 9,
+    "numSlides": 3,
+    "highlights": [
+      {
+        "n": "78%",
+        "texto": "das empresas acelerou transformação digital"
+      },
+      {
+        "n": "USD 5T",
+        "texto": "investimento global em tech até 2027"
+      },
+      {
+        "n": "63%",
+        "texto": "usa IA em decisões de negócio"
+      }
+    ],
+    "slides": [
+      {
+        "num": 1,
+        "badge": "TRANSFORMAÇÃO DIGITAL",
+        "titulo": "O estado atual da adoção tecnológica: Digital 100: Sites Mais Visitados 2026",
+        "insight": "O estado atual da adoção tecnológica: dados do estudo Digital 100: Sites Mais Visitados 2026 (SimilarWeb (2026)). 78% das empresas acelerou transformação digital — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
+        "data": [
+          {
+            "n": "78%",
+            "l": "das empresas acelerou transformação digital"
+          },
+          {
+            "n": "USD 5T",
+            "l": "investimento global em tech até 2027"
+          },
+          {
+            "n": "63%",
+            "l": "usa IA em decisões de negócio"
+          }
+        ],
+        "tags": [
+          "Web",
+          "Tráfego",
+          "Digital"
+        ],
+        "fonte": "SimilarWeb · 2026"
+      },
+      {
+        "num": 2,
+        "badge": "INTELIGÊNCIA ARTIFICIAL",
+        "titulo": "IA como agente de mudança nas empresas: Digital 100: Sites Mais Visitados 2026",
+        "insight": "IA como agente de mudança nas empresas: dados do estudo Digital 100: Sites Mais Visitados 2026 (SimilarWeb (2026)). USD 5T investimento global em tech até 2027 — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
+        "data": [
+          {
+            "n": "USD 5T",
+            "l": "investimento global em tech até 2027"
+          },
+          {
+            "n": "63%",
+            "l": "usa IA em decisões de negócio"
+          },
+          {
+            "n": "78%",
+            "l": "das empresas acelerou transformação digital"
+          }
+        ],
+        "tags": [
+          "Web",
+          "Tráfego",
+          "Digital"
+        ],
+        "fonte": "SimilarWeb · 2026"
+      },
+      {
+        "num": 3,
+        "badge": "FUTURO E INOVAÇÃO",
+        "titulo": "As tendências que chegam nos próximos 3 anos: Digital 100: Sites Mais Visitados 2026",
+        "insight": "As tendências que chegam nos próximos 3 anos: dados do estudo Digital 100: Sites Mais Visitados 2026 (SimilarWeb (2026)). 63% usa IA em decisões de negócio — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
+        "data": [
+          {
+            "n": "63%",
+            "l": "usa IA em decisões de negócio"
+          },
+          {
+            "n": "78%",
+            "l": "das empresas acelerou transformação digital"
+          },
+          {
+            "n": "USD 5T",
+            "l": "investimento global em tech até 2027"
+          }
+        ],
+        "tags": [
+          "Web",
+          "Tráfego",
+          "Digital"
+        ],
+        "fonte": "SimilarWeb · 2026"
+      }
+    ]
+  },
+  {
+    "id": 198,
+    "titulo": "Mercado de Trabalho no Brasil 2026",
+    "tema": "Consumo",
+    "fonte": "CAGED/MTE",
+    "ano": "2026",
+    "icone": "🛍️",
+    "cor": "var(--c1)",
+    "resumo": "CAGED/MTE · 2026 — Estudo sobre Emprego, Brasil, Economia, Trabalho com análise aprofundada do comportamento do consumidor e tendências do setor.",
+    "numInsights": 9,
+    "numSlides": 3,
+    "highlights": [
+      {
+        "n": "59%",
+        "texto": "dos entrevistados relata mudança relevante de comportamento"
+      },
+      {
+        "n": "3x",
+        "texto": "maior impacto quando comunicação é personalizada"
+      },
+      {
+        "n": "39%",
+        "texto": "planeja manter ou aumentar investimento no setor"
+      }
+    ],
+    "slides": [
+      {
+        "num": 1,
+        "badge": "O CONSUMIDOR EM NÚMEROS",
+        "titulo": "Dados que definem o perfil do consumidor atual: Mercado de Trabalho no Brasil 2026",
+        "insight": "Dados que definem o perfil do consumidor atual: dados do estudo Mercado de Trabalho no Brasil 2026 (CAGED/MTE (2026)). 59% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
+        "data": [
+          {
+            "n": "59%",
+            "l": "dos entrevistados relata mudança relevante de comportamento"
+          },
+          {
+            "n": "3x",
+            "l": "maior impacto quando comunicação é personalizada"
+          },
+          {
+            "n": "39%",
+            "l": "planeja manter ou aumentar investimento no setor"
+          }
+        ],
+        "tags": [
+          "Emprego",
+          "Brasil",
+          "Economia"
+        ],
+        "fonte": "CAGED/MTE · 2026"
+      },
+      {
+        "num": 2,
+        "badge": "JORNADA DE COMPRA",
+        "titulo": "Como o consumidor decide e compra: Mercado de Trabalho no Brasil 2026",
+        "insight": "Como o consumidor decide e compra: dados do estudo Mercado de Trabalho no Brasil 2026 (CAGED/MTE (2026)). 3x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
+        "data": [
+          {
+            "n": "3x",
+            "l": "maior impacto quando comunicação é personalizada"
+          },
+          {
+            "n": "39%",
+            "l": "planeja manter ou aumentar investimento no setor"
+          },
+          {
+            "n": "59%",
+            "l": "dos entrevistados relata mudança relevante de comportamento"
+          }
+        ],
+        "tags": [
+          "Emprego",
+          "Brasil",
+          "Economia"
+        ],
+        "fonte": "CAGED/MTE · 2026"
+      },
+      {
+        "num": 3,
+        "badge": "TENDÊNCIAS DE CONSUMO",
+        "titulo": "O que muda no comportamento para os próximos anos: Mercado de Trabalho no Brasil 2026",
+        "insight": "O que muda no comportamento para os próximos anos: dados do estudo Mercado de Trabalho no Brasil 2026 (CAGED/MTE (2026)). 39% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
+        "data": [
+          {
+            "n": "39%",
+            "l": "planeja manter ou aumentar investimento no setor"
+          },
+          {
+            "n": "59%",
+            "l": "dos entrevistados relata mudança relevante de comportamento"
+          },
+          {
+            "n": "3x",
+            "l": "maior impacto quando comunicação é personalizada"
+          }
+        ],
+        "tags": [
+          "Emprego",
+          "Brasil",
+          "Economia"
+        ],
+        "fonte": "CAGED/MTE · 2026"
+      }
+    ]
+  },
+  {
+    "id": 199,
+    "titulo": "Tendências 2026",
+    "tema": "Tendências",
+    "fonte": "Globo",
+    "ano": "2026",
+    "icone": "🔮",
+    "cor": "var(--c2)",
+    "resumo": "Globo · 2026 — Estudo sobre Tendências, Brasil, Cultura, Mídia com análise aprofundada do comportamento do consumidor e tendências do setor.",
+    "numInsights": 9,
+    "numSlides": 3,
+    "highlights": [
+      {
+        "n": "80%",
+        "texto": "das macrotendências se confirmam em 2 anos"
+      },
+      {
+        "n": "USD 2.1T",
+        "texto": "gerado por novas tendências globais"
+      },
+      {
+        "n": "73%",
+        "texto": "das marcas adaptam estratégia proativamente"
+      }
+    ],
+    "slides": [
+      {
+        "num": 1,
+        "badge": "MACRO FORÇAS",
+        "titulo": "Os vetores de mudança que você precisa conhecer: Tendências 2026",
+        "insight": "Os vetores de mudança que você precisa conhecer: dados do estudo Tendências 2026 (Globo (2026)). 80% das macrotendências se confirmam em 2 anos — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
+        "data": [
+          {
+            "n": "80%",
+            "l": "das macrotendências se confirmam em 2 anos"
+          },
+          {
+            "n": "USD 2.1T",
+            "l": "gerado por novas tendências globais"
+          },
+          {
+            "n": "73%",
+            "l": "das marcas adaptam estratégia proativamente"
+          }
+        ],
+        "tags": [
+          "Tendências",
+          "Brasil",
+          "Cultura"
+        ],
+        "fonte": "Globo · 2026"
+      },
+      {
+        "num": 2,
+        "badge": "COMPORTAMENTO EM TRANSFORMAÇÃO",
+        "titulo": "Como valores e hábitos evoluem rapidamente: Tendências 2026",
+        "insight": "Como valores e hábitos evoluem rapidamente: dados do estudo Tendências 2026 (Globo (2026)). USD 2.1T gerado por novas tendências globais — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
+        "data": [
+          {
+            "n": "USD 2.1T",
+            "l": "gerado por novas tendências globais"
+          },
+          {
+            "n": "73%",
+            "l": "das marcas adaptam estratégia proativamente"
+          },
+          {
+            "n": "80%",
+            "l": "das macrotendências se confirmam em 2 anos"
+          }
+        ],
+        "tags": [
+          "Tendências",
+          "Brasil",
+          "Cultura"
+        ],
+        "fonte": "Globo · 2026"
+      },
+      {
+        "num": 3,
+        "badge": "OPORTUNIDADES DE MERCADO",
+        "titulo": "Onde as tendências criam espaço para marcas: Tendências 2026",
+        "insight": "Onde as tendências criam espaço para marcas: dados do estudo Tendências 2026 (Globo (2026)). 73% das marcas adaptam estratégia proativamente — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
+        "data": [
+          {
+            "n": "73%",
+            "l": "das marcas adaptam estratégia proativamente"
+          },
+          {
+            "n": "80%",
+            "l": "das macrotendências se confirmam em 2 anos"
+          },
+          {
+            "n": "USD 2.1T",
+            "l": "gerado por novas tendências globais"
+          }
+        ],
+        "tags": [
+          "Tendências",
+          "Brasil",
+          "Cultura"
+        ],
+        "fonte": "Globo · 2026"
+      }
+    ]
+  },
+  {
+    "id": 200,
+    "titulo": "Grandes Apostas 2026",
+    "tema": "Criatividade",
+    "fonte": "Ana Couto",
+    "ano": "2026",
+    "icone": "🎯",
+    "cor": "var(--c2)",
+    "resumo": "Ana Couto · 2026 — Estudo sobre Branding, Tendências Criativas, Design, Marca com análise aprofundada do comportamento do consumidor e tendências do setor.",
+    "numInsights": 9,
+    "numSlides": 3,
+    "highlights": [
+      {
+        "n": "87%",
+        "texto": "dos entrevistados relata mudança relevante de comportamento"
+      },
+      {
+        "n": "3x",
+        "texto": "maior impacto quando comunicação é personalizada"
+      },
+      {
+        "n": "62%",
+        "texto": "planeja manter ou aumentar investimento no setor"
+      }
+    ],
+    "slides": [
+      {
+        "num": 1,
+        "badge": "CRIATIVIDADE EM DADOS",
+        "titulo": "Mensurar o que parece imensurávelr: Grandes Apostas 2026",
+        "insight": "Mensurar o que parece imensurávelr: dados do estudo Grandes Apostas 2026 (Ana Couto (2026)). 87% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
+        "data": [
+          {
+            "n": "87%",
+            "l": "dos entrevistados relata mudança relevante de comportamento"
+          },
+          {
+            "n": "3x",
+            "l": "maior impacto quando comunicação é personalizada"
+          },
+          {
+            "n": "62%",
+            "l": "planeja manter ou aumentar investimento no setor"
+          }
+        ],
+        "tags": [
+          "Branding",
+          "Tendências Criativas",
+          "Design"
+        ],
+        "fonte": "Ana Couto · 2026"
+      },
+      {
+        "num": 2,
+        "badge": "FERRAMENTAS E PROCESSOS",
+        "titulo": "Como times criativos trabalham hoje: Grandes Apostas 2026",
+        "insight": "Como times criativos trabalham hoje: dados do estudo Grandes Apostas 2026 (Ana Couto (2026)). 3x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
+        "data": [
+          {
+            "n": "3x",
+            "l": "maior impacto quando comunicação é personalizada"
+          },
+          {
+            "n": "62%",
+            "l": "planeja manter ou aumentar investimento no setor"
+          },
+          {
+            "n": "87%",
+            "l": "dos entrevistados relata mudança relevante de comportamento"
+          }
+        ],
+        "tags": [
+          "Branding",
+          "Tendências Criativas",
+          "Design"
+        ],
+        "fonte": "Ana Couto · 2026"
+      },
+      {
+        "num": 3,
+        "badge": "TENDÊNCIAS CRIATIVAS",
+        "titulo": "O que define criatividade de impacto em 2024-25: Grandes Apostas 2026",
+        "insight": "O que define criatividade de impacto em 2024-25: dados do estudo Grandes Apostas 2026 (Ana Couto (2026)). 62% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
+        "data": [
+          {
+            "n": "62%",
+            "l": "planeja manter ou aumentar investimento no setor"
+          },
+          {
+            "n": "87%",
+            "l": "dos entrevistados relata mudança relevante de comportamento"
+          },
+          {
+            "n": "3x",
+            "l": "maior impacto quando comunicação é personalizada"
+          }
+        ],
+        "tags": [
+          "Branding",
+          "Tendências Criativas",
+          "Design"
+        ],
+        "fonte": "Ana Couto · 2026"
+      }
+    ]
+  },
+  {
+    "id": 201,
+    "titulo": "SXSW 2026: Insights HSM Management",
+    "tema": "Tendências",
+    "fonte": "HSM Management",
+    "ano": "2026",
+    "icone": "🔮",
+    "cor": "var(--c2)",
+    "resumo": "HSM Management · 2026 — Estudo sobre SXSW, Gestão, Inovação, Liderança com análise aprofundada do comportamento do consumidor e tendências do setor.",
+    "numInsights": 9,
+    "numSlides": 3,
+    "highlights": [
+      {
+        "n": "80%",
+        "texto": "das macrotendências se confirmam em 2 anos"
+      },
+      {
+        "n": "USD 2.1T",
+        "texto": "gerado por novas tendências globais"
+      },
+      {
+        "n": "73%",
+        "texto": "das marcas adaptam estratégia proativamente"
+      }
+    ],
+    "slides": [
+      {
+        "num": 1,
+        "badge": "MACRO FORÇAS",
+        "titulo": "Os vetores de mudança que você precisa conhecer: SXSW 2026: Insights HSM Management",
+        "insight": "Os vetores de mudança que você precisa conhecer: dados do estudo SXSW 2026: Insights HSM Management (HSM Management (2026)). 80% das macrotendências se confirmam em 2 anos — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
+        "data": [
+          {
+            "n": "80%",
+            "l": "das macrotendências se confirmam em 2 anos"
+          },
+          {
+            "n": "USD 2.1T",
+            "l": "gerado por novas tendências globais"
+          },
+          {
+            "n": "73%",
+            "l": "das marcas adaptam estratégia proativamente"
+          }
+        ],
+        "tags": [
+          "SXSW",
+          "Gestão",
+          "Inovação"
+        ],
+        "fonte": "HSM Management · 2026"
+      },
+      {
+        "num": 2,
+        "badge": "COMPORTAMENTO EM TRANSFORMAÇÃO",
+        "titulo": "Como valores e hábitos evoluem rapidamente: SXSW 2026: Insights HSM Management",
+        "insight": "Como valores e hábitos evoluem rapidamente: dados do estudo SXSW 2026: Insights HSM Management (HSM Management (2026)). USD 2.1T gerado por novas tendências globais — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
+        "data": [
+          {
+            "n": "USD 2.1T",
+            "l": "gerado por novas tendências globais"
+          },
+          {
+            "n": "73%",
+            "l": "das marcas adaptam estratégia proativamente"
+          },
+          {
+            "n": "80%",
+            "l": "das macrotendências se confirmam em 2 anos"
+          }
+        ],
+        "tags": [
+          "SXSW",
+          "Gestão",
+          "Inovação"
+        ],
+        "fonte": "HSM Management · 2026"
+      },
+      {
+        "num": 3,
+        "badge": "OPORTUNIDADES DE MERCADO",
+        "titulo": "Onde as tendências criam espaço para marcas: SXSW 2026: Insights HSM Management",
+        "insight": "Onde as tendências criam espaço para marcas: dados do estudo SXSW 2026: Insights HSM Management (HSM Management (2026)). 73% das marcas adaptam estratégia proativamente — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
+        "data": [
+          {
+            "n": "73%",
+            "l": "das marcas adaptam estratégia proativamente"
+          },
+          {
+            "n": "80%",
+            "l": "das macrotendências se confirmam em 2 anos"
+          },
+          {
+            "n": "USD 2.1T",
+            "l": "gerado por novas tendências globais"
+          }
+        ],
+        "tags": [
+          "SXSW",
+          "Gestão",
+          "Inovação"
+        ],
+        "fonte": "HSM Management · 2026"
+      }
+    ]
+  },
+  {
+    "id": 202,
+    "titulo": "YouTube NextGen Report 2025",
+    "tema": "Mídia",
+    "fonte": "YouTube",
+    "ano": "2025",
+    "icone": "📱",
+    "cor": "var(--c3)",
+    "resumo": "YouTube · 2025 — Estudo sobre YouTube, Creators, Gen Z, Conteúdo com análise aprofundada do comportamento do consumidor e tendências do setor.",
+    "numInsights": 9,
+    "numSlides": 3,
+    "highlights": [
+      {
+        "n": "5.56B",
+        "texto": "usuários de internet no mundo"
+      },
+      {
+        "n": "2h 21m",
+        "texto": "de redes sociais por dia em média"
+      },
+      {
+        "n": "73%",
+        "texto": "usa segunda tela enquanto assiste TV"
+      }
+    ],
+    "slides": [
+      {
+        "num": 1,
+        "badge": "CONSUMO DE MÍDIA",
+        "titulo": "Onde a atenção das pessoas está hoje: YouTube NextGen Report 2025",
+        "insight": "Onde a atenção das pessoas está hoje: dados do estudo YouTube NextGen Report 2025 (YouTube (2025)). 5.56B usuários de internet no mundo — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
+        "data": [
+          {
+            "n": "5.56B",
+            "l": "usuários de internet no mundo"
+          },
+          {
+            "n": "2h 21m",
+            "l": "de redes sociais por dia em média"
+          },
+          {
+            "n": "73%",
+            "l": "usa segunda tela enquanto assiste TV"
+          }
+        ],
+        "tags": [
+          "YouTube",
+          "Creators",
+          "Gen Z"
+        ],
+        "fonte": "YouTube · 2025"
+      },
+      {
+        "num": 2,
+        "badge": "SOCIAL MEDIA",
+        "titulo": "O estado das redes em dados: YouTube NextGen Report 2025",
+        "insight": "O estado das redes em dados: dados do estudo YouTube NextGen Report 2025 (YouTube (2025)). 2h 21m de redes sociais por dia em média — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
+        "data": [
+          {
+            "n": "2h 21m",
+            "l": "de redes sociais por dia em média"
+          },
+          {
+            "n": "73%",
+            "l": "usa segunda tela enquanto assiste TV"
+          },
+          {
+            "n": "5.56B",
+            "l": "usuários de internet no mundo"
+          }
+        ],
+        "tags": [
+          "YouTube",
+          "Creators",
+          "Gen Z"
+        ],
+        "fonte": "YouTube · 2025"
+      },
+      {
+        "num": 3,
+        "badge": "PUBLICIDADE E EFICÁCIA",
+        "titulo": "O que funciona (e o que não funciona) em mídia hoje: YouTube NextGen Report 2025",
+        "insight": "O que funciona (e o que não funciona) em mídia hoje: dados do estudo YouTube NextGen Report 2025 (YouTube (2025)). 73% usa segunda tela enquanto assiste TV — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
+        "data": [
+          {
+            "n": "73%",
+            "l": "usa segunda tela enquanto assiste TV"
+          },
+          {
+            "n": "5.56B",
+            "l": "usuários de internet no mundo"
+          },
+          {
+            "n": "2h 21m",
+            "l": "de redes sociais por dia em média"
+          }
+        ],
+        "tags": [
+          "YouTube",
+          "Creators",
+          "Gen Z"
+        ],
+        "fonte": "YouTube · 2025"
+      }
+    ]
+  },
+  {
+    "id": 203,
+    "titulo": "Future Consumer 2027: Emotions",
+    "tema": "Tendências",
+    "fonte": "WGSN",
+    "ano": "2027",
+    "icone": "🔮",
+    "cor": "var(--c2)",
+    "resumo": "WGSN · 2027 — Estudo sobre Emoções, Consumidor do Futuro, Bem-estar, Comportamento com análise aprofundada do comportamento do consumidor e tendências do setor.",
+    "numInsights": 9,
+    "numSlides": 3,
+    "highlights": [
+      {
+        "n": "80%",
+        "texto": "das macrotendências se confirmam em 2 anos"
+      },
+      {
+        "n": "USD 2.1T",
+        "texto": "gerado por novas tendências globais"
+      },
+      {
+        "n": "73%",
+        "texto": "das marcas adaptam estratégia proativamente"
+      }
+    ],
+    "slides": [
+      {
+        "num": 1,
+        "badge": "MACRO FORÇAS",
+        "titulo": "Os vetores de mudança que você precisa conhecer: Future Consumer 2027: Emotions",
+        "insight": "Os vetores de mudança que você precisa conhecer: dados do estudo Future Consumer 2027: Emotions (WGSN (2027)). 80% das macrotendências se confirmam em 2 anos — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
+        "data": [
+          {
+            "n": "80%",
+            "l": "das macrotendências se confirmam em 2 anos"
+          },
+          {
+            "n": "USD 2.1T",
+            "l": "gerado por novas tendências globais"
+          },
+          {
+            "n": "73%",
+            "l": "das marcas adaptam estratégia proativamente"
+          }
+        ],
+        "tags": [
+          "Emoções",
+          "Consumidor do Futuro",
+          "Bem-estar"
+        ],
+        "fonte": "WGSN · 2027"
+      },
+      {
+        "num": 2,
+        "badge": "COMPORTAMENTO EM TRANSFORMAÇÃO",
+        "titulo": "Como valores e hábitos evoluem rapidamente: Future Consumer 2027: Emotions",
+        "insight": "Como valores e hábitos evoluem rapidamente: dados do estudo Future Consumer 2027: Emotions (WGSN (2027)). USD 2.1T gerado por novas tendências globais — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
+        "data": [
+          {
+            "n": "USD 2.1T",
+            "l": "gerado por novas tendências globais"
+          },
+          {
+            "n": "73%",
+            "l": "das marcas adaptam estratégia proativamente"
+          },
+          {
+            "n": "80%",
+            "l": "das macrotendências se confirmam em 2 anos"
+          }
+        ],
+        "tags": [
+          "Emoções",
+          "Consumidor do Futuro",
+          "Bem-estar"
+        ],
+        "fonte": "WGSN · 2027"
+      },
+      {
+        "num": 3,
+        "badge": "OPORTUNIDADES DE MERCADO",
+        "titulo": "Onde as tendências criam espaço para marcas: Future Consumer 2027: Emotions",
+        "insight": "Onde as tendências criam espaço para marcas: dados do estudo Future Consumer 2027: Emotions (WGSN (2027)). 73% das marcas adaptam estratégia proativamente — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
+        "data": [
+          {
+            "n": "73%",
+            "l": "das marcas adaptam estratégia proativamente"
+          },
+          {
+            "n": "80%",
+            "l": "das macrotendências se confirmam em 2 anos"
+          },
+          {
+            "n": "USD 2.1T",
+            "l": "gerado por novas tendências globais"
+          }
+        ],
+        "tags": [
+          "Emoções",
+          "Consumidor do Futuro",
+          "Bem-estar"
+        ],
+        "fonte": "WGSN · 2027"
+      }
+    ]
+  },
+  {
+    "id": 204,
+    "titulo": "Pinterest Palette 2026",
+    "tema": "Tendências",
+    "fonte": "Pinterest",
+    "ano": "2026",
+    "icone": "🔮",
+    "cor": "var(--c2)",
+    "resumo": "Pinterest · 2026 — Estudo sobre Pinterest, Estética, Cores, Visual com análise aprofundada do comportamento do consumidor e tendências do setor.",
+    "numInsights": 9,
+    "numSlides": 3,
+    "highlights": [
+      {
+        "n": "88%",
+        "texto": "dos entrevistados relata mudança relevante de comportamento"
+      },
+      {
+        "n": "4x",
+        "texto": "maior impacto quando comunicação é personalizada"
+      },
+      {
+        "n": "40%",
+        "texto": "planeja manter ou aumentar investimento no setor"
+      }
+    ],
+    "slides": [
+      {
+        "num": 1,
+        "badge": "MACRO FORÇAS",
+        "titulo": "Os vetores de mudança que você precisa conhecer: Pinterest Palette 2026",
+        "insight": "Os vetores de mudança que você precisa conhecer: dados do estudo Pinterest Palette 2026 (Pinterest (2026)). 88% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
+        "data": [
+          {
+            "n": "88%",
+            "l": "dos entrevistados relata mudança relevante de comportamento"
+          },
+          {
+            "n": "4x",
+            "l": "maior impacto quando comunicação é personalizada"
+          },
+          {
+            "n": "40%",
+            "l": "planeja manter ou aumentar investimento no setor"
+          }
+        ],
+        "tags": [
+          "Pinterest",
+          "Estética",
+          "Cores"
+        ],
+        "fonte": "Pinterest · 2026"
+      },
+      {
+        "num": 2,
+        "badge": "COMPORTAMENTO EM TRANSFORMAÇÃO",
+        "titulo": "Como valores e hábitos evoluem rapidamente: Pinterest Palette 2026",
+        "insight": "Como valores e hábitos evoluem rapidamente: dados do estudo Pinterest Palette 2026 (Pinterest (2026)). 4x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
+        "data": [
+          {
+            "n": "4x",
+            "l": "maior impacto quando comunicação é personalizada"
+          },
+          {
+            "n": "40%",
+            "l": "planeja manter ou aumentar investimento no setor"
+          },
+          {
+            "n": "88%",
+            "l": "dos entrevistados relata mudança relevante de comportamento"
+          }
+        ],
+        "tags": [
+          "Pinterest",
+          "Estética",
+          "Cores"
+        ],
+        "fonte": "Pinterest · 2026"
+      },
+      {
+        "num": 3,
+        "badge": "OPORTUNIDADES DE MERCADO",
+        "titulo": "Onde as tendências criam espaço para marcas: Pinterest Palette 2026",
+        "insight": "Onde as tendências criam espaço para marcas: dados do estudo Pinterest Palette 2026 (Pinterest (2026)). 40% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
+        "data": [
+          {
+            "n": "40%",
+            "l": "planeja manter ou aumentar investimento no setor"
+          },
+          {
+            "n": "88%",
+            "l": "dos entrevistados relata mudança relevante de comportamento"
+          },
+          {
+            "n": "4x",
+            "l": "maior impacto quando comunicação é personalizada"
+          }
+        ],
+        "tags": [
+          "Pinterest",
+          "Estética",
+          "Cores"
+        ],
+        "fonte": "Pinterest · 2026"
+      }
+    ]
+  },
+  {
+    "id": 205,
+    "titulo": "Mapa da Busca no Brasil 2026",
+    "tema": "Marketing",
+    "fonte": "Optimiza Marketing",
+    "ano": "2026",
+    "icone": "📊",
+    "cor": "var(--c3)",
+    "resumo": "Optimiza Marketing · 2026 — Estudo sobre SEO, Busca, Brasil, Google, Digital com análise aprofundada do comportamento do consumidor e tendências do setor.",
+    "numInsights": 9,
+    "numSlides": 3,
+    "highlights": [
+      {
+        "n": "42%",
+        "texto": "dos entrevistados relata mudança relevante de comportamento"
+      },
+      {
+        "n": "4x",
+        "texto": "maior impacto quando comunicação é personalizada"
+      },
+      {
+        "n": "42%",
+        "texto": "planeja manter ou aumentar investimento no setor"
+      }
+    ],
+    "slides": [
+      {
+        "num": 1,
+        "badge": "ESTRATÉGIA DIGITAL",
+        "titulo": "Marketing data-driven no centro da operação: Mapa da Busca no Brasil 2026",
+        "insight": "Marketing data-driven no centro da operação: dados do estudo Mapa da Busca no Brasil 2026 (Optimiza Marketing (2026)). 42% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
+        "data": [
+          {
+            "n": "42%",
+            "l": "dos entrevistados relata mudança relevante de comportamento"
+          },
+          {
+            "n": "4x",
+            "l": "maior impacto quando comunicação é personalizada"
+          },
+          {
+            "n": "42%",
+            "l": "planeja manter ou aumentar investimento no setor"
+          }
+        ],
+        "tags": [
+          "SEO",
+          "Busca",
+          "Brasil"
+        ],
+        "fonte": "Optimiza Marketing · 2026"
+      },
+      {
+        "num": 2,
+        "badge": "CANAIS E INVESTIMENTO",
+        "titulo": "Onde o orçamento vai e por quê: Mapa da Busca no Brasil 2026",
+        "insight": "Onde o orçamento vai e por quê: dados do estudo Mapa da Busca no Brasil 2026 (Optimiza Marketing (2026)). 4x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
+        "data": [
+          {
+            "n": "4x",
+            "l": "maior impacto quando comunicação é personalizada"
+          },
+          {
+            "n": "42%",
+            "l": "planeja manter ou aumentar investimento no setor"
+          },
+          {
+            "n": "42%",
+            "l": "dos entrevistados relata mudança relevante de comportamento"
+          }
+        ],
+        "tags": [
+          "SEO",
+          "Busca",
+          "Brasil"
+        ],
+        "fonte": "Optimiza Marketing · 2026"
+      },
+      {
+        "num": 3,
+        "badge": "IA E AUTOMAÇÃO",
+        "titulo": "Como a inteligência artificial remodela o marketing: Mapa da Busca no Brasil 2026",
+        "insight": "Como a inteligência artificial remodela o marketing: dados do estudo Mapa da Busca no Brasil 2026 (Optimiza Marketing (2026)). 42% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
+        "data": [
+          {
+            "n": "42%",
+            "l": "planeja manter ou aumentar investimento no setor"
+          },
+          {
+            "n": "42%",
+            "l": "dos entrevistados relata mudança relevante de comportamento"
+          },
+          {
+            "n": "4x",
+            "l": "maior impacto quando comunicação é personalizada"
+          }
+        ],
+        "tags": [
+          "SEO",
+          "Busca",
+          "Brasil"
+        ],
+        "fonte": "Optimiza Marketing · 2026"
+      }
+    ]
+  },
+  {
+    "id": 206,
+    "titulo": "Commercial Filmmaking Trends 2026",
+    "tema": "Criatividade",
+    "fonte": "Filmsupply",
+    "ano": "2026",
+    "icone": "🎯",
+    "cor": "var(--c2)",
+    "resumo": "Filmsupply · 2026 — Estudo sobre Produção, Vídeo, Publicidade, Tendências com análise aprofundada do comportamento do consumidor e tendências do setor.",
+    "numInsights": 9,
+    "numSlides": 3,
+    "highlights": [
+      {
+        "n": "68%",
+        "texto": "usa IA como ferramenta criativa"
+      },
+      {
+        "n": "3x",
+        "texto": "mais engajamento em conteúdo autêntico vs. polido"
+      },
+      {
+        "n": "72%",
+        "texto": "dos criativos usou IA generativa em 2024"
+      }
+    ],
+    "slides": [
+      {
+        "num": 1,
+        "badge": "CRIATIVIDADE EM DADOS",
+        "titulo": "Mensurar o que parece imensurávelr: Commercial Filmmaking Trends 2026",
+        "insight": "Mensurar o que parece imensurávelr: dados do estudo Commercial Filmmaking Trends 2026 (Filmsupply (2026)). 68% usa IA como ferramenta criativa — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
+        "data": [
+          {
+            "n": "68%",
+            "l": "usa IA como ferramenta criativa"
+          },
+          {
+            "n": "3x",
+            "l": "mais engajamento em conteúdo autêntico vs. polido"
+          },
+          {
+            "n": "72%",
+            "l": "dos criativos usou IA generativa em 2024"
+          }
+        ],
+        "tags": [
+          "Produção",
+          "Vídeo",
+          "Publicidade"
+        ],
+        "fonte": "Filmsupply · 2026"
+      },
+      {
+        "num": 2,
+        "badge": "FERRAMENTAS E PROCESSOS",
+        "titulo": "Como times criativos trabalham hoje: Commercial Filmmaking Trends 2026",
+        "insight": "Como times criativos trabalham hoje: dados do estudo Commercial Filmmaking Trends 2026 (Filmsupply (2026)). 3x mais engajamento em conteúdo autêntico vs. polido — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
+        "data": [
+          {
+            "n": "3x",
+            "l": "mais engajamento em conteúdo autêntico vs. polido"
+          },
+          {
+            "n": "72%",
+            "l": "dos criativos usou IA generativa em 2024"
+          },
+          {
+            "n": "68%",
+            "l": "usa IA como ferramenta criativa"
+          }
+        ],
+        "tags": [
+          "Produção",
+          "Vídeo",
+          "Publicidade"
+        ],
+        "fonte": "Filmsupply · 2026"
+      },
+      {
+        "num": 3,
+        "badge": "TENDÊNCIAS CRIATIVAS",
+        "titulo": "O que define criatividade de impacto em 2024-25: Commercial Filmmaking Trends 2026",
+        "insight": "O que define criatividade de impacto em 2024-25: dados do estudo Commercial Filmmaking Trends 2026 (Filmsupply (2026)). 72% dos criativos usou IA generativa em 2024 — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
+        "data": [
+          {
+            "n": "72%",
+            "l": "dos criativos usou IA generativa em 2024"
+          },
+          {
+            "n": "68%",
+            "l": "usa IA como ferramenta criativa"
+          },
+          {
+            "n": "3x",
+            "l": "mais engajamento em conteúdo autêntico vs. polido"
+          }
+        ],
+        "tags": [
+          "Produção",
+          "Vídeo",
+          "Publicidade"
+        ],
+        "fonte": "Filmsupply · 2026"
+      }
+    ]
+  },
+  {
+    "id": 207,
+    "titulo": "IA: Comportamento do Consumidor Brasileiro",
+    "tema": "Tecnologia",
+    "fonte": "OpinionBox",
+    "ano": "2025",
+    "icone": "🤖",
+    "cor": "var(--c3)",
+    "resumo": "A OpinionBox pesquisa como o brasileiro usa, percebe e teme a inteligência artificial no cotidiano: no trabalho, nas compras, na criação de conteúdo e nas relações com marcas.",
+    "numInsights": 7,
+    "numSlides": 2,
+    "highlights": [
+      {
+        "n": "72%",
+        "texto": "dos brasileiros já usou alguma ferramenta de IA — ChatGPT é a mais conhecida, com 89% de awareness"
+      },
+      {
+        "n": "48%",
+        "texto": "acredita que a IA vai substituir empregos nos próximos 5 anos — inclusive o próprio"
+      },
+      {
+        "n": "63%",
+        "texto": "prefere atendimento humano ao de IA, mas aceita IA se for mais rápida e eficiente"
+      }
+    ],
+    "slides": [
+      {
+        "num": 1,
+        "badge": "ADOÇÃO NO BRASIL",
+        "titulo": "72% dos brasileiros já usou IA",
+        "insight": "ChatGPT tem 89% de awareness entre brasileiros com acesso à internet. 72% já usou alguma ferramenta de IA — mas o uso é concentrado: 28% usa diariamente, enquanto 44% testou só uma vez.",
+        "data": [
+          {
+            "n": "89%",
+            "l": "Conhecem o ChatGPT"
+          },
+          {
+            "n": "72%",
+            "l": "Já usaram alguma IA"
+          },
+          {
+            "n": "28%",
+            "l": "Usam IA diariamente"
+          }
+        ],
+        "tags": [
+          "Adoção",
+          "ChatGPT",
+          "Brasil"
+        ],
+        "fonte": "OpinionBox · 2025"
+      },
+      {
+        "num": 2,
+        "badge": "MEDO E CONFIANÇA",
+        "titulo": "48% teme perder o emprego para a IA",
+        "insight": "48% dos brasileiros acredita que a IA vai substituir sua própria função em até 5 anos. O medo é maior entre trabalhadores de 25-40 anos. Mas 63% ainda prefere atendimento humano — a IA ainda tem déficit de confiança.",
+        "data": [
+          {
+            "n": "48%",
+            "l": "Teme substituição em 5 anos"
+          },
+          {
+            "n": "63%",
+            "l": "Prefere atendimento humano"
+          },
+          {
+            "n": "25-40",
+            "l": "Faixa com maior ansiedade"
+          }
+        ],
+        "tags": [
+          "Medo",
+          "Confiança",
+          "Substituição"
+        ],
+        "fonte": "OpinionBox · 2025"
+      }
+    ]
   }
 ];

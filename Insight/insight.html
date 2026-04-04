@@ -444,9 +444,16 @@ function render(items) {
 
 function deleteInsight(idx, ev) {
   ev.stopPropagation();
-  if (!confirm('Remover este insight da base local?')) return;
+  if (!confirm('Remover permanentemente este insight da base?')) return;
+  const r = DATA[idx];
+  if (r) {
+    const key = (r.n||'') + '|' + (r.m||'') + '|' + (r.c||'');
+    const deleted = JSON.parse(localStorage.getItem('ins_deleted')||'[]');
+    deleted.push(key);
+    localStorage.setItem('ins_deleted', JSON.stringify(deleted));
+  }
   DATA.splice(idx, 1);
-  filteredData = filteredData.filter(r => DATA.includes(r));
+  filteredData = filteredData.filter(x => DATA.includes(x));
   render(filteredData);
 }
 
@@ -465,6 +472,7 @@ function toggleNav() {
   document.getElementById('nav-burger').classList.toggle('active');
 }
 
+// render inicial — será re-chamado após BIBLIOTECA_INSIGHTS carregar
 render(DATA);
 
 function openLoginModal(){
@@ -503,10 +511,32 @@ document.addEventListener('keydown',function(e){
 </div>
 <script src="../Biblioteca/biblioteca_insights.js" onerror="window.BIBLIOTECA_INSIGHTS=[]"></script>
 <script>
-if (window.BIBLIOTECA_INSIGHTS && window.BIBLIOTECA_INSIGHTS.length) {
-  DATA.push(...window.BIBLIOTECA_INSIGHTS);
-}
-lucide.createIcons();
+(function(){
+  // Filtra permanentes deletados (localStorage)
+  const deletedKeys = new Set(JSON.parse(localStorage.getItem('ins_deleted')||'[]'));
+
+  // Injeta insights da Biblioteca
+  if (window.BIBLIOTECA_INSIGHTS && window.BIBLIOTECA_INSIGHTS.length) {
+    DATA.push(...window.BIBLIOTECA_INSIGHTS);
+  }
+
+  // Remove deletados permanentemente desta sessão
+  for (let i = DATA.length - 1; i >= 0; i--) {
+    const r = DATA[i];
+    const key = (r.n||'') + '|' + (r.m||'') + '|' + (r.c||'');
+    if (deletedKeys.has(key)) DATA.splice(i, 1);
+  }
+
+  // Reinicializa filteredData e re-renderiza com tudo
+  filteredData = [...DATA];
+  render(filteredData);
+
+  // Atualiza contadores
+  const totalEl = document.querySelector('.stat-num');
+  if (totalEl) totalEl.textContent = DATA.length;
+
+  lucide.createIcons();
+})();
 </script>
 </body>
 </html>

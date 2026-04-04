@@ -1530,4 +1530,181 @@ const ACERVO = [
     theme: "Marketing",
     tags: ["Google Ads", "Marketing Digital", "Panorama"]
   },
+  // ── NOVOS 2025-2026 ─────────────────────────────────────
+  {
+    file: "WGSN_Future_Consumer_2026_PT.pdf",
+    title: "Future Consumer 2026",
+    source: "WGSN",
+    year: "2026",
+    theme: "Tendências",
+    tags: ["Consumidor do Futuro", "Comportamento", "Macrotendências"]
+  },
+  {
+    file: "The-Future-100-2026-2.pdf",
+    title: "Future 100: Trends & Change 2026",
+    source: "VML Intelligence",
+    year: "2026",
+    theme: "Tendências",
+    tags: ["Tendências Globais", "Cultura", "Inovação"]
+  },
+  {
+    file: "Relatório TikTok no Brasil 2026.pdf",
+    title: "TikTok no Brasil 2026",
+    source: "TikTok",
+    year: "2026",
+    theme: "Mídia",
+    tags: ["TikTok", "Brasil", "Social Media", "Comportamento"]
+  },
+  {
+    file: "Relatório Instagram 2026.pdf",
+    title: "Instagram Trends Brasil 2026",
+    source: "Meta",
+    year: "2026",
+    theme: "Mídia",
+    tags: ["Instagram", "Reels", "Criadores", "Brasil"]
+  },
+  {
+    file: "Kantar Marketing Trends 2026 6.pdf",
+    title: "Marketing Trends 2026",
+    source: "Kantar",
+    year: "2026",
+    theme: "Marketing",
+    tags: ["Marketing", "Tendências", "Mídia", "Estratégia"]
+  },
+  {
+    file: "IA-na-Vida-Real-TALK-Report-25.pdf",
+    title: "IA na Vida Real 2025",
+    source: "TALK",
+    year: "2025",
+    theme: "Tecnologia",
+    tags: ["Inteligência Artificial", "Comportamento", "Brasil", "Adoção"]
+  },
+  {
+    file: "GLO_SXSW 2026_SEGUE O FIO_15-03.pdf",
+    title: "SXSW 2026: Segue o Fio",
+    source: "Globo",
+    year: "2026",
+    theme: "Tendências",
+    tags: ["SXSW", "Tendências", "Inovação", "Criatividade"]
+  },
+  {
+    file: "Censo Agências 2026  - Versão Estendida.pdf",
+    title: "Censo das Agências 2026",
+    source: "Projeto Draft",
+    year: "2026",
+    theme: "Marketing",
+    tags: ["Agências", "Mercado Publicitário", "Brasil", "IA"]
+  },
+  {
+    file: "Ogilvy_UK_Social_Influence_Trends_Wrapped_Report_2025_1768281149.pdf",
+    title: "Social Influence Trends Wrapped 2025",
+    source: "Ogilvy",
+    year: "2025",
+    theme: "Mídia",
+    tags: ["Influenciadores", "Social Media", "Criadores", "Tendências"]
+  },
+  {
+    file: "Eventbrite-Social-Study-2026-Reset-to-Real.pdf",
+    title: "Reset to Real: Social Study 2026",
+    source: "Eventbrite",
+    year: "2026",
+    theme: "Tendências",
+    tags: ["Experiências", "Presencial", "Comunidade", "Comportamento"]
+  },
+  {
+    file: "hai_ai_index_report_2025.pdf",
+    title: "AI Index Report 2025",
+    source: "Stanford HAI",
+    year: "2025",
+    theme: "Tecnologia",
+    tags: ["Inteligência Artificial", "Pesquisa", "Dados", "Progresso"]
+  },
+  {
+    file: "Digital100 SimilarWeb.26.pdf",
+    title: "Digital 100: Sites Mais Visitados 2026",
+    source: "SimilarWeb",
+    year: "2026",
+    theme: "Tecnologia",
+    tags: ["Web", "Tráfego", "Digital", "Ranking"]
+  },
+  {
+    file: "Relatorio_Mercado_de_Trabalho_no_Brasil_2026.pdf",
+    title: "Mercado de Trabalho no Brasil 2026",
+    source: "CAGED/MTE",
+    year: "2026",
+    theme: "Consumo",
+    tags: ["Emprego", "Brasil", "Economia", "Trabalho"]
+  },
+  {
+    file: "Tendências 2026 - Globo.pdf",
+    title: "Tendências 2026",
+    source: "Globo",
+    year: "2026",
+    theme: "Tendências",
+    tags: ["Tendências", "Brasil", "Cultura", "Mídia"]
+  },
+  {
+    file: "anacouto_paper_grandes-apostas-2026.pdf",
+    title: "Grandes Apostas 2026",
+    source: "Ana Couto",
+    year: "2026",
+    theme: "Criatividade",
+    tags: ["Branding", "Tendências Criativas", "Design", "Marca"]
+  },
+  {
+    file: "[HSM Management] SXSW 2026_EBOOK_V02.pdf",
+    title: "SXSW 2026: Insights HSM Management",
+    source: "HSM Management",
+    year: "2026",
+    theme: "Tendências",
+    tags: ["SXSW", "Gestão", "Inovação", "Liderança"]
+  },
+  {
+    file: "00-YoutubeReport-NextGen-final.pdf",
+    title: "YouTube NextGen Report 2025",
+    source: "YouTube",
+    year: "2025",
+    theme: "Mídia",
+    tags: ["YouTube", "Creators", "Gen Z", "Conteúdo"]
+  },
+  {
+    file: "WGSN-FC27-Emotions-EN.pdf",
+    title: "Future Consumer 2027: Emotions",
+    source: "WGSN",
+    year: "2027",
+    theme: "Tendências",
+    tags: ["Emoções", "Consumidor do Futuro", "Bem-estar", "Comportamento"]
+  },
+  {
+    file: "NEW--EN-US- Pinterest Palette 2026 PDF (printable).pdf",
+    title: "Pinterest Palette 2026",
+    source: "Pinterest",
+    year: "2026",
+    theme: "Tendências",
+    tags: ["Pinterest", "Estética", "Cores", "Visual"]
+  },
+  {
+    file: "O-Mapa-da-busca-no-Brasil-2026-Optimiza-Marketing.pdf",
+    title: "Mapa da Busca no Brasil 2026",
+    source: "Optimiza Marketing",
+    year: "2026",
+    theme: "Marketing",
+    tags: ["SEO", "Busca", "Brasil", "Google", "Digital"]
+  },
+  {
+    file: "Filmsupply_CommercialFilmmaking_TR_2026_03.pdf",
+    title: "Commercial Filmmaking Trends 2026",
+    source: "Filmsupply",
+    year: "2026",
+    theme: "Criatividade",
+    tags: ["Produção", "Vídeo", "Publicidade", "Tendências"]
+  },
+  {
+    file: "Relatório AI - Opinion Box.pdf",
+    title: "IA: Comportamento do Consumidor Brasileiro",
+    source: "OpinionBox",
+    year: "2025",
+    theme: "Tecnologia",
+    tags: ["Inteligência Artificial", "Brasil", "Comportamento", "Consumidor"]
+  },
 ];
