@@ -198,7 +198,7 @@ option{background:#0f0f1a;}
   <!-- STATS -->
   <div class="stats-bar">
     <div class="stat"><div class="stat-num" id="total-estudos">24</div><div class="stat-label">Estudos</div></div>
-    <div class="stat"><div class="stat-num">12</div><div class="stat-label">Fontes</div></div>
+    <div class="stat"><div class="stat-num" id="total-fontes">12</div><div class="stat-label">Fontes</div></div>
     <div class="stat"><div class="stat-num" id="total-insights">184</div><div class="stat-label">Insights extraídos</div></div>
     <div class="stat"><div class="stat-num">2017–2026</div><div class="stat-label">Período coberto</div></div>
   </div>
@@ -6408,6 +6408,7 @@ function exportCSV() {
 // INIT
 renderCards(ESTUDOS);
 document.getElementById('total-estudos').textContent = ESTUDOS.length;
+document.getElementById('total-fontes').textContent = new Set(ESTUDOS.map(e=>e.fonte.split(' · ')[0])).size;
 document.getElementById('total-insights').textContent = ESTUDOS.reduce((s,e) => s+e.numInsights, 0);
 </script>
 </body>
