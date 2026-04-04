@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Cérebro — Asterisk</title>
+<title>Cérebro — Neoronio</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400&display=swap" rel="stylesheet">
@@ -240,25 +240,27 @@ header{position:sticky;top:52px;z-index:55;height:200px;display:flex;align-items
   .nav-divider{display:none}
   .nav-login{display:none}
   .nav-logo-img{height:28px}
-  .nav-mobile-close{display:flex}
+  .nav-mobile-close{display:flex;align-items:center;gap:8px;padding:14px 20px 10px;background:none;border:none;color:rgba(245,245,247,.4);font-size:13px;font-weight:600;cursor:pointer;border-radius:14px;font-family:var(--font);width:100%;margin-bottom:4px;transition:.15s;}
+  .nav-mobile-close:hover{color:rgba(245,245,247,.8);}
   .nav-links{
     display:none;
     position:fixed;
     top:0;left:0;right:0;bottom:0;
-    flex-direction:column;gap:2px;
-    background:rgba(4,4,12,.97);
-    backdrop-filter:blur(48px) saturate(200%);
-    -webkit-backdrop-filter:blur(48px) saturate(200%);
-    padding:16px;
+    flex-direction:column;gap:4px;
+    background:rgba(5,5,12,.96);
+    backdrop-filter:blur(56px) saturate(200%);
+    -webkit-backdrop-filter:blur(56px) saturate(200%);
+    padding:16px 12px;
     padding-top:max(16px, env(safe-area-inset-top));
     padding-bottom:max(24px, env(safe-area-inset-bottom));
     z-index:100;
     overflow-y:auto;
   }
-  .nav-links.open{display:flex}
-  .nav-link{font-size:16px;font-weight:600;padding:16px 20px;border-radius:14px;color:rgba(245,245,247,.55);letter-spacing:.03em;min-height:52px;display:flex;align-items:center}
-  .nav-link.active{color:#fff;background:rgba(255,255,255,.07)}
-  .nav-link:hover{color:#fff;background:rgba(255,255,255,.05)}
+  @keyframes navSlideIn{from{opacity:0;transform:translateY(-12px)}to{opacity:1;transform:translateY(0)}}
+  .nav-links.open{display:flex;animation:navSlideIn .22s cubic-bezier(.25,.46,.45,.94) both;}
+  .nav-link{font-size:17px;font-weight:600;padding:16px 20px;border-radius:16px;color:rgba(245,245,247,.5);letter-spacing:.02em;min-height:56px;display:flex;align-items:center;border:1px solid transparent;transition:.15s;}
+  .nav-link.active{color:#fff;background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.08);}
+  .nav-link:hover{color:#fff;background:rgba(255,255,255,.05);}
   .chip{min-height:44px;padding:0 14px;display:inline-flex;align-items:center}
 
   /* Header */
@@ -308,17 +310,18 @@ header{position:sticky;top:52px;z-index:55;height:200px;display:flex;align-items
 
 <!-- Navbar -->
 <nav class="global-nav">
-  <a href="cerebro.html" class="nav-logo-link" aria-label="Asterisk — início">
-    <img src="../CannesFlix/ASTERISK LOGO.png" alt="Asterisk" class="nav-logo-img">
+  <a href="cerebro.html" class="nav-logo-link" aria-label="Neoronio — início">
+    <img src="../CannesFlix/ASTERISK LOGO.png" alt="Neoronio" class="nav-logo-img">
   </a>
   <div class="nav-links" id="nav-links">
     <button class="nav-mobile-close" onclick="toggleNav()" aria-label="Fechar menu">
-      <i data-lucide="x"></i> Fechar
+      <i data-lucide="x"></i> Fechar menu
     </button>
     <a href="cerebro.html" class="nav-link active">Cérebro</a>
     <a href="../CannesFlix/cannes_cerebro_fixed.html" class="nav-link">CannesFlix</a>
     <a href="../Insight/insight.html" class="nav-link">Insight</a>
     <a href="../Biblioteca/biblioteca.html" class="nav-link">Biblioteca</a>
+    <a href="../pricing.html" class="nav-link">Preços</a>
     <a href="../Sobre/sobre.html" class="nav-link">Sobre</a>
   </div>
   <div class="nav-divider"></div>
@@ -331,7 +334,7 @@ header{position:sticky;top:52px;z-index:55;height:200px;display:flex;align-items
 <!-- Header -->
 <header>
   <div class="header-logo">
-    <img src="Logo/ASTERISK LOGO (1).png" class="header-logo-img" alt="Asterisk">
+    <img src="Logo/ASTERISK LOGO (1).png" class="header-logo-img" alt="Neoronio">
   </div>
   <div class="header-badge">Sistema de Inteligência Criativa</div>
 </header>
@@ -341,7 +344,7 @@ header{position:sticky;top:52px;z-index:55;height:200px;display:flex;align-items
 
   <!-- Hero -->
   <div class="hero-intro">
-    <div class="hero-eyebrow">Asterisk</div>
+    <div class="hero-eyebrow">Neoronio</div>
     <h1 class="hero-title">O Cérebro</h1>
     <p class="hero-sub">Seu ponto de partida para qualquer pesquisa criativa. Diga o que você quer explorar — e o Cérebro mapeia onde buscar no CannesFlix, no Insight e na Biblioteca.</p>
   </div>
@@ -373,7 +376,7 @@ header{position:sticky;top:52px;z-index:55;height:200px;display:flex;align-items
     <a href="../Sobre/sobre.html" class="map-card">
       <div class="map-card-icon">✦</div>
       <div class="map-card-name">Sobre</div>
-      <p class="map-card-desc">Identidade completa da Asterisk. Posicionamento, linha editorial, tom de voz e os princípios que guiam cada peça publicada.</p>
+      <p class="map-card-desc">Identidade completa do Neoronio. Posicionamento, linha editorial, tom de voz e os princípios que guiam cada peça publicada.</p>
       <div class="map-card-tags"><span class="map-tag">Identidade</span><span class="map-tag">Tom de Voz</span><span class="map-tag">Manifesto</span></div>
       <div class="map-card-arrow">Abrir →</div>
     </a>
@@ -964,7 +967,7 @@ document.addEventListener('keydown',function(e){
       <i data-lucide="x"></i>
     </button>
     <div class="modal-logo"><i data-lucide="sparkles"></i></div>
-    <h2 class="modal-title" id="modal-title">Entrar no Asterisk</h2>
+    <h2 class="modal-title" id="modal-title">Entrar no Neoronio</h2>
     <p class="modal-sub">Acesso antecipado — lista de espera aberta</p>
     <input type="email" id="modal-email" placeholder="seu@email.com" class="modal-input" autocomplete="email"/>
     <button class="modal-btn" onclick="submitWaitlist()">

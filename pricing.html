@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Neoronio · Preços</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+<style>
+:root{
+  --c1:#ff1f8e;--c2:#bf5af2;--c3:#0a84ff;--c4:#30d158;--c5:#ff9f0a;
+  --bg:#050509;--surface:rgba(255,255,255,.04);--border:rgba(255,255,255,.08);
+  --text:#e8e8f0;--muted:#6e6e8a;--nav-h:52px;
+}
+*,*:before,*:after{box-sizing:border-box;margin:0;padding:0;}
+html,body{background:var(--bg);color:var(--text);font-family:"Space Grotesk",sans-serif;overflow-x:hidden;-webkit-font-smoothing:antialiased;}
+a{text-decoration:none;color:inherit;}
+
+/* ORBS */
+.orb{position:fixed;border-radius:50%;filter:blur(130px);pointer-events:none;z-index:0;}
+.orb1{width:700px;height:700px;top:-250px;left:-200px;background:radial-gradient(circle,rgba(255,31,142,.15),transparent 70%);}
+.orb2{width:600px;height:600px;bottom:-150px;right:-150px;background:radial-gradient(circle,rgba(10,132,255,.12),transparent 70%);}
+.orb3{width:450px;height:450px;top:45%;left:50%;transform:translate(-50%,-50%);background:radial-gradient(circle,rgba(191,90,242,.08),transparent 70%);}
+
+/* NAV */
+.global-nav{position:sticky;top:0;z-index:60;height:var(--nav-h);display:flex;align-items:center;padding:0 24px;gap:12px;background:rgba(5,5,9,.88);backdrop-filter:blur(24px);border-bottom:1px solid var(--border);}
+.nav-logo-link{display:flex;align-items:center;margin-right:4px;flex-shrink:0;text-decoration:none;}
+.nav-logo-img{height:28px;width:auto;filter:brightness(0) invert(1);opacity:.9;transition:opacity .2s;}
+.nav-logo-img:hover{opacity:1;}
+.nav-links{display:flex;align-items:center;gap:4px;flex:1;}
+.nav-link{padding:6px 12px;border-radius:8px;text-decoration:none;font-size:13px;font-weight:500;color:var(--muted);transition:.2s;}
+.nav-link:hover{color:var(--text);background:var(--surface);}
+.nav-link.active{color:#fff;background:linear-gradient(135deg,rgba(255,31,142,.2),rgba(191,90,242,.2));border:1px solid rgba(255,31,142,.3);}
+.nav-divider{width:1px;height:20px;background:var(--border);}
+.nav-ctas{display:flex;gap:8px;align-items:center;}
+.btn-ghost{padding:7px 16px;border-radius:8px;font-size:13px;font-weight:600;color:var(--muted);border:1px solid var(--border);transition:.2s;}
+.btn-ghost:hover{color:var(--text);border-color:rgba(255,255,255,.2);}
+.btn-primary{padding:7px 16px;border-radius:8px;font-size:13px;font-weight:700;color:#fff;background:linear-gradient(135deg,var(--c1),var(--c2));transition:.2s;}
+.btn-primary:hover{opacity:.9;transform:translateY(-1px);}
+.nav-burger{display:none;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:6px;margin-left:auto;}
+.nav-burger span{display:block;width:22px;height:2px;background:var(--text);transition:.3s;}
+.nav-burger.open span:nth-child(1){transform:translateY(7px) rotate(45deg);}
+.nav-burger.open span:nth-child(2){opacity:0;}
+.nav-burger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg);}
+.nav-mobile-close{display:none;align-items:center;gap:8px;padding:14px 20px 10px;background:none;border:none;color:rgba(245,245,247,.4);font-size:13px;font-weight:600;cursor:pointer;border-radius:14px;font-family:"Space Grotesk",sans-serif;width:100%;margin-bottom:4px;}
+@media(max-width:768px){
+  .global-nav{padding:0 16px;}
+  .nav-divider,.nav-ctas{display:none;}
+  .nav-burger{display:flex;}
+  .nav-mobile-close{display:flex;}
+  .nav-links{display:none;position:fixed;top:0;left:0;right:0;bottom:0;flex-direction:column;gap:4px;background:rgba(5,5,12,.96);backdrop-filter:blur(56px);-webkit-backdrop-filter:blur(56px);padding:16px 12px;padding-top:max(16px,env(safe-area-inset-top));z-index:100;overflow-y:auto;}
+  @keyframes navSlideIn{from{opacity:0;transform:translateY(-12px)}to{opacity:1;transform:translateY(0)}}
+  .nav-links.open{display:flex;animation:navSlideIn .22s cubic-bezier(.25,.46,.45,.94) both;}
+  .nav-link{font-size:17px;font-weight:600;padding:16px 20px;border-radius:16px;color:rgba(245,245,247,.5);min-height:56px;display:flex;align-items:center;border:1px solid transparent;transition:.15s;}
+  .nav-link.active{color:#fff;background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.08);}
+  .nav-link:hover{color:#fff;background:rgba(255,255,255,.05);}
+}
+
+/* ─── HERO ─── */
+.hero{position:relative;z-index:1;min-height:calc(100vh - var(--nav-h));display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:80px 24px 60px;}
+.hero-badge{display:inline-flex;align-items:center;gap:8px;padding:8px 18px;border-radius:100px;background:rgba(255,31,142,.08);border:1px solid rgba(255,31,142,.2);font-size:12px;font-weight:600;color:var(--c1);letter-spacing:.1em;text-transform:uppercase;margin-bottom:28px;}
+.hero-badge-dot{width:6px;height:6px;border-radius:50%;background:var(--c1);animation:pulse 2s infinite;}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1);}50%{opacity:.5;transform:scale(1.3);}}
+.hero h1{font-size:clamp(36px,7vw,80px);font-weight:800;line-height:1.05;letter-spacing:-.02em;max-width:900px;}
+.hero h1 .grad{background:linear-gradient(135deg,#fff 30%,var(--c1) 60%,var(--c2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
+.hero-sub{margin-top:22px;font-size:clamp(15px,2.5vw,20px);color:var(--muted);max-width:580px;line-height:1.65;}
+.hero-ctas{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:40px;}
+.cta-main{display:inline-flex;align-items:center;gap:10px;padding:16px 32px;border-radius:14px;font-size:16px;font-weight:700;color:#fff;background:linear-gradient(135deg,var(--c1),var(--c2));transition:.25s;border:none;cursor:pointer;}
+.cta-main:hover{transform:translateY(-2px);box-shadow:0 12px 40px rgba(255,31,142,.3);}
+.cta-secondary{display:inline-flex;align-items:center;gap:10px;padding:16px 32px;border-radius:14px;font-size:16px;font-weight:600;color:var(--text);background:var(--surface);border:1px solid var(--border);transition:.25s;cursor:pointer;}
+.cta-secondary:hover{border-color:rgba(255,31,142,.3);background:rgba(255,31,142,.06);}
+.hero-proof{display:flex;gap:32px;justify-content:center;flex-wrap:wrap;margin-top:52px;padding-top:40px;border-top:1px solid var(--border);}
+.proof-item{text-align:center;}
+.proof-num{font-family:"Space Mono",monospace;font-size:28px;font-weight:700;color:var(--c1);}
+.proof-label{font-size:12px;color:var(--muted);margin-top:4px;letter-spacing:.05em;}
+
+/* ─── SECTION WRAPPER ─── */
+section{position:relative;z-index:1;}
+.section-inner{max-width:1100px;margin:0 auto;padding:80px 24px;}
+.eyebrow{font-family:"Space Mono",monospace;font-size:11px;letter-spacing:.18em;color:var(--c1);text-transform:uppercase;margin-bottom:14px;}
+.section-title{font-size:clamp(24px,4vw,40px);font-weight:800;line-height:1.15;letter-spacing:-.01em;}
+.section-title .grad{background:linear-gradient(135deg,#fff 30%,var(--c2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
+.section-sub{margin-top:14px;color:var(--muted);font-size:16px;max-width:560px;line-height:1.65;}
+
+/* ─── PLANOS ─── */
+.plans-section{background:linear-gradient(180deg,transparent,rgba(255,31,142,.03),transparent);}
+.plans-toggle{display:flex;align-items:center;gap:16px;justify-content:center;margin:36px 0;}
+.toggle-label{font-size:13px;color:var(--muted);}
+.toggle-label.active{color:var(--text);font-weight:600;}
+.toggle-wrap{width:48px;height:26px;background:var(--surface);border:1px solid var(--border);border-radius:100px;position:relative;cursor:pointer;transition:.3s;}
+.toggle-wrap.on{background:linear-gradient(135deg,var(--c1),var(--c2));border-color:transparent;}
+.toggle-ball{position:absolute;top:3px;left:3px;width:20px;height:20px;background:#fff;border-radius:50%;transition:.3s;}
+.toggle-wrap.on .toggle-ball{transform:translateX(22px);}
+.toggle-badge{padding:3px 10px;background:rgba(48,209,88,.12);border:1px solid rgba(48,209,88,.25);border-radius:100px;font-size:11px;font-weight:700;color:var(--c4);letter-spacing:.08em;}
+.plans-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:8px;}
+.plan-card{border-radius:24px;padding:36px;position:relative;overflow:hidden;transition:.3s;}
+.plan-card.free{background:var(--surface);border:1px solid var(--border);}
+.plan-card.pro{background:linear-gradient(135deg,rgba(255,31,142,.08),rgba(191,90,242,.08));border:1px solid rgba(255,31,142,.2);}
+.plan-card.pro:before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--c1),var(--c2));}
+.plan-badge{display:inline-flex;align-items:center;gap:6px;padding:5px 14px;border-radius:100px;font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;margin-bottom:20px;}
+.plan-badge.free-b{background:rgba(255,255,255,.06);color:var(--muted);border:1px solid var(--border);}
+.plan-badge.pro-b{background:linear-gradient(135deg,var(--c1),var(--c2));color:#fff;}
+.plan-price{margin-bottom:8px;}
+.plan-price .amount{font-family:"Space Mono",monospace;font-size:44px;font-weight:700;color:var(--text);}
+.plan-price .amount.free-amt{color:var(--c4);}
+.plan-price .period{font-size:14px;color:var(--muted);margin-left:4px;}
+.plan-desc{font-size:14px;color:var(--muted);line-height:1.6;margin-bottom:28px;min-height:44px;}
+.plan-cta{display:block;width:100%;padding:14px;border-radius:12px;font-size:15px;font-weight:700;text-align:center;cursor:pointer;border:none;transition:.2s;}
+.plan-cta.free-cta{background:var(--surface);border:1px solid var(--border);color:var(--text);}
+.plan-cta.free-cta:hover{border-color:rgba(255,255,255,.2);background:rgba(255,255,255,.08);}
+.plan-cta.pro-cta{background:linear-gradient(135deg,var(--c1),var(--c2));color:#fff;}
+.plan-cta.pro-cta:hover{opacity:.9;transform:translateY(-1px);}
+.plan-features{margin-top:28px;display:flex;flex-direction:column;gap:12px;}
+.feature-item{display:flex;align-items:flex-start;gap:10px;font-size:14px;color:var(--muted);line-height:1.5;}
+.feature-item.on{color:var(--text);}
+.feature-item.off{opacity:.45;}
+.fi-icon{width:20px;height:20px;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:12px;flex-shrink:0;margin-top:1px;}
+.fi-icon.check{background:rgba(48,209,88,.15);color:var(--c4);}
+.fi-icon.lock{background:rgba(255,255,255,.06);color:var(--muted);}
+.fi-icon.star{background:rgba(255,31,142,.12);color:var(--c1);}
+.feature-divider{height:1px;background:var(--border);margin:8px 0;}
+.feature-section-label{font-size:10px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:var(--muted);margin:4px 0;}
+
+/* ─── MÓDULOS (o que está dentro) ─── */
+.modules-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:20px;margin-top:48px;}
+.module-card{background:var(--surface);border:1px solid var(--border);border-radius:20px;padding:28px;transition:.25s;position:relative;overflow:hidden;}
+.module-card:before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--c1),var(--c2));opacity:0;transition:.2s;}
+.module-card:hover{border-color:rgba(255,31,142,.2);background:rgba(255,255,255,.06);transform:translateY(-4px);}
+.module-card:hover:before{opacity:1;}
+.module-icon{font-size:32px;margin-bottom:16px;}
+.module-label{font-size:10px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:var(--c1);margin-bottom:8px;}
+.module-title{font-size:18px;font-weight:700;margin-bottom:10px;}
+.module-desc{font-size:13px;color:var(--muted);line-height:1.65;}
+.module-tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:16px;}
+.module-tag{padding:3px 10px;border-radius:20px;font-size:11px;font-weight:500;background:rgba(255,255,255,.06);border:1px solid var(--border);color:var(--muted);}
+.module-access{display:flex;align-items:center;gap:6px;margin-top:18px;padding-top:16px;border-top:1px solid var(--border);font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;}
+.access-free{color:var(--c4);}
+.access-pro{color:var(--c1);}
+.access-partial{color:var(--c5);}
+
+/* ─── COMO FUNCIONA ─── */
+.steps-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:20px;margin-top:48px;}
+.step-card{background:var(--surface);border:1px solid var(--border);border-radius:18px;padding:24px;position:relative;}
+.step-num{font-family:"Space Mono",monospace;font-size:11px;font-weight:700;color:var(--c1);letter-spacing:.1em;margin-bottom:14px;}
+.step-icon{font-size:28px;margin-bottom:12px;}
+.step-title{font-size:16px;font-weight:700;margin-bottom:8px;}
+.step-desc{font-size:13px;color:var(--muted);line-height:1.6;}
+
+/* ─── DEPOIMENTOS ─── */
+.testimonials-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:20px;margin-top:48px;}
+.testi-card{background:var(--surface);border:1px solid var(--border);border-radius:18px;padding:24px;}
+.testi-stars{color:var(--c5);font-size:14px;margin-bottom:14px;}
+.testi-text{font-size:14px;color:rgba(232,232,240,.75);line-height:1.7;font-style:italic;margin-bottom:18px;}
+.testi-author{display:flex;align-items:center;gap:12px;}
+.testi-avatar{width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0;}
+.testi-name{font-size:13px;font-weight:700;}
+.testi-role{font-size:11px;color:var(--muted);}
+
+/* ─── CADASTRO MODAL ─── */
+.modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.75);backdrop-filter:blur(20px);z-index:200;align-items:center;justify-content:center;padding:20px;}
+.modal-overlay.open{display:flex;}
+.modal{background:#0c0c18;border:1px solid rgba(255,255,255,.12);border-radius:28px;width:100%;max-width:480px;padding:44px 40px;position:relative;}
+.modal-close{position:absolute;top:18px;right:18px;width:36px;height:36px;border:none;background:rgba(255,255,255,.08);border-radius:12px;color:var(--muted);font-size:20px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:.2s;}
+.modal-close:hover{background:rgba(255,31,142,.15);color:#fff;}
+.modal-badge{display:inline-block;padding:5px 14px;border-radius:100px;font-size:10px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;margin-bottom:18px;}
+.modal-badge.free-m{background:rgba(48,209,88,.1);border:1px solid rgba(48,209,88,.25);color:var(--c4);}
+.modal-badge.pro-m{background:linear-gradient(135deg,var(--c1),var(--c2));color:#fff;}
+.modal h2{font-size:26px;font-weight:800;line-height:1.2;margin-bottom:8px;}
+.modal-sub{font-size:14px;color:var(--muted);margin-bottom:28px;line-height:1.6;}
+.form-group{margin-bottom:16px;}
+.form-label{display:block;font-size:12px;font-weight:600;color:var(--muted);letter-spacing:.06em;margin-bottom:8px;text-transform:uppercase;}
+.form-input{width:100%;padding:14px 16px;background:rgba(255,255,255,.05);border:1px solid var(--border);border-radius:12px;color:var(--text);font-family:"Space Grotesk",sans-serif;font-size:15px;outline:none;transition:.2s;}
+.form-input:focus{border-color:rgba(255,31,142,.4);background:rgba(255,31,142,.04);box-shadow:0 0 0 3px rgba(255,31,142,.08);}
+.form-input::placeholder{color:var(--muted);}
+.form-submit{display:block;width:100%;padding:16px;border-radius:12px;font-size:16px;font-weight:700;text-align:center;cursor:pointer;border:none;margin-top:24px;transition:.2s;}
+.form-submit.free-s{background:linear-gradient(135deg,var(--c4),#00c851);color:#fff;}
+.form-submit.pro-s{background:linear-gradient(135deg,var(--c1),var(--c2));color:#fff;}
+.form-submit:hover{opacity:.9;transform:translateY(-1px);}
+.modal-terms{font-size:11px;color:var(--muted);text-align:center;margin-top:14px;line-height:1.6;}
+.modal-switch{font-size:13px;color:var(--muted);text-align:center;margin-top:18px;}
+.modal-switch a{color:var(--c1);cursor:pointer;font-weight:600;}
+.plan-included{background:rgba(255,255,255,.03);border:1px solid var(--border);border-radius:12px;padding:14px 16px;margin-bottom:20px;}
+.plan-included-title{font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:10px;}
+.plan-included-items{display:flex;flex-direction:column;gap:6px;}
+.plan-incl-item{font-size:13px;color:var(--text);display:flex;align-items:center;gap:8px;}
+
+/* ─── CTA FINAL ─── */
+.final-cta{background:linear-gradient(135deg,rgba(255,31,142,.06),rgba(191,90,242,.06));border-top:1px solid var(--border);border-bottom:1px solid var(--border);}
+.final-cta .section-inner{display:flex;flex-direction:column;align-items:center;text-align:center;gap:8px;}
+.final-cta h2{font-size:clamp(24px,4vw,44px);font-weight:800;margin-top:16px;}
+.final-cta p{color:var(--muted);font-size:16px;max-width:520px;margin-top:8px;line-height:1.65;}
+.final-ctas{display:flex;gap:14px;flex-wrap:wrap;justify-content:center;margin-top:32px;}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+  .nav-links,.nav-divider,.nav-ctas{display:none;}
+  .nav-links.open{display:flex;flex-direction:column;position:fixed;top:var(--nav-h);left:0;right:0;bottom:0;background:rgba(5,5,9,.97);padding:24px;gap:8px;z-index:50;}
+  .nav-links.open .nav-link{display:flex;}
+  .nav-burger{display:flex;}
+  .plans-grid{grid-template-columns:1fr;}
+  .hero-proof{gap:20px;}
+  .proof-num{font-size:22px;}
+  .modal{padding:28px 20px;}
+  .section-inner{padding:56px 20px;}
+}
+</style>
+</head>
+<body>
+<div class="orb orb1"></div><div class="orb orb2"></div><div class="orb orb3"></div>
+
+<!-- NAV -->
+<nav class="global-nav">
+  <a class="nav-logo-link" href="Cerebro/cerebro.html" aria-label="Neoronio — início">
+    <img src="CannesFlix/ASTERISK LOGO.png" alt="Neoronio" class="nav-logo-img">
+  </a>
+  <div class="nav-links" id="nav-links">
+    <button class="nav-mobile-close" onclick="toggleNav()" aria-label="Fechar menu">Fechar menu</button>
+    <a href="Cerebro/cerebro.html" class="nav-link">Cérebro</a>
+    <a href="CannesFlix/cannes_cerebro_fixed.html" class="nav-link">CannesFlix</a>
+    <a href="Insight/insight.html" class="nav-link">Insight</a>
+    <a href="Biblioteca/biblioteca.html" class="nav-link">Biblioteca</a>
+    <a href="pricing.html" class="nav-link active">Preços</a>
+    <a href="Sobre/sobre.html" class="nav-link">Sobre</a>
+  </div>
+  <div class="nav-divider"></div>
+  <div class="nav-ctas">
+    <a href="#" class="btn-ghost" onclick="openModal('login');return false">Entrar</a>
+    <a href="#" class="btn-primary" onclick="openModal('free');return false">Criar conta grátis</a>
+  </div>
+  <button class="nav-burger" id="nav-burger" onclick="toggleNav()" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- ─── HERO ─── -->
+<section>
+  <div class="hero">
+    <div class="hero-badge"><span class="hero-badge-dot"></span>Inteligência criativa em tempo real</div>
+    <h1>O <span class="grad">Cérebro</span><br>da criatividade estratégica</h1>
+    <p class="hero-sub">Uma plataforma de inteligência que transforma campanhas premiadas em Cannes em dados acionáveis. Para quem cria com propósito.</p>
+    <div class="hero-ctas">
+      <button class="cta-main" onclick="openModal('free')">✦ Começar grátis</button>
+      <button class="cta-secondary" onclick="openModal('pro')">🏆 Ver plano Pro</button>
+    </div>
+    <div class="hero-proof">
+      <div class="proof-item"><div class="proof-num">174+</div><div class="proof-label">Insights de Cannes</div></div>
+      <div class="proof-item"><div class="proof-num">106</div><div class="proof-label">Marcas mapeadas</div></div>
+      <div class="proof-item"><div class="proof-num">17</div><div class="proof-label">Segmentos cobertos</div></div>
+      <div class="proof-item"><div class="proof-num">24+</div><div class="proof-label">Estudos na Biblioteca</div></div>
+      <div class="proof-item"><div class="proof-num">2017–2025</div><div class="proof-label">Anos em análise</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── O QUE ESTÁ DENTRO ─── -->
+<section>
+  <div class="section-inner">
+    <div class="eyebrow">Módulos</div>
+    <h2 class="section-title">Tudo que você precisa para <span class="grad">criar com dados</span></h2>
+    <p class="section-sub">Quatro módulos interconectados — cada um alimentando o próximo.</p>
+    <div class="modules-grid">
+      <div class="module-card">
+        <div class="module-icon">🎬</div>
+        <div class="module-label">Módulo 01</div>
+        <div class="module-title">CannesFlix</div>
+        <div class="module-desc">Acervo das campanhas premiadas em Cannes Lions. Assista, estude e entenda o que fez cada ideia ganhar.</div>
+        <div class="module-tags"><span class="module-tag">Cannes 2017–2025</span><span class="module-tag">Grand Prix</span><span class="module-tag">Ouro · Prata · Bronze</span></div>
+        <div class="module-access"><span class="fi-icon star">✦</span><span class="access-partial">Free: acervo parcial · Pro: acervo total</span></div>
+      </div>
+      <div class="module-card">
+        <div class="module-icon">🔢</div>
+        <div class="module-label">Módulo 02</div>
+        <div class="module-title">Insight</div>
+        <div class="module-desc">174+ dados numéricos extraídos das campanhas vencedoras. Pesquise por segmento, marca, ano ou premiação.</div>
+        <div class="module-tags"><span class="module-tag">174 insights</span><span class="module-tag">Export CSV</span><span class="module-tag">Busca avançada</span></div>
+        <div class="module-access"><span class="fi-icon star">✦</span><span class="access-pro">Exclusivo Pro</span></div>
+      </div>
+      <div class="module-card">
+        <div class="module-icon">📚</div>
+        <div class="module-label">Módulo 03</div>
+        <div class="module-title">Biblioteca</div>
+        <div class="module-desc">Estudos completos baseados em fontes de renome: McKinsey, TikTok, WeAreSocial, Opinion Box e mais. Cada estudo alimenta o banco de Insights.</div>
+        <div class="module-tags"><span class="module-tag">McKinsey</span><span class="module-tag">TikTok</span><span class="module-tag">WeAreSocial</span><span class="module-tag">Opinion Box</span></div>
+        <div class="module-access"><span class="fi-icon star">✦</span><span class="access-pro">Exclusivo Pro</span></div>
+      </div>
+      <div class="module-card">
+        <div class="module-icon">✉️</div>
+        <div class="module-label">Módulo 04</div>
+        <div class="module-title">Imersão por Email</div>
+        <div class="module-desc">Materiais exclusivos enviados diretamente para você. Breakdowns de campanhas, tendências e dados que a maioria das pessoas nunca vai ver.</div>
+        <div class="module-tags"><span class="module-tag">Weekly drops</span><span class="module-tag">Análises exclusivas</span><span class="module-tag">Briefings</span></div>
+        <div class="module-access"><span class="fi-icon star">✦</span><span class="access-pro">Exclusivo Pro</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── PLANOS ─── -->
+<section class="plans-section" id="planos">
+  <div class="section-inner">
+    <div class="eyebrow">Planos</div>
+    <h2 class="section-title">Simples e <span class="grad">sem surpresas</span></h2>
+    <p class="section-sub">Comece grátis e evolua quando precisar de mais poder.</p>
+    <div class="plans-toggle">
+      <span class="toggle-label active" id="lbl-mensal">Mensal</span>
+      <div class="toggle-wrap" id="billing-toggle" onclick="toggleBilling()"><div class="toggle-ball"></div></div>
+      <span class="toggle-label" id="lbl-anual">Anual</span>
+      <span class="toggle-badge" id="discount-badge">2 meses grátis</span>
+    </div>
+    <div class="plans-grid">
+      <!-- FREE -->
+      <div class="plan-card free">
+        <div class="plan-badge free-b">✓ Grátis · Para sempre</div>
+        <div class="plan-price"><span class="amount free-amt">R$0</span></div>
+        <div class="plan-desc">O ponto de partida. Acesse o Cérebro e descubra uma parte do acervo do CannesFlix sem custo.</div>
+        <button class="plan-cta free-cta" onclick="openModal('free')">Criar conta grátis →</button>
+        <div class="plan-features">
+          <div class="feature-section-label">✦ Incluído no Free</div>
+          <div class="feature-item on"><span class="fi-icon check">✓</span>Cérebro — painel central completo</div>
+          <div class="feature-item on"><span class="fi-icon check">✓</span>CannesFlix — acervo parcial (acesso às campanhas selecionadas)</div>
+          <div class="feature-item on"><span class="fi-icon check">✓</span>Busca e filtros básicos</div>
+          <div class="feature-item on"><span class="fi-icon check">✓</span>Novidades e atualizações da plataforma</div>
+          <div class="feature-divider"></div>
+          <div class="feature-section-label">🔒 Disponível no Pro</div>
+          <div class="feature-item off"><span class="fi-icon lock">🔒</span>CannesFlix — acervo total (todos os anos e prêmios)</div>
+          <div class="feature-item off"><span class="fi-icon lock">🔒</span>Insight — banco de dados numérico (174+ dados)</div>
+          <div class="feature-item off"><span class="fi-icon lock">🔒</span>Biblioteca — estudos de fontes de renome</div>
+          <div class="feature-item off"><span class="fi-icon lock">🔒</span>Imersão por email — materiais exclusivos</div>
+          <div class="feature-item off"><span class="fi-icon lock">🔒</span>Export CSV dos insights</div>
+        </div>
+      </div>
+      <!-- PRO -->
+      <div class="plan-card pro">
+        <div class="plan-badge pro-b">★ Pro · Acesso total</div>
+        <div class="plan-price">
+          <span class="amount" id="pro-price">R$49</span>
+          <span class="period" id="pro-period">/mês</span>
+        </div>
+        <div class="plan-desc" id="pro-desc">Acesso completo a todos os módulos. Para quem leva criatividade estratégica a sério.</div>
+        <button class="plan-cta pro-cta" onclick="openModal('pro')">Assinar Pro agora →</button>
+        <div class="plan-features">
+          <div class="feature-section-label">✦ Tudo do Free, mais:</div>
+          <div class="feature-item on"><span class="fi-icon star">★</span>CannesFlix — acervo <strong>total</strong> 2017–2025</div>
+          <div class="feature-item on"><span class="fi-icon star">★</span>Insight — 174+ dados numéricos de Cannes</div>
+          <div class="feature-item on"><span class="fi-icon star">★</span>Busca avançada por segmento, marca, ano e prêmio</div>
+          <div class="feature-item on"><span class="fi-icon star">★</span>Export CSV dos dados filtrados</div>
+          <div class="feature-divider"></div>
+          <div class="feature-section-label">📚 Biblioteca</div>
+          <div class="feature-item on"><span class="fi-icon star">★</span>Estudos completos — McKinsey, TikTok, WeAreSocial</div>
+          <div class="feature-item on"><span class="fi-icon star">★</span>Opinion Box, GWI, GSMA, Dove e mais</div>
+          <div class="feature-item on"><span class="fi-icon star">★</span>Slides interativos por estudo</div>
+          <div class="feature-divider"></div>
+          <div class="feature-section-label">✉️ Imersão por Email</div>
+          <div class="feature-item on"><span class="fi-icon star">★</span>Breakdowns semanais de campanhas premiadas</div>
+          <div class="feature-item on"><span class="fi-icon star">★</span>Tendências e dados antes de todo mundo</div>
+          <div class="feature-item on"><span class="fi-icon star">★</span>Briefings estratégicos exclusivos</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── COMO FUNCIONA ─── -->
+<section>
+  <div class="section-inner">
+    <div class="eyebrow">Jornada</div>
+    <h2 class="section-title">Como o <span class="grad">Neoronio funciona</span></h2>
+    <div class="steps-grid">
+      <div class="step-card">
+        <div class="step-num">01</div>
+        <div class="step-icon">🎯</div>
+        <div class="step-title">Crie sua conta</div>
+        <div class="step-desc">Grátis em 30 segundos. Acesso imediato ao Cérebro e ao acervo parcial do CannesFlix.</div>
+      </div>
+      <div class="step-card">
+        <div class="step-num">02</div>
+        <div class="step-icon">🎬</div>
+        <div class="step-title">Explore o CannesFlix</div>
+        <div class="step-desc">Estude as campanhas mais premiadas do mundo. Entenda o que funcionou e por quê.</div>
+      </div>
+      <div class="step-card">
+        <div class="step-num">03</div>
+        <div class="step-icon">🔢</div>
+        <div class="step-title">Mine os Insights</div>
+        <div class="step-desc">174+ dados numéricos reais, filtráveis por segmento, marca e ano. Só no Pro.</div>
+      </div>
+      <div class="step-card">
+        <div class="step-num">04</div>
+        <div class="step-icon">📚</div>
+        <div class="step-title">Aprofunde na Biblioteca</div>
+        <div class="step-desc">Estudos de McKinsey, TikTok, WeAreSocial e mais — organizados e prontos para usar.</div>
+      </div>
+      <div class="step-card">
+        <div class="step-num">05</div>
+        <div class="step-icon">✉️</div>
+        <div class="step-title">Receba por email</div>
+        <div class="step-desc">Breakdowns e tendências exclusivos toda semana. Inteligência criativa na sua caixa de entrada.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── DEPOIMENTOS ─── -->
+<section>
+  <div class="section-inner">
+    <div class="eyebrow">Comunidade</div>
+    <h2 class="section-title">Quem usa o <span class="grad">Neoronio</span></h2>
+    <div class="testimonials-grid">
+      <div class="testi-card">
+        <div class="testi-stars">★★★★★</div>
+        <div class="testi-text">"Finalmente uma plataforma que traduz Cannes em inteligência prática. Os dados do Insight mudaram como apresento briefings."</div>
+        <div class="testi-author"><div class="testi-avatar">👩</div><div><div class="testi-name">Ana Carolina</div><div class="testi-role">Head de Estratégia · Agência</div></div></div>
+      </div>
+      <div class="testi-card">
+        <div class="testi-stars">★★★★★</div>
+        <div class="testi-text">"Os estudos da Biblioteca com McKinsey e TikTok são ouro. Uso toda semana para embasar apresentações para clientes."</div>
+        <div class="testi-author"><div class="testi-avatar">👨</div><div><div class="testi-name">Rafael Mendes</div><div class="testi-role">Diretor de Criação</div></div></div>
+      </div>
+      <div class="testi-card">
+        <div class="testi-stars">★★★★★</div>
+        <div class="testi-text">"O email semanal é o conteúdo mais denso que recebo. Cada edição tem pelo menos 3 insights que eu aplico diretamente."</div>
+        <div class="testi-author"><div class="testi-avatar">👩</div><div><div class="testi-name">Juliana Costa</div><div class="testi-role">Planejamento · Startup</div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── CTA FINAL ─── -->
+<section class="final-cta">
+  <div class="section-inner">
+    <div class="eyebrow">Comece hoje</div>
+    <h2>Inteligência que <span style="background:linear-gradient(135deg,var(--c1),var(--c2));-webkit-background-clip:text;-webkit-text-fill-color:transparent">transforma</span> a criatividade</h2>
+    <p>Junte-se a estrategistas, criativos e planejadores que usam dados reais de Cannes para criar melhor.</p>
+    <div class="final-ctas">
+      <button class="cta-main" onclick="openModal('free')">✦ Criar conta grátis</button>
+      <button class="cta-secondary" onclick="openModal('pro')">Ver plano Pro →</button>
+    </div>
+  </div>
+</section>
+
+<!-- ─── MODAL ─── -->
+<div class="modal-overlay" id="modal" onclick="if(event.target===this)closeModal()">
+  <div class="modal" id="modal-box">
+    <button class="modal-close" onclick="closeModal()">×</button>
+    <div id="modal-body"></div>
+  </div>
+</div>
+
+<script>
+let billingAnnual = false;
+
+function toggleBilling() {
+  billingAnnual = !billingAnnual;
+  const toggle = document.getElementById('billing-toggle');
+  toggle.classList.toggle('on', billingAnnual);
+  document.getElementById('lbl-mensal').classList.toggle('active', !billingAnnual);
+  document.getElementById('lbl-anual').classList.toggle('active', billingAnnual);
+  document.getElementById('pro-price').textContent = billingAnnual ? 'R$39' : 'R$49';
+  document.getElementById('pro-period').textContent = billingAnnual ? '/mês · cobrado anualmente' : '/mês';
+  document.getElementById('pro-desc').textContent = billingAnnual
+    ? 'Economize 2 meses com o plano anual. Acesso completo a todos os módulos.'
+    : 'Acesso completo a todos os módulos. Para quem leva criatividade estratégica a sério.';
+}
+
+const MODALS = {
+  free: {
+    badge: 'free-m', badgeText: '✓ Plano Gratuito',
+    title: 'Crie sua conta grátis',
+    sub: 'Acesse o Cérebro e o acervo parcial do CannesFlix. Sem cartão de crédito.',
+    included: [
+      {icon:'🎬', text:'CannesFlix · acervo parcial'},
+      {icon:'🧠', text:'Painel Cérebro completo'},
+    ],
+    btnClass:'free-s', btnText:'Criar conta grátis →',
+    switchText:'Já tem conta?', switchLink:'login', switchLinkText:'Entrar'
+  },
+  pro: {
+    badge: 'pro-m', badgeText: '★ Plano Pro',
+    title: 'Acesso total ao Neoronio',
+    sub: 'CannesFlix completo, Insight, Biblioteca e imersão por email. Cancele quando quiser.',
+    included: [
+      {icon:'🎬', text:'CannesFlix · acervo total 2017–2025'},
+      {icon:'🔢', text:'Insight · 174+ dados numéricos'},
+      {icon:'📚', text:'Biblioteca · estudos McKinsey, TikTok e mais'},
+      {icon:'✉️', text:'Imersão por email · exclusivos semanais'},
+    ],
+    btnClass:'pro-s', btnText:'Assinar Pro →',
+    switchText:'Já tem conta?', switchLink:'login', switchLinkText:'Entrar'
+  },
+  login: {
+    badge: 'free-m', badgeText: '→ Entrar',
+    title: 'Bem-vindo de volta',
+    sub: 'Entre na sua conta para acessar seus módulos.',
+    included: null,
+    btnClass:'pro-s', btnText:'Entrar na conta →',
+    switchText:'Não tem conta?', switchLink:'free', switchLinkText:'Criar conta grátis'
+  }
+};
+
+function toggleNav() {
+  document.getElementById('nav-links').classList.toggle('open');
+  document.getElementById('nav-burger').classList.toggle('open');
+}
+
+function openModal(type) {
+  const m = MODALS[type] || MODALS.free;
+  const includedHTML = m.included ? `
+    <div class="plan-included">
+      <div class="plan-included-title">✦ O que você acessa</div>
+      <div class="plan-included-items">
+        ${m.included.map(i => `<div class="plan-incl-item"><span>${i.icon}</span>${i.text}</div>`).join('')}
+      </div>
+    </div>` : '';
+  const isLogin = type === 'login';
+  document.getElementById('modal-body').innerHTML = `
+    <div class="modal-badge ${m.badge}">${m.badgeText}</div>
+    <h2>${m.title}</h2>
+    <p class="modal-sub">${m.sub}</p>
+    ${includedHTML}
+    ${isLogin ? '' : '<div class="form-group"><label class="form-label">Nome completo</label><input type="text" class="form-input" placeholder="Seu nome"></div>'}
+    <div class="form-group"><label class="form-label">Email</label><input type="email" class="form-input" placeholder="seu@email.com"></div>
+    <div class="form-group"><label class="form-label">Senha</label><input type="password" class="form-input" placeholder="••••••••"></div>
+    <button class="form-submit ${m.btnClass}">${m.btnText}</button>
+    <p class="modal-terms">Ao continuar, você concorda com os Termos de Uso e Política de Privacidade.</p>
+    <p class="modal-switch">${m.switchText} <a onclick="openModal('${m.switchLink}')">${m.switchLinkText}</a></p>`;
+  document.getElementById('modal').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeModal() {
+  document.getElementById('modal').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+document.addEventListener('keydown', e => { if(e.key==='Escape') closeModal(); });
+</script>
+</body>
+</html>

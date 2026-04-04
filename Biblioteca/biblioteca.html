@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Biblioteca · Asterisk</title>
+<title>Biblioteca · Neoronio</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
@@ -39,7 +39,8 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:"Space 
 .nav-burger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg);}
 i[data-lucide]{display:inline-flex;width:16px;height:16px;stroke-width:1.75;vertical-align:middle;flex-shrink:0}
 .chip i[data-lucide]{width:14px;height:14px}
-.nav-mobile-close{display:none;align-items:center;gap:8px;padding:14px 20px;background:none;border:none;color:rgba(245,245,247,.45);font-size:13px;font-weight:600;cursor:pointer;border-radius:14px;font-family:"Space Grotesk",sans-serif;width:100%;margin-bottom:8px;}
+.nav-mobile-close{display:none;align-items:center;gap:8px;padding:14px 20px 10px;background:none;border:none;color:rgba(245,245,247,.4);font-size:13px;font-weight:600;cursor:pointer;border-radius:14px;font-family:"Space Grotesk",sans-serif;width:100%;margin-bottom:4px;transition:.15s;}
+.nav-mobile-close:hover{color:rgba(245,245,247,.8);}
 .modal-login{position:fixed;inset:0;background:rgba(0,0,0,.75);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);z-index:200;display:none;align-items:center;justify-content:center;padding:20px;}
 .modal-login.open{display:flex;}
 .modal-login-box{background:#111;border:1px solid rgba(255,255,255,.12);border-radius:24px;padding:40px 36px;max-width:400px;width:100%;position:relative;}
@@ -62,7 +63,8 @@ i[data-lucide]{display:inline-flex;width:16px;height:16px;stroke-width:1.75;vert
 .study-card:hover:before{opacity:1;}
 /* COVER */
 .card-cover{height:160px;background:linear-gradient(135deg,rgba(255,31,142,.1),rgba(191,90,242,.1),rgba(10,132,255,.08));display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;}
-.card-cover-icon{width:56px;height:56px;object-fit:contain;opacity:.75;}
+.card-cover-icon-wrap{width:72px;height:72px;border-radius:22px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.1);display:flex;align-items:center;justify-content:center;backdrop-filter:blur(8px);}
+.card-cover-icon-wrap i[data-lucide]{width:34px;height:34px;stroke-width:1.4;color:rgba(255,255,255,.8);}
 .card-cover-badge{position:absolute;top:14px;left:16px;font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:5px 12px;border-radius:100px;background:linear-gradient(135deg,var(--c1),var(--c2));color:#fff;}
 .card-cover-fonte{position:absolute;bottom:14px;right:16px;font-size:10px;font-family:"Space Mono",monospace;color:rgba(255,255,255,.5);letter-spacing:.05em;}
 /* BODY */
@@ -77,7 +79,8 @@ i[data-lucide]{display:inline-flex;width:16px;height:16px;stroke-width:1.75;vert
 .card-stat-label{font-size:10px;color:var(--muted);margin-top:2px;}
 /* FOOTER */
 .card-footer{display:flex;align-items:center;justify-content:space-between;padding:14px 20px;border-top:1px solid var(--border);background:rgba(255,255,255,.02);}
-.card-cta{display:flex;align-items:center;gap:8px;font-size:12px;font-weight:600;color:var(--c1);transition:.2s;pointer-events:none;}
+.card-cta-btn{display:inline-flex;align-items:center;gap:7px;font-size:12px;font-weight:700;color:var(--c1);background:rgba(255,31,142,.08);border:1px solid rgba(255,31,142,.22);border-radius:9px;padding:7px 14px;cursor:pointer;transition:.2s;font-family:"Space Grotesk",sans-serif;white-space:nowrap;}
+.card-cta-btn:hover{background:rgba(255,31,142,.16);border-color:rgba(255,31,142,.5);transform:translateY(-1px);}
 .card-slides-count{font-size:11px;color:var(--muted);font-family:"Space Mono",monospace;}
 .card-del-btn{
   display:inline-flex;align-items:center;gap:5px;
@@ -206,19 +209,20 @@ option{background:#0f0f1a;}
     display:none;
     position:fixed;
     top:0;left:0;right:0;bottom:0;
-    flex-direction:column;gap:2px;
-    background:rgba(4,4,12,.97);
-    backdrop-filter:blur(48px) saturate(200%);
-    -webkit-backdrop-filter:blur(48px) saturate(200%);
-    padding:16px;
+    flex-direction:column;gap:4px;
+    background:rgba(5,5,12,.96);
+    backdrop-filter:blur(56px) saturate(200%);
+    -webkit-backdrop-filter:blur(56px) saturate(200%);
+    padding:16px 12px;
     padding-top:max(16px, env(safe-area-inset-top));
     padding-bottom:max(24px, env(safe-area-inset-bottom));
     z-index:100;
     overflow-y:auto;
   }
-  .nav-links.open{display:flex;}
-  .nav-link{font-size:16px;font-weight:600;padding:16px 20px;border-radius:14px;color:rgba(245,245,247,.55);letter-spacing:.03em;min-height:52px;display:flex;align-items:center;}
-  .nav-link.active{color:#fff;background:rgba(255,255,255,.07);}
+  @keyframes navSlideIn{from{opacity:0;transform:translateY(-12px)}to{opacity:1;transform:translateY(0)}}
+  .nav-links.open{display:flex;animation:navSlideIn .22s cubic-bezier(.25,.46,.45,.94) both;}
+  .nav-link{font-size:17px;font-weight:600;padding:16px 20px;border-radius:16px;color:rgba(245,245,247,.5);letter-spacing:.02em;min-height:56px;display:flex;align-items:center;gap:10px;border:1px solid transparent;transition:.15s;}
+  .nav-link.active{color:#fff;background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.08);}
   .nav-link:hover{color:#fff;background:rgba(255,255,255,.05);}
   .chip{min-height:44px;display:inline-flex;align-items:center;}
   .page{padding:24px 16px 60px;}
@@ -236,17 +240,18 @@ option{background:#0f0f1a;}
 
 <!-- NAV -->
 <nav class="global-nav">
-  <a class="nav-logo-link" href="../Cerebro/cerebro.html" aria-label="Asterisk — início">
-    <img src="../CannesFlix/ASTERISK LOGO.png" alt="Asterisk" class="nav-logo-img">
+  <a class="nav-logo-link" href="../Cerebro/cerebro.html" aria-label="Neoronio — início">
+    <img src="../CannesFlix/ASTERISK LOGO.png" alt="Neoronio" class="nav-logo-img">
   </a>
   <div class="nav-links" id="nav-links">
     <button class="nav-mobile-close" onclick="toggleNav()" aria-label="Fechar menu">
-      <i data-lucide="x"></i> Fechar
+      <i data-lucide="x"></i> Fechar menu
     </button>
     <a href="../Cerebro/cerebro.html" class="nav-link">Cérebro</a>
     <a href="../CannesFlix/cannes_cerebro_fixed.html" class="nav-link">CannesFlix</a>
     <a href="../Insight/insight.html" class="nav-link">Insight</a>
     <a href="biblioteca.html" class="nav-link active">Biblioteca</a>
+    <a href="../pricing.html" class="nav-link">Preços</a>
     <a href="../Sobre/sobre.html" class="nav-link">Sobre</a>
   </div>
   <div class="nav-divider"></div>
@@ -22240,25 +22245,25 @@ function clearAll() {
 }
 
 // ─────────────────────────────────────────
-// FLATICON MAP (tema → icon ID)
+// LUCIDE ICON MAP (tema → icon name)
 // ─────────────────────────────────────────
 const FLATICON_MAP = {
-  'Comportamento do Consumidor':'869869','Consumo':'869869',
-  'Marketing Digital':'1721535','Marketing':'1721535',
-  'Tecnologia':'2103832','Tecnologia & IA':'2103832',
-  'Saúde':'3481473','Saúde & Bem-Estar':'3481473',
-  'Tendências':'2704068','Gerações':'1256650',
-  'Games':'686589','Alimentação':'3050446','Alimentação & Bebidas':'3050446',
-  'Pets':'616452','Fintech':'2830284','Comunicação':'1055644',
-  'Moda':'2092755','Moda e Beleza':'2092755',
-  'Sustentabilidade':'3064128','Gênero e Diversidade':'4129086',
-  'Cannes Lions':'1006363','Mídia':'1721535','Social Media':'1721535',
-  'E-commerce':'869869','Varejo':'869869','Games e Entretenimento':'686589',
-  'default':'2278473'
+  'Comportamento do Consumidor':'users','Consumo':'shopping-bag',
+  'Marketing Digital':'megaphone','Marketing':'megaphone',
+  'Tecnologia':'cpu','Tecnologia & IA':'cpu',
+  'Saúde':'heart-pulse','Saúde & Bem-Estar':'heart-pulse',
+  'Tendências':'trending-up','Gerações':'users',
+  'Games':'gamepad-2','Alimentação':'utensils','Alimentação & Bebidas':'utensils',
+  'Pets':'paw-print','Fintech':'landmark','Comunicação':'radio',
+  'Moda':'shirt','Moda e Beleza':'shirt',
+  'Sustentabilidade':'leaf','Gênero e Diversidade':'heart-handshake',
+  'Cannes Lions':'award','Mídia':'radio','Social Media':'share-2',
+  'E-commerce':'shopping-bag','Varejo':'shopping-bag','Games e Entretenimento':'gamepad-2',
+  'default':'brain'
 };
 function getIconImg(tema) {
-  const id = FLATICON_MAP[tema] || FLATICON_MAP['default'];
-  return `<img class="card-cover-icon" src="https://cdn-icons-png.flaticon.com/512/${id}.png" alt="${tema}" onerror="this.style.display='none'">`;
+  const icon = FLATICON_MAP[tema] || FLATICON_MAP['default'];
+  return `<div class="card-cover-icon-wrap"><i data-lucide="${icon}"></i></div>`;
 }
 
 // ─────────────────────────────────────────
@@ -22299,19 +22304,15 @@ function renderPage(items) {
         <div class="card-title">${e.titulo}</div>
         ${desc ? `<div class="card-desc">${desc}</div>` : ''}
         <div class="card-tags">
-          <span class="tag tag-tema">${e.tema}</span>
-          <span class="tag tag-fonte">${e.fonte}</span>
           ${e.ano && e.ano!=='—' ? `<span class="tag tag-ano">${e.ano}</span>` : ''}
+          <span class="tag tag-slides">${e.numInsights||0} insights</span>
           <span class="tag tag-slides">${e.numSlides||0} slides</span>
         </div>
         ${statsHTML ? `<div class="card-stats">${statsHTML}</div>` : ''}
       </div>
       <div class="card-footer">
-        <span class="card-cta">Ver estudo completo →</span>
-        <div style="display:flex;align-items:center;gap:10px;">
-          <span class="card-slides-count">${e.numInsights||0} insights · ${e.numSlides||0} slides</span>
-          <button class="card-del-btn" onclick="deleteDoc(${e.id},event)"><i data-lucide="trash-2"></i></button>
-        </div>
+        <button class="card-cta-btn" onclick="openModal(${e.id});event.stopPropagation()">Ver estudo completo <i data-lucide="arrow-right"></i></button>
+        <button class="card-del-btn" onclick="deleteDoc(${e.id},event)"><i data-lucide="trash-2"></i></button>
       </div>
     </div>`;
   }).join('');

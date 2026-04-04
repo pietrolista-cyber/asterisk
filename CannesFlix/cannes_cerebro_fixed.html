@@ -286,25 +286,27 @@ i[data-lucide]{display:inline-flex;width:16px;height:16px;stroke-width:1.75;vert
   .nav-divider{display:none}
   .nav-login{display:none}
   .nav-logo-img{height:26px}
-  .nav-mobile-close{display:flex}
+  .nav-mobile-close{display:flex;color:rgba(245,245,247,.4);transition:.15s;}
+  .nav-mobile-close:hover{color:rgba(245,245,247,.8);}
   .nav-links{
     display:none;
     position:fixed;
     top:0;left:0;right:0;bottom:0;
-    flex-direction:column;gap:2px;
-    background:rgba(4,4,12,.97);
-    backdrop-filter:blur(48px) saturate(200%);
-    -webkit-backdrop-filter:blur(48px) saturate(200%);
-    padding:16px;
+    flex-direction:column;gap:4px;
+    background:rgba(5,5,12,.96);
+    backdrop-filter:blur(56px) saturate(200%);
+    -webkit-backdrop-filter:blur(56px) saturate(200%);
+    padding:16px 12px;
     padding-top:max(16px, env(safe-area-inset-top));
     padding-bottom:max(24px, env(safe-area-inset-bottom));
     z-index:100;
     overflow-y:auto;
   }
-  .nav-links.open{display:flex}
-  .nav-link{font-size:16px;font-weight:600;padding:16px 20px;border-radius:14px;color:rgba(245,245,247,.55);letter-spacing:.03em;min-height:52px;display:flex;align-items:center}
-  .nav-link.active{color:#fff;background:rgba(255,255,255,.07)}
-  .nav-link:hover{color:#fff;background:rgba(255,255,255,.05)}
+  @keyframes navSlideIn{from{opacity:0;transform:translateY(-12px)}to{opacity:1;transform:translateY(0)}}
+  .nav-links.open{display:flex;animation:navSlideIn .22s cubic-bezier(.25,.46,.45,.94) both;}
+  .nav-link{font-size:17px;font-weight:600;padding:16px 20px;border-radius:16px;color:rgba(245,245,247,.5);letter-spacing:.02em;min-height:56px;display:flex;align-items:center;border:1px solid transparent;transition:.15s;}
+  .nav-link.active{color:#fff;background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.08);}
+  .nav-link:hover{color:#fff;background:rgba(255,255,255,.05);}
 
   /* Header */
   header{top:52px;height:80px;padding:0 16px;flex-direction:row;gap:10px}
@@ -571,15 +573,16 @@ i[data-lucide]{display:inline-flex;width:16px;height:16px;stroke-width:1.75;vert
 <div class="hud-corner hud-tl"></div>
 <div class="hud-corner hud-br"></div>
 <nav class="global-nav">
-  <a href="../Cerebro/cerebro.html" class="nav-logo-link"><img src="ASTERISK LOGO.png" alt="Asterisk" class="nav-logo-img"></a>
+  <a href="../Cerebro/cerebro.html" class="nav-logo-link"><img src="ASTERISK LOGO.png" alt="Neoronio" class="nav-logo-img"></a>
   <div class="nav-links" id="nav-links">
     <button class="nav-mobile-close" onclick="toggleNav()" aria-label="Fechar menu">
-      <i data-lucide="x"></i> Fechar
+      <i data-lucide="x"></i> Fechar menu
     </button>
     <a href="../Cerebro/cerebro.html" class="nav-link">Cérebro</a>
     <a href="cannes_cerebro_fixed.html" class="nav-link active">CannesFlix</a>
     <a href="../Insight/insight.html" class="nav-link">Insight</a>
     <a href="../Biblioteca/biblioteca.html" class="nav-link">Biblioteca</a>
+    <a href="../pricing.html" class="nav-link">Preços</a>
     <a href="../Sobre/sobre.html" class="nav-link">Sobre</a>
   </div>
   <div class="nav-divider"></div>
@@ -1049,7 +1052,7 @@ document.addEventListener('keydown',function(e){
       <i data-lucide="x"></i>
     </button>
     <div class="modal-login-logo"><i data-lucide="sparkles"></i></div>
-    <h2 class="modal-login-title">Entrar no Asterisk</h2>
+    <h2 class="modal-login-title">Entrar no Neoronio</h2>
     <p class="modal-login-sub">Acesso antecipado — lista de espera aberta</p>
     <input type="email" id="modal-email-cf" placeholder="seu@email.com" class="modal-login-input" autocomplete="email"/>
     <button class="modal-login-btn" onclick="submitWaitlist()">
