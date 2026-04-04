@@ -23,7 +23,9 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:"Space 
 
 /* NAV */
 .global-nav{position:sticky;top:0;z-index:60;height:var(--nav-h);display:flex;align-items:center;padding:0 24px;gap:12px;background:rgba(5,5,9,.85);backdrop-filter:blur(20px);border-bottom:1px solid var(--border);}
-.nav-logo img{height:28px;width:auto;}
+.nav-logo-link{display:flex;align-items:center;margin-right:4px;flex-shrink:0;text-decoration:none;}
+.nav-logo-img{height:28px;width:auto;filter:brightness(0) invert(1);opacity:.9;transition:opacity .2s;}
+.nav-logo-img:hover{opacity:1;}
 .nav-links{display:flex;align-items:center;gap:4px;flex:1;}
 .nav-link{padding:6px 12px;border-radius:8px;text-decoration:none;font-size:13px;font-weight:500;color:var(--muted);transition:.2s;}
 .nav-link:hover{color:var(--text);background:var(--surface);}
@@ -32,9 +34,9 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:"Space 
 .nav-login{padding:7px 16px;border-radius:8px;font-size:13px;font-weight:600;color:#fff;background:linear-gradient(135deg,var(--c1),var(--c2));text-decoration:none;}
 .nav-burger{display:none;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:6px;margin-left:auto;}
 .nav-burger span{display:block;width:22px;height:2px;background:var(--text);transition:.3s;}
-.nav-burger.active span:nth-child(1){transform:translateY(7px) rotate(45deg);}
-.nav-burger.active span:nth-child(2){opacity:0;}
-.nav-burger.active span:nth-child(3){transform:translateY(-7px) rotate(-45deg);}
+.nav-burger.open span:nth-child(1){transform:translateY(7px) rotate(45deg);}
+.nav-burger.open span:nth-child(2){opacity:0;}
+.nav-burger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg);}
 i[data-lucide]{display:inline-flex;width:16px;height:16px;stroke-width:1.75;vertical-align:middle;flex-shrink:0}
 .chip i[data-lucide]{width:14px;height:14px}
 .nav-mobile-close{display:none;align-items:center;gap:8px;padding:14px 20px;background:none;border:none;color:rgba(245,245,247,.45);font-size:13px;font-weight:600;cursor:pointer;border-radius:14px;font-family:"Space Grotesk",sans-serif;width:100%;margin-bottom:8px;}
@@ -52,54 +54,35 @@ i[data-lucide]{display:inline-flex;width:16px;height:16px;stroke-width:1.75;vert
 .modal-login-btn{width:100%;padding:14px 20px;border-radius:12px;background:linear-gradient(135deg,var(--c1),var(--c2));color:#fff;font-size:13px;font-weight:700;border:none;cursor:pointer;transition:opacity .2s;display:flex;align-items:center;justify-content:center;gap:8px;font-family:inherit;}
 .modal-login-btn:hover{opacity:.85;}
 .modal-login-btn i[data-lucide]{width:14px;height:14px;}
-/* STUDY CARDS — estilo cover */
-.results-grid{display:grid !important;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:20px;}
-.result-card{
-  background:#0d0d1a;border:1px solid rgba(255,255,255,.07);
-  border-radius:22px;overflow:hidden;
-  display:flex;flex-direction:column;
-  transition:transform .28s ease,box-shadow .28s ease,border-color .28s ease;
-}
-.result-card:hover{transform:translateY(-6px);box-shadow:0 24px 64px rgba(0,0,0,.55);border-color:rgba(255,31,142,.25);}
+/* STUDY CARDS */
+.results-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:20px;}
+.study-card{background:var(--surface);border:1px solid var(--border);border-radius:20px;overflow:hidden;transition:.25s;cursor:pointer;position:relative;}
+.study-card:before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--c1),var(--c2));opacity:0;transition:.2s;}
+.study-card:hover{border-color:rgba(255,31,142,.25);background:rgba(255,255,255,.06);transform:translateY(-3px);box-shadow:0 12px 40px rgba(0,0,0,.3);}
+.study-card:hover:before{opacity:1;}
 /* COVER */
-.card-cover{
-  height:130px;
-  background:linear-gradient(135deg,rgba(255,31,142,.18),rgba(191,90,242,.14),rgba(10,132,255,.1));
-  display:flex;align-items:flex-end;justify-content:space-between;
-  padding:14px 18px;position:relative;
-}
-.card-cover::before{content:'';position:absolute;inset:0;background:linear-gradient(180deg,transparent 40%,rgba(13,13,26,.8));}
-.card-cover-icon{font-size:42px;position:absolute;top:14px;left:18px;line-height:1;}
-.card-cover-badge{
-  position:relative;z-index:1;
-  font-size:9px;font-weight:800;letter-spacing:.13em;text-transform:uppercase;
-  padding:4px 12px;border-radius:100px;
-  background:linear-gradient(135deg,var(--c1),var(--c2));color:#fff;
-}
-.card-cover-fonte{position:relative;z-index:1;font-family:"Space Mono",monospace;font-size:9px;color:rgba(255,255,255,.5);}
+.card-cover{height:160px;background:linear-gradient(135deg,rgba(255,31,142,.1),rgba(191,90,242,.1),rgba(10,132,255,.08));display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;}
+.card-cover-icon{width:56px;height:56px;object-fit:contain;opacity:.75;}
+.card-cover-badge{position:absolute;top:14px;left:16px;font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:5px 12px;border-radius:100px;background:linear-gradient(135deg,var(--c1),var(--c2));color:#fff;}
+.card-cover-fonte{position:absolute;bottom:14px;right:16px;font-size:10px;font-family:"Space Mono",monospace;color:rgba(255,255,255,.5);letter-spacing:.05em;}
 /* BODY */
-.card-body{padding:18px 20px 16px;display:flex;flex-direction:column;flex:1;}
-.card-title{font-size:16px;font-weight:700;color:#fff;line-height:1.35;margin-bottom:14px;}
+.card-body{padding:20px;}
+.card-title{font-size:16px;font-weight:700;line-height:1.35;margin-bottom:10px;color:var(--text);}
+.card-desc{font-size:13px;color:var(--muted);line-height:1.65;margin-bottom:16px;}
+.card-tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:16px;}
 /* STATS GRID (highlights) */
-.card-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:16px;}
-.card-stat{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.06);border-radius:12px;padding:10px 8px;text-align:center;}
-.card-stat-num{font-family:"Space Mono",monospace;font-size:15px;font-weight:700;color:var(--c1);margin-bottom:3px;}
-.card-stat-label{font-size:10px;color:var(--muted);line-height:1.3;}
+.card-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;padding-top:16px;border-top:1px solid var(--border);}
+.card-stat{text-align:center;}
+.card-stat-num{font-family:"Space Mono",monospace;font-size:16px;font-weight:700;color:var(--c1);}
+.card-stat-label{font-size:10px;color:var(--muted);margin-top:2px;}
 /* FOOTER */
-.card-footer{display:flex;align-items:center;gap:8px;padding:12px 20px;border-top:1px solid rgba(255,255,255,.05);}
-.card-cta-btn{
-  flex:1;display:inline-flex;align-items:center;justify-content:center;gap:6px;
-  font-size:12px;font-weight:600;color:#fff;
-  padding:9px 14px;border-radius:12px;border:none;
-  background:linear-gradient(135deg,rgba(255,31,142,.3),rgba(191,90,242,.3));
-  transition:all .2s;cursor:pointer;font-family:"Space Grotesk",sans-serif;
-}
-.card-cta-btn:hover{background:linear-gradient(135deg,rgba(255,31,142,.5),rgba(191,90,242,.5));}
-.card-cta-btn i[data-lucide]{width:13px;height:13px;}
+.card-footer{display:flex;align-items:center;justify-content:space-between;padding:14px 20px;border-top:1px solid var(--border);background:rgba(255,255,255,.02);}
+.card-cta{display:flex;align-items:center;gap:8px;font-size:12px;font-weight:600;color:var(--c1);transition:.2s;pointer-events:none;}
+.card-slides-count{font-size:11px;color:var(--muted);font-family:"Space Mono",monospace;}
 .card-del-btn{
   display:inline-flex;align-items:center;gap:5px;
   font-size:11px;font-weight:600;color:rgba(255,80,80,.45);
-  padding:8px 10px;border-radius:10px;
+  padding:7px 10px;border-radius:10px;
   border:1px solid rgba(255,60,60,.12);background:transparent;
   transition:all .2s;cursor:pointer;font-family:"Space Grotesk",sans-serif;
   white-space:nowrap;
@@ -155,7 +138,7 @@ option{background:#0f0f1a;}
 .export-btn{padding:8px 16px;background:none;border:1px solid var(--border);border-radius:8px;color:var(--muted);font-size:11px;cursor:pointer;font-family:"Space Grotesk",sans-serif;transition:.2s;display:flex;align-items:center;gap:6px;}
 .export-btn:hover{color:var(--text);border-color:rgba(255,255,255,.3);}
 
-/* tag base (mantida) */
+/* tags */
 .tag{padding:3px 10px;border-radius:20px;font-size:11px;font-weight:500;letter-spacing:.03em;}
 .tag-tema{background:rgba(255,31,142,.12);color:#ff6eb5;border:1px solid rgba(255,31,142,.2);}
 .tag-fonte{background:rgba(191,90,242,.12);color:#d18fff;border:1px solid rgba(191,90,242,.2);cursor:pointer;transition:.2s;}
@@ -245,9 +228,11 @@ option{background:#0f0f1a;}
 
 <!-- NAV -->
 <nav class="global-nav">
-  <div class="nav-logo"><a href="../Cerebro/cerebro.html"><img src="../CannesFlix/ASTERISK LOGO.png" alt="Asterisk"></a></div>
+  <a class="nav-logo-link" href="../Cerebro/cerebro.html" aria-label="Asterisk — início">
+    <img src="../CannesFlix/ASTERISK LOGO.png" alt="Asterisk" class="nav-logo-img">
+  </a>
   <div class="nav-links" id="nav-links">
-    <button class="nav-mobile-close" onclick="document.getElementById('nav-links').classList.remove('open');document.getElementById('nav-burger').classList.remove('active');" aria-label="Fechar menu">
+    <button class="nav-mobile-close" onclick="toggleNav()" aria-label="Fechar menu">
       <i data-lucide="x"></i> Fechar
     </button>
     <a href="../Cerebro/cerebro.html" class="nav-link">Cérebro</a>
@@ -258,7 +243,7 @@ option{background:#0f0f1a;}
   </div>
   <div class="nav-divider"></div>
   <button class="nav-login" onclick="openLoginModal()">Login</button>
-  <button class="nav-burger" id="nav-burger" onclick="this.classList.toggle('active');document.getElementById('nav-links').classList.toggle('open')" aria-label="Menu">
+  <button class="nav-burger" id="nav-burger" onclick="toggleNav()" aria-label="Menu">
     <span></span><span></span><span></span>
   </button>
 </nav>
@@ -22194,6 +22179,14 @@ let activeTema = '';
 let filtered = [...ESTUDOS];
 
 // ─────────────────────────────────────────
+// NAV MOBILE
+// ─────────────────────────────────────────
+function toggleNav() {
+  document.getElementById('nav-links').classList.toggle('open');
+  document.getElementById('nav-burger').classList.toggle('open');
+}
+
+// ─────────────────────────────────────────
 // BUSCA
 // ─────────────────────────────────────────
 function doSearch() {
@@ -22204,7 +22197,8 @@ function doSearch() {
   const ano = anoEl ? anoEl.value : '';
 
   filtered = ESTUDOS.filter(e => {
-    const text = [e.titulo, e.tema, e.fonte, e.resumo, ...e.highlights].join(' ').toLowerCase();
+    const hlText = (e.highlights||[]).map(h=>typeof h==='string'?h:`${h.n||''} ${h.texto||''}`).join(' ');
+    const text = [e.titulo, e.tema, e.fonte, e.resumo||'', hlText].join(' ').toLowerCase();
     if (q && !text.includes(q)) return false;
     if (fonte && !e.fonte.startsWith(fonte)) return false;
     if (ano && e.ano !== ano) return false;
@@ -22235,6 +22229,28 @@ function clearAll() {
 }
 
 // ─────────────────────────────────────────
+// FLATICON MAP (tema → icon ID)
+// ─────────────────────────────────────────
+const FLATICON_MAP = {
+  'Comportamento do Consumidor':'869869','Consumo':'869869',
+  'Marketing Digital':'1721535','Marketing':'1721535',
+  'Tecnologia':'2103832','Tecnologia & IA':'2103832',
+  'Saúde':'3481473','Saúde & Bem-Estar':'3481473',
+  'Tendências':'2704068','Gerações':'1256650',
+  'Games':'686589','Alimentação':'3050446','Alimentação & Bebidas':'3050446',
+  'Pets':'616452','Fintech':'2830284','Comunicação':'1055644',
+  'Moda':'2092755','Moda e Beleza':'2092755',
+  'Sustentabilidade':'3064128','Gênero e Diversidade':'4129086',
+  'Cannes Lions':'1006363','Mídia':'1721535','Social Media':'1721535',
+  'E-commerce':'869869','Varejo':'869869','Games e Entretenimento':'686589',
+  'default':'2278473'
+};
+function getIconImg(tema) {
+  const id = FLATICON_MAP[tema] || FLATICON_MAP['default'];
+  return `<img class="card-cover-icon" src="https://cdn-icons-png.flaticon.com/512/${id}.png" alt="${tema}" onerror="this.style.display='none'">`;
+}
+
+// ─────────────────────────────────────────
 // RENDER CARDS
 // ─────────────────────────────────────────
 function renderCards(items) {
@@ -22246,23 +22262,34 @@ function renderCards(items) {
   container.innerHTML = items.map(e => {
     const statsHTML = (e.highlights||[]).slice(0,3).map(h=>`
       <div class="card-stat">
-        <div class="card-stat-num">${h.n}</div>
-        <div class="card-stat-label">${h.texto}</div>
+        <div class="card-stat-num">${h.n||'✦'}</div>
+        <div class="card-stat-label">${h.texto||''}</div>
       </div>`).join('');
+    const desc = e.resumo ? (e.resumo.length > 120 ? e.resumo.substring(0,120)+'…' : e.resumo) : '';
     return `
-    <div class="result-card">
+    <div class="study-card" onclick="openModal(${e.id})">
       <div class="card-cover">
-        <span class="card-cover-icon">${e.icone||'📄'}</span>
+        ${getIconImg(e.tema)}
         <span class="card-cover-badge">${e.tema}</span>
         <span class="card-cover-fonte">${e.fonte}</span>
       </div>
       <div class="card-body">
-        <div class="card-title">${e.titulo}${e.ano && e.ano!=='—'?' <span style="font-weight:400;color:var(--muted);font-size:13px;">· '+e.ano+'</span>':''}</div>
-        <div class="card-stats">${statsHTML}</div>
+        <div class="card-title">${e.titulo}</div>
+        ${desc ? `<div class="card-desc">${desc}</div>` : ''}
+        <div class="card-tags">
+          <span class="tag tag-tema">${e.tema}</span>
+          <span class="tag tag-fonte">${e.fonte}</span>
+          ${e.ano && e.ano!=='—' ? `<span class="tag tag-ano">${e.ano}</span>` : ''}
+          <span class="tag tag-slides">${e.numSlides||0} slides</span>
+        </div>
+        ${statsHTML ? `<div class="card-stats">${statsHTML}</div>` : ''}
       </div>
       <div class="card-footer">
-        <button class="card-cta-btn" onclick="openModal(${e.id})"><i data-lucide="book-open"></i> Ver estudo</button>
-        <button class="card-del-btn" onclick="deleteDoc(${e.id},event)"><i data-lucide="trash-2"></i> Delete</button>
+        <span class="card-cta">Ver estudo completo →</span>
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span class="card-slides-count">${e.numInsights||0} insights · ${e.numSlides||0} slides</span>
+          <button class="card-del-btn" onclick="deleteDoc(${e.id},event)"><i data-lucide="trash-2"></i></button>
+        </div>
       </div>
     </div>`;
   }).join('');

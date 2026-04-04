@@ -16,7 +16,9 @@
   .orb2{width:500px;height:500px;bottom:-100px;right:-100px;background:radial-gradient(circle,rgba(10,132,255,.15),transparent 70%)}
   .orb3{width:400px;height:400px;top:40%;left:50%;transform:translate(-50%,-50%);background:radial-gradient(circle,rgba(191,90,242,.1),transparent 70%)}
   .global-nav{position:sticky;top:0;z-index:60;height:var(--nav-h);display:flex;align-items:center;padding:0 24px;gap:12px;background:rgba(5,5,9,.85);backdrop-filter:blur(20px);border-bottom:1px solid var(--border)}
-  .nav-logo img{height:28px;width:auto}
+  .nav-logo-link{display:flex;align-items:center;margin-right:4px;flex-shrink:0;text-decoration:none}
+  .nav-logo-img{height:28px;width:auto;filter:brightness(0) invert(1);opacity:.9;transition:opacity .2s}
+  .nav-logo-img:hover{opacity:1}
   .nav-links{display:flex;align-items:center;gap:4px;flex:1}
   .nav-link{padding:6px 12px;border-radius:8px;text-decoration:none;font-size:13px;font-weight:500;color:var(--muted);transition:.2s}
   .nav-link:hover{color:var(--text);background:var(--surface)}
@@ -25,9 +27,9 @@
   .nav-login{padding:7px 16px;border-radius:8px;font-size:13px;font-weight:600;color:#fff;background:linear-gradient(135deg,var(--c1),var(--c2));text-decoration:none}
   .nav-burger{display:none;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:6px;margin-left:auto}
   .nav-burger span{display:block;width:22px;height:2px;background:var(--text);transition:.3s}
-  .nav-burger.active span:nth-child(1){transform:translateY(7px) rotate(45deg)}
-  .nav-burger.active span:nth-child(2){opacity:0}
-  .nav-burger.active span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+  .nav-burger.open span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+  .nav-burger.open span:nth-child(2){opacity:0}
+  .nav-burger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
   i[data-lucide]{display:inline-flex;width:16px;height:16px;stroke-width:1.75;vertical-align:middle;flex-shrink:0}
   .chip i[data-lucide]{width:14px;height:14px}
   .nav-mobile-close{display:none;align-items:center;gap:8px;padding:14px 20px;background:none;border:none;color:rgba(245,245,247,.45);font-size:13px;font-weight:600;cursor:pointer;border-radius:14px;font-family:'Space Grotesk',sans-serif;width:100%;margin-bottom:8px}
@@ -144,7 +146,9 @@
 <div class="orb orb3"></div>
 
 <nav class="global-nav">
-  <div class="nav-logo"><a href="../Cerebro/cerebro.html"><img src="../CannesFlix/ASTERISK LOGO.png" alt="Asterisk"></a></div>
+  <a class="nav-logo-link" href="../Cerebro/cerebro.html" aria-label="Asterisk — início">
+    <img src="../CannesFlix/ASTERISK LOGO.png" alt="Asterisk" class="nav-logo-img">
+  </a>
   <div class="nav-links" id="nav-links">
     <button class="nav-mobile-close" onclick="toggleNav()" aria-label="Fechar menu">
       <i data-lucide="x"></i> Fechar
@@ -420,8 +424,8 @@ function render(items) {
     const dataIdx = DATA.indexOf(r);
     const isBib = !!r.bibId;
     const refLink = isBib
-      ? '<a class="tag tag-ref" href="../Biblioteca/biblioteca.html?id=' + r.bibId + '">Ver estudo na Biblioteca</a>'
-      : '<a class="tag tag-ref" href="../CannesFlix/cannes_cerebro_fixed.html" title="' + r.r + '">Ver no CannesFlix</a>';
+      ? '<a class="tag tag-ref" href="../Biblioteca/biblioteca.html?id=' + r.bibId + '" onclick="event.stopPropagation()">Ver estudo na Biblioteca</a>'
+      : '<a class="tag tag-ref" href="../CannesFlix/cannes_cerebro_fixed.html?search=' + encodeURIComponent(r.c || '') + '" onclick="event.stopPropagation()">Ver no CannesFlix</a>';
     const fonteTag = r.m ? '<span class="tag tag-marca">' + r.m + '</span>' : '';
     const premioTag = (!isBib && r.p) ? '<span class="tag tag-premio">' + r.p + '</span>' : '';
     return '<div class="card">' +
@@ -469,7 +473,7 @@ function exportCSV() {
 
 function toggleNav() {
   document.getElementById('nav-links').classList.toggle('open');
-  document.getElementById('nav-burger').classList.toggle('active');
+  document.getElementById('nav-burger').classList.toggle('open');
 }
 
 // render inicial — será re-chamado após BIBLIOTECA_INSIGHTS carregar

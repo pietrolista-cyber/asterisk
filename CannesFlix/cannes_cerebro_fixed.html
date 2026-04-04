@@ -973,7 +973,8 @@ document.getElementById('modal-link').href=d.link;document.getElementById('modal
 function closeModal(){document.getElementById('modal-media').innerHTML='';document.getElementById('modal').classList.remove('active');}
 document.getElementById('modal').addEventListener('click',function(e){if(e.target===this)closeModal();});
 ['f-ano','f-segmento','f-marca','f-tag','f-search'].forEach(id=>{document.getElementById(id).addEventListener('input',()=>{_page=1;render();});document.getElementById(id).addEventListener('change',()=>{_page=1;render();});});
-render();
+// Auto-search from URL param ?search=CAMPAIGN_NAME
+(function(){const p=new URLSearchParams(location.search);const s=p.get('search');if(s){const el=document.getElementById('f-search');if(el){el.value=s;_page=1;render();return;}}render();})();
 
 // Ajusta top do tag bar dinamicamente conforme altura do filtro
 function adjustTagBarTop(){

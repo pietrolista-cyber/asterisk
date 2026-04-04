@@ -978,17 +978,66 @@ console.log(`✅ Gerados ${estudos.length} estudos → estudos_generated_v2.js`)
 console.log(`   Curados: ${Object.keys(CURATED).length} | Templates: ${estudos.length - Object.keys(CURATED).length}`);
 
 // ─────────────────────────────────────────────────────────
+// Mapeamento tema → segmento do Insight.html
+// ─────────────────────────────────────────────────────────
+const TEMA_TO_SEGMENTO = {
+  'Consumo': 'Varejo e E-commerce',
+  'Comportamento do Consumidor': 'Varejo e E-commerce',
+  'E-commerce': 'Varejo e E-commerce',
+  'Varejo': 'Varejo e E-commerce',
+  'Marketing': 'Mídia e Comunicação',
+  'Marketing Digital': 'Mídia e Comunicação',
+  'Social Media': 'Mídia e Comunicação',
+  'Mídia': 'Mídia e Comunicação',
+  'Comunicação': 'Mídia e Comunicação',
+  'Tecnologia': 'Tecnologia e Inovação',
+  'Tecnologia & IA': 'Tecnologia e Inovação',
+  'IA': 'Tecnologia e Inovação',
+  'Saúde': 'Saúde e Bem-Estar',
+  'Saúde & Bem-Estar': 'Saúde e Bem-Estar',
+  'Bem-Estar': 'Saúde e Bem-Estar',
+  'Tendências': 'Entretenimento e Cultura',
+  'Gerações': 'Diversidade e Direitos Humanos',
+  'Gênero e Diversidade': 'Diversidade e Direitos Humanos',
+  'Diversidade': 'Diversidade e Direitos Humanos',
+  'Games': 'Entretenimento e Cultura',
+  'Games e Entretenimento': 'Entretenimento e Cultura',
+  'Entretenimento': 'Entretenimento e Cultura',
+  'Cultura': 'Entretenimento e Cultura',
+  'Alimentação': 'Alimentação e Bebidas',
+  'Alimentação & Bebidas': 'Alimentação e Bebidas',
+  'Bebidas': 'Alimentação e Bebidas',
+  'Pets': 'Pets e Animais',
+  'Animais': 'Pets e Animais',
+  'Fintech': 'Finanças e Seguros',
+  'Finanças': 'Finanças e Seguros',
+  'Bancos': 'Finanças e Seguros',
+  'Moda': 'Moda e Beleza',
+  'Moda e Beleza': 'Moda e Beleza',
+  'Beleza': 'Moda e Beleza',
+  'Sustentabilidade': 'Meio Ambiente e Sustentabilidade',
+  'Meio Ambiente': 'Meio Ambiente e Sustentabilidade',
+  'Cannes Lions': 'Entretenimento e Cultura',
+  'Viagem': 'Turismo e Viagem',
+  'Turismo': 'Turismo e Viagem',
+};
+function temaToSegmento(tema) {
+  return TEMA_TO_SEGMENTO[tema] || 'Outros';
+}
+
+// ─────────────────────────────────────────────────────────
 // GERA insights_from_biblioteca.js para o Insight.html
 // ─────────────────────────────────────────────────────────
 const bibInsights = [];
 estudos.forEach(e => {
+  const seg = temaToSegmento(e.tema);
   // Adiciona highlights do estudo como insights
   (e.highlights || []).forEach(h => {
     bibInsights.push({
       d: h.texto,
       n: h.n,
       m: e.fonte,
-      s: e.tema,
+      s: seg,
       c: e.titulo,
       a: e.ano,
       p: "Biblioteca Asterisk",
@@ -1003,7 +1052,7 @@ estudos.forEach(e => {
         d: `${s.badge}: ${d.l}`,
         n: d.n,
         m: e.fonte,
-        s: e.tema,
+        s: seg,
         c: e.titulo,
         a: e.ano,
         p: "Biblioteca Asterisk",
