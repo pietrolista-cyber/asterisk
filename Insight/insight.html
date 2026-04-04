@@ -94,6 +94,10 @@
   .tag-ref:hover{background:rgba(191,90,242,.25)}
   .tag-ano{background:rgba(255,255,255,.06);color:var(--muted);border:1px solid var(--border)}
   .tag-premio{background:rgba(255,200,0,.1);color:#ffd54f;border:1px solid rgba(255,200,0,.2)}
+  .card-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px;padding-top:12px;border-top:1px solid var(--border)}
+  .card-del-btn{display:inline-flex;align-items:center;gap:5px;font-size:11px;font-weight:600;color:rgba(255,60,60,.6);padding:6px 12px;border-radius:8px;border:1px solid rgba(255,60,60,.2);background:rgba(255,60,60,.04);transition:all .2s;cursor:pointer;font-family:'Space Grotesk',sans-serif}
+  .card-del-btn:hover{color:#ff4d4d;border-color:rgba(255,60,60,.5);background:rgba(255,60,60,.1)}
+  .card-del-btn i[data-lucide]{width:11px;height:11px}
   .empty{text-align:center;padding:80px 20px;color:var(--muted)}
   .empty-icon{font-size:48px;margin-bottom:16px}
   .empty h3{font-size:18px;color:var(--text);margin-bottom:8px}
@@ -412,19 +416,33 @@ function render(items) {
   document.getElementById('count-label').textContent = items.length;
   if (!items.length) { container.innerHTML = ''; empty.style.display = 'block'; return; }
   empty.style.display = 'none';
-  container.innerHTML = items.map(r => {
-    const url = 'CannesFlix/cannes_cerebro_fixed.html';
+  container.innerHTML = items.map((r, idx) => {
+    const url = '../CannesFlix/cannes_cerebro_fixed.html';
+    const dataIdx = DATA.indexOf(r);
     return '<div class="card">' +
       '<div class="card-num">' + r.n + '</div>' +
       '<div class="card-dado">' + highlight(r.d, q) + '</div>' +
       '<div class="card-meta">' +
-        '<span class="tag tag-marca">🏷 ' + r.m + '</span>' +
-        '<span class="tag tag-seg">📂 ' + r.s + '</span>' +
+        '<span class="tag tag-marca">' + r.m + '</span>' +
+        '<span class="tag tag-seg">' + r.s + '</span>' +
         '<span class="tag tag-ano">' + r.a + '</span>' +
-        '<span class="tag tag-premio">🏆 ' + r.p + '</span>' +
-        '<a class="tag tag-ref" href="' + url + '" title="' + r.r + '">🎬 Ver no CannesFlix</a>' +
-      '</div></div>';
+        '<span class="tag tag-premio">' + r.p + '</span>' +
+        '<a class="tag tag-ref" href="' + url + '" title="' + r.r + '">Ver no CannesFlix</a>' +
+      '</div>' +
+      '<div class="card-actions">' +
+        '<button class="card-del-btn" onclick="deleteInsight(' + dataIdx + ',event)"><i data-lucide="trash-2"></i> Delete document</button>' +
+      '</div>' +
+      '</div>';
   }).join('');
+  lucide.createIcons();
+}
+
+function deleteInsight(idx, ev) {
+  ev.stopPropagation();
+  if (!confirm('Remover este insight da base local?')) return;
+  DATA.splice(idx, 1);
+  filteredData = filteredData.filter(r => DATA.includes(r));
+  render(filteredData);
 }
 
 function exportCSV() {

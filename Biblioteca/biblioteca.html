@@ -176,6 +176,18 @@ option{background:#0f0f1a;}
 .slide-tags-wrap{display:flex;gap:6px;flex-wrap:wrap;}
 .slide-source{font-size:11px;color:var(--muted);margin-top:10px;padding-top:10px;border-top:1px solid var(--border);}
 
+/* CARD RICH LAYOUT */
+.card-info-line{font-size:12px;color:var(--muted);margin-bottom:14px;display:flex;flex-wrap:wrap;gap:4px;align-items:center;}
+.card-info-dot{margin:0 2px;color:var(--border);}
+.card-highlights{display:flex;flex-direction:column;gap:8px;margin-bottom:16px;}
+.card-hl{display:flex;align-items:center;gap:12px;padding:10px 14px;background:rgba(255,31,142,.04);border:1px solid rgba(255,31,142,.12);border-radius:12px;}
+.card-hl-n{font-family:"Space Mono",monospace;font-size:22px;font-weight:700;color:var(--c1);white-space:nowrap;min-width:60px;flex-shrink:0;}
+.card-hl-t{font-size:12px;color:rgba(232,232,240,.75);line-height:1.5;}
+.card-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:4px;}
+.card-del-btn{display:inline-flex;align-items:center;gap:6px;font-size:11px;font-weight:600;color:rgba(255,60,60,.6);padding:7px 12px;border-radius:10px;border:1px solid rgba(255,60,60,.2);background:rgba(255,60,60,.04);transition:all .2s;cursor:pointer;font-family:"Space Grotesk",sans-serif;}
+.card-del-btn:hover{color:#ff4d4d;border-color:rgba(255,60,60,.5);background:rgba(255,60,60,.1);}
+.card-del-btn i[data-lucide]{width:12px;height:12px;}
+
 /* EMPTY */
 .empty{text-align:center;padding:80px 20px;color:var(--muted);}
 .empty-icon{font-size:48px;margin-bottom:16px;}
@@ -19992,20 +20004,45 @@ function renderCards(items) {
   document.getElementById('count-label').textContent = items.length;
   if (!items.length) { container.innerHTML = ''; empty.style.display = 'block'; return; }
   empty.style.display = 'none';
-  container.innerHTML = items.map(e => `
-    <div class="result-card" onclick="openModal(${e.id})">
+  container.innerHTML = items.map(e => {
+    const hlHTML = (e.highlights||[]).slice(0,2).map(h=>`
+      <div class="card-hl">
+        <span class="card-hl-n">${h.n}</span>
+        <span class="card-hl-t">${h.texto}</span>
+      </div>`).join('');
+    return `
+    <div class="result-card">
       <div class="card-head">
         <span class="card-source-badge">${e.tema}</span>
         <span class="card-year">${e.ano}</span>
       </div>
       <div class="card-title-list">${e.titulo}</div>
-      <div class="card-meta">
-        <span class="tag tag-tema">${e.fonte}</span>
-        ${e.slides[0]&&e.slides[0].tags?e.slides[0].tags.slice(0,3).map(t=>`<span class="tag-ref">${t}</span>`).join(''):''}
+      <div class="card-info-line">
+        <span>${e.fonte}</span>
+        <span class="card-info-dot">·</span>
+        <span>${e.numInsights} insights</span>
+        <span class="card-info-dot">·</span>
+        <span>${e.numSlides} slides</span>
       </div>
-      <button class="card-cta-btn"><i data-lucide="eye"></i> Ver detalhes</button>
-    </div>`).join('');
+      <div class="card-highlights">${hlHTML}</div>
+      <div class="card-actions">
+        <button class="card-cta-btn" onclick="openModal(${e.id})"><i data-lucide="book-open"></i> Ver estudo completo</button>
+        <button class="card-del-btn" onclick="deleteDoc(${e.id},event)"><i data-lucide="trash-2"></i> Delete document</button>
+      </div>
+    </div>`;
+  }).join('');
   lucide.createIcons();
+}
+
+function deleteDoc(id, ev) {
+  ev.stopPropagation();
+  if (!confirm('Remover este estudo da base local?')) return;
+  const gi = ESTUDOS.findIndex(x => x.id === id);
+  if (gi > -1) ESTUDOS.splice(gi, 1);
+  const fi = filtered.findIndex(x => x.id === id);
+  if (fi > -1) filtered.splice(fi, 1);
+  document.getElementById('total-estudos').textContent = ESTUDOS.length;
+  renderCards(filtered);
 }
 
 function extractNum(str) {
