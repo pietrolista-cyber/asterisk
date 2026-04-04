@@ -182,6 +182,14 @@ option{background:#0f0f1a;}
 .slide-source{font-size:11px;color:var(--muted);margin-top:10px;padding-top:10px;border-top:1px solid var(--border);}
 
 
+/* PAGINATION */
+.pagination{display:flex;align-items:center;justify-content:center;gap:8px;margin-top:32px;padding:0 0 16px;}
+.page-btn{padding:8px 16px;background:var(--surface);border:1px solid var(--border);border-radius:10px;color:var(--muted);font-size:13px;font-weight:600;cursor:pointer;font-family:"Space Grotesk",sans-serif;transition:.2s;}
+.page-btn:hover{color:var(--text);border-color:rgba(255,31,142,.4);background:rgba(255,31,142,.06);}
+.page-btn.active{color:#fff;background:linear-gradient(135deg,rgba(255,31,142,.3),rgba(191,90,242,.3));border-color:rgba(255,31,142,.4);}
+.page-btn:disabled{opacity:.35;cursor:default;}
+.page-info{font-family:"Space Mono",monospace;font-size:11px;color:var(--muted);padding:0 8px;}
+
 /* EMPTY */
 .empty{text-align:center;padding:80px 20px;color:var(--muted);}
 .empty-icon{font-size:48px;margin-bottom:16px;}
@@ -276,19 +284,19 @@ option{background:#0f0f1a;}
   <!-- CHIPS TEMAS -->
   <div class="chips-label">Filtrar por tema</div>
   <div class="chips-row" id="chips-temas">
-    <button class="chip" onclick="searchBy('tema','Consumo')"><i data-lucide="shopping-bag" aria-hidden="true"></i>Consumo</button>
-    <button class="chip" onclick="searchBy('tema','Marketing')"><i data-lucide="bar-chart-2" aria-hidden="true"></i>Marketing</button>
-    <button class="chip" onclick="searchBy('tema','Tecnologia')"><i data-lucide="cpu" aria-hidden="true"></i>Tecnologia</button>
-    <button class="chip" onclick="searchBy('tema','Saúde')"><i data-lucide="heart" aria-hidden="true"></i>Saúde</button>
-    <button class="chip" onclick="searchBy('tema','Tendências')"><i data-lucide="telescope" aria-hidden="true"></i>Tendências</button>
-    <button class="chip" onclick="searchBy('tema','Gerações')"><i data-lucide="users" aria-hidden="true"></i>Gerações</button>
-    <button class="chip" onclick="searchBy('tema','Mídia')"><i data-lucide="smartphone" aria-hidden="true"></i>Mídia</button>
-    <button class="chip" onclick="searchBy('tema','Alimentação')"><i data-lucide="utensils" aria-hidden="true"></i>Alimentação</button>
-    <button class="chip" onclick="searchBy('tema','Games')"><i data-lucide="gamepad-2" aria-hidden="true"></i>Games</button>
-    <button class="chip" onclick="searchBy('tema','Pets')"><i data-lucide="paw-print" aria-hidden="true"></i>Pets</button>
-    <button class="chip" onclick="searchBy('tema','Finanças')"><i data-lucide="landmark" aria-hidden="true"></i>Finanças</button>
-    <button class="chip" onclick="searchBy('tema','Moda')"><i data-lucide="shirt" aria-hidden="true"></i>Moda</button>
-    <button class="chip" onclick="searchBy('tema','Criatividade')"><i data-lucide="target" aria-hidden="true"></i>Criatividade</button>
+    <button class="chip" onclick="searchBy('tema','Consumo')"><img src="https://cdn-icons-png.flaticon.com/512/869/869869.png" style="width:14px;height:14px;object-fit:contain;flex-shrink:0" alt="">Consumo</button>
+    <button class="chip" onclick="searchBy('tema','Marketing')"><img src="https://cdn-icons-png.flaticon.com/512/1721/1721535.png" style="width:14px;height:14px;object-fit:contain;flex-shrink:0" alt="">Marketing</button>
+    <button class="chip" onclick="searchBy('tema','Tecnologia')"><img src="https://cdn-icons-png.flaticon.com/512/2103/2103832.png" style="width:14px;height:14px;object-fit:contain;flex-shrink:0" alt="">Tecnologia</button>
+    <button class="chip" onclick="searchBy('tema','Saúde')"><img src="https://cdn-icons-png.flaticon.com/512/3481/3481473.png" style="width:14px;height:14px;object-fit:contain;flex-shrink:0" alt="">Saúde</button>
+    <button class="chip" onclick="searchBy('tema','Tendências')"><img src="https://cdn-icons-png.flaticon.com/512/2704/2704068.png" style="width:14px;height:14px;object-fit:contain;flex-shrink:0" alt="">Tendências</button>
+    <button class="chip" onclick="searchBy('tema','Gerações')"><img src="https://cdn-icons-png.flaticon.com/512/1256/1256650.png" style="width:14px;height:14px;object-fit:contain;flex-shrink:0" alt="">Gerações</button>
+    <button class="chip" onclick="searchBy('tema','Mídia')"><img src="https://cdn-icons-png.flaticon.com/512/1055/1055644.png" style="width:14px;height:14px;object-fit:contain;flex-shrink:0" alt="">Mídia</button>
+    <button class="chip" onclick="searchBy('tema','Alimentação')"><img src="https://cdn-icons-png.flaticon.com/512/3050/3050446.png" style="width:14px;height:14px;object-fit:contain;flex-shrink:0" alt="">Alimentação</button>
+    <button class="chip" onclick="searchBy('tema','Games')"><img src="https://cdn-icons-png.flaticon.com/512/686/686589.png" style="width:14px;height:14px;object-fit:contain;flex-shrink:0" alt="">Games</button>
+    <button class="chip" onclick="searchBy('tema','Pets')"><img src="https://cdn-icons-png.flaticon.com/512/616/616452.png" style="width:14px;height:14px;object-fit:contain;flex-shrink:0" alt="">Pets</button>
+    <button class="chip" onclick="searchBy('tema','Finanças')"><img src="https://cdn-icons-png.flaticon.com/512/2830/2830284.png" style="width:14px;height:14px;object-fit:contain;flex-shrink:0" alt="">Finanças</button>
+    <button class="chip" onclick="searchBy('tema','Moda')"><img src="https://cdn-icons-png.flaticon.com/512/2092/2092755.png" style="width:14px;height:14px;object-fit:contain;flex-shrink:0" alt="">Moda</button>
+    <button class="chip" onclick="searchBy('tema','Sustentabilidade')"><img src="https://cdn-icons-png.flaticon.com/512/3064/3064128.png" style="width:14px;height:14px;object-fit:contain;flex-shrink:0" alt="">Sustentabilidade</button>
   </div>
 
   <!-- FILTROS -->
@@ -366,6 +374,7 @@ option{background:#0f0f1a;}
     <button class="export-btn" onclick="exportCSV()"><i data-lucide="download" aria-hidden="true"></i> Exportar CSV</button>
   </div>
   <div class="results-grid" id="results"></div>
+  <div id="pagination"></div>
   <div class="empty" id="empty" style="display:none">
     <div class="empty-icon">📚</div>
     <h3>Nenhum estudo encontrado</h3>
@@ -22177,6 +22186,8 @@ const ESTUDOS = [
 let activeFilters = { tema:'', fonte:'', ano:'' };
 let activeTema = '';
 let filtered = [...ESTUDOS];
+const PAGE_SIZE = 30;
+let _page = 1;
 
 // ─────────────────────────────────────────
 // NAV MOBILE
@@ -22251,15 +22262,26 @@ function getIconImg(tema) {
 }
 
 // ─────────────────────────────────────────
-// RENDER CARDS
+// RENDER CARDS (com paginação — 30 por página)
 // ─────────────────────────────────────────
-function renderCards(items) {
+let filteredCache = [];
+function renderCards(items) { filteredCache = items; _page = 1; renderPage(items); }
+function goPage(p, items) {
+  _page = p;
+  renderPage(items);
+  document.getElementById('results').scrollIntoView({behavior:'smooth', block:'start'});
+}
+function renderPage(items) {
   const container = document.getElementById('results');
   const empty = document.getElementById('empty');
   document.getElementById('count-label').textContent = items.length;
-  if (!items.length) { container.innerHTML = ''; empty.style.display = 'block'; return; }
+  if (!items.length) { container.innerHTML = ''; empty.style.display = 'block'; document.getElementById('pagination').innerHTML = ''; return; }
   empty.style.display = 'none';
-  container.innerHTML = items.map(e => {
+  const totalPages = Math.ceil(items.length / PAGE_SIZE);
+  if(_page > totalPages) _page = totalPages;
+  const start = (_page-1)*PAGE_SIZE;
+  const pageItems = items.slice(start, start+PAGE_SIZE);
+  container.innerHTML = pageItems.map(e => {
     const statsHTML = (e.highlights||[]).slice(0,3).map(h=>`
       <div class="card-stat">
         <div class="card-stat-num">${h.n||'✦'}</div>
@@ -22294,6 +22316,22 @@ function renderCards(items) {
     </div>`;
   }).join('');
   lucide.createIcons();
+  // Render pagination
+  const pg = document.getElementById('pagination');
+  if(totalPages <= 1){ pg.innerHTML=''; return; }
+  let btns = `<div class="pagination">
+    <button class="page-btn" onclick="goPage(${_page-1},filteredCache)" ${_page<=1?'disabled':''}>← Anterior</button>`;
+  const maxBtns = 5;
+  let start2 = Math.max(1, _page - Math.floor(maxBtns/2));
+  let end2 = Math.min(totalPages, start2 + maxBtns - 1);
+  if(end2-start2 < maxBtns-1) start2 = Math.max(1, end2 - maxBtns + 1);
+  for(let i=start2; i<=end2; i++){
+    btns += `<button class="page-btn${i===_page?' active':''}" onclick="goPage(${i},filteredCache)">${i}</button>`;
+  }
+  btns += `<span class="page-info">Página ${_page} de ${totalPages}</span>
+    <button class="page-btn" onclick="goPage(${_page+1},filteredCache)" ${_page>=totalPages?'disabled':''}>Próximo →</button>
+  </div>`;
+  pg.innerHTML = btns;
 }
 
 function deleteDoc(id, ev) {
