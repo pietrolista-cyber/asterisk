@@ -6258,7 +6258,7 @@ function doSearch() {
   filtered = ESTUDOS.filter(e => {
     const text = [e.titulo, e.tema, e.fonte, e.resumo, ...e.highlights].join(' ').toLowerCase();
     if (q && !text.includes(q)) return false;
-    if (fonte && e.fonte !== fonte) return false;
+    if (fonte && !e.fonte.startsWith(fonte)) return false;
     if (ano && e.ano !== ano) return false;
     if (activeTema && e.tema !== activeTema) return false;
     return true;
