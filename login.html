@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login — Asterisk</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300..900;1,300..400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --c1:#ff1f8e;--c2:#bf5af2;--c3:#0a84ff;--c4:#30d158;
+  --bg:#000;
+  --glass:rgba(255,255,255,.055);--glass-h:rgba(255,255,255,.09);
+  --border:rgba(255,255,255,.09);--border-h:rgba(255,255,255,.2);
+  --text:#f5f5f7;--t2:rgba(245,245,247,.62);--t3:rgba(245,245,247,.32);
+  --font:-apple-system,BlinkMacSystemFont,"Inter","SF Pro Display",Segoe UI,sans-serif;
+  --r:18px;
+}
+*,*:before,*:after{box-sizing:border-box;margin:0;padding:0;}
+html,body{height:100%;}
+body{background:var(--bg);font-family:var(--font);color:var(--text);min-height:100vh;overflow-x:hidden;-webkit-font-smoothing:antialiased;display:flex;flex-direction:column;}
+
+/* ORBS */
+.bg-orbs{position:fixed;inset:0;pointer-events:none;z-index:0;overflow:hidden;}
+.bg-orbs span{position:absolute;border-radius:50%;filter:blur(130px);}
+.o1{width:800px;height:800px;top:-300px;left:-200px;background:radial-gradient(circle,var(--c1),var(--c2));opacity:.25;}
+.o2{width:700px;height:700px;bottom:-200px;right:-150px;background:radial-gradient(circle,var(--c3),var(--c2));opacity:.2;}
+.o3{width:500px;height:500px;top:40%;left:50%;transform:translate(-50%,-50%);background:radial-gradient(circle,var(--c2),var(--c1));opacity:.1;}
+
+/* NOISE */
+.bg-noise{position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.025;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='256' height='256'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.5'/%3E%3C/svg%3E");}
+
+/* LAYOUT */
+.login-wrap{position:relative;z-index:1;display:flex;min-height:100vh;align-items:stretch;}
+
+/* LEFT PANEL */
+.left-panel{flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:60px 48px;border-right:1px solid var(--border);}
+.brand{display:flex;flex-direction:column;align-items:center;margin-bottom:56px;}
+.brand-logo{font-size:13px;font-weight:800;letter-spacing:.3em;text-transform:uppercase;color:#fff;margin-bottom:12px;}
+.brand-asterisk{font-size:80px;line-height:1;background:linear-gradient(135deg,var(--c1),var(--c2),var(--c3));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;filter:drop-shadow(0 0 40px rgba(255,31,142,.4));margin-bottom:16px;}
+.brand-tagline{font-size:14px;color:var(--t3);letter-spacing:.08em;text-align:center;line-height:1.6;max-width:280px;}
+.features{display:flex;flex-direction:column;gap:16px;width:100%;max-width:320px;}
+.feature-item{display:flex;align-items:center;gap:14px;padding:16px 20px;background:var(--glass);border:1px solid var(--border);border-radius:16px;transition:.2s;}
+.feature-item:hover{background:var(--glass-h);border-color:var(--border-h);}
+.feature-icon{width:36px;height:36px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0;}
+.feature-text{font-size:13px;color:var(--t2);line-height:1.5;}
+.feature-text strong{color:var(--text);display:block;font-size:13px;margin-bottom:2px;}
+
+/* RIGHT PANEL */
+.right-panel{width:520px;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:60px 48px;}
+
+.login-card{width:100%;max-width:420px;}
+.login-header{margin-bottom:36px;}
+.login-eyebrow{font-size:10px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--c2);margin-bottom:12px;display:flex;align-items:center;gap:8px;}
+.login-eyebrow:before{content:'';display:block;width:20px;height:2px;background:linear-gradient(90deg,var(--c1),var(--c2));border-radius:2px;}
+.login-title{font-size:32px;font-weight:800;letter-spacing:-.02em;margin-bottom:8px;}
+.login-sub{font-size:14px;color:var(--t2);line-height:1.6;}
+
+/* SOCIAL LOGINS */
+.social-btns{display:flex;flex-direction:column;gap:10px;margin-bottom:28px;}
+.social-btn{width:100%;padding:14px 20px;background:var(--glass);border:1px solid var(--border-h);border-radius:14px;color:var(--text);font-family:var(--font);font-size:14px;font-weight:500;cursor:pointer;display:flex;align-items:center;gap:14px;transition:all .2s;text-decoration:none;}
+.social-btn:hover{background:var(--glass-h);border-color:var(--border-h);transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.3);}
+.social-icon{width:22px;height:22px;flex-shrink:0;display:flex;align-items:center;justify-content:center;}
+.social-label{flex:1;text-align:left;}
+.social-arr{color:var(--t3);font-size:12px;}
+
+/* DIVIDER */
+.divider{display:flex;align-items:center;gap:14px;margin-bottom:24px;}
+.divider-line{flex:1;height:1px;background:var(--border);}
+.divider-text{font-size:11px;color:var(--t3);letter-spacing:.1em;text-transform:uppercase;white-space:nowrap;}
+
+/* FORM */
+.form-group{margin-bottom:18px;}
+.form-label{display:block;font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--t3);margin-bottom:8px;}
+.form-input-wrap{position:relative;}
+.form-input{width:100%;padding:14px 18px;background:rgba(255,255,255,.06);border:1px solid var(--border-h);color:var(--text);font-family:var(--font);font-size:15px;border-radius:14px;outline:none;transition:.2s;}
+.form-input::placeholder{color:var(--t3);}
+.form-input:focus{border-color:rgba(255,31,142,.5);background:rgba(255,255,255,.08);box-shadow:0 0 0 4px rgba(255,31,142,.08);}
+.form-input.valid{border-color:rgba(48,209,88,.4);}
+.form-input.error{border-color:rgba(255,69,58,.4);}
+.input-icon{position:absolute;right:16px;top:50%;transform:translateY(-50%);font-size:16px;pointer-events:none;}
+.form-row{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;}
+.form-forgot{font-size:12px;color:var(--c2);text-decoration:none;transition:.15s;}
+.form-forgot:hover{color:var(--c1);}
+.pass-toggle{position:absolute;right:16px;top:50%;transform:translateY(-50%);background:none;border:none;color:var(--t3);cursor:pointer;font-size:16px;transition:.2s;padding:4px;}
+.pass-toggle:hover{color:var(--t2);}
+
+/* LOGIN BTN */
+.login-btn{width:100%;margin-top:8px;padding:16px 24px;background:linear-gradient(135deg,var(--c1),var(--c2));border:none;border-radius:14px;color:#fff;font-family:var(--font);font-size:15px;font-weight:700;letter-spacing:.04em;cursor:pointer;transition:all .3s cubic-bezier(.34,1.56,.64,1);display:flex;align-items:center;justify-content:center;gap:10px;box-shadow:0 8px 28px rgba(255,31,142,.35);}
+.login-btn:hover{transform:translateY(-3px) scale(1.01);box-shadow:0 16px 48px rgba(255,31,142,.45);}
+.login-btn:active{transform:scale(.98);}
+.login-btn.loading .btn-text{display:none;}
+.login-btn .btn-spinner{display:none;width:20px;height:20px;border:2px solid rgba(255,255,255,.3);border-top-color:#fff;border-radius:50%;animation:spin .7s linear infinite;}
+.login-btn.loading .btn-spinner{display:block;}
+@keyframes spin{to{transform:rotate(360deg);}}
+
+/* ERROR MSG */
+.error-msg{display:none;font-size:12px;color:rgba(255,69,58,.9);margin-top:8px;padding:10px 14px;background:rgba(255,69,58,.08);border:1px solid rgba(255,69,58,.2);border-radius:10px;}
+.error-msg.visible{display:block;}
+
+/* FOOTER */
+.login-footer{text-align:center;margin-top:28px;}
+.login-footer p{font-size:13px;color:var(--t3);}
+.login-footer a{color:var(--c2);text-decoration:none;font-weight:600;transition:.15s;}
+.login-footer a:hover{color:var(--c1);}
+.terms{margin-top:16px;font-size:11px;color:var(--t3);line-height:1.6;}
+.terms a{color:var(--t3);text-decoration:underline;text-decoration-color:rgba(245,245,247,.2);}
+.terms a:hover{color:var(--t2);}
+
+/* TAB SWITCHER (Login / Cadastro) */
+.auth-tabs{display:flex;gap:0;margin-bottom:32px;background:var(--glass);border:1px solid var(--border);border-radius:14px;padding:4px;}
+.auth-tab{flex:1;padding:10px;border:none;border-radius:10px;background:none;color:var(--t3);font-family:var(--font);font-size:13px;font-weight:600;cursor:pointer;transition:.2s;}
+.auth-tab.active{background:linear-gradient(135deg,var(--c1),var(--c2));color:#fff;box-shadow:0 4px 14px rgba(255,31,142,.3);}
+
+/* RESPONSIVE */
+@media(max-width:900px){
+  .left-panel{display:none;}
+  .right-panel{width:100%;padding:48px 24px;}
+}
+@media(max-width:480px){
+  .right-panel{padding:40px 20px;}
+  .login-title{font-size:26px;}
+}
+
+/* ANIMATIONS */
+@keyframes float-in{from{opacity:0;transform:translateY(24px);}to{opacity:1;transform:none;}}
+.login-card{animation:float-in .5s ease both;}
+</style>
+  <!-- Supabase SDK -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+<body>
+<div class="bg-orbs"><span class="o1"></span><span class="o2"></span><span class="o3"></span></div>
+<div class="bg-noise"></div>
+
+<div class="login-wrap">
+  <!-- LEFT -->
+  <div class="left-panel">
+    <div class="brand">
+      <div class="brand-asterisk">✳</div>
+      <div class="brand-logo">Asterisk</div>
+      <div class="brand-tagline">Plataforma de inteligência criativa para estrategistas de marca</div>
+    </div>
+    <div class="features">
+      <div class="feature-item">
+        <div class="feature-icon" style="background:linear-gradient(135deg,rgba(255,31,142,.2),rgba(191,90,242,.2));">🧠</div>
+        <div class="feature-text"><strong>O Cérebro</strong>Pesquisa criativa com IA em CannesFlix, Insight e Biblioteca</div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon" style="background:linear-gradient(135deg,rgba(191,90,242,.2),rgba(10,132,255,.2));">🎬</div>
+        <div class="feature-text"><strong>CannesFlix</strong>2076 campanhas premiadas em Cannes filtradas por segmento</div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon" style="background:linear-gradient(135deg,rgba(10,132,255,.2),rgba(100,210,255,.2));">📊</div>
+        <div class="feature-text"><strong>Insight</strong>Dados e estatísticas reais para embasar qualquer briefing</div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon" style="background:linear-gradient(135deg,rgba(48,209,88,.2),rgba(10,132,255,.2));">📚</div>
+        <div class="feature-text"><strong>Biblioteca</strong>184 estudos + gerador de slides com IA</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- RIGHT -->
+  <div class="right-panel">
+    <div class="login-card">
+      <div class="login-header">
+        <div class="login-eyebrow">Asterisk · MoDACoNSUMO</div>
+        <h1 class="login-title" id="form-title">Bem-vindo de volta</h1>
+        <p class="login-sub" id="form-sub">Entre na sua conta para acessar a plataforma</p>
+      </div>
+
+      <!-- TABS -->
+      <div class="auth-tabs">
+        <button class="auth-tab active" onclick="switchAuth('login')">Entrar</button>
+        <button class="auth-tab" onclick="switchAuth('signup')">Criar conta</button>
+      </div>
+
+      <!-- SOCIAL -->
+      <div class="social-btns">
+        <button class="social-btn" onclick="socialLogin('Google')">
+          <span class="social-icon">
+            <svg viewBox="0 0 24 24" width="22" height="22"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+          </span>
+          <span class="social-label">Continuar com Google</span>
+          <span class="social-arr">→</span>
+        </button>
+        <button class="social-btn" onclick="socialLogin('Microsoft')">
+          <span class="social-icon">
+            <svg viewBox="0 0 24 24" width="22" height="22"><rect x="1" y="1" width="10" height="10" fill="#f35325"/><rect x="13" y="1" width="10" height="10" fill="#81bc06"/><rect x="1" y="13" width="10" height="10" fill="#05a6f0"/><rect x="13" y="13" width="10" height="10" fill="#ffba08"/></svg>
+          </span>
+          <span class="social-label">Continuar com Microsoft</span>
+          <span class="social-arr">→</span>
+        </button>
+      </div>
+
+      <!-- DIVIDER -->
+      <div class="divider">
+        <div class="divider-line"></div>
+        <div class="divider-text">ou com email</div>
+        <div class="divider-line"></div>
+      </div>
+
+      <!-- FORM -->
+      <form id="auth-form" onsubmit="handleSubmit(event)">
+        <!-- Nome (só no signup) -->
+        <div class="form-group" id="field-name" style="display:none;">
+          <label class="form-label">Nome completo</label>
+          <div class="form-input-wrap">
+            <input type="text" class="form-input" id="input-name" placeholder="Seu nome" autocomplete="name">
+            <span class="input-icon">👤</span>
+          </div>
+        </div>
+
+        <!-- Email -->
+        <div class="form-group">
+          <label class="form-label">Email</label>
+          <div class="form-input-wrap">
+            <input type="email" class="form-input" id="input-email" placeholder="seu@email.com" autocomplete="email" oninput="validateEmail(this)">
+            <span class="input-icon" id="email-icon">✉️</span>
+          </div>
+        </div>
+
+        <!-- Senha -->
+        <div class="form-group">
+          <div class="form-row">
+            <label class="form-label">Senha</label>
+            <a href="#" class="form-forgot" id="forgot-link" onclick="forgotPassword(event)">Esqueceu a senha?</a>
+          </div>
+          <div class="form-input-wrap">
+            <input type="password" class="form-input" id="input-pass" placeholder="••••••••" autocomplete="current-password">
+            <button type="button" class="pass-toggle" onclick="togglePass()">👁</button>
+          </div>
+        </div>
+
+        <!-- Confirmar senha (só signup) -->
+        <div class="form-group" id="field-confirm" style="display:none;">
+          <label class="form-label">Confirmar senha</label>
+          <div class="form-input-wrap">
+            <input type="password" class="form-input" id="input-confirm" placeholder="••••••••" autocomplete="new-password">
+          </div>
+        </div>
+
+        <!-- Erro -->
+        <div class="error-msg" id="error-msg">Email ou senha incorretos. Tente novamente.</div>
+
+        <!-- BTN -->
+        <button type="submit" class="login-btn" id="login-btn">
+          <span class="btn-text" id="btn-text">Entrar na plataforma →</span>
+          <div class="btn-spinner"></div>
+        </button>
+      </form>
+
+      <!-- FOOTER -->
+      <div class="login-footer">
+        <p id="footer-text">Não tem conta? <a href="#" onclick="switchAuth('signup');return false;">Criar gratuitamente</a></p>
+        <p class="terms">Ao entrar, você concorda com os <a href="#">Termos de uso</a> e a <a href="#">Política de privacidade</a> da Asterisk.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+// ─────────────────────────────────────────
+// SUPABASE CONFIG — troque pelas suas chaves
+// Crie um projeto em supabase.com → Settings → API
+// ─────────────────────────────────────────
+const SUPABASE_URL  = 'https://SEU-PROJETO.supabase.co'
+const SUPABASE_ANON = 'sua-anon-key-aqui'
+const { createClient } = supabase
+const sb = createClient(SUPABASE_URL, SUPABASE_ANON)
+
+// ─────────────────────────────────────────
+// STATE
+// ─────────────────────────────────────────
+let authMode = 'login'
+
+// Checa sessão ativa ao carregar
+window.addEventListener('DOMContentLoaded', async () => {
+  const { data: { session } } = await sb.auth.getSession()
+  if (session) window.location.href = 'cerebro.html'
+})
+
+// ─────────────────────────────────────────
+// UI HELPERS
+// ─────────────────────────────────────────
+function switchAuth(mode) {
+  authMode = mode
+  const isLogin = mode === 'login'
+  document.querySelectorAll('.auth-tab').forEach((t,i) => t.classList.toggle('active', isLogin ? i===0 : i===1))
+  document.getElementById('form-title').textContent = isLogin ? 'Bem-vindo de volta' : 'Criar sua conta'
+  document.getElementById('form-sub').textContent   = isLogin ? 'Entre na sua conta para acessar a plataforma' : 'Acesso completo à plataforma Asterisk'
+  document.getElementById('field-name').style.display    = isLogin ? 'none' : 'block'
+  document.getElementById('field-confirm').style.display = isLogin ? 'none' : 'block'
+  document.getElementById('forgot-link').style.display   = isLogin ? '' : 'none'
+  document.getElementById('btn-text').textContent = isLogin ? 'Entrar na plataforma →' : 'Criar conta grátis →'
+  document.getElementById('footer-text').innerHTML = isLogin
+    ? 'Não tem conta? <a href="#" onclick="switchAuth(\'signup\');return false;">Criar gratuitamente</a>'
+    : 'Já tem conta? <a href="#" onclick="switchAuth(\'login\');return false;">Entrar</a>'
+  showError('')
+}
+
+function validateEmail(input) {
+  const valid = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(input.value)
+  input.classList.toggle('valid', valid && input.value.length > 0)
+  document.getElementById('email-icon').textContent = valid && input.value.length > 0 ? '✅' : '✉️'
+}
+
+function togglePass() {
+  const inp = document.getElementById('input-pass')
+  inp.type = inp.type === 'password' ? 'text' : 'password'
+}
+
+function showError(msg) {
+  const el = document.getElementById('error-msg')
+  el.textContent = msg
+  el.classList.toggle('visible', !!msg)
+}
+
+function setLoading(on) {
+  document.getElementById('login-btn').classList.toggle('loading', on)
+}
+
+// ─────────────────────────────────────────
+// SUBMIT — Login ou Cadastro
+// ─────────────────────────────────────────
+async function handleSubmit(e) {
+  e.preventDefault()
+  const email   = document.getElementById('input-email').value.trim()
+  const pass    = document.getElementById('input-pass').value
+  const confirm = document.getElementById('input-confirm').value
+  const name    = document.getElementById('input-name').value.trim()
+
+  if (!email || !pass) { showError('Preencha email e senha.'); return }
+
+  if (authMode === 'signup') {
+    if (pass.length < 6)      { showError('A senha precisa ter pelo menos 6 caracteres.'); return }
+    if (pass !== confirm)     { showError('As senhas não coincidem.'); return }
+  }
+
+  setLoading(true)
+  showError('')
+
+  if (authMode === 'login') {
+    const { error } = await sb.auth.signInWithPassword({ email, password: pass })
+    setLoading(false)
+    if (error) { showError(translateError(error.message)); return }
+    window.location.href = 'cerebro.html'
+
+  } else {
+    const { error } = await sb.auth.signUp({
+      email,
+      password: pass,
+      options: { data: { full_name: name } }
+    })
+    setLoading(false)
+    if (error) { showError(translateError(error.message)); return }
+    showError('')
+    showSuccess('Conta criada! Verifique seu email para confirmar o acesso.')
+  }
+}
+
+// ─────────────────────────────────────────
+// SOCIAL LOGIN — Google / Microsoft
+// ─────────────────────────────────────────
+async function socialLogin(provider) {
+  const map = { Google: 'google', Microsoft: 'azure' }
+  const { error } = await sb.auth.signInWithOAuth({
+    provider: map[provider],
+    options: { redirectTo: window.location.origin + '/cerebro.html' }
+  })
+  if (error) showError(translateError(error.message))
+}
+
+// ─────────────────────────────────────────
+// FORGOT PASSWORD
+// ─────────────────────────────────────────
+async function forgotPassword(e) {
+  e.preventDefault()
+  const email = document.getElementById('input-email').value.trim()
+  if (!email) { showError('Digite seu email primeiro.'); return }
+  setLoading(true)
+  const { error } = await sb.auth.resetPasswordForEmail(email, {
+    redirectTo: window.location.origin + '/reset-password.html'
+  })
+  setLoading(false)
+  if (error) { showError(translateError(error.message)); return }
+  showSuccess('Link de recuperação enviado para ' + email)
+}
+
+// ─────────────────────────────────────────
+// SUCCESS MSG
+// ─────────────────────────────────────────
+function showSuccess(msg) {
+  const el = document.getElementById('error-msg')
+  el.textContent = msg
+  el.style.color = 'rgba(48,209,88,.9)'
+  el.style.background = 'rgba(48,209,88,.08)'
+  el.style.borderColor = 'rgba(48,209,88,.2)'
+  el.classList.add('visible')
+}
+
+// ─────────────────────────────────────────
+// ERROR TRANSLATIONS
+// ─────────────────────────────────────────
+function translateError(msg) {
+  const map = {
+    'Invalid login credentials':       'Email ou senha incorretos.',
+    'Email not confirmed':             'Confirme seu email antes de entrar.',
+    'User already registered':         'Este email já está cadastrado.',
+    'Password should be at least 6':   'A senha precisa ter pelo menos 6 caracteres.',
+    'Unable to validate email':        'Email inválido.',
+    'Email rate limit exceeded':       'Muitas tentativas. Aguarde alguns minutos.',
+    'Invalid email or password':       'Email ou senha incorretos.',
+  }
+  for (const [k,v] of Object.entries(map)) if (msg.includes(k)) return v
+  return msg
+}
+</script>
+
+<!-- SETUP BANNER — aparece só quando as chaves não foram configuradas -->
+<div id="setup-banner" style="display:none;position:fixed;bottom:20px;left:50%;transform:translateX(-50%);z-index:999;background:rgba(255,159,10,.12);border:1px solid rgba(255,159,10,.35);border-radius:16px;padding:14px 22px;max-width:520px;width:calc(100% - 40px);backdrop-filter:blur(16px);">
+  <p style="font-size:13px;color:rgba(255,159,10,.95);line-height:1.6;text-align:center;">
+    ⚙️ <strong>Configure o Supabase:</strong> Edite as variáveis <code style="background:rgba(255,255,255,.1);padding:2px 6px;border-radius:6px;">SUPABASE_URL</code> e <code style="background:rgba(255,255,255,.1);padding:2px 6px;border-radius:6px;">SUPABASE_ANON</code> no topo do script com as chaves do seu projeto em <a href="https://supabase.com" target="_blank" style="color:rgba(255,159,10,.9);font-weight:600;">supabase.com</a>
+  </p>
+</div>
+<script>
+if(typeof SUPABASE_URL !== 'undefined' && SUPABASE_URL.includes('SEU-PROJETO')){
+  document.getElementById('setup-banner').style.display = 'block'
+}
+</script>
+</body>
+</html>
