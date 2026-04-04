@@ -7,6 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
 <style>
 :root{
   --c1:#ff1f8e;--c2:#bf5af2;--c3:#0a84ff;--c4:#30d158;--c5:#ff9f0a;
@@ -34,6 +35,36 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:"Space 
 .nav-burger.active span:nth-child(1){transform:translateY(7px) rotate(45deg);}
 .nav-burger.active span:nth-child(2){opacity:0;}
 .nav-burger.active span:nth-child(3){transform:translateY(-7px) rotate(-45deg);}
+i[data-lucide]{display:inline-flex;width:16px;height:16px;stroke-width:1.75;vertical-align:middle;flex-shrink:0}
+.chip i[data-lucide]{width:14px;height:14px}
+.nav-mobile-close{display:none;align-items:center;gap:8px;padding:14px 20px;background:none;border:none;color:rgba(245,245,247,.45);font-size:13px;font-weight:600;cursor:pointer;border-radius:14px;font-family:"Space Grotesk",sans-serif;width:100%;margin-bottom:8px;}
+.modal-login{position:fixed;inset:0;background:rgba(0,0,0,.75);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);z-index:200;display:none;align-items:center;justify-content:center;padding:20px;}
+.modal-login.open{display:flex;}
+.modal-login-box{background:#111;border:1px solid rgba(255,255,255,.12);border-radius:24px;padding:40px 36px;max-width:400px;width:100%;position:relative;}
+.modal-login-close{position:absolute;top:16px;right:16px;color:rgba(245,245,247,.35);background:none;border:none;cursor:pointer;padding:8px;border-radius:10px;display:flex;align-items:center;}
+.modal-login-close:hover{color:#fff;}
+.modal-login-logo{width:48px;height:48px;border-radius:14px;background:linear-gradient(135deg,var(--c1),var(--c2));display:flex;align-items:center;justify-content:center;margin-bottom:20px;}
+.modal-login-logo i[data-lucide]{width:22px;height:22px;color:#fff;}
+.modal-login-title{font-size:20px;font-weight:800;margin-bottom:6px;background:linear-gradient(135deg,var(--c1),var(--c2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
+.modal-login-sub{font-size:13px;color:var(--muted);margin-bottom:24px;line-height:1.5;}
+.modal-login-input{width:100%;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:12px;padding:14px 16px;color:#f5f5f7;font-size:14px;margin-bottom:12px;outline:none;transition:border-color .2s;font-family:inherit;}
+.modal-login-input:focus{border-color:rgba(191,90,242,.5);}
+.modal-login-btn{width:100%;padding:14px 20px;border-radius:12px;background:linear-gradient(135deg,var(--c1),var(--c2));color:#fff;font-size:13px;font-weight:700;border:none;cursor:pointer;transition:opacity .2s;display:flex;align-items:center;justify-content:center;gap:8px;font-family:inherit;}
+.modal-login-btn:hover{opacity:.85;}
+.modal-login-btn i[data-lucide]{width:14px;height:14px;}
+/* List-style result cards (Correção 7) */
+.result-card{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:20px 22px;transition:all .25s cubic-bezier(.34,1.56,.64,1);cursor:pointer;}
+.result-card:hover{background:rgba(255,255,255,.07);border-color:rgba(255,255,255,.14);transform:translateY(-2px);}
+.card-head{display:flex;align-items:center;gap:10px;margin-bottom:10px;}
+.card-source-badge{font-size:9px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;padding:3px 10px;border-radius:100px;background:linear-gradient(135deg,rgba(255,31,142,.12),rgba(191,90,242,.12));border:1px solid rgba(191,90,242,.25);color:#d18fff;}
+.card-year{font-size:10px;font-weight:600;color:var(--muted);letter-spacing:.08em;margin-left:auto;}
+.card-title-list{font-size:15px;font-weight:700;color:var(--text);line-height:1.45;margin-bottom:12px;}
+.card-meta{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px;}
+.tag-ref{background:rgba(191,90,242,.1);color:#d18fff;border:1px solid rgba(191,90,242,.2);font-size:9px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:3px 10px;border-radius:100px;cursor:pointer;transition:.2s;}
+.tag-ref:hover{background:rgba(191,90,242,.2);}
+.card-cta-btn{display:inline-flex;align-items:center;gap:6px;font-size:11px;font-weight:700;letter-spacing:.08em;color:var(--muted);padding:8px 14px;border-radius:10px;border:1px solid var(--border);background:var(--surface);transition:all .2s;cursor:pointer;font-family:"Space Grotesk",sans-serif;}
+.card-cta-btn:hover{color:#fff;border-color:rgba(255,255,255,.2);background:rgba(255,255,255,.08);}
+.card-cta-btn i[data-lucide]{width:13px;height:13px;}
 
 /* PAGE */
 .page{position:relative;z-index:1;max-width:1120px;margin:0 auto;padding:40px 24px 80px;}
@@ -82,7 +113,7 @@ option{background:#0f0f1a;}
 .export-btn:hover{color:var(--text);border-color:rgba(255,255,255,.3);}
 
 /* STUDY CARDS */
-.results-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:20px;}
+.results-grid{display:flex;flex-direction:column;gap:10px;}
 .study-card{background:var(--surface);border:1px solid var(--border);border-radius:20px;overflow:hidden;transition:.25s;cursor:pointer;position:relative;}
 .study-card:before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--c1),var(--c2));opacity:0;transition:.2s;}
 .study-card:hover{border-color:rgba(255,31,142,.25);background:rgba(255,255,255,.06);transform:translateY(-3px);box-shadow:0 12px 40px rgba(0,0,0,.3);}
@@ -152,11 +183,30 @@ option{background:#0f0f1a;}
 
 /* RESPONSIVE */
 @media(max-width:768px){
-  .nav-links,.nav-divider,.nav-login{display:none;}
-  .nav-links.open{display:flex;flex-direction:column;position:fixed;top:var(--nav-h);left:0;right:0;bottom:0;background:rgba(5,5,9,.97);padding:24px;gap:8px;z-index:50;}
-  .nav-links.open .nav-link{display:flex;}
-  .nav-links.open .nav-login{display:block;margin-top:8px;}
+  .global-nav{padding:0 16px !important;}
+  .nav-divider{display:none;}
+  .nav-login{display:none;}
   .nav-burger{display:flex;}
+  .nav-mobile-close{display:flex;}
+  .nav-links{
+    display:none;
+    position:fixed;
+    top:0;left:0;right:0;bottom:0;
+    flex-direction:column;gap:2px;
+    background:rgba(4,4,12,.97);
+    backdrop-filter:blur(48px) saturate(200%);
+    -webkit-backdrop-filter:blur(48px) saturate(200%);
+    padding:16px;
+    padding-top:max(16px, env(safe-area-inset-top));
+    padding-bottom:max(24px, env(safe-area-inset-bottom));
+    z-index:100;
+    overflow-y:auto;
+  }
+  .nav-links.open{display:flex;}
+  .nav-link{font-size:16px;font-weight:600;padding:16px 20px;border-radius:14px;color:rgba(245,245,247,.55);letter-spacing:.03em;min-height:52px;display:flex;align-items:center;}
+  .nav-link.active{color:#fff;background:rgba(255,255,255,.07);}
+  .nav-link:hover{color:#fff;background:rgba(255,255,255,.05);}
+  .chip{min-height:44px;display:inline-flex;align-items:center;}
   .page{padding:24px 16px 60px;}
   .stats-bar{gap:12px;}
   .stat{padding:10px 16px;}
@@ -172,15 +222,19 @@ option{background:#0f0f1a;}
 
 <!-- NAV -->
 <nav class="global-nav">
-  <div class="nav-logo"><a href="../cerebro.html"><img src="../CannesFlix/ASTERISK LOGO.png" alt="Asterisk"></a></div>
+  <div class="nav-logo"><a href="../Cerebro/cerebro.html"><img src="../CannesFlix/ASTERISK LOGO.png" alt="Asterisk"></a></div>
   <div class="nav-links" id="nav-links">
-    <a href="../cerebro.html" class="nav-link">Cérebro</a>
+    <button class="nav-mobile-close" onclick="document.getElementById('nav-links').classList.remove('open');document.getElementById('nav-burger').classList.remove('active');" aria-label="Fechar menu">
+      <i data-lucide="x"></i> Fechar
+    </button>
+    <a href="../Cerebro/cerebro.html" class="nav-link">Cérebro</a>
     <a href="../CannesFlix/cannes_cerebro_fixed.html" class="nav-link">CannesFlix</a>
-    <a href="../insight.html" class="nav-link">Insight</a>
+    <a href="../Insight/insight.html" class="nav-link">Insight</a>
     <a href="biblioteca.html" class="nav-link active">Biblioteca</a>
-    <a href="../Sobre/sobre_apple_futurista.html" class="nav-link">Sobre</a>
-    <a href="../login.html" class="nav-login">Login</a>
+    <a href="../Sobre/sobre.html" class="nav-link">Sobre</a>
   </div>
+  <div class="nav-divider"></div>
+  <button class="nav-login" onclick="openLoginModal()">Login</button>
   <button class="nav-burger" id="nav-burger" onclick="this.classList.toggle('active');document.getElementById('nav-links').classList.toggle('open')" aria-label="Menu">
     <span></span><span></span><span></span>
   </button>
@@ -206,25 +260,27 @@ option{background:#0f0f1a;}
   <!-- BUSCA -->
   <div class="search-wrap">
     <input type="text" class="search-input" id="search-input" placeholder="Buscar por tema, fonte, insight ou segmento..." oninput="doSearch()" onkeydown="if(event.key==='Enter')doSearch()">
-    <button class="search-btn" onclick="doSearch()">🔍</button>
+    <button class="search-btn" onclick="doSearch()" aria-label="Buscar">
+      <i data-lucide="arrow-right"></i>
+    </button>
   </div>
 
   <!-- CHIPS TEMAS -->
   <div class="chips-label">Filtrar por tema</div>
   <div class="chips-row" id="chips-temas">
-    <button class="chip" onclick="searchBy('tema','Consumo')"><span>🛍️</span>Consumo</button>
-    <button class="chip" onclick="searchBy('tema','Marketing')"><span>📊</span>Marketing</button>
-    <button class="chip" onclick="searchBy('tema','Tecnologia')"><span>🤖</span>Tecnologia</button>
-    <button class="chip" onclick="searchBy('tema','Saúde')"><span>❤️</span>Saúde</button>
-    <button class="chip" onclick="searchBy('tema','Tendências')"><span>🔮</span>Tendências</button>
-    <button class="chip" onclick="searchBy('tema','Gerações')"><span>👥</span>Gerações</button>
-    <button class="chip" onclick="searchBy('tema','Mídia')"><span>📱</span>Mídia</button>
-    <button class="chip" onclick="searchBy('tema','Alimentação')"><span>🍔</span>Alimentação</button>
-    <button class="chip" onclick="searchBy('tema','Games')"><span>🎮</span>Games</button>
-    <button class="chip" onclick="searchBy('tema','Pets')"><span>🐾</span>Pets</button>
-    <button class="chip" onclick="searchBy('tema','Finanças')"><span>💳</span>Finanças</button>
-    <button class="chip" onclick="searchBy('tema','Moda')"><span>👗</span>Moda</button>
-    <button class="chip" onclick="searchBy('tema','Criatividade')"><span>🎯</span>Criatividade</button>
+    <button class="chip" onclick="searchBy('tema','Consumo')"><i data-lucide="shopping-bag" aria-hidden="true"></i>Consumo</button>
+    <button class="chip" onclick="searchBy('tema','Marketing')"><i data-lucide="bar-chart-2" aria-hidden="true"></i>Marketing</button>
+    <button class="chip" onclick="searchBy('tema','Tecnologia')"><i data-lucide="cpu" aria-hidden="true"></i>Tecnologia</button>
+    <button class="chip" onclick="searchBy('tema','Saúde')"><i data-lucide="heart" aria-hidden="true"></i>Saúde</button>
+    <button class="chip" onclick="searchBy('tema','Tendências')"><i data-lucide="telescope" aria-hidden="true"></i>Tendências</button>
+    <button class="chip" onclick="searchBy('tema','Gerações')"><i data-lucide="users" aria-hidden="true"></i>Gerações</button>
+    <button class="chip" onclick="searchBy('tema','Mídia')"><i data-lucide="smartphone" aria-hidden="true"></i>Mídia</button>
+    <button class="chip" onclick="searchBy('tema','Alimentação')"><i data-lucide="utensils" aria-hidden="true"></i>Alimentação</button>
+    <button class="chip" onclick="searchBy('tema','Games')"><i data-lucide="gamepad-2" aria-hidden="true"></i>Games</button>
+    <button class="chip" onclick="searchBy('tema','Pets')"><i data-lucide="paw-print" aria-hidden="true"></i>Pets</button>
+    <button class="chip" onclick="searchBy('tema','Finanças')"><i data-lucide="landmark" aria-hidden="true"></i>Finanças</button>
+    <button class="chip" onclick="searchBy('tema','Moda')"><i data-lucide="shirt" aria-hidden="true"></i>Moda</button>
+    <button class="chip" onclick="searchBy('tema','Criatividade')"><i data-lucide="target" aria-hidden="true"></i>Criatividade</button>
   </div>
 
   <!-- FILTROS -->
@@ -299,7 +355,7 @@ option{background:#0f0f1a;}
   <!-- RESULTS -->
   <div class="results-header">
     <div class="results-count">Exibindo <strong id="count-label">0</strong> estudos</div>
-    <button class="export-btn" onclick="exportCSV()">📤 Exportar CSV</button>
+    <button class="export-btn" onclick="exportCSV()"><i data-lucide="download" aria-hidden="true"></i> Exportar CSV</button>
   </div>
   <div class="results-grid" id="results"></div>
   <div class="empty" id="empty" style="display:none">
@@ -6252,8 +6308,10 @@ let filtered = [...ESTUDOS];
 // ─────────────────────────────────────────
 function doSearch() {
   const q = document.getElementById('search-input').value.toLowerCase().trim();
-  const fonte = document.getElementById('filter-fonte').value;
-  const ano = document.getElementById('filter-ano').value;
+  const fonteEl = document.getElementById('filter-fonte');
+  const anoEl = document.getElementById('filter-ano');
+  const fonte = fonteEl ? fonteEl.value : '';
+  const ano = anoEl ? anoEl.value : '';
 
   filtered = ESTUDOS.filter(e => {
     const text = [e.titulo, e.tema, e.fonte, e.resumo, ...e.highlights].join(' ').toLowerCase();
@@ -6276,8 +6334,10 @@ function searchBy(field, value) {
 
 function clearAll() {
   document.getElementById('search-input').value = '';
-  document.getElementById('filter-fonte').value = '';
-  document.getElementById('filter-ano').value = '';
+  const fonteEl = document.getElementById('filter-fonte');
+  const anoEl = document.getElementById('filter-ano');
+  if(fonteEl) fonteEl.value = '';
+  if(anoEl) anoEl.value = '';
   activeTema = '';
   document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
   filtered = [...ESTUDOS];
@@ -6294,30 +6354,19 @@ function renderCards(items) {
   if (!items.length) { container.innerHTML = ''; empty.style.display = 'block'; return; }
   empty.style.display = 'none';
   container.innerHTML = items.map(e => `
-    <div class="study-card" onclick="openModal(${e.id})">
-      <div class="card-cover" style="background:linear-gradient(135deg,rgba(255,31,142,.1),rgba(191,90,242,.1))">
-        <span class="card-cover-icon">${e.icone}</span>
-        <span class="card-cover-badge">${e.tema}</span>
-        <span class="card-cover-fonte">${e.fonte}</span>
+    <div class="result-card" onclick="openModal(${e.id})">
+      <div class="card-head">
+        <span class="card-source-badge">${e.tema}</span>
+        <span class="card-year">${e.ano}</span>
       </div>
-      <div class="card-body">
-        <div class="card-title">${e.titulo}</div>
-        <div class="card-desc">${e.resumo.substring(0,120)}...</div>
-        <div class="card-tags">
-          <span class="tag tag-tema">${e.tema}</span>
-          <span class="tag tag-fonte">${e.fonte}</span>
-          <span class="tag tag-ano">${e.ano}</span>
-          <span class="tag tag-slides">${e.numSlides} slides</span>
-        </div>
-        <div class="card-stats">
-          ${e.highlights.slice(0,3).map(h=>`<div class="card-stat"><div class="card-stat-num">${extractNum(h)}</div><div class="card-stat-label">${h.substring(0,30)}...</div></div>`).join('')}
-        </div>
+      <div class="card-title-list">${e.titulo}</div>
+      <div class="card-meta">
+        <span class="tag tag-tema">${e.fonte}</span>
+        ${e.slides[0]&&e.slides[0].tags?e.slides[0].tags.slice(0,3).map(t=>`<span class="tag-ref">${t}</span>`).join(''):''}
       </div>
-      <div class="card-footer">
-        <span class="card-cta">Ver estudo completo →</span>
-        <span class="card-slides-count">${e.numInsights} insights · ${e.numSlides} slides</span>
-      </div>
+      <button class="card-cta-btn"><i data-lucide="eye"></i> Ver detalhes</button>
     </div>`).join('');
+  lucide.createIcons();
 }
 
 function extractNum(str) {
@@ -6390,7 +6439,7 @@ function showSlide(i) {
   document.querySelectorAll('.slide-card').forEach((c,idx) => c.classList.toggle('visible', idx===i));
 }
 
-document.addEventListener('keydown', e => { if(e.key==='Escape') closeModal(); });
+// keydown Escape handled in login modal block below
 
 // ─────────────────────────────────────────
 // EXPORT CSV
@@ -6410,6 +6459,41 @@ renderCards(ESTUDOS);
 document.getElementById('total-estudos').textContent = ESTUDOS.length;
 document.getElementById('total-fontes').textContent = new Set(ESTUDOS.map(e=>e.fonte.split(' · ')[0])).size;
 document.getElementById('total-insights').textContent = ESTUDOS.reduce((s,e) => s+e.numInsights, 0);
+
+function openLoginModal(){
+  document.getElementById('login-modal-bib').classList.add('open');
+  setTimeout(()=>document.getElementById('modal-email-bib').focus(),100);
+}
+function closeLoginModal(){
+  document.getElementById('login-modal-bib').classList.remove('open');
+}
+function submitWaitlist(){
+  const email=document.getElementById('modal-email-bib').value;
+  if(!email||!email.includes('@')) return;
+  document.querySelector('#login-modal-bib .modal-login-btn').textContent='Recebido! Em breve.';
+  setTimeout(closeLoginModal,1800);
+}
+document.getElementById('login-modal-bib').addEventListener('click',function(e){
+  if(e.target===this) closeLoginModal();
+});
+document.addEventListener('keydown',function(e){
+  if(e.key==='Escape'){ closeModal(); closeLoginModal(); }
+});
 </script>
+<div id="login-modal-bib" class="modal-login" role="dialog" aria-modal="true">
+  <div class="modal-login-box">
+    <button class="modal-login-close" onclick="closeLoginModal()" aria-label="Fechar">
+      <i data-lucide="x"></i>
+    </button>
+    <div class="modal-login-logo"><i data-lucide="sparkles"></i></div>
+    <h2 class="modal-login-title">Entrar no Asterisk</h2>
+    <p class="modal-login-sub">Acesso antecipado — lista de espera aberta</p>
+    <input type="email" id="modal-email-bib" placeholder="seu@email.com" class="modal-login-input" autocomplete="email"/>
+    <button class="modal-login-btn" onclick="submitWaitlist()">
+      Entrar na lista de espera <i data-lucide="arrow-right"></i>
+    </button>
+  </div>
+</div>
+<script>lucide.createIcons();</script>
 </body>
 </html>
