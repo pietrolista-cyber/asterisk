@@ -712,11 +712,11 @@ function genSlides(item) {
       num: i + 1,
       badge: badge,
       titulo: `${insight_desc}: ${item.title.split('–')[0].trim()}`,
-      insight: `${insight_desc.toLowerCase().charAt(0).toUpperCase() + insight_desc.toLowerCase().slice(1)} — estudo de ${item.source}${yearStr} baseado em ${item.tags.join(', ')}. ${s0[0]} ${s0[1]}, revelando padrões relevantes para estratégias de marca e comunicação.`,
+      insight: `${insight_desc}: dados do estudo ${item.title} (${item.source}${yearStr}). ${s0[0]} ${s0[1]} — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.`,
       data: [
-        { n: s0[0], l: s0[1].substring(0, 30) },
-        { n: s1[0], l: s1[1].substring(0, 30) },
-        { n: s2[0], l: s2[1].substring(0, 30) }
+        { n: s0[0], l: s0[1] },
+        { n: s1[0], l: s1[1] },
+        { n: s2[0], l: s2[1] }
       ],
       tags: tagList,
       fonte: sourceStr
@@ -798,3 +798,44 @@ const output = 'const ESTUDOS = ' + JSON.stringify(estudos, null, 2) + ';\n';
 fs.writeFileSync('./estudos_generated_v2.js', output);
 console.log(`✅ Gerados ${estudos.length} estudos → estudos_generated_v2.js`);
 console.log(`   Curados: ${Object.keys(CURATED).length} | Templates: ${estudos.length - Object.keys(CURATED).length}`);
+
+// ─────────────────────────────────────────────────────────
+// GERA insights_from_biblioteca.js para o Insight.html
+// ─────────────────────────────────────────────────────────
+const bibInsights = [];
+estudos.forEach(e => {
+  // Adiciona highlights do estudo como insights
+  (e.highlights || []).forEach(h => {
+    bibInsights.push({
+      d: h.texto,
+      n: h.n,
+      m: e.fonte,
+      s: e.tema,
+      c: e.titulo,
+      a: e.ano,
+      p: "Biblioteca Asterisk",
+      r: `Biblioteca · ${e.titulo} (${e.fonte}, ${e.ano})`,
+      bibId: e.id
+    });
+  });
+  // Adiciona dados dos slides como insights
+  (e.slides || []).forEach(s => {
+    (s.data || []).forEach(d => {
+      bibInsights.push({
+        d: `${s.badge}: ${d.l}`,
+        n: d.n,
+        m: e.fonte,
+        s: e.tema,
+        c: e.titulo,
+        a: e.ano,
+        p: "Biblioteca Asterisk",
+        r: `Biblioteca · ${e.titulo} (${e.fonte}, ${e.ano}) — Slide: ${s.titulo}`,
+        bibId: e.id
+      });
+    });
+  });
+});
+
+const bibOutput = 'window.BIBLIOTECA_INSIGHTS = ' + JSON.stringify(bibInsights, null, 2) + ';\n';
+fs.writeFileSync('./biblioteca_insights.js', bibOutput);
+console.log(`✅ Gerados ${bibInsights.length} insights → biblioteca_insights.js`);

@@ -417,17 +417,22 @@ function render(items) {
   if (!items.length) { container.innerHTML = ''; empty.style.display = 'block'; return; }
   empty.style.display = 'none';
   container.innerHTML = items.map((r, idx) => {
-    const url = '../CannesFlix/cannes_cerebro_fixed.html';
     const dataIdx = DATA.indexOf(r);
+    const isBib = !!r.bibId;
+    const refLink = isBib
+      ? '<a class="tag tag-ref" href="../Biblioteca/biblioteca.html?id=' + r.bibId + '">Ver estudo na Biblioteca</a>'
+      : '<a class="tag tag-ref" href="../CannesFlix/cannes_cerebro_fixed.html" title="' + r.r + '">Ver no CannesFlix</a>';
+    const fonteTag = r.m ? '<span class="tag tag-marca">' + r.m + '</span>' : '';
+    const premioTag = (!isBib && r.p) ? '<span class="tag tag-premio">' + r.p + '</span>' : '';
     return '<div class="card">' +
       '<div class="card-num">' + r.n + '</div>' +
       '<div class="card-dado">' + highlight(r.d, q) + '</div>' +
       '<div class="card-meta">' +
-        '<span class="tag tag-marca">' + r.m + '</span>' +
+        fonteTag +
         '<span class="tag tag-seg">' + r.s + '</span>' +
         '<span class="tag tag-ano">' + r.a + '</span>' +
-        '<span class="tag tag-premio">' + r.p + '</span>' +
-        '<a class="tag tag-ref" href="' + url + '" title="' + r.r + '">Ver no CannesFlix</a>' +
+        premioTag +
+        refLink +
       '</div>' +
       '<div class="card-actions">' +
         '<button class="card-del-btn" onclick="deleteInsight(' + dataIdx + ',event)"><i data-lucide="trash-2"></i> Delete document</button>' +
@@ -496,6 +501,12 @@ document.addEventListener('keydown',function(e){
     </button>
   </div>
 </div>
-<script>lucide.createIcons();</script>
+<script src="../Biblioteca/biblioteca_insights.js" onerror="window.BIBLIOTECA_INSIGHTS=[]"></script>
+<script>
+if (window.BIBLIOTECA_INSIGHTS && window.BIBLIOTECA_INSIGHTS.length) {
+  DATA.push(...window.BIBLIOTECA_INSIGHTS);
+}
+lucide.createIcons();
+</script>
 </body>
 </html>

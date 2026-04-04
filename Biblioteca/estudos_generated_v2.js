@@ -29,19 +29,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "O CONSUMIDOR EM NÚMEROS",
         "titulo": "Dados que definem o perfil do consumidor atual: Infográfico Smartalk",
-        "insight": "Dados que definem o perfil do consumidor atual — estudo de OpinionBox baseado em Comportamento, Digital, Infográfico. 78% pesquisa online antes de comprar, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Dados que definem o perfil do consumidor atual: dados do estudo Infográfico Smartalk – Comportamento Digital (OpinionBox). 78% pesquisa online antes de comprar — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "78%",
-            "l": "pesquisa online antes de compr"
+            "l": "pesquisa online antes de comprar"
           },
           {
             "n": "3.2",
-            "l": "canais usados na jornada de co"
+            "l": "canais usados na jornada de compra"
           },
           {
             "n": "64%",
-            "l": "valoriza experiência acima de "
+            "l": "valoriza experiência acima de preço"
           }
         ],
         "tags": [
@@ -55,19 +55,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "JORNADA DE COMPRA",
         "titulo": "Como o consumidor decide e compra: Infográfico Smartalk",
-        "insight": "Como o consumidor decide e compra — estudo de OpinionBox baseado em Comportamento, Digital, Infográfico. 3.2 canais usados na jornada de compra, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como o consumidor decide e compra: dados do estudo Infográfico Smartalk – Comportamento Digital (OpinionBox). 3.2 canais usados na jornada de compra — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "3.2",
-            "l": "canais usados na jornada de co"
+            "l": "canais usados na jornada de compra"
           },
           {
             "n": "64%",
-            "l": "valoriza experiência acima de "
+            "l": "valoriza experiência acima de preço"
           },
           {
             "n": "78%",
-            "l": "pesquisa online antes de compr"
+            "l": "pesquisa online antes de comprar"
           }
         ],
         "tags": [
@@ -81,19 +81,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TENDÊNCIAS DE CONSUMO",
         "titulo": "O que muda no comportamento para os próximos anos: Infográfico Smartalk",
-        "insight": "O que muda no comportamento para os próximos anos — estudo de OpinionBox baseado em Comportamento, Digital, Infográfico. 64% valoriza experiência acima de preço, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O que muda no comportamento para os próximos anos: dados do estudo Infográfico Smartalk – Comportamento Digital (OpinionBox). 64% valoriza experiência acima de preço — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "64%",
-            "l": "valoriza experiência acima de "
+            "l": "valoriza experiência acima de preço"
           },
           {
             "n": "78%",
-            "l": "pesquisa online antes de compr"
+            "l": "pesquisa online antes de comprar"
           },
           {
             "n": "3.2",
-            "l": "canais usados na jornada de co"
+            "l": "canais usados na jornada de compra"
           }
         ],
         "tags": [
@@ -135,19 +135,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "COMPORTAMENTO ALIMENTAR",
         "titulo": "O que e como o brasileiro come: Insights Mercado de Laticínios",
-        "insight": "O que e como o brasileiro come — estudo de OpinionBox baseado em Laticínios, Mercado, Consumo. 67% mudou hábito alimentar após pandemia, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O que e como o brasileiro come: dados do estudo Insights Mercado de Laticínios (OpinionBox). 67% mudou hábito alimentar após pandemia — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "67%",
-            "l": "mudou hábito alimentar após pa"
+            "l": "mudou hábito alimentar após pandemia"
           },
           {
             "n": "USD 1.5T",
-            "l": "mercado global de food deliver"
+            "l": "mercado global de food delivery"
           },
           {
             "n": "48%",
-            "l": "lê rótulo antes de comprar ali"
+            "l": "lê rótulo antes de comprar alimento"
           }
         ],
         "tags": [
@@ -161,19 +161,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "MERCADO DE FOOD",
         "titulo": "Dados do setor alimentício: Insights Mercado de Laticínios",
-        "insight": "Dados do setor alimentício — estudo de OpinionBox baseado em Laticínios, Mercado, Consumo. USD 1.5T mercado global de food delivery, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Dados do setor alimentício: dados do estudo Insights Mercado de Laticínios (OpinionBox). USD 1.5T mercado global de food delivery — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 1.5T",
-            "l": "mercado global de food deliver"
+            "l": "mercado global de food delivery"
           },
           {
             "n": "48%",
-            "l": "lê rótulo antes de comprar ali"
+            "l": "lê rótulo antes de comprar alimento"
           },
           {
             "n": "67%",
-            "l": "mudou hábito alimentar após pa"
+            "l": "mudou hábito alimentar após pandemia"
           }
         ],
         "tags": [
@@ -187,19 +187,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TENDÊNCIAS GASTRONÔMICAS",
         "titulo": "As dietas, ingredientes e formatos do futuro: Insights Mercado de Laticínios",
-        "insight": "As dietas, ingredientes e formatos do futuro — estudo de OpinionBox baseado em Laticínios, Mercado, Consumo. 48% lê rótulo antes de comprar alimento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "As dietas, ingredientes e formatos do futuro: dados do estudo Insights Mercado de Laticínios (OpinionBox). 48% lê rótulo antes de comprar alimento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "48%",
-            "l": "lê rótulo antes de comprar ali"
+            "l": "lê rótulo antes de comprar alimento"
           },
           {
             "n": "67%",
-            "l": "mudou hábito alimentar após pa"
+            "l": "mudou hábito alimentar após pandemia"
           },
           {
             "n": "USD 1.5T",
-            "l": "mercado global de food deliver"
+            "l": "mercado global de food delivery"
           }
         ],
         "tags": [
@@ -241,11 +241,11 @@ const ESTUDOS = [
         "num": 1,
         "badge": "SAÚDE MENTAL",
         "titulo": "O bem-estar emocional como prioridade de consumo: Insights Planos de Saúde",
-        "insight": "O bem-estar emocional como prioridade de consumo — estudo de OpinionBox baseado em Planos de Saúde, Consumo, Saúde. 54% prioriza saúde como investimento #1, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O bem-estar emocional como prioridade de consumo: dados do estudo Insights Planos de Saúde (OpinionBox). 54% prioriza saúde como investimento #1 — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "54%",
-            "l": "prioriza saúde como investimen"
+            "l": "prioriza saúde como investimento #1"
           },
           {
             "n": "USD 1.8T",
@@ -253,7 +253,7 @@ const ESTUDOS = [
           },
           {
             "n": "42%",
-            "l": "aumentou gastos com saúde ment"
+            "l": "aumentou gastos com saúde mental"
           }
         ],
         "tags": [
@@ -267,7 +267,7 @@ const ESTUDOS = [
         "num": 2,
         "badge": "MERCADO DE WELLNESS",
         "titulo": "A economia do cuidado em expansão: Insights Planos de Saúde",
-        "insight": "A economia do cuidado em expansão — estudo de OpinionBox baseado em Planos de Saúde, Consumo, Saúde. USD 1.8T mercado global de wellness, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "A economia do cuidado em expansão: dados do estudo Insights Planos de Saúde (OpinionBox). USD 1.8T mercado global de wellness — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 1.8T",
@@ -275,11 +275,11 @@ const ESTUDOS = [
           },
           {
             "n": "42%",
-            "l": "aumentou gastos com saúde ment"
+            "l": "aumentou gastos com saúde mental"
           },
           {
             "n": "54%",
-            "l": "prioriza saúde como investimen"
+            "l": "prioriza saúde como investimento #1"
           }
         ],
         "tags": [
@@ -293,15 +293,15 @@ const ESTUDOS = [
         "num": 3,
         "badge": "PREVENÇÃO E AUTOCUIDADO",
         "titulo": "Do reativo ao preventivo: nova mentalidade de saúde: Insights Planos de Saúde",
-        "insight": "Do reativo ao preventivo: nova mentalidade de saúde — estudo de OpinionBox baseado em Planos de Saúde, Consumo, Saúde. 42% aumentou gastos com saúde mental, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Do reativo ao preventivo: nova mentalidade de saúde: dados do estudo Insights Planos de Saúde (OpinionBox). 42% aumentou gastos com saúde mental — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "42%",
-            "l": "aumentou gastos com saúde ment"
+            "l": "aumentou gastos com saúde mental"
           },
           {
             "n": "54%",
-            "l": "prioriza saúde como investimen"
+            "l": "prioriza saúde como investimento #1"
           },
           {
             "n": "USD 1.8T",
@@ -347,19 +347,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "ESTRATÉGIA DIGITAL",
         "titulo": "Marketing data-driven no centro da operação: Guia de Pesquisa de Mercado Online",
-        "insight": "Marketing data-driven no centro da operação — estudo de OpinionBox baseado em Pesquisa de Mercado, Metodologia, Online. 54% dos entrevistados relata mudança relevante de comportamento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Marketing data-driven no centro da operação: dados do estudo Guia de Pesquisa de Mercado Online (OpinionBox). 54% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "54%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "47%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           }
         ],
         "tags": [
@@ -373,19 +373,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "CANAIS E INVESTIMENTO",
         "titulo": "Onde o orçamento vai e por quê: Guia de Pesquisa de Mercado Online",
-        "insight": "Onde o orçamento vai e por quê — estudo de OpinionBox baseado em Pesquisa de Mercado, Metodologia, Online. 3x maior impacto quando comunicação é personalizada, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde o orçamento vai e por quê: dados do estudo Guia de Pesquisa de Mercado Online (OpinionBox). 3x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "47%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "54%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           }
         ],
         "tags": [
@@ -399,19 +399,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "IA E AUTOMAÇÃO",
         "titulo": "Como a inteligência artificial remodela o marketing: Guia de Pesquisa de Mercado Online",
-        "insight": "Como a inteligência artificial remodela o marketing — estudo de OpinionBox baseado em Pesquisa de Mercado, Metodologia, Online. 47% planeja manter ou aumentar investimento no setor, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como a inteligência artificial remodela o marketing: dados do estudo Guia de Pesquisa de Mercado Online (OpinionBox). 47% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "47%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "54%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           }
         ],
         "tags": [
@@ -453,19 +453,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "TRANSFORMAÇÃO DIGITAL",
         "titulo": "O estado atual da adoção tecnológica: Insights Smartphones",
-        "insight": "O estado atual da adoção tecnológica — estudo de OpinionBox baseado em Smartphones, Tecnologia, Consumo. 65% dos entrevistados relata mudança relevante de comportamento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O estado atual da adoção tecnológica: dados do estudo Insights Smartphones (OpinionBox). 65% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "65%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "4x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "63%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           }
         ],
         "tags": [
@@ -479,19 +479,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "INTELIGÊNCIA ARTIFICIAL",
         "titulo": "IA como agente de mudança nas empresas: Insights Smartphones",
-        "insight": "Ia como agente de mudança nas empresas — estudo de OpinionBox baseado em Smartphones, Tecnologia, Consumo. 4x maior impacto quando comunicação é personalizada, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "IA como agente de mudança nas empresas: dados do estudo Insights Smartphones (OpinionBox). 4x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "4x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "63%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "65%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           }
         ],
         "tags": [
@@ -505,19 +505,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "FUTURO E INOVAÇÃO",
         "titulo": "As tendências que chegam nos próximos 3 anos: Insights Smartphones",
-        "insight": "As tendências que chegam nos próximos 3 anos — estudo de OpinionBox baseado em Smartphones, Tecnologia, Consumo. 63% planeja manter ou aumentar investimento no setor, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "As tendências que chegam nos próximos 3 anos: dados do estudo Insights Smartphones (OpinionBox). 63% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "63%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "65%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "4x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           }
         ],
         "tags": [
@@ -559,19 +559,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "CONSUMO DE MÍDIA",
         "titulo": "Onde a atenção das pessoas está hoje: Hábitos de Consumo de Conteúdo 2018",
-        "insight": "Onde a atenção das pessoas está hoje — estudo de OpinionBox (2018) baseado em Conteúdo, Consumo, Mídia Digital. 70% dos entrevistados relata mudança relevante de comportamento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde a atenção das pessoas está hoje: dados do estudo Hábitos de Consumo de Conteúdo 2018 (OpinionBox (2018)). 70% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "70%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "2x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "41%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           }
         ],
         "tags": [
@@ -585,19 +585,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "SOCIAL MEDIA",
         "titulo": "O estado das redes em dados: Hábitos de Consumo de Conteúdo 2018",
-        "insight": "O estado das redes em dados — estudo de OpinionBox (2018) baseado em Conteúdo, Consumo, Mídia Digital. 2x maior impacto quando comunicação é personalizada, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O estado das redes em dados: dados do estudo Hábitos de Consumo de Conteúdo 2018 (OpinionBox (2018)). 2x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "2x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "41%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "70%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           }
         ],
         "tags": [
@@ -611,19 +611,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "PUBLICIDADE E EFICÁCIA",
         "titulo": "O que funciona (e o que não funciona) em mídia hoje: Hábitos de Consumo de Conteúdo 2018",
-        "insight": "O que funciona (e o que não funciona) em mídia hoje — estudo de OpinionBox (2018) baseado em Conteúdo, Consumo, Mídia Digital. 41% planeja manter ou aumentar investimento no setor, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O que funciona (e o que não funciona) em mídia hoje: dados do estudo Hábitos de Consumo de Conteúdo 2018 (OpinionBox (2018)). 41% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "41%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "70%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "2x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           }
         ],
         "tags": [
@@ -665,15 +665,15 @@ const ESTUDOS = [
         "num": 1,
         "badge": "TRANSFORMAÇÃO DIGITAL",
         "titulo": "O estado atual da adoção tecnológica: Hiperconectividade 2018",
-        "insight": "O estado atual da adoção tecnológica — estudo de OpinionBox (2018) baseado em Hiperconectividade, Internet, Comportamento. 78% das empresas acelerou transformação digital, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O estado atual da adoção tecnológica: dados do estudo Hiperconectividade 2018 (OpinionBox (2018)). 78% das empresas acelerou transformação digital — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           },
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           },
           {
             "n": "63%",
@@ -691,11 +691,11 @@ const ESTUDOS = [
         "num": 2,
         "badge": "INTELIGÊNCIA ARTIFICIAL",
         "titulo": "IA como agente de mudança nas empresas: Hiperconectividade 2018",
-        "insight": "Ia como agente de mudança nas empresas — estudo de OpinionBox (2018) baseado em Hiperconectividade, Internet, Comportamento. USD 5T investimento global em tech até 2027, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "IA como agente de mudança nas empresas: dados do estudo Hiperconectividade 2018 (OpinionBox (2018)). USD 5T investimento global em tech até 2027 — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           },
           {
             "n": "63%",
@@ -703,7 +703,7 @@ const ESTUDOS = [
           },
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           }
         ],
         "tags": [
@@ -717,7 +717,7 @@ const ESTUDOS = [
         "num": 3,
         "badge": "FUTURO E INOVAÇÃO",
         "titulo": "As tendências que chegam nos próximos 3 anos: Hiperconectividade 2018",
-        "insight": "As tendências que chegam nos próximos 3 anos — estudo de OpinionBox (2018) baseado em Hiperconectividade, Internet, Comportamento. 63% usa IA em decisões de negócio, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "As tendências que chegam nos próximos 3 anos: dados do estudo Hiperconectividade 2018 (OpinionBox (2018)). 63% usa IA em decisões de negócio — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "63%",
@@ -725,11 +725,11 @@ const ESTUDOS = [
           },
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           },
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           }
         ],
         "tags": [
@@ -771,19 +771,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "CONSUMO DE MÍDIA",
         "titulo": "Onde a atenção das pessoas está hoje: Fake News: Estudo de Comportamento",
-        "insight": "Onde a atenção das pessoas está hoje — estudo de OpinionBox baseado em Fake News, Desinformação, Mídia. 68% dos entrevistados relata mudança relevante de comportamento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde a atenção das pessoas está hoje: dados do estudo Fake News: Estudo de Comportamento (OpinionBox). 68% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "68%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "2x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "67%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           }
         ],
         "tags": [
@@ -797,19 +797,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "SOCIAL MEDIA",
         "titulo": "O estado das redes em dados: Fake News: Estudo de Comportamento",
-        "insight": "O estado das redes em dados — estudo de OpinionBox baseado em Fake News, Desinformação, Mídia. 2x maior impacto quando comunicação é personalizada, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O estado das redes em dados: dados do estudo Fake News: Estudo de Comportamento (OpinionBox). 2x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "2x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "67%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "68%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           }
         ],
         "tags": [
@@ -823,19 +823,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "PUBLICIDADE E EFICÁCIA",
         "titulo": "O que funciona (e o que não funciona) em mídia hoje: Fake News: Estudo de Comportamento",
-        "insight": "O que funciona (e o que não funciona) em mídia hoje — estudo de OpinionBox baseado em Fake News, Desinformação, Mídia. 67% planeja manter ou aumentar investimento no setor, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O que funciona (e o que não funciona) em mídia hoje: dados do estudo Fake News: Estudo de Comportamento (OpinionBox). 67% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "67%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "68%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "2x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           }
         ],
         "tags": [
@@ -877,19 +877,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "O CONSUMIDOR EM NÚMEROS",
         "titulo": "Dados que definem o perfil do consumidor atual: Black Friday 2018",
-        "insight": "Dados que definem o perfil do consumidor atual — estudo de OpinionBox (2018) baseado em Black Friday, E-commerce, Varejo. 78% pesquisa online antes de comprar, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Dados que definem o perfil do consumidor atual: dados do estudo Black Friday 2018 (OpinionBox (2018)). 78% pesquisa online antes de comprar — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "78%",
-            "l": "pesquisa online antes de compr"
+            "l": "pesquisa online antes de comprar"
           },
           {
             "n": "3.2",
-            "l": "canais usados na jornada de co"
+            "l": "canais usados na jornada de compra"
           },
           {
             "n": "64%",
-            "l": "valoriza experiência acima de "
+            "l": "valoriza experiência acima de preço"
           }
         ],
         "tags": [
@@ -903,19 +903,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "JORNADA DE COMPRA",
         "titulo": "Como o consumidor decide e compra: Black Friday 2018",
-        "insight": "Como o consumidor decide e compra — estudo de OpinionBox (2018) baseado em Black Friday, E-commerce, Varejo. 3.2 canais usados na jornada de compra, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como o consumidor decide e compra: dados do estudo Black Friday 2018 (OpinionBox (2018)). 3.2 canais usados na jornada de compra — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "3.2",
-            "l": "canais usados na jornada de co"
+            "l": "canais usados na jornada de compra"
           },
           {
             "n": "64%",
-            "l": "valoriza experiência acima de "
+            "l": "valoriza experiência acima de preço"
           },
           {
             "n": "78%",
-            "l": "pesquisa online antes de compr"
+            "l": "pesquisa online antes de comprar"
           }
         ],
         "tags": [
@@ -929,19 +929,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TENDÊNCIAS DE CONSUMO",
         "titulo": "O que muda no comportamento para os próximos anos: Black Friday 2018",
-        "insight": "O que muda no comportamento para os próximos anos — estudo de OpinionBox (2018) baseado em Black Friday, E-commerce, Varejo. 64% valoriza experiência acima de preço, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O que muda no comportamento para os próximos anos: dados do estudo Black Friday 2018 (OpinionBox (2018)). 64% valoriza experiência acima de preço — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "64%",
-            "l": "valoriza experiência acima de "
+            "l": "valoriza experiência acima de preço"
           },
           {
             "n": "78%",
-            "l": "pesquisa online antes de compr"
+            "l": "pesquisa online antes de comprar"
           },
           {
             "n": "3.2",
-            "l": "canais usados na jornada de co"
+            "l": "canais usados na jornada de compra"
           }
         ],
         "tags": [
@@ -983,19 +983,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "O CONSUMIDOR EM NÚMEROS",
         "titulo": "Dados que definem o perfil do consumidor atual: Insights Mercado Automotivo",
-        "insight": "Dados que definem o perfil do consumidor atual — estudo de OpinionBox baseado em Automóveis, Mercado, Consumo. 78% pesquisa online antes de comprar, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Dados que definem o perfil do consumidor atual: dados do estudo Insights Mercado Automotivo (OpinionBox). 78% pesquisa online antes de comprar — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "78%",
-            "l": "pesquisa online antes de compr"
+            "l": "pesquisa online antes de comprar"
           },
           {
             "n": "3.2",
-            "l": "canais usados na jornada de co"
+            "l": "canais usados na jornada de compra"
           },
           {
             "n": "64%",
-            "l": "valoriza experiência acima de "
+            "l": "valoriza experiência acima de preço"
           }
         ],
         "tags": [
@@ -1009,19 +1009,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "JORNADA DE COMPRA",
         "titulo": "Como o consumidor decide e compra: Insights Mercado Automotivo",
-        "insight": "Como o consumidor decide e compra — estudo de OpinionBox baseado em Automóveis, Mercado, Consumo. 3.2 canais usados na jornada de compra, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como o consumidor decide e compra: dados do estudo Insights Mercado Automotivo (OpinionBox). 3.2 canais usados na jornada de compra — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "3.2",
-            "l": "canais usados na jornada de co"
+            "l": "canais usados na jornada de compra"
           },
           {
             "n": "64%",
-            "l": "valoriza experiência acima de "
+            "l": "valoriza experiência acima de preço"
           },
           {
             "n": "78%",
-            "l": "pesquisa online antes de compr"
+            "l": "pesquisa online antes de comprar"
           }
         ],
         "tags": [
@@ -1035,19 +1035,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TENDÊNCIAS DE CONSUMO",
         "titulo": "O que muda no comportamento para os próximos anos: Insights Mercado Automotivo",
-        "insight": "O que muda no comportamento para os próximos anos — estudo de OpinionBox baseado em Automóveis, Mercado, Consumo. 64% valoriza experiência acima de preço, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O que muda no comportamento para os próximos anos: dados do estudo Insights Mercado Automotivo (OpinionBox). 64% valoriza experiência acima de preço — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "64%",
-            "l": "valoriza experiência acima de "
+            "l": "valoriza experiência acima de preço"
           },
           {
             "n": "78%",
-            "l": "pesquisa online antes de compr"
+            "l": "pesquisa online antes de comprar"
           },
           {
             "n": "3.2",
-            "l": "canais usados na jornada de co"
+            "l": "canais usados na jornada de compra"
           }
         ],
         "tags": [
@@ -1089,19 +1089,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "ESTRATÉGIA DIGITAL",
         "titulo": "Marketing data-driven no centro da operação: E-book Análise de Mercado",
-        "insight": "Marketing data-driven no centro da operação — estudo de OpinionBox baseado em Análise de Mercado, Metodologia, Pesquisa. 68% das marcas usa IA em criação de conteúdo, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Marketing data-driven no centro da operação: dados do estudo E-book Análise de Mercado (OpinionBox). 68% das marcas usa IA em criação de conteúdo — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           },
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           },
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           }
         ],
         "tags": [
@@ -1115,19 +1115,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "CANAIS E INVESTIMENTO",
         "titulo": "Onde o orçamento vai e por quê: E-book Análise de Mercado",
-        "insight": "Onde o orçamento vai e por quê — estudo de OpinionBox baseado em Análise de Mercado, Metodologia, Pesquisa. 4x ROI de marketing de conteúdo vs. publicidade, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde o orçamento vai e por quê: dados do estudo E-book Análise de Mercado (OpinionBox). 4x ROI de marketing de conteúdo vs. publicidade — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           },
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           },
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           }
         ],
         "tags": [
@@ -1141,19 +1141,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "IA E AUTOMAÇÃO",
         "titulo": "Como a inteligência artificial remodela o marketing: E-book Análise de Mercado",
-        "insight": "Como a inteligência artificial remodela o marketing — estudo de OpinionBox baseado em Análise de Mercado, Metodologia, Pesquisa. 73% do orçamento migrou para digital, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como a inteligência artificial remodela o marketing: dados do estudo E-book Análise de Mercado (OpinionBox). 73% do orçamento migrou para digital — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           },
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           },
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           }
         ],
         "tags": [
@@ -1195,19 +1195,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "O CONSUMIDOR EM NÚMEROS",
         "titulo": "Dados que definem o perfil do consumidor atual: Insights Aviação",
-        "insight": "Dados que definem o perfil do consumidor atual — estudo de OpinionBox baseado em Aviação, Viagens, Consumo. 78% pesquisa online antes de comprar, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Dados que definem o perfil do consumidor atual: dados do estudo Insights Aviação (OpinionBox). 78% pesquisa online antes de comprar — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "78%",
-            "l": "pesquisa online antes de compr"
+            "l": "pesquisa online antes de comprar"
           },
           {
             "n": "3.2",
-            "l": "canais usados na jornada de co"
+            "l": "canais usados na jornada de compra"
           },
           {
             "n": "64%",
-            "l": "valoriza experiência acima de "
+            "l": "valoriza experiência acima de preço"
           }
         ],
         "tags": [
@@ -1221,19 +1221,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "JORNADA DE COMPRA",
         "titulo": "Como o consumidor decide e compra: Insights Aviação",
-        "insight": "Como o consumidor decide e compra — estudo de OpinionBox baseado em Aviação, Viagens, Consumo. 3.2 canais usados na jornada de compra, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como o consumidor decide e compra: dados do estudo Insights Aviação (OpinionBox). 3.2 canais usados na jornada de compra — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "3.2",
-            "l": "canais usados na jornada de co"
+            "l": "canais usados na jornada de compra"
           },
           {
             "n": "64%",
-            "l": "valoriza experiência acima de "
+            "l": "valoriza experiência acima de preço"
           },
           {
             "n": "78%",
-            "l": "pesquisa online antes de compr"
+            "l": "pesquisa online antes de comprar"
           }
         ],
         "tags": [
@@ -1247,19 +1247,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TENDÊNCIAS DE CONSUMO",
         "titulo": "O que muda no comportamento para os próximos anos: Insights Aviação",
-        "insight": "O que muda no comportamento para os próximos anos — estudo de OpinionBox baseado em Aviação, Viagens, Consumo. 64% valoriza experiência acima de preço, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O que muda no comportamento para os próximos anos: dados do estudo Insights Aviação (OpinionBox). 64% valoriza experiência acima de preço — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "64%",
-            "l": "valoriza experiência acima de "
+            "l": "valoriza experiência acima de preço"
           },
           {
             "n": "78%",
-            "l": "pesquisa online antes de compr"
+            "l": "pesquisa online antes de comprar"
           },
           {
             "n": "3.2",
-            "l": "canais usados na jornada de co"
+            "l": "canais usados na jornada de compra"
           }
         ],
         "tags": [
@@ -1301,19 +1301,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "O CONSUMIDOR DE MODA",
         "titulo": "Quem compra, como e por quê: Insights Moda",
-        "insight": "Quem compra, como e por quê — estudo de OpinionBox baseado em Moda, Consumo, Varejo. 73% da Gen Z compra moda de segunda mão, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Quem compra, como e por quê: dados do estudo Insights Moda (OpinionBox). 73% da Gen Z compra moda de segunda mão — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "73%",
-            "l": "da Gen Z compra moda de segund"
+            "l": "da Gen Z compra moda de segunda mão"
           },
           {
             "n": "USD 120B",
-            "l": "mercado de moda sustentável 20"
+            "l": "mercado de moda sustentável 2025"
           },
           {
             "n": "58%",
-            "l": "decide compra por estética nas"
+            "l": "decide compra por estética nas redes sociais"
           }
         ],
         "tags": [
@@ -1327,19 +1327,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "SUSTENTABILIDADE NA MODA",
         "titulo": "Do fast fashion ao consumo consciente: Insights Moda",
-        "insight": "Do fast fashion ao consumo consciente — estudo de OpinionBox baseado em Moda, Consumo, Varejo. USD 120B mercado de moda sustentável 2025, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Do fast fashion ao consumo consciente: dados do estudo Insights Moda (OpinionBox). USD 120B mercado de moda sustentável 2025 — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 120B",
-            "l": "mercado de moda sustentável 20"
+            "l": "mercado de moda sustentável 2025"
           },
           {
             "n": "58%",
-            "l": "decide compra por estética nas"
+            "l": "decide compra por estética nas redes sociais"
           },
           {
             "n": "73%",
-            "l": "da Gen Z compra moda de segund"
+            "l": "da Gen Z compra moda de segunda mão"
           }
         ],
         "tags": [
@@ -1353,19 +1353,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TENDÊNCIAS VISUAIS",
         "titulo": "As estéticas e linguagens do momento: Insights Moda",
-        "insight": "As estéticas e linguagens do momento — estudo de OpinionBox baseado em Moda, Consumo, Varejo. 58% decide compra por estética nas redes sociais, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "As estéticas e linguagens do momento: dados do estudo Insights Moda (OpinionBox). 58% decide compra por estética nas redes sociais — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "58%",
-            "l": "decide compra por estética nas"
+            "l": "decide compra por estética nas redes sociais"
           },
           {
             "n": "73%",
-            "l": "da Gen Z compra moda de segund"
+            "l": "da Gen Z compra moda de segunda mão"
           },
           {
             "n": "USD 120B",
-            "l": "mercado de moda sustentável 20"
+            "l": "mercado de moda sustentável 2025"
           }
         ],
         "tags": [
@@ -1407,19 +1407,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "O CONSUMIDOR EM NÚMEROS",
         "titulo": "Dados que definem o perfil do consumidor atual: Insights Cosméticos 2019",
-        "insight": "Dados que definem o perfil do consumidor atual — estudo de OpinionBox (2019) baseado em Cosméticos, Beleza, Mercado. 78% pesquisa online antes de comprar, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Dados que definem o perfil do consumidor atual: dados do estudo Insights Cosméticos 2019 (OpinionBox (2019)). 78% pesquisa online antes de comprar — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "78%",
-            "l": "pesquisa online antes de compr"
+            "l": "pesquisa online antes de comprar"
           },
           {
             "n": "3.2",
-            "l": "canais usados na jornada de co"
+            "l": "canais usados na jornada de compra"
           },
           {
             "n": "64%",
-            "l": "valoriza experiência acima de "
+            "l": "valoriza experiência acima de preço"
           }
         ],
         "tags": [
@@ -1433,19 +1433,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "JORNADA DE COMPRA",
         "titulo": "Como o consumidor decide e compra: Insights Cosméticos 2019",
-        "insight": "Como o consumidor decide e compra — estudo de OpinionBox (2019) baseado em Cosméticos, Beleza, Mercado. 3.2 canais usados na jornada de compra, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como o consumidor decide e compra: dados do estudo Insights Cosméticos 2019 (OpinionBox (2019)). 3.2 canais usados na jornada de compra — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "3.2",
-            "l": "canais usados na jornada de co"
+            "l": "canais usados na jornada de compra"
           },
           {
             "n": "64%",
-            "l": "valoriza experiência acima de "
+            "l": "valoriza experiência acima de preço"
           },
           {
             "n": "78%",
-            "l": "pesquisa online antes de compr"
+            "l": "pesquisa online antes de comprar"
           }
         ],
         "tags": [
@@ -1459,19 +1459,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TENDÊNCIAS DE CONSUMO",
         "titulo": "O que muda no comportamento para os próximos anos: Insights Cosméticos 2019",
-        "insight": "O que muda no comportamento para os próximos anos — estudo de OpinionBox (2019) baseado em Cosméticos, Beleza, Mercado. 64% valoriza experiência acima de preço, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O que muda no comportamento para os próximos anos: dados do estudo Insights Cosméticos 2019 (OpinionBox (2019)). 64% valoriza experiência acima de preço — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "64%",
-            "l": "valoriza experiência acima de "
+            "l": "valoriza experiência acima de preço"
           },
           {
             "n": "78%",
-            "l": "pesquisa online antes de compr"
+            "l": "pesquisa online antes de comprar"
           },
           {
             "n": "3.2",
-            "l": "canais usados na jornada de co"
+            "l": "canais usados na jornada de compra"
           }
         ],
         "tags": [
@@ -1513,19 +1513,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "COMPORTAMENTO ALIMENTAR",
         "titulo": "O que e como o brasileiro come: Insights Mercado de Cerveja",
-        "insight": "O que e como o brasileiro come — estudo de OpinionBox baseado em Cerveja, Bebidas, Consumo. 67% mudou hábito alimentar após pandemia, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O que e como o brasileiro come: dados do estudo Insights Mercado de Cerveja (OpinionBox). 67% mudou hábito alimentar após pandemia — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "67%",
-            "l": "mudou hábito alimentar após pa"
+            "l": "mudou hábito alimentar após pandemia"
           },
           {
             "n": "USD 1.5T",
-            "l": "mercado global de food deliver"
+            "l": "mercado global de food delivery"
           },
           {
             "n": "48%",
-            "l": "lê rótulo antes de comprar ali"
+            "l": "lê rótulo antes de comprar alimento"
           }
         ],
         "tags": [
@@ -1539,19 +1539,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "MERCADO DE FOOD",
         "titulo": "Dados do setor alimentício: Insights Mercado de Cerveja",
-        "insight": "Dados do setor alimentício — estudo de OpinionBox baseado em Cerveja, Bebidas, Consumo. USD 1.5T mercado global de food delivery, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Dados do setor alimentício: dados do estudo Insights Mercado de Cerveja (OpinionBox). USD 1.5T mercado global de food delivery — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 1.5T",
-            "l": "mercado global de food deliver"
+            "l": "mercado global de food delivery"
           },
           {
             "n": "48%",
-            "l": "lê rótulo antes de comprar ali"
+            "l": "lê rótulo antes de comprar alimento"
           },
           {
             "n": "67%",
-            "l": "mudou hábito alimentar após pa"
+            "l": "mudou hábito alimentar após pandemia"
           }
         ],
         "tags": [
@@ -1565,19 +1565,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TENDÊNCIAS GASTRONÔMICAS",
         "titulo": "As dietas, ingredientes e formatos do futuro: Insights Mercado de Cerveja",
-        "insight": "As dietas, ingredientes e formatos do futuro — estudo de OpinionBox baseado em Cerveja, Bebidas, Consumo. 48% lê rótulo antes de comprar alimento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "As dietas, ingredientes e formatos do futuro: dados do estudo Insights Mercado de Cerveja (OpinionBox). 48% lê rótulo antes de comprar alimento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "48%",
-            "l": "lê rótulo antes de comprar ali"
+            "l": "lê rótulo antes de comprar alimento"
           },
           {
             "n": "67%",
-            "l": "mudou hábito alimentar após pa"
+            "l": "mudou hábito alimentar após pandemia"
           },
           {
             "n": "USD 1.5T",
-            "l": "mercado global de food deliver"
+            "l": "mercado global de food delivery"
           }
         ],
         "tags": [
@@ -1619,19 +1619,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "O CONSUMIDOR EM NÚMEROS",
         "titulo": "Dados que definem o perfil do consumidor atual: Comportamento do Consumidor: Viagens",
-        "insight": "Dados que definem o perfil do consumidor atual — estudo de OpinionBox baseado em Viagens, Turismo, Comportamento. 72% dos entrevistados relata mudança relevante de comportamento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Dados que definem o perfil do consumidor atual: dados do estudo Comportamento do Consumidor: Viagens (OpinionBox). 72% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "72%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "59%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           }
         ],
         "tags": [
@@ -1645,19 +1645,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "JORNADA DE COMPRA",
         "titulo": "Como o consumidor decide e compra: Comportamento do Consumidor: Viagens",
-        "insight": "Como o consumidor decide e compra — estudo de OpinionBox baseado em Viagens, Turismo, Comportamento. 3x maior impacto quando comunicação é personalizada, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como o consumidor decide e compra: dados do estudo Comportamento do Consumidor: Viagens (OpinionBox). 3x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "59%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "72%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           }
         ],
         "tags": [
@@ -1671,19 +1671,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TENDÊNCIAS DE CONSUMO",
         "titulo": "O que muda no comportamento para os próximos anos: Comportamento do Consumidor: Viagens",
-        "insight": "O que muda no comportamento para os próximos anos — estudo de OpinionBox baseado em Viagens, Turismo, Comportamento. 59% planeja manter ou aumentar investimento no setor, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O que muda no comportamento para os próximos anos: dados do estudo Comportamento do Consumidor: Viagens (OpinionBox). 59% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "59%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "72%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           }
         ],
         "tags": [
@@ -1725,15 +1725,15 @@ const ESTUDOS = [
         "num": 1,
         "badge": "TRANSFORMAÇÃO DIGITAL",
         "titulo": "O estado atual da adoção tecnológica: Insights Apps de Mobilidade (v2)",
-        "insight": "O estado atual da adoção tecnológica — estudo de OpinionBox baseado em Mobilidade, Apps, Transporte. 78% das empresas acelerou transformação digital, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O estado atual da adoção tecnológica: dados do estudo Insights Apps de Mobilidade (v2) (OpinionBox). 78% das empresas acelerou transformação digital — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           },
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           },
           {
             "n": "63%",
@@ -1751,11 +1751,11 @@ const ESTUDOS = [
         "num": 2,
         "badge": "INTELIGÊNCIA ARTIFICIAL",
         "titulo": "IA como agente de mudança nas empresas: Insights Apps de Mobilidade (v2)",
-        "insight": "Ia como agente de mudança nas empresas — estudo de OpinionBox baseado em Mobilidade, Apps, Transporte. USD 5T investimento global em tech até 2027, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "IA como agente de mudança nas empresas: dados do estudo Insights Apps de Mobilidade (v2) (OpinionBox). USD 5T investimento global em tech até 2027 — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           },
           {
             "n": "63%",
@@ -1763,7 +1763,7 @@ const ESTUDOS = [
           },
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           }
         ],
         "tags": [
@@ -1777,7 +1777,7 @@ const ESTUDOS = [
         "num": 3,
         "badge": "FUTURO E INOVAÇÃO",
         "titulo": "As tendências que chegam nos próximos 3 anos: Insights Apps de Mobilidade (v2)",
-        "insight": "As tendências que chegam nos próximos 3 anos — estudo de OpinionBox baseado em Mobilidade, Apps, Transporte. 63% usa IA em decisões de negócio, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "As tendências que chegam nos próximos 3 anos: dados do estudo Insights Apps de Mobilidade (v2) (OpinionBox). 63% usa IA em decisões de negócio — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "63%",
@@ -1785,11 +1785,11 @@ const ESTUDOS = [
           },
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           },
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           }
         ],
         "tags": [
@@ -1831,15 +1831,15 @@ const ESTUDOS = [
         "num": 1,
         "badge": "TRANSFORMAÇÃO DIGITAL",
         "titulo": "O estado atual da adoção tecnológica: Insights Apps de Mobilidade",
-        "insight": "O estado atual da adoção tecnológica — estudo de OpinionBox baseado em Mobilidade, Apps, Transporte. 78% das empresas acelerou transformação digital, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O estado atual da adoção tecnológica: dados do estudo Insights Apps de Mobilidade (OpinionBox). 78% das empresas acelerou transformação digital — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           },
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           },
           {
             "n": "63%",
@@ -1857,11 +1857,11 @@ const ESTUDOS = [
         "num": 2,
         "badge": "INTELIGÊNCIA ARTIFICIAL",
         "titulo": "IA como agente de mudança nas empresas: Insights Apps de Mobilidade",
-        "insight": "Ia como agente de mudança nas empresas — estudo de OpinionBox baseado em Mobilidade, Apps, Transporte. USD 5T investimento global em tech até 2027, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "IA como agente de mudança nas empresas: dados do estudo Insights Apps de Mobilidade (OpinionBox). USD 5T investimento global em tech até 2027 — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           },
           {
             "n": "63%",
@@ -1869,7 +1869,7 @@ const ESTUDOS = [
           },
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           }
         ],
         "tags": [
@@ -1883,7 +1883,7 @@ const ESTUDOS = [
         "num": 3,
         "badge": "FUTURO E INOVAÇÃO",
         "titulo": "As tendências que chegam nos próximos 3 anos: Insights Apps de Mobilidade",
-        "insight": "As tendências que chegam nos próximos 3 anos — estudo de OpinionBox baseado em Mobilidade, Apps, Transporte. 63% usa IA em decisões de negócio, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "As tendências que chegam nos próximos 3 anos: dados do estudo Insights Apps de Mobilidade (OpinionBox). 63% usa IA em decisões de negócio — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "63%",
@@ -1891,11 +1891,11 @@ const ESTUDOS = [
           },
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           },
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           }
         ],
         "tags": [
@@ -1937,19 +1937,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "COMPORTAMENTO ALIMENTAR",
         "titulo": "O que e como o brasileiro come: Insights Mercado de Chocolate",
-        "insight": "O que e como o brasileiro come — estudo de OpinionBox baseado em Chocolate, Alimentação, Consumo. 67% mudou hábito alimentar após pandemia, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O que e como o brasileiro come: dados do estudo Insights Mercado de Chocolate (OpinionBox). 67% mudou hábito alimentar após pandemia — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "67%",
-            "l": "mudou hábito alimentar após pa"
+            "l": "mudou hábito alimentar após pandemia"
           },
           {
             "n": "USD 1.5T",
-            "l": "mercado global de food deliver"
+            "l": "mercado global de food delivery"
           },
           {
             "n": "48%",
-            "l": "lê rótulo antes de comprar ali"
+            "l": "lê rótulo antes de comprar alimento"
           }
         ],
         "tags": [
@@ -1963,19 +1963,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "MERCADO DE FOOD",
         "titulo": "Dados do setor alimentício: Insights Mercado de Chocolate",
-        "insight": "Dados do setor alimentício — estudo de OpinionBox baseado em Chocolate, Alimentação, Consumo. USD 1.5T mercado global de food delivery, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Dados do setor alimentício: dados do estudo Insights Mercado de Chocolate (OpinionBox). USD 1.5T mercado global de food delivery — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 1.5T",
-            "l": "mercado global de food deliver"
+            "l": "mercado global de food delivery"
           },
           {
             "n": "48%",
-            "l": "lê rótulo antes de comprar ali"
+            "l": "lê rótulo antes de comprar alimento"
           },
           {
             "n": "67%",
-            "l": "mudou hábito alimentar após pa"
+            "l": "mudou hábito alimentar após pandemia"
           }
         ],
         "tags": [
@@ -1989,19 +1989,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TENDÊNCIAS GASTRONÔMICAS",
         "titulo": "As dietas, ingredientes e formatos do futuro: Insights Mercado de Chocolate",
-        "insight": "As dietas, ingredientes e formatos do futuro — estudo de OpinionBox baseado em Chocolate, Alimentação, Consumo. 48% lê rótulo antes de comprar alimento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "As dietas, ingredientes e formatos do futuro: dados do estudo Insights Mercado de Chocolate (OpinionBox). 48% lê rótulo antes de comprar alimento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "48%",
-            "l": "lê rótulo antes de comprar ali"
+            "l": "lê rótulo antes de comprar alimento"
           },
           {
             "n": "67%",
-            "l": "mudou hábito alimentar após pa"
+            "l": "mudou hábito alimentar após pandemia"
           },
           {
             "n": "USD 1.5T",
-            "l": "mercado global de food deliver"
+            "l": "mercado global de food delivery"
           }
         ],
         "tags": [
@@ -2043,7 +2043,7 @@ const ESTUDOS = [
         "num": 1,
         "badge": "CONSUMO DE MÍDIA",
         "titulo": "Onde a atenção das pessoas está hoje: Comportamento de Consumo Musical",
-        "insight": "Onde a atenção das pessoas está hoje — estudo de OpinionBox baseado em Música, Streaming, Comportamento. 5.56B usuários de internet no mundo, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde a atenção das pessoas está hoje: dados do estudo Comportamento de Consumo Musical (OpinionBox). 5.56B usuários de internet no mundo — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "5.56B",
@@ -2051,11 +2051,11 @@ const ESTUDOS = [
           },
           {
             "n": "2h 21m",
-            "l": "de redes sociais por dia em mé"
+            "l": "de redes sociais por dia em média"
           },
           {
             "n": "73%",
-            "l": "usa segunda tela enquanto assi"
+            "l": "usa segunda tela enquanto assiste TV"
           }
         ],
         "tags": [
@@ -2069,15 +2069,15 @@ const ESTUDOS = [
         "num": 2,
         "badge": "SOCIAL MEDIA",
         "titulo": "O estado das redes em dados: Comportamento de Consumo Musical",
-        "insight": "O estado das redes em dados — estudo de OpinionBox baseado em Música, Streaming, Comportamento. 2h 21m de redes sociais por dia em média, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O estado das redes em dados: dados do estudo Comportamento de Consumo Musical (OpinionBox). 2h 21m de redes sociais por dia em média — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "2h 21m",
-            "l": "de redes sociais por dia em mé"
+            "l": "de redes sociais por dia em média"
           },
           {
             "n": "73%",
-            "l": "usa segunda tela enquanto assi"
+            "l": "usa segunda tela enquanto assiste TV"
           },
           {
             "n": "5.56B",
@@ -2095,11 +2095,11 @@ const ESTUDOS = [
         "num": 3,
         "badge": "PUBLICIDADE E EFICÁCIA",
         "titulo": "O que funciona (e o que não funciona) em mídia hoje: Comportamento de Consumo Musical",
-        "insight": "O que funciona (e o que não funciona) em mídia hoje — estudo de OpinionBox baseado em Música, Streaming, Comportamento. 73% usa segunda tela enquanto assiste TV, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O que funciona (e o que não funciona) em mídia hoje: dados do estudo Comportamento de Consumo Musical (OpinionBox). 73% usa segunda tela enquanto assiste TV — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "73%",
-            "l": "usa segunda tela enquanto assi"
+            "l": "usa segunda tela enquanto assiste TV"
           },
           {
             "n": "5.56B",
@@ -2107,7 +2107,7 @@ const ESTUDOS = [
           },
           {
             "n": "2h 21m",
-            "l": "de redes sociais por dia em mé"
+            "l": "de redes sociais por dia em média"
           }
         ],
         "tags": [
@@ -2149,11 +2149,11 @@ const ESTUDOS = [
         "num": 1,
         "badge": "COMPORTAMENTO FINANCEIRO",
         "titulo": "Como o brasileiro usa e pensa o dinheiro: Insights Setor Bancário",
-        "insight": "Como o brasileiro usa e pensa o dinheiro — estudo de OpinionBox baseado em Bancos, Finanças, Consumo. 43M bancarizados via fintech no Brasil, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como o brasileiro usa e pensa o dinheiro: dados do estudo Insights Setor Bancário (OpinionBox). 43M bancarizados via fintech no Brasil — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "43M",
-            "l": "bancarizados via fintech no Br"
+            "l": "bancarizados via fintech no Brasil"
           },
           {
             "n": "PIX #1",
@@ -2161,7 +2161,7 @@ const ESTUDOS = [
           },
           {
             "n": "280%",
-            "l": "crescimento crédito digital em"
+            "l": "crescimento crédito digital em 3 anos"
           }
         ],
         "tags": [
@@ -2175,7 +2175,7 @@ const ESTUDOS = [
         "num": 2,
         "badge": "FINTECHS E INOVAÇÃO",
         "titulo": "A revolução dos serviços financeiros digitais: Insights Setor Bancário",
-        "insight": "A revolução dos serviços financeiros digitais — estudo de OpinionBox baseado em Bancos, Finanças, Consumo. PIX #1 método de pagamento preferido, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "A revolução dos serviços financeiros digitais: dados do estudo Insights Setor Bancário (OpinionBox). PIX #1 método de pagamento preferido — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "PIX #1",
@@ -2183,11 +2183,11 @@ const ESTUDOS = [
           },
           {
             "n": "280%",
-            "l": "crescimento crédito digital em"
+            "l": "crescimento crédito digital em 3 anos"
           },
           {
             "n": "43M",
-            "l": "bancarizados via fintech no Br"
+            "l": "bancarizados via fintech no Brasil"
           }
         ],
         "tags": [
@@ -2201,15 +2201,15 @@ const ESTUDOS = [
         "num": 3,
         "badge": "CRÉDITO E CONSUMO",
         "titulo": "A relação entre acesso a crédito e decisões de compra: Insights Setor Bancário",
-        "insight": "A relação entre acesso a crédito e decisões de compra — estudo de OpinionBox baseado em Bancos, Finanças, Consumo. 280% crescimento crédito digital em 3 anos, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "A relação entre acesso a crédito e decisões de compra: dados do estudo Insights Setor Bancário (OpinionBox). 280% crescimento crédito digital em 3 anos — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "280%",
-            "l": "crescimento crédito digital em"
+            "l": "crescimento crédito digital em 3 anos"
           },
           {
             "n": "43M",
-            "l": "bancarizados via fintech no Br"
+            "l": "bancarizados via fintech no Brasil"
           },
           {
             "n": "PIX #1",
@@ -2255,19 +2255,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "ESTRATÉGIA DIGITAL",
         "titulo": "Marketing data-driven no centro da operação: Indicadores de Customer Experience",
-        "insight": "Marketing data-driven no centro da operação — estudo de OpinionBox baseado em Customer Experience, CX, Indicadores. 72% dos entrevistados relata mudança relevante de comportamento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Marketing data-driven no centro da operação: dados do estudo Indicadores de Customer Experience (OpinionBox). 72% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "72%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "36%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           }
         ],
         "tags": [
@@ -2281,19 +2281,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "CANAIS E INVESTIMENTO",
         "titulo": "Onde o orçamento vai e por quê: Indicadores de Customer Experience",
-        "insight": "Onde o orçamento vai e por quê — estudo de OpinionBox baseado em Customer Experience, CX, Indicadores. 3x maior impacto quando comunicação é personalizada, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde o orçamento vai e por quê: dados do estudo Indicadores de Customer Experience (OpinionBox). 3x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "36%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "72%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           }
         ],
         "tags": [
@@ -2307,19 +2307,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "IA E AUTOMAÇÃO",
         "titulo": "Como a inteligência artificial remodela o marketing: Indicadores de Customer Experience",
-        "insight": "Como a inteligência artificial remodela o marketing — estudo de OpinionBox baseado em Customer Experience, CX, Indicadores. 36% planeja manter ou aumentar investimento no setor, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como a inteligência artificial remodela o marketing: dados do estudo Indicadores de Customer Experience (OpinionBox). 36% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "36%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "72%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           }
         ],
         "tags": [
@@ -2361,7 +2361,7 @@ const ESTUDOS = [
         "num": 1,
         "badge": "CONSUMO DE MÍDIA",
         "titulo": "Onde a atenção das pessoas está hoje: Insights Jornais e Portais de Notícias",
-        "insight": "Onde a atenção das pessoas está hoje — estudo de OpinionBox baseado em Jornalismo, Notícias, Mídia. 5.56B usuários de internet no mundo, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde a atenção das pessoas está hoje: dados do estudo Insights Jornais e Portais de Notícias (OpinionBox). 5.56B usuários de internet no mundo — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "5.56B",
@@ -2369,11 +2369,11 @@ const ESTUDOS = [
           },
           {
             "n": "2h 21m",
-            "l": "de redes sociais por dia em mé"
+            "l": "de redes sociais por dia em média"
           },
           {
             "n": "73%",
-            "l": "usa segunda tela enquanto assi"
+            "l": "usa segunda tela enquanto assiste TV"
           }
         ],
         "tags": [
@@ -2387,15 +2387,15 @@ const ESTUDOS = [
         "num": 2,
         "badge": "SOCIAL MEDIA",
         "titulo": "O estado das redes em dados: Insights Jornais e Portais de Notícias",
-        "insight": "O estado das redes em dados — estudo de OpinionBox baseado em Jornalismo, Notícias, Mídia. 2h 21m de redes sociais por dia em média, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O estado das redes em dados: dados do estudo Insights Jornais e Portais de Notícias (OpinionBox). 2h 21m de redes sociais por dia em média — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "2h 21m",
-            "l": "de redes sociais por dia em mé"
+            "l": "de redes sociais por dia em média"
           },
           {
             "n": "73%",
-            "l": "usa segunda tela enquanto assi"
+            "l": "usa segunda tela enquanto assiste TV"
           },
           {
             "n": "5.56B",
@@ -2413,11 +2413,11 @@ const ESTUDOS = [
         "num": 3,
         "badge": "PUBLICIDADE E EFICÁCIA",
         "titulo": "O que funciona (e o que não funciona) em mídia hoje: Insights Jornais e Portais de Notícias",
-        "insight": "O que funciona (e o que não funciona) em mídia hoje — estudo de OpinionBox baseado em Jornalismo, Notícias, Mídia. 73% usa segunda tela enquanto assiste TV, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O que funciona (e o que não funciona) em mídia hoje: dados do estudo Insights Jornais e Portais de Notícias (OpinionBox). 73% usa segunda tela enquanto assiste TV — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "73%",
-            "l": "usa segunda tela enquanto assi"
+            "l": "usa segunda tela enquanto assiste TV"
           },
           {
             "n": "5.56B",
@@ -2425,7 +2425,7 @@ const ESTUDOS = [
           },
           {
             "n": "2h 21m",
-            "l": "de redes sociais por dia em mé"
+            "l": "de redes sociais por dia em média"
           }
         ],
         "tags": [
@@ -2467,19 +2467,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "COMPORTAMENTO ALIMENTAR",
         "titulo": "O que e como o brasileiro come: Comportamento de Consumo Alimentar",
-        "insight": "O que e como o brasileiro come — estudo de OpinionBox baseado em Alimentação, Comportamento, Consumo. 88% dos entrevistados relata mudança relevante de comportamento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O que e como o brasileiro come: dados do estudo Comportamento de Consumo Alimentar (OpinionBox). 88% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "88%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "2x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "38%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           }
         ],
         "tags": [
@@ -2493,19 +2493,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "MERCADO DE FOOD",
         "titulo": "Dados do setor alimentício: Comportamento de Consumo Alimentar",
-        "insight": "Dados do setor alimentício — estudo de OpinionBox baseado em Alimentação, Comportamento, Consumo. 2x maior impacto quando comunicação é personalizada, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Dados do setor alimentício: dados do estudo Comportamento de Consumo Alimentar (OpinionBox). 2x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "2x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "38%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "88%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           }
         ],
         "tags": [
@@ -2519,19 +2519,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TENDÊNCIAS GASTRONÔMICAS",
         "titulo": "As dietas, ingredientes e formatos do futuro: Comportamento de Consumo Alimentar",
-        "insight": "As dietas, ingredientes e formatos do futuro — estudo de OpinionBox baseado em Alimentação, Comportamento, Consumo. 38% planeja manter ou aumentar investimento no setor, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "As dietas, ingredientes e formatos do futuro: dados do estudo Comportamento de Consumo Alimentar (OpinionBox). 38% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "38%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "88%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "2x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           }
         ],
         "tags": [
@@ -2573,11 +2573,11 @@ const ESTUDOS = [
         "num": 1,
         "badge": "O DONO DE PET",
         "titulo": "Perfil e comportamento do tutor brasileiro: Comportamento do Consumidor: Pets",
-        "insight": "Perfil e comportamento do tutor brasileiro — estudo de OpinionBox baseado em Pets, Animais de Estimação, Consumo. 67% dos donos de pets os trata como filhos, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Perfil e comportamento do tutor brasileiro: dados do estudo Comportamento do Consumidor: Pets (OpinionBox). 67% dos donos de pets os trata como filhos — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "67%",
-            "l": "dos donos de pets os trata com"
+            "l": "dos donos de pets os trata como filhos"
           },
           {
             "n": "USD 180B",
@@ -2585,7 +2585,7 @@ const ESTUDOS = [
           },
           {
             "n": "BRL 62B",
-            "l": "mercado brasileiro de pets 202"
+            "l": "mercado brasileiro de pets 2024"
           }
         ],
         "tags": [
@@ -2599,7 +2599,7 @@ const ESTUDOS = [
         "num": 2,
         "badge": "MERCADO PET",
         "titulo": "A economia do amor pelos animais: Comportamento do Consumidor: Pets",
-        "insight": "A economia do amor pelos animais — estudo de OpinionBox baseado em Pets, Animais de Estimação, Consumo. USD 180B mercado global de pets, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "A economia do amor pelos animais: dados do estudo Comportamento do Consumidor: Pets (OpinionBox). USD 180B mercado global de pets — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 180B",
@@ -2607,11 +2607,11 @@ const ESTUDOS = [
           },
           {
             "n": "BRL 62B",
-            "l": "mercado brasileiro de pets 202"
+            "l": "mercado brasileiro de pets 2024"
           },
           {
             "n": "67%",
-            "l": "dos donos de pets os trata com"
+            "l": "dos donos de pets os trata como filhos"
           }
         ],
         "tags": [
@@ -2625,15 +2625,15 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TENDÊNCIAS DO SETOR PET",
         "titulo": "Premium, saúde e serviços em crescimento: Comportamento do Consumidor: Pets",
-        "insight": "Premium, saúde e serviços em crescimento — estudo de OpinionBox baseado em Pets, Animais de Estimação, Consumo. BRL 62B mercado brasileiro de pets 2024, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Premium, saúde e serviços em crescimento: dados do estudo Comportamento do Consumidor: Pets (OpinionBox). BRL 62B mercado brasileiro de pets 2024 — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "BRL 62B",
-            "l": "mercado brasileiro de pets 202"
+            "l": "mercado brasileiro de pets 2024"
           },
           {
             "n": "67%",
-            "l": "dos donos de pets os trata com"
+            "l": "dos donos de pets os trata como filhos"
           },
           {
             "n": "USD 180B",
@@ -2679,19 +2679,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "ESTRATÉGIA DIGITAL",
         "titulo": "Marketing data-driven no centro da operação: E-book Customer Experience",
-        "insight": "Marketing data-driven no centro da operação — estudo de OpinionBox baseado em Customer Experience, CX, Atendimento. 68% das marcas usa IA em criação de conteúdo, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Marketing data-driven no centro da operação: dados do estudo E-book Customer Experience (OpinionBox). 68% das marcas usa IA em criação de conteúdo — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           },
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           },
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           }
         ],
         "tags": [
@@ -2705,19 +2705,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "CANAIS E INVESTIMENTO",
         "titulo": "Onde o orçamento vai e por quê: E-book Customer Experience",
-        "insight": "Onde o orçamento vai e por quê — estudo de OpinionBox baseado em Customer Experience, CX, Atendimento. 4x ROI de marketing de conteúdo vs. publicidade, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde o orçamento vai e por quê: dados do estudo E-book Customer Experience (OpinionBox). 4x ROI de marketing de conteúdo vs. publicidade — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           },
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           },
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           }
         ],
         "tags": [
@@ -2731,19 +2731,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "IA E AUTOMAÇÃO",
         "titulo": "Como a inteligência artificial remodela o marketing: E-book Customer Experience",
-        "insight": "Como a inteligência artificial remodela o marketing — estudo de OpinionBox baseado em Customer Experience, CX, Atendimento. 73% do orçamento migrou para digital, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como a inteligência artificial remodela o marketing: dados do estudo E-book Customer Experience (OpinionBox). 73% do orçamento migrou para digital — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           },
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           },
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           }
         ],
         "tags": [
@@ -2785,19 +2785,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "ESTRATÉGIA DIGITAL",
         "titulo": "Marketing data-driven no centro da operação: Principais Tipos de Pesquisa de Mercado (v2)",
-        "insight": "Marketing data-driven no centro da operação — estudo de OpinionBox baseado em Pesquisa de Mercado, Metodologia, Guia. 68% das marcas usa IA em criação de conteúdo, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Marketing data-driven no centro da operação: dados do estudo Principais Tipos de Pesquisa de Mercado (v2) (OpinionBox). 68% das marcas usa IA em criação de conteúdo — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           },
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           },
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           }
         ],
         "tags": [
@@ -2811,19 +2811,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "CANAIS E INVESTIMENTO",
         "titulo": "Onde o orçamento vai e por quê: Principais Tipos de Pesquisa de Mercado (v2)",
-        "insight": "Onde o orçamento vai e por quê — estudo de OpinionBox baseado em Pesquisa de Mercado, Metodologia, Guia. 4x ROI de marketing de conteúdo vs. publicidade, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde o orçamento vai e por quê: dados do estudo Principais Tipos de Pesquisa de Mercado (v2) (OpinionBox). 4x ROI de marketing de conteúdo vs. publicidade — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           },
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           },
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           }
         ],
         "tags": [
@@ -2837,19 +2837,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "IA E AUTOMAÇÃO",
         "titulo": "Como a inteligência artificial remodela o marketing: Principais Tipos de Pesquisa de Mercado (v2)",
-        "insight": "Como a inteligência artificial remodela o marketing — estudo de OpinionBox baseado em Pesquisa de Mercado, Metodologia, Guia. 73% do orçamento migrou para digital, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como a inteligência artificial remodela o marketing: dados do estudo Principais Tipos de Pesquisa de Mercado (v2) (OpinionBox). 73% do orçamento migrou para digital — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           },
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           },
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           }
         ],
         "tags": [
@@ -2891,19 +2891,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "ESTRATÉGIA DIGITAL",
         "titulo": "Marketing data-driven no centro da operação: Principais Tipos de Pesquisa de Mercado",
-        "insight": "Marketing data-driven no centro da operação — estudo de OpinionBox baseado em Pesquisa de Mercado, Metodologia, Guia. 68% das marcas usa IA em criação de conteúdo, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Marketing data-driven no centro da operação: dados do estudo Principais Tipos de Pesquisa de Mercado (OpinionBox). 68% das marcas usa IA em criação de conteúdo — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           },
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           },
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           }
         ],
         "tags": [
@@ -2917,19 +2917,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "CANAIS E INVESTIMENTO",
         "titulo": "Onde o orçamento vai e por quê: Principais Tipos de Pesquisa de Mercado",
-        "insight": "Onde o orçamento vai e por quê — estudo de OpinionBox baseado em Pesquisa de Mercado, Metodologia, Guia. 4x ROI de marketing de conteúdo vs. publicidade, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde o orçamento vai e por quê: dados do estudo Principais Tipos de Pesquisa de Mercado (OpinionBox). 4x ROI de marketing de conteúdo vs. publicidade — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           },
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           },
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           }
         ],
         "tags": [
@@ -2943,19 +2943,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "IA E AUTOMAÇÃO",
         "titulo": "Como a inteligência artificial remodela o marketing: Principais Tipos de Pesquisa de Mercado",
-        "insight": "Como a inteligência artificial remodela o marketing — estudo de OpinionBox baseado em Pesquisa de Mercado, Metodologia, Guia. 73% do orçamento migrou para digital, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como a inteligência artificial remodela o marketing: dados do estudo Principais Tipos de Pesquisa de Mercado (OpinionBox). 73% do orçamento migrou para digital — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           },
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           },
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           }
         ],
         "tags": [
@@ -2997,19 +2997,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "ESTRATÉGIA DIGITAL",
         "titulo": "Marketing data-driven no centro da operação: E-book Branding",
-        "insight": "Marketing data-driven no centro da operação — estudo de OpinionBox baseado em Branding, Marca, Marketing. 68% das marcas usa IA em criação de conteúdo, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Marketing data-driven no centro da operação: dados do estudo E-book Branding (OpinionBox). 68% das marcas usa IA em criação de conteúdo — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           },
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           },
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           }
         ],
         "tags": [
@@ -3023,19 +3023,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "CANAIS E INVESTIMENTO",
         "titulo": "Onde o orçamento vai e por quê: E-book Branding",
-        "insight": "Onde o orçamento vai e por quê — estudo de OpinionBox baseado em Branding, Marca, Marketing. 4x ROI de marketing de conteúdo vs. publicidade, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde o orçamento vai e por quê: dados do estudo E-book Branding (OpinionBox). 4x ROI de marketing de conteúdo vs. publicidade — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           },
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           },
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           }
         ],
         "tags": [
@@ -3049,19 +3049,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "IA E AUTOMAÇÃO",
         "titulo": "Como a inteligência artificial remodela o marketing: E-book Branding",
-        "insight": "Como a inteligência artificial remodela o marketing — estudo de OpinionBox baseado em Branding, Marca, Marketing. 73% do orçamento migrou para digital, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como a inteligência artificial remodela o marketing: dados do estudo E-book Branding (OpinionBox). 73% do orçamento migrou para digital — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           },
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           },
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           }
         ],
         "tags": [
@@ -3103,19 +3103,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "COMPORTAMENTO ALIMENTAR",
         "titulo": "O que e como o brasileiro come: Insights Chocolate (2021)",
-        "insight": "O que e como o brasileiro come — estudo de OpinionBox (2021) baseado em Chocolate, Alimentação, Consumo. 67% mudou hábito alimentar após pandemia, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O que e como o brasileiro come: dados do estudo Insights Chocolate (2021) (OpinionBox (2021)). 67% mudou hábito alimentar após pandemia — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "67%",
-            "l": "mudou hábito alimentar após pa"
+            "l": "mudou hábito alimentar após pandemia"
           },
           {
             "n": "USD 1.5T",
-            "l": "mercado global de food deliver"
+            "l": "mercado global de food delivery"
           },
           {
             "n": "48%",
-            "l": "lê rótulo antes de comprar ali"
+            "l": "lê rótulo antes de comprar alimento"
           }
         ],
         "tags": [
@@ -3129,19 +3129,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "MERCADO DE FOOD",
         "titulo": "Dados do setor alimentício: Insights Chocolate (2021)",
-        "insight": "Dados do setor alimentício — estudo de OpinionBox (2021) baseado em Chocolate, Alimentação, Consumo. USD 1.5T mercado global de food delivery, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Dados do setor alimentício: dados do estudo Insights Chocolate (2021) (OpinionBox (2021)). USD 1.5T mercado global de food delivery — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 1.5T",
-            "l": "mercado global de food deliver"
+            "l": "mercado global de food delivery"
           },
           {
             "n": "48%",
-            "l": "lê rótulo antes de comprar ali"
+            "l": "lê rótulo antes de comprar alimento"
           },
           {
             "n": "67%",
-            "l": "mudou hábito alimentar após pa"
+            "l": "mudou hábito alimentar após pandemia"
           }
         ],
         "tags": [
@@ -3155,19 +3155,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TENDÊNCIAS GASTRONÔMICAS",
         "titulo": "As dietas, ingredientes e formatos do futuro: Insights Chocolate (2021)",
-        "insight": "As dietas, ingredientes e formatos do futuro — estudo de OpinionBox (2021) baseado em Chocolate, Alimentação, Consumo. 48% lê rótulo antes de comprar alimento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "As dietas, ingredientes e formatos do futuro: dados do estudo Insights Chocolate (2021) (OpinionBox (2021)). 48% lê rótulo antes de comprar alimento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "48%",
-            "l": "lê rótulo antes de comprar ali"
+            "l": "lê rótulo antes de comprar alimento"
           },
           {
             "n": "67%",
-            "l": "mudou hábito alimentar após pa"
+            "l": "mudou hábito alimentar após pandemia"
           },
           {
             "n": "USD 1.5T",
-            "l": "mercado global de food deliver"
+            "l": "mercado global de food delivery"
           }
         ],
         "tags": [
@@ -3209,7 +3209,7 @@ const ESTUDOS = [
         "num": 1,
         "badge": "CONSUMO DE MÍDIA",
         "titulo": "Onde a atenção das pessoas está hoje: Infográfico TikTok 2021",
-        "insight": "Onde a atenção das pessoas está hoje — estudo de OpinionBox (2021) baseado em TikTok, Redes Sociais, Comportamento. 5.56B usuários de internet no mundo, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde a atenção das pessoas está hoje: dados do estudo Infográfico TikTok 2021 (OpinionBox (2021)). 5.56B usuários de internet no mundo — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "5.56B",
@@ -3217,11 +3217,11 @@ const ESTUDOS = [
           },
           {
             "n": "2h 21m",
-            "l": "de redes sociais por dia em mé"
+            "l": "de redes sociais por dia em média"
           },
           {
             "n": "73%",
-            "l": "usa segunda tela enquanto assi"
+            "l": "usa segunda tela enquanto assiste TV"
           }
         ],
         "tags": [
@@ -3235,15 +3235,15 @@ const ESTUDOS = [
         "num": 2,
         "badge": "SOCIAL MEDIA",
         "titulo": "O estado das redes em dados: Infográfico TikTok 2021",
-        "insight": "O estado das redes em dados — estudo de OpinionBox (2021) baseado em TikTok, Redes Sociais, Comportamento. 2h 21m de redes sociais por dia em média, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O estado das redes em dados: dados do estudo Infográfico TikTok 2021 (OpinionBox (2021)). 2h 21m de redes sociais por dia em média — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "2h 21m",
-            "l": "de redes sociais por dia em mé"
+            "l": "de redes sociais por dia em média"
           },
           {
             "n": "73%",
-            "l": "usa segunda tela enquanto assi"
+            "l": "usa segunda tela enquanto assiste TV"
           },
           {
             "n": "5.56B",
@@ -3261,11 +3261,11 @@ const ESTUDOS = [
         "num": 3,
         "badge": "PUBLICIDADE E EFICÁCIA",
         "titulo": "O que funciona (e o que não funciona) em mídia hoje: Infográfico TikTok 2021",
-        "insight": "O que funciona (e o que não funciona) em mídia hoje — estudo de OpinionBox (2021) baseado em TikTok, Redes Sociais, Comportamento. 73% usa segunda tela enquanto assiste TV, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O que funciona (e o que não funciona) em mídia hoje: dados do estudo Infográfico TikTok 2021 (OpinionBox (2021)). 73% usa segunda tela enquanto assiste TV — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "73%",
-            "l": "usa segunda tela enquanto assi"
+            "l": "usa segunda tela enquanto assiste TV"
           },
           {
             "n": "5.56B",
@@ -3273,7 +3273,7 @@ const ESTUDOS = [
           },
           {
             "n": "2h 21m",
-            "l": "de redes sociais por dia em mé"
+            "l": "de redes sociais por dia em média"
           }
         ],
         "tags": [
@@ -3633,19 +3633,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "O CONSUMIDOR EM NÚMEROS",
         "titulo": "Dados que definem o perfil do consumidor atual: Padrões de Beleza e Cosméticos 2023",
-        "insight": "Dados que definem o perfil do consumidor atual — estudo de OpinionBox (2023) baseado em Beleza, Cosméticos, Tendências. 45% dos entrevistados relata mudança relevante de comportamento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Dados que definem o perfil do consumidor atual: dados do estudo Padrões de Beleza e Cosméticos 2023 (OpinionBox (2023)). 45% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "45%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "2x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "47%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           }
         ],
         "tags": [
@@ -3659,19 +3659,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "JORNADA DE COMPRA",
         "titulo": "Como o consumidor decide e compra: Padrões de Beleza e Cosméticos 2023",
-        "insight": "Como o consumidor decide e compra — estudo de OpinionBox (2023) baseado em Beleza, Cosméticos, Tendências. 2x maior impacto quando comunicação é personalizada, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como o consumidor decide e compra: dados do estudo Padrões de Beleza e Cosméticos 2023 (OpinionBox (2023)). 2x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "2x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "47%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "45%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           }
         ],
         "tags": [
@@ -3685,19 +3685,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TENDÊNCIAS DE CONSUMO",
         "titulo": "O que muda no comportamento para os próximos anos: Padrões de Beleza e Cosméticos 2023",
-        "insight": "O que muda no comportamento para os próximos anos — estudo de OpinionBox (2023) baseado em Beleza, Cosméticos, Tendências. 47% planeja manter ou aumentar investimento no setor, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O que muda no comportamento para os próximos anos: dados do estudo Padrões de Beleza e Cosméticos 2023 (OpinionBox (2023)). 47% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "47%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "45%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "2x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           }
         ],
         "tags": [
@@ -3739,19 +3739,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "O CONSUMIDOR EM NÚMEROS",
         "titulo": "Dados que definem o perfil do consumidor atual: Tendências do Varejo 2024",
-        "insight": "Dados que definem o perfil do consumidor atual — estudo de OpinionBox (2024) baseado em Varejo, Tendências, Retail. 78% pesquisa online antes de comprar, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Dados que definem o perfil do consumidor atual: dados do estudo Tendências do Varejo 2024 (OpinionBox (2024)). 78% pesquisa online antes de comprar — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "78%",
-            "l": "pesquisa online antes de compr"
+            "l": "pesquisa online antes de comprar"
           },
           {
             "n": "3.2",
-            "l": "canais usados na jornada de co"
+            "l": "canais usados na jornada de compra"
           },
           {
             "n": "64%",
-            "l": "valoriza experiência acima de "
+            "l": "valoriza experiência acima de preço"
           }
         ],
         "tags": [
@@ -3765,19 +3765,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "JORNADA DE COMPRA",
         "titulo": "Como o consumidor decide e compra: Tendências do Varejo 2024",
-        "insight": "Como o consumidor decide e compra — estudo de OpinionBox (2024) baseado em Varejo, Tendências, Retail. 3.2 canais usados na jornada de compra, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como o consumidor decide e compra: dados do estudo Tendências do Varejo 2024 (OpinionBox (2024)). 3.2 canais usados na jornada de compra — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "3.2",
-            "l": "canais usados na jornada de co"
+            "l": "canais usados na jornada de compra"
           },
           {
             "n": "64%",
-            "l": "valoriza experiência acima de "
+            "l": "valoriza experiência acima de preço"
           },
           {
             "n": "78%",
-            "l": "pesquisa online antes de compr"
+            "l": "pesquisa online antes de comprar"
           }
         ],
         "tags": [
@@ -3791,19 +3791,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TENDÊNCIAS DE CONSUMO",
         "titulo": "O que muda no comportamento para os próximos anos: Tendências do Varejo 2024",
-        "insight": "O que muda no comportamento para os próximos anos — estudo de OpinionBox (2024) baseado em Varejo, Tendências, Retail. 64% valoriza experiência acima de preço, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O que muda no comportamento para os próximos anos: dados do estudo Tendências do Varejo 2024 (OpinionBox (2024)). 64% valoriza experiência acima de preço — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "64%",
-            "l": "valoriza experiência acima de "
+            "l": "valoriza experiência acima de preço"
           },
           {
             "n": "78%",
-            "l": "pesquisa online antes de compr"
+            "l": "pesquisa online antes de comprar"
           },
           {
             "n": "3.2",
-            "l": "canais usados na jornada de co"
+            "l": "canais usados na jornada de compra"
           }
         ],
         "tags": [
@@ -3951,19 +3951,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "MACRO FORÇAS",
         "titulo": "Os vetores de mudança que você precisa conhecer: Global Change Accelerators",
-        "insight": "Os vetores de mudança que você precisa conhecer — estudo de WGSN baseado em Macrotendências, Futuro, Inovação. 84% dos entrevistados relata mudança relevante de comportamento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Os vetores de mudança que você precisa conhecer: dados do estudo Global Change Accelerators (WGSN). 84% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "84%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "2x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "43%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           }
         ],
         "tags": [
@@ -3977,19 +3977,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "COMPORTAMENTO EM TRANSFORMAÇÃO",
         "titulo": "Como valores e hábitos evoluem rapidamente: Global Change Accelerators",
-        "insight": "Como valores e hábitos evoluem rapidamente — estudo de WGSN baseado em Macrotendências, Futuro, Inovação. 2x maior impacto quando comunicação é personalizada, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como valores e hábitos evoluem rapidamente: dados do estudo Global Change Accelerators (WGSN). 2x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "2x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "43%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "84%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           }
         ],
         "tags": [
@@ -4003,19 +4003,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "OPORTUNIDADES DE MERCADO",
         "titulo": "Onde as tendências criam espaço para marcas: Global Change Accelerators",
-        "insight": "Onde as tendências criam espaço para marcas — estudo de WGSN baseado em Macrotendências, Futuro, Inovação. 43% planeja manter ou aumentar investimento no setor, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde as tendências criam espaço para marcas: dados do estudo Global Change Accelerators (WGSN). 43% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "43%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "84%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "2x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           }
         ],
         "tags": [
@@ -4217,19 +4217,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "O CONSUMIDOR DE MODA",
         "titulo": "Quem compra, como e por quê: WGSN White Paper Moda FC 2021",
-        "insight": "Quem compra, como e por quê — estudo de WGSN (2021) baseado em Moda, Futuro, Tendências. 73% da Gen Z compra moda de segunda mão, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Quem compra, como e por quê: dados do estudo WGSN White Paper Moda FC 2021 (WGSN (2021)). 73% da Gen Z compra moda de segunda mão — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "73%",
-            "l": "da Gen Z compra moda de segund"
+            "l": "da Gen Z compra moda de segunda mão"
           },
           {
             "n": "USD 120B",
-            "l": "mercado de moda sustentável 20"
+            "l": "mercado de moda sustentável 2025"
           },
           {
             "n": "58%",
-            "l": "decide compra por estética nas"
+            "l": "decide compra por estética nas redes sociais"
           }
         ],
         "tags": [
@@ -4243,19 +4243,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "SUSTENTABILIDADE NA MODA",
         "titulo": "Do fast fashion ao consumo consciente: WGSN White Paper Moda FC 2021",
-        "insight": "Do fast fashion ao consumo consciente — estudo de WGSN (2021) baseado em Moda, Futuro, Tendências. USD 120B mercado de moda sustentável 2025, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Do fast fashion ao consumo consciente: dados do estudo WGSN White Paper Moda FC 2021 (WGSN (2021)). USD 120B mercado de moda sustentável 2025 — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 120B",
-            "l": "mercado de moda sustentável 20"
+            "l": "mercado de moda sustentável 2025"
           },
           {
             "n": "58%",
-            "l": "decide compra por estética nas"
+            "l": "decide compra por estética nas redes sociais"
           },
           {
             "n": "73%",
-            "l": "da Gen Z compra moda de segund"
+            "l": "da Gen Z compra moda de segunda mão"
           }
         ],
         "tags": [
@@ -4269,19 +4269,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TENDÊNCIAS VISUAIS",
         "titulo": "As estéticas e linguagens do momento: WGSN White Paper Moda FC 2021",
-        "insight": "As estéticas e linguagens do momento — estudo de WGSN (2021) baseado em Moda, Futuro, Tendências. 58% decide compra por estética nas redes sociais, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "As estéticas e linguagens do momento: dados do estudo WGSN White Paper Moda FC 2021 (WGSN (2021)). 58% decide compra por estética nas redes sociais — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "58%",
-            "l": "decide compra por estética nas"
+            "l": "decide compra por estética nas redes sociais"
           },
           {
             "n": "73%",
-            "l": "da Gen Z compra moda de segund"
+            "l": "da Gen Z compra moda de segunda mão"
           },
           {
             "n": "USD 120B",
-            "l": "mercado de moda sustentável 20"
+            "l": "mercado de moda sustentável 2025"
           }
         ],
         "tags": [
@@ -4323,19 +4323,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "GEN Z EM DESTAQUE",
         "titulo": "Os nativos digitais como protagonistas do consumo: Millennial Survey 2021",
-        "insight": "Os nativos digitais como protagonistas do consumo — estudo de Deloitte (2021) baseado em Millennials, Brasil, Comportamento. 72% da Gen Z usa smartphone como tela principal, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Os nativos digitais como protagonistas do consumo: dados do estudo Millennial Survey 2021 – Brasil (Deloitte (2021)). 72% da Gen Z usa smartphone como tela principal — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "72%",
-            "l": "da Gen Z usa smartphone como t"
+            "l": "da Gen Z usa smartphone como tela principal"
           },
           {
             "n": "63%",
-            "l": "dos Millennials prioriza propó"
+            "l": "dos Millennials prioriza propósito no trabalho"
           },
           {
             "n": "46%",
-            "l": "da Gen Z relata estresse frequ"
+            "l": "da Gen Z relata estresse frequente"
           }
         ],
         "tags": [
@@ -4349,19 +4349,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "MILLENNIALS: A GERAÇÃO NO PODER",
         "titulo": "Na faixa produtiva mais ampla da história: Millennial Survey 2021",
-        "insight": "Na faixa produtiva mais ampla da história — estudo de Deloitte (2021) baseado em Millennials, Brasil, Comportamento. 63% dos Millennials prioriza propósito no trabalho, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Na faixa produtiva mais ampla da história: dados do estudo Millennial Survey 2021 – Brasil (Deloitte (2021)). 63% dos Millennials prioriza propósito no trabalho — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "63%",
-            "l": "dos Millennials prioriza propó"
+            "l": "dos Millennials prioriza propósito no trabalho"
           },
           {
             "n": "46%",
-            "l": "da Gen Z relata estresse frequ"
+            "l": "da Gen Z relata estresse frequente"
           },
           {
             "n": "72%",
-            "l": "da Gen Z usa smartphone como t"
+            "l": "da Gen Z usa smartphone como tela principal"
           }
         ],
         "tags": [
@@ -4375,19 +4375,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TRABALHO E PROPÓSITO",
         "titulo": "Como gerações mais jovens redefinem carreira: Millennial Survey 2021",
-        "insight": "Como gerações mais jovens redefinem carreira — estudo de Deloitte (2021) baseado em Millennials, Brasil, Comportamento. 46% da Gen Z relata estresse frequente, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como gerações mais jovens redefinem carreira: dados do estudo Millennial Survey 2021 – Brasil (Deloitte (2021)). 46% da Gen Z relata estresse frequente — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "46%",
-            "l": "da Gen Z relata estresse frequ"
+            "l": "da Gen Z relata estresse frequente"
           },
           {
             "n": "72%",
-            "l": "da Gen Z usa smartphone como t"
+            "l": "da Gen Z usa smartphone como tela principal"
           },
           {
             "n": "63%",
-            "l": "dos Millennials prioriza propó"
+            "l": "dos Millennials prioriza propósito no trabalho"
           }
         ],
         "tags": [
@@ -4641,19 +4641,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "O CONSUMIDOR EM NÚMEROS",
         "titulo": "Dados que definem o perfil do consumidor atual: Global Powers of Retailing 2025",
-        "insight": "Dados que definem o perfil do consumidor atual — estudo de Deloitte (2025) baseado em Varejo, Global, Tendências. 78% pesquisa online antes de comprar, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Dados que definem o perfil do consumidor atual: dados do estudo Global Powers of Retailing 2025 (Deloitte (2025)). 78% pesquisa online antes de comprar — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "78%",
-            "l": "pesquisa online antes de compr"
+            "l": "pesquisa online antes de comprar"
           },
           {
             "n": "3.2",
-            "l": "canais usados na jornada de co"
+            "l": "canais usados na jornada de compra"
           },
           {
             "n": "64%",
-            "l": "valoriza experiência acima de "
+            "l": "valoriza experiência acima de preço"
           }
         ],
         "tags": [
@@ -4667,19 +4667,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "JORNADA DE COMPRA",
         "titulo": "Como o consumidor decide e compra: Global Powers of Retailing 2025",
-        "insight": "Como o consumidor decide e compra — estudo de Deloitte (2025) baseado em Varejo, Global, Tendências. 3.2 canais usados na jornada de compra, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como o consumidor decide e compra: dados do estudo Global Powers of Retailing 2025 (Deloitte (2025)). 3.2 canais usados na jornada de compra — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "3.2",
-            "l": "canais usados na jornada de co"
+            "l": "canais usados na jornada de compra"
           },
           {
             "n": "64%",
-            "l": "valoriza experiência acima de "
+            "l": "valoriza experiência acima de preço"
           },
           {
             "n": "78%",
-            "l": "pesquisa online antes de compr"
+            "l": "pesquisa online antes de comprar"
           }
         ],
         "tags": [
@@ -4693,19 +4693,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TENDÊNCIAS DE CONSUMO",
         "titulo": "O que muda no comportamento para os próximos anos: Global Powers of Retailing 2025",
-        "insight": "O que muda no comportamento para os próximos anos — estudo de Deloitte (2025) baseado em Varejo, Global, Tendências. 64% valoriza experiência acima de preço, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O que muda no comportamento para os próximos anos: dados do estudo Global Powers of Retailing 2025 (Deloitte (2025)). 64% valoriza experiência acima de preço — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "64%",
-            "l": "valoriza experiência acima de "
+            "l": "valoriza experiência acima de preço"
           },
           {
             "n": "78%",
-            "l": "pesquisa online antes de compr"
+            "l": "pesquisa online antes de comprar"
           },
           {
             "n": "3.2",
-            "l": "canais usados na jornada de co"
+            "l": "canais usados na jornada de compra"
           }
         ],
         "tags": [
@@ -4747,19 +4747,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "ESTRATÉGIA DIGITAL",
         "titulo": "Marketing data-driven no centro da operação: State of Inbound Marketing Trends 2022",
-        "insight": "Marketing data-driven no centro da operação — estudo de HubSpot (2022) baseado em Inbound Marketing, Tendências, Digital. 64% dos entrevistados relata mudança relevante de comportamento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Marketing data-driven no centro da operação: dados do estudo State of Inbound Marketing Trends 2022 (HubSpot (2022)). 64% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "64%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "71%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           }
         ],
         "tags": [
@@ -4773,19 +4773,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "CANAIS E INVESTIMENTO",
         "titulo": "Onde o orçamento vai e por quê: State of Inbound Marketing Trends 2022",
-        "insight": "Onde o orçamento vai e por quê — estudo de HubSpot (2022) baseado em Inbound Marketing, Tendências, Digital. 3x maior impacto quando comunicação é personalizada, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde o orçamento vai e por quê: dados do estudo State of Inbound Marketing Trends 2022 (HubSpot (2022)). 3x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "71%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "64%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           }
         ],
         "tags": [
@@ -4799,19 +4799,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "IA E AUTOMAÇÃO",
         "titulo": "Como a inteligência artificial remodela o marketing: State of Inbound Marketing Trends 2022",
-        "insight": "Como a inteligência artificial remodela o marketing — estudo de HubSpot (2022) baseado em Inbound Marketing, Tendências, Digital. 71% planeja manter ou aumentar investimento no setor, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como a inteligência artificial remodela o marketing: dados do estudo State of Inbound Marketing Trends 2022 (HubSpot (2022)). 71% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "71%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "64%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           }
         ],
         "tags": [
@@ -5303,19 +5303,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "MACRO FORÇAS",
         "titulo": "Os vetores de mudança que você precisa conhecer: Pinterest Predicts 2022 (Português)",
-        "insight": "Os vetores de mudança que você precisa conhecer — estudo de Pinterest (2022) baseado em Tendências, Social Media, Criatividade. 67% dos entrevistados relata mudança relevante de comportamento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Os vetores de mudança que você precisa conhecer: dados do estudo Pinterest Predicts 2022 (Português) (Pinterest (2022)). 67% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "67%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "33%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           }
         ],
         "tags": [
@@ -5329,19 +5329,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "COMPORTAMENTO EM TRANSFORMAÇÃO",
         "titulo": "Como valores e hábitos evoluem rapidamente: Pinterest Predicts 2022 (Português)",
-        "insight": "Como valores e hábitos evoluem rapidamente — estudo de Pinterest (2022) baseado em Tendências, Social Media, Criatividade. 3x maior impacto quando comunicação é personalizada, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como valores e hábitos evoluem rapidamente: dados do estudo Pinterest Predicts 2022 (Português) (Pinterest (2022)). 3x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "33%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "67%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           }
         ],
         "tags": [
@@ -5355,19 +5355,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "OPORTUNIDADES DE MERCADO",
         "titulo": "Onde as tendências criam espaço para marcas: Pinterest Predicts 2022 (Português)",
-        "insight": "Onde as tendências criam espaço para marcas — estudo de Pinterest (2022) baseado em Tendências, Social Media, Criatividade. 33% planeja manter ou aumentar investimento no setor, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde as tendências criam espaço para marcas: dados do estudo Pinterest Predicts 2022 (Português) (Pinterest (2022)). 33% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "33%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "67%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           }
         ],
         "tags": [
@@ -5833,15 +5833,15 @@ const ESTUDOS = [
         "num": 1,
         "badge": "TRANSFORMAÇÃO DIGITAL",
         "titulo": "O estado atual da adoção tecnológica: Digital Risk 2024",
-        "insight": "O estado atual da adoção tecnológica — estudo de FTI (2024) baseado em Risco Digital, Segurança, Tecnologia. 78% das empresas acelerou transformação digital, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O estado atual da adoção tecnológica: dados do estudo Digital Risk 2024 (FTI (2024)). 78% das empresas acelerou transformação digital — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           },
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           },
           {
             "n": "63%",
@@ -5859,11 +5859,11 @@ const ESTUDOS = [
         "num": 2,
         "badge": "INTELIGÊNCIA ARTIFICIAL",
         "titulo": "IA como agente de mudança nas empresas: Digital Risk 2024",
-        "insight": "Ia como agente de mudança nas empresas — estudo de FTI (2024) baseado em Risco Digital, Segurança, Tecnologia. USD 5T investimento global em tech até 2027, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "IA como agente de mudança nas empresas: dados do estudo Digital Risk 2024 (FTI (2024)). USD 5T investimento global em tech até 2027 — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           },
           {
             "n": "63%",
@@ -5871,7 +5871,7 @@ const ESTUDOS = [
           },
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           }
         ],
         "tags": [
@@ -5885,7 +5885,7 @@ const ESTUDOS = [
         "num": 3,
         "badge": "FUTURO E INOVAÇÃO",
         "titulo": "As tendências que chegam nos próximos 3 anos: Digital Risk 2024",
-        "insight": "As tendências que chegam nos próximos 3 anos — estudo de FTI (2024) baseado em Risco Digital, Segurança, Tecnologia. 63% usa IA em decisões de negócio, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "As tendências que chegam nos próximos 3 anos: dados do estudo Digital Risk 2024 (FTI (2024)). 63% usa IA em decisões de negócio — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "63%",
@@ -5893,11 +5893,11 @@ const ESTUDOS = [
           },
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           },
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           }
         ],
         "tags": [
@@ -5939,19 +5939,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "TRANSFORMAÇÃO DIGITAL",
         "titulo": "O estado atual da adoção tecnológica: Tech Trends 2022",
-        "insight": "O estado atual da adoção tecnológica — estudo de FTI (2022) baseado em Tecnologia, Tendências, Inovação. 44% dos entrevistados relata mudança relevante de comportamento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O estado atual da adoção tecnológica: dados do estudo Tech Trends 2022 – Completo (FTI (2022)). 44% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "44%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "56%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           }
         ],
         "tags": [
@@ -5965,19 +5965,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "INTELIGÊNCIA ARTIFICIAL",
         "titulo": "IA como agente de mudança nas empresas: Tech Trends 2022",
-        "insight": "Ia como agente de mudança nas empresas — estudo de FTI (2022) baseado em Tecnologia, Tendências, Inovação. 3x maior impacto quando comunicação é personalizada, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "IA como agente de mudança nas empresas: dados do estudo Tech Trends 2022 – Completo (FTI (2022)). 3x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "56%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "44%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           }
         ],
         "tags": [
@@ -5991,19 +5991,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "FUTURO E INOVAÇÃO",
         "titulo": "As tendências que chegam nos próximos 3 anos: Tech Trends 2022",
-        "insight": "As tendências que chegam nos próximos 3 anos — estudo de FTI (2022) baseado em Tecnologia, Tendências, Inovação. 56% planeja manter ou aumentar investimento no setor, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "As tendências que chegam nos próximos 3 anos: dados do estudo Tech Trends 2022 – Completo (FTI (2022)). 56% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "56%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "44%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           }
         ],
         "tags": [
@@ -6045,15 +6045,15 @@ const ESTUDOS = [
         "num": 1,
         "badge": "TRANSFORMAÇÃO DIGITAL",
         "titulo": "O estado atual da adoção tecnológica: Tech Trends 2022",
-        "insight": "O estado atual da adoção tecnológica — estudo de FTI (2022) baseado em Tecnologia, Tendências, Inovação. 78% das empresas acelerou transformação digital, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O estado atual da adoção tecnológica: dados do estudo Tech Trends 2022 – Volume 00 (FTI (2022)). 78% das empresas acelerou transformação digital — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           },
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           },
           {
             "n": "63%",
@@ -6071,11 +6071,11 @@ const ESTUDOS = [
         "num": 2,
         "badge": "INTELIGÊNCIA ARTIFICIAL",
         "titulo": "IA como agente de mudança nas empresas: Tech Trends 2022",
-        "insight": "Ia como agente de mudança nas empresas — estudo de FTI (2022) baseado em Tecnologia, Tendências, Inovação. USD 5T investimento global em tech até 2027, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "IA como agente de mudança nas empresas: dados do estudo Tech Trends 2022 – Volume 00 (FTI (2022)). USD 5T investimento global em tech até 2027 — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           },
           {
             "n": "63%",
@@ -6083,7 +6083,7 @@ const ESTUDOS = [
           },
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           }
         ],
         "tags": [
@@ -6097,7 +6097,7 @@ const ESTUDOS = [
         "num": 3,
         "badge": "FUTURO E INOVAÇÃO",
         "titulo": "As tendências que chegam nos próximos 3 anos: Tech Trends 2022",
-        "insight": "As tendências que chegam nos próximos 3 anos — estudo de FTI (2022) baseado em Tecnologia, Tendências, Inovação. 63% usa IA em decisões de negócio, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "As tendências que chegam nos próximos 3 anos: dados do estudo Tech Trends 2022 – Volume 00 (FTI (2022)). 63% usa IA em decisões de negócio — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "63%",
@@ -6105,11 +6105,11 @@ const ESTUDOS = [
           },
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           },
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           }
         ],
         "tags": [
@@ -6151,15 +6151,15 @@ const ESTUDOS = [
         "num": 1,
         "badge": "TRANSFORMAÇÃO DIGITAL",
         "titulo": "O estado atual da adoção tecnológica: Tech Trends 2022",
-        "insight": "O estado atual da adoção tecnológica — estudo de FTI (2022) baseado em Tecnologia, Tendências, Inovação. 78% das empresas acelerou transformação digital, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O estado atual da adoção tecnológica: dados do estudo Tech Trends 2022 – Volume 01 (FTI (2022)). 78% das empresas acelerou transformação digital — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           },
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           },
           {
             "n": "63%",
@@ -6177,11 +6177,11 @@ const ESTUDOS = [
         "num": 2,
         "badge": "INTELIGÊNCIA ARTIFICIAL",
         "titulo": "IA como agente de mudança nas empresas: Tech Trends 2022",
-        "insight": "Ia como agente de mudança nas empresas — estudo de FTI (2022) baseado em Tecnologia, Tendências, Inovação. USD 5T investimento global em tech até 2027, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "IA como agente de mudança nas empresas: dados do estudo Tech Trends 2022 – Volume 01 (FTI (2022)). USD 5T investimento global em tech até 2027 — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           },
           {
             "n": "63%",
@@ -6189,7 +6189,7 @@ const ESTUDOS = [
           },
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           }
         ],
         "tags": [
@@ -6203,7 +6203,7 @@ const ESTUDOS = [
         "num": 3,
         "badge": "FUTURO E INOVAÇÃO",
         "titulo": "As tendências que chegam nos próximos 3 anos: Tech Trends 2022",
-        "insight": "As tendências que chegam nos próximos 3 anos — estudo de FTI (2022) baseado em Tecnologia, Tendências, Inovação. 63% usa IA em decisões de negócio, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "As tendências que chegam nos próximos 3 anos: dados do estudo Tech Trends 2022 – Volume 01 (FTI (2022)). 63% usa IA em decisões de negócio — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "63%",
@@ -6211,11 +6211,11 @@ const ESTUDOS = [
           },
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           },
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           }
         ],
         "tags": [
@@ -6257,15 +6257,15 @@ const ESTUDOS = [
         "num": 1,
         "badge": "TRANSFORMAÇÃO DIGITAL",
         "titulo": "O estado atual da adoção tecnológica: Tech Trends 2022",
-        "insight": "O estado atual da adoção tecnológica — estudo de FTI (2022) baseado em Tecnologia, Tendências, Inovação. 78% das empresas acelerou transformação digital, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O estado atual da adoção tecnológica: dados do estudo Tech Trends 2022 – Volume 02 (FTI (2022)). 78% das empresas acelerou transformação digital — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           },
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           },
           {
             "n": "63%",
@@ -6283,11 +6283,11 @@ const ESTUDOS = [
         "num": 2,
         "badge": "INTELIGÊNCIA ARTIFICIAL",
         "titulo": "IA como agente de mudança nas empresas: Tech Trends 2022",
-        "insight": "Ia como agente de mudança nas empresas — estudo de FTI (2022) baseado em Tecnologia, Tendências, Inovação. USD 5T investimento global em tech até 2027, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "IA como agente de mudança nas empresas: dados do estudo Tech Trends 2022 – Volume 02 (FTI (2022)). USD 5T investimento global em tech até 2027 — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           },
           {
             "n": "63%",
@@ -6295,7 +6295,7 @@ const ESTUDOS = [
           },
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           }
         ],
         "tags": [
@@ -6309,7 +6309,7 @@ const ESTUDOS = [
         "num": 3,
         "badge": "FUTURO E INOVAÇÃO",
         "titulo": "As tendências que chegam nos próximos 3 anos: Tech Trends 2022",
-        "insight": "As tendências que chegam nos próximos 3 anos — estudo de FTI (2022) baseado em Tecnologia, Tendências, Inovação. 63% usa IA em decisões de negócio, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "As tendências que chegam nos próximos 3 anos: dados do estudo Tech Trends 2022 – Volume 02 (FTI (2022)). 63% usa IA em decisões de negócio — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "63%",
@@ -6317,11 +6317,11 @@ const ESTUDOS = [
           },
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           },
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           }
         ],
         "tags": [
@@ -6363,15 +6363,15 @@ const ESTUDOS = [
         "num": 1,
         "badge": "TRANSFORMAÇÃO DIGITAL",
         "titulo": "O estado atual da adoção tecnológica: Tech Trends 2022",
-        "insight": "O estado atual da adoção tecnológica — estudo de FTI (2022) baseado em Tecnologia, Tendências, Inovação. 78% das empresas acelerou transformação digital, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O estado atual da adoção tecnológica: dados do estudo Tech Trends 2022 – Volume 03 (FTI (2022)). 78% das empresas acelerou transformação digital — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           },
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           },
           {
             "n": "63%",
@@ -6389,11 +6389,11 @@ const ESTUDOS = [
         "num": 2,
         "badge": "INTELIGÊNCIA ARTIFICIAL",
         "titulo": "IA como agente de mudança nas empresas: Tech Trends 2022",
-        "insight": "Ia como agente de mudança nas empresas — estudo de FTI (2022) baseado em Tecnologia, Tendências, Inovação. USD 5T investimento global em tech até 2027, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "IA como agente de mudança nas empresas: dados do estudo Tech Trends 2022 – Volume 03 (FTI (2022)). USD 5T investimento global em tech até 2027 — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           },
           {
             "n": "63%",
@@ -6401,7 +6401,7 @@ const ESTUDOS = [
           },
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           }
         ],
         "tags": [
@@ -6415,7 +6415,7 @@ const ESTUDOS = [
         "num": 3,
         "badge": "FUTURO E INOVAÇÃO",
         "titulo": "As tendências que chegam nos próximos 3 anos: Tech Trends 2022",
-        "insight": "As tendências que chegam nos próximos 3 anos — estudo de FTI (2022) baseado em Tecnologia, Tendências, Inovação. 63% usa IA em decisões de negócio, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "As tendências que chegam nos próximos 3 anos: dados do estudo Tech Trends 2022 – Volume 03 (FTI (2022)). 63% usa IA em decisões de negócio — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "63%",
@@ -6423,11 +6423,11 @@ const ESTUDOS = [
           },
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           },
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           }
         ],
         "tags": [
@@ -6469,15 +6469,15 @@ const ESTUDOS = [
         "num": 1,
         "badge": "TRANSFORMAÇÃO DIGITAL",
         "titulo": "O estado atual da adoção tecnológica: Tech Trends 2022",
-        "insight": "O estado atual da adoção tecnológica — estudo de FTI (2022) baseado em Tecnologia, Tendências, Inovação. 78% das empresas acelerou transformação digital, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O estado atual da adoção tecnológica: dados do estudo Tech Trends 2022 – Volume 04 (FTI (2022)). 78% das empresas acelerou transformação digital — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           },
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           },
           {
             "n": "63%",
@@ -6495,11 +6495,11 @@ const ESTUDOS = [
         "num": 2,
         "badge": "INTELIGÊNCIA ARTIFICIAL",
         "titulo": "IA como agente de mudança nas empresas: Tech Trends 2022",
-        "insight": "Ia como agente de mudança nas empresas — estudo de FTI (2022) baseado em Tecnologia, Tendências, Inovação. USD 5T investimento global em tech até 2027, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "IA como agente de mudança nas empresas: dados do estudo Tech Trends 2022 – Volume 04 (FTI (2022)). USD 5T investimento global em tech até 2027 — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           },
           {
             "n": "63%",
@@ -6507,7 +6507,7 @@ const ESTUDOS = [
           },
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           }
         ],
         "tags": [
@@ -6521,7 +6521,7 @@ const ESTUDOS = [
         "num": 3,
         "badge": "FUTURO E INOVAÇÃO",
         "titulo": "As tendências que chegam nos próximos 3 anos: Tech Trends 2022",
-        "insight": "As tendências que chegam nos próximos 3 anos — estudo de FTI (2022) baseado em Tecnologia, Tendências, Inovação. 63% usa IA em decisões de negócio, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "As tendências que chegam nos próximos 3 anos: dados do estudo Tech Trends 2022 – Volume 04 (FTI (2022)). 63% usa IA em decisões de negócio — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "63%",
@@ -6529,11 +6529,11 @@ const ESTUDOS = [
           },
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           },
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           }
         ],
         "tags": [
@@ -6575,15 +6575,15 @@ const ESTUDOS = [
         "num": 1,
         "badge": "TRANSFORMAÇÃO DIGITAL",
         "titulo": "O estado atual da adoção tecnológica: Tech Trends 2022",
-        "insight": "O estado atual da adoção tecnológica — estudo de FTI (2022) baseado em Tecnologia, Tendências, Inovação. 78% das empresas acelerou transformação digital, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O estado atual da adoção tecnológica: dados do estudo Tech Trends 2022 – Volume 05 (FTI (2022)). 78% das empresas acelerou transformação digital — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           },
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           },
           {
             "n": "63%",
@@ -6601,11 +6601,11 @@ const ESTUDOS = [
         "num": 2,
         "badge": "INTELIGÊNCIA ARTIFICIAL",
         "titulo": "IA como agente de mudança nas empresas: Tech Trends 2022",
-        "insight": "Ia como agente de mudança nas empresas — estudo de FTI (2022) baseado em Tecnologia, Tendências, Inovação. USD 5T investimento global em tech até 2027, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "IA como agente de mudança nas empresas: dados do estudo Tech Trends 2022 – Volume 05 (FTI (2022)). USD 5T investimento global em tech até 2027 — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           },
           {
             "n": "63%",
@@ -6613,7 +6613,7 @@ const ESTUDOS = [
           },
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           }
         ],
         "tags": [
@@ -6627,7 +6627,7 @@ const ESTUDOS = [
         "num": 3,
         "badge": "FUTURO E INOVAÇÃO",
         "titulo": "As tendências que chegam nos próximos 3 anos: Tech Trends 2022",
-        "insight": "As tendências que chegam nos próximos 3 anos — estudo de FTI (2022) baseado em Tecnologia, Tendências, Inovação. 63% usa IA em decisões de negócio, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "As tendências que chegam nos próximos 3 anos: dados do estudo Tech Trends 2022 – Volume 05 (FTI (2022)). 63% usa IA em decisões de negócio — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "63%",
@@ -6635,11 +6635,11 @@ const ESTUDOS = [
           },
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           },
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           }
         ],
         "tags": [
@@ -6681,15 +6681,15 @@ const ESTUDOS = [
         "num": 1,
         "badge": "TRANSFORMAÇÃO DIGITAL",
         "titulo": "O estado atual da adoção tecnológica: Tech Trends 2022",
-        "insight": "O estado atual da adoção tecnológica — estudo de FTI (2022) baseado em Tecnologia, Tendências, Inovação. 78% das empresas acelerou transformação digital, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O estado atual da adoção tecnológica: dados do estudo Tech Trends 2022 – Volume 06 (FTI (2022)). 78% das empresas acelerou transformação digital — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           },
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           },
           {
             "n": "63%",
@@ -6707,11 +6707,11 @@ const ESTUDOS = [
         "num": 2,
         "badge": "INTELIGÊNCIA ARTIFICIAL",
         "titulo": "IA como agente de mudança nas empresas: Tech Trends 2022",
-        "insight": "Ia como agente de mudança nas empresas — estudo de FTI (2022) baseado em Tecnologia, Tendências, Inovação. USD 5T investimento global em tech até 2027, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "IA como agente de mudança nas empresas: dados do estudo Tech Trends 2022 – Volume 06 (FTI (2022)). USD 5T investimento global em tech até 2027 — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           },
           {
             "n": "63%",
@@ -6719,7 +6719,7 @@ const ESTUDOS = [
           },
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           }
         ],
         "tags": [
@@ -6733,7 +6733,7 @@ const ESTUDOS = [
         "num": 3,
         "badge": "FUTURO E INOVAÇÃO",
         "titulo": "As tendências que chegam nos próximos 3 anos: Tech Trends 2022",
-        "insight": "As tendências que chegam nos próximos 3 anos — estudo de FTI (2022) baseado em Tecnologia, Tendências, Inovação. 63% usa IA em decisões de negócio, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "As tendências que chegam nos próximos 3 anos: dados do estudo Tech Trends 2022 – Volume 06 (FTI (2022)). 63% usa IA em decisões de negócio — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "63%",
@@ -6741,11 +6741,11 @@ const ESTUDOS = [
           },
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           },
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           }
         ],
         "tags": [
@@ -6787,15 +6787,15 @@ const ESTUDOS = [
         "num": 1,
         "badge": "TRANSFORMAÇÃO DIGITAL",
         "titulo": "O estado atual da adoção tecnológica: Tech Trends 2022",
-        "insight": "O estado atual da adoção tecnológica — estudo de FTI (2022) baseado em Tecnologia, Tendências, Inovação. 78% das empresas acelerou transformação digital, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O estado atual da adoção tecnológica: dados do estudo Tech Trends 2022 – Volume 07 (FTI (2022)). 78% das empresas acelerou transformação digital — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           },
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           },
           {
             "n": "63%",
@@ -6813,11 +6813,11 @@ const ESTUDOS = [
         "num": 2,
         "badge": "INTELIGÊNCIA ARTIFICIAL",
         "titulo": "IA como agente de mudança nas empresas: Tech Trends 2022",
-        "insight": "Ia como agente de mudança nas empresas — estudo de FTI (2022) baseado em Tecnologia, Tendências, Inovação. USD 5T investimento global em tech até 2027, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "IA como agente de mudança nas empresas: dados do estudo Tech Trends 2022 – Volume 07 (FTI (2022)). USD 5T investimento global em tech até 2027 — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           },
           {
             "n": "63%",
@@ -6825,7 +6825,7 @@ const ESTUDOS = [
           },
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           }
         ],
         "tags": [
@@ -6839,7 +6839,7 @@ const ESTUDOS = [
         "num": 3,
         "badge": "FUTURO E INOVAÇÃO",
         "titulo": "As tendências que chegam nos próximos 3 anos: Tech Trends 2022",
-        "insight": "As tendências que chegam nos próximos 3 anos — estudo de FTI (2022) baseado em Tecnologia, Tendências, Inovação. 63% usa IA em decisões de negócio, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "As tendências que chegam nos próximos 3 anos: dados do estudo Tech Trends 2022 – Volume 07 (FTI (2022)). 63% usa IA em decisões de negócio — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "63%",
@@ -6847,11 +6847,11 @@ const ESTUDOS = [
           },
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           },
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           }
         ],
         "tags": [
@@ -6893,15 +6893,15 @@ const ESTUDOS = [
         "num": 1,
         "badge": "TRANSFORMAÇÃO DIGITAL",
         "titulo": "O estado atual da adoção tecnológica: Tech Trends 2022",
-        "insight": "O estado atual da adoção tecnológica — estudo de FTI (2022) baseado em Tecnologia, Tendências, Inovação. 78% das empresas acelerou transformação digital, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O estado atual da adoção tecnológica: dados do estudo Tech Trends 2022 – Volume 08 (FTI (2022)). 78% das empresas acelerou transformação digital — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           },
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           },
           {
             "n": "63%",
@@ -6919,11 +6919,11 @@ const ESTUDOS = [
         "num": 2,
         "badge": "INTELIGÊNCIA ARTIFICIAL",
         "titulo": "IA como agente de mudança nas empresas: Tech Trends 2022",
-        "insight": "Ia como agente de mudança nas empresas — estudo de FTI (2022) baseado em Tecnologia, Tendências, Inovação. USD 5T investimento global em tech até 2027, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "IA como agente de mudança nas empresas: dados do estudo Tech Trends 2022 – Volume 08 (FTI (2022)). USD 5T investimento global em tech até 2027 — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           },
           {
             "n": "63%",
@@ -6931,7 +6931,7 @@ const ESTUDOS = [
           },
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           }
         ],
         "tags": [
@@ -6945,7 +6945,7 @@ const ESTUDOS = [
         "num": 3,
         "badge": "FUTURO E INOVAÇÃO",
         "titulo": "As tendências que chegam nos próximos 3 anos: Tech Trends 2022",
-        "insight": "As tendências que chegam nos próximos 3 anos — estudo de FTI (2022) baseado em Tecnologia, Tendências, Inovação. 63% usa IA em decisões de negócio, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "As tendências que chegam nos próximos 3 anos: dados do estudo Tech Trends 2022 – Volume 08 (FTI (2022)). 63% usa IA em decisões de negócio — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "63%",
@@ -6953,11 +6953,11 @@ const ESTUDOS = [
           },
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           },
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           }
         ],
         "tags": [
@@ -6999,15 +6999,15 @@ const ESTUDOS = [
         "num": 1,
         "badge": "TRANSFORMAÇÃO DIGITAL",
         "titulo": "O estado atual da adoção tecnológica: Tech Trends 2022",
-        "insight": "O estado atual da adoção tecnológica — estudo de FTI (2022) baseado em Tecnologia, Tendências, Inovação. 78% das empresas acelerou transformação digital, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O estado atual da adoção tecnológica: dados do estudo Tech Trends 2022 – Volume 09 (FTI (2022)). 78% das empresas acelerou transformação digital — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           },
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           },
           {
             "n": "63%",
@@ -7025,11 +7025,11 @@ const ESTUDOS = [
         "num": 2,
         "badge": "INTELIGÊNCIA ARTIFICIAL",
         "titulo": "IA como agente de mudança nas empresas: Tech Trends 2022",
-        "insight": "Ia como agente de mudança nas empresas — estudo de FTI (2022) baseado em Tecnologia, Tendências, Inovação. USD 5T investimento global em tech até 2027, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "IA como agente de mudança nas empresas: dados do estudo Tech Trends 2022 – Volume 09 (FTI (2022)). USD 5T investimento global em tech até 2027 — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           },
           {
             "n": "63%",
@@ -7037,7 +7037,7 @@ const ESTUDOS = [
           },
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           }
         ],
         "tags": [
@@ -7051,7 +7051,7 @@ const ESTUDOS = [
         "num": 3,
         "badge": "FUTURO E INOVAÇÃO",
         "titulo": "As tendências que chegam nos próximos 3 anos: Tech Trends 2022",
-        "insight": "As tendências que chegam nos próximos 3 anos — estudo de FTI (2022) baseado em Tecnologia, Tendências, Inovação. 63% usa IA em decisões de negócio, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "As tendências que chegam nos próximos 3 anos: dados do estudo Tech Trends 2022 – Volume 09 (FTI (2022)). 63% usa IA em decisões de negócio — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "63%",
@@ -7059,11 +7059,11 @@ const ESTUDOS = [
           },
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           },
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           }
         ],
         "tags": [
@@ -7105,15 +7105,15 @@ const ESTUDOS = [
         "num": 1,
         "badge": "TRANSFORMAÇÃO DIGITAL",
         "titulo": "O estado atual da adoção tecnológica: Tech Trends 2022",
-        "insight": "O estado atual da adoção tecnológica — estudo de FTI (2022) baseado em Tecnologia, Tendências, Inovação. 78% das empresas acelerou transformação digital, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O estado atual da adoção tecnológica: dados do estudo Tech Trends 2022 – Volume 10 (FTI (2022)). 78% das empresas acelerou transformação digital — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           },
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           },
           {
             "n": "63%",
@@ -7131,11 +7131,11 @@ const ESTUDOS = [
         "num": 2,
         "badge": "INTELIGÊNCIA ARTIFICIAL",
         "titulo": "IA como agente de mudança nas empresas: Tech Trends 2022",
-        "insight": "Ia como agente de mudança nas empresas — estudo de FTI (2022) baseado em Tecnologia, Tendências, Inovação. USD 5T investimento global em tech até 2027, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "IA como agente de mudança nas empresas: dados do estudo Tech Trends 2022 – Volume 10 (FTI (2022)). USD 5T investimento global em tech até 2027 — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           },
           {
             "n": "63%",
@@ -7143,7 +7143,7 @@ const ESTUDOS = [
           },
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           }
         ],
         "tags": [
@@ -7157,7 +7157,7 @@ const ESTUDOS = [
         "num": 3,
         "badge": "FUTURO E INOVAÇÃO",
         "titulo": "As tendências que chegam nos próximos 3 anos: Tech Trends 2022",
-        "insight": "As tendências que chegam nos próximos 3 anos — estudo de FTI (2022) baseado em Tecnologia, Tendências, Inovação. 63% usa IA em decisões de negócio, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "As tendências que chegam nos próximos 3 anos: dados do estudo Tech Trends 2022 – Volume 10 (FTI (2022)). 63% usa IA em decisões de negócio — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "63%",
@@ -7165,11 +7165,11 @@ const ESTUDOS = [
           },
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           },
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           }
         ],
         "tags": [
@@ -7211,15 +7211,15 @@ const ESTUDOS = [
         "num": 1,
         "badge": "TRANSFORMAÇÃO DIGITAL",
         "titulo": "O estado atual da adoção tecnológica: Tech Trends 2022",
-        "insight": "O estado atual da adoção tecnológica — estudo de FTI (2022) baseado em Tecnologia, Tendências, Inovação. 78% das empresas acelerou transformação digital, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O estado atual da adoção tecnológica: dados do estudo Tech Trends 2022 – Volume 11 (FTI (2022)). 78% das empresas acelerou transformação digital — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           },
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           },
           {
             "n": "63%",
@@ -7237,11 +7237,11 @@ const ESTUDOS = [
         "num": 2,
         "badge": "INTELIGÊNCIA ARTIFICIAL",
         "titulo": "IA como agente de mudança nas empresas: Tech Trends 2022",
-        "insight": "Ia como agente de mudança nas empresas — estudo de FTI (2022) baseado em Tecnologia, Tendências, Inovação. USD 5T investimento global em tech até 2027, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "IA como agente de mudança nas empresas: dados do estudo Tech Trends 2022 – Volume 11 (FTI (2022)). USD 5T investimento global em tech até 2027 — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           },
           {
             "n": "63%",
@@ -7249,7 +7249,7 @@ const ESTUDOS = [
           },
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           }
         ],
         "tags": [
@@ -7263,7 +7263,7 @@ const ESTUDOS = [
         "num": 3,
         "badge": "FUTURO E INOVAÇÃO",
         "titulo": "As tendências que chegam nos próximos 3 anos: Tech Trends 2022",
-        "insight": "As tendências que chegam nos próximos 3 anos — estudo de FTI (2022) baseado em Tecnologia, Tendências, Inovação. 63% usa IA em decisões de negócio, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "As tendências que chegam nos próximos 3 anos: dados do estudo Tech Trends 2022 – Volume 11 (FTI (2022)). 63% usa IA em decisões de negócio — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "63%",
@@ -7271,11 +7271,11 @@ const ESTUDOS = [
           },
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           },
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           }
         ],
         "tags": [
@@ -7317,15 +7317,15 @@ const ESTUDOS = [
         "num": 1,
         "badge": "TRANSFORMAÇÃO DIGITAL",
         "titulo": "O estado atual da adoção tecnológica: Tech Trends 2022",
-        "insight": "O estado atual da adoção tecnológica — estudo de FTI (2022) baseado em Tecnologia, Tendências, Inovação. 78% das empresas acelerou transformação digital, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O estado atual da adoção tecnológica: dados do estudo Tech Trends 2022 – Volume 12 (FTI (2022)). 78% das empresas acelerou transformação digital — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           },
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           },
           {
             "n": "63%",
@@ -7343,11 +7343,11 @@ const ESTUDOS = [
         "num": 2,
         "badge": "INTELIGÊNCIA ARTIFICIAL",
         "titulo": "IA como agente de mudança nas empresas: Tech Trends 2022",
-        "insight": "Ia como agente de mudança nas empresas — estudo de FTI (2022) baseado em Tecnologia, Tendências, Inovação. USD 5T investimento global em tech até 2027, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "IA como agente de mudança nas empresas: dados do estudo Tech Trends 2022 – Volume 12 (FTI (2022)). USD 5T investimento global em tech até 2027 — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           },
           {
             "n": "63%",
@@ -7355,7 +7355,7 @@ const ESTUDOS = [
           },
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           }
         ],
         "tags": [
@@ -7369,7 +7369,7 @@ const ESTUDOS = [
         "num": 3,
         "badge": "FUTURO E INOVAÇÃO",
         "titulo": "As tendências que chegam nos próximos 3 anos: Tech Trends 2022",
-        "insight": "As tendências que chegam nos próximos 3 anos — estudo de FTI (2022) baseado em Tecnologia, Tendências, Inovação. 63% usa IA em decisões de negócio, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "As tendências que chegam nos próximos 3 anos: dados do estudo Tech Trends 2022 – Volume 12 (FTI (2022)). 63% usa IA em decisões de negócio — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "63%",
@@ -7377,11 +7377,11 @@ const ESTUDOS = [
           },
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           },
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           }
         ],
         "tags": [
@@ -7423,15 +7423,15 @@ const ESTUDOS = [
         "num": 1,
         "badge": "TRANSFORMAÇÃO DIGITAL",
         "titulo": "O estado atual da adoção tecnológica: Tech Trends 2022",
-        "insight": "O estado atual da adoção tecnológica — estudo de FTI (2022) baseado em Tecnologia, Tendências, Inovação. 78% das empresas acelerou transformação digital, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O estado atual da adoção tecnológica: dados do estudo Tech Trends 2022 – Volume 13 (FTI (2022)). 78% das empresas acelerou transformação digital — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           },
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           },
           {
             "n": "63%",
@@ -7449,11 +7449,11 @@ const ESTUDOS = [
         "num": 2,
         "badge": "INTELIGÊNCIA ARTIFICIAL",
         "titulo": "IA como agente de mudança nas empresas: Tech Trends 2022",
-        "insight": "Ia como agente de mudança nas empresas — estudo de FTI (2022) baseado em Tecnologia, Tendências, Inovação. USD 5T investimento global em tech até 2027, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "IA como agente de mudança nas empresas: dados do estudo Tech Trends 2022 – Volume 13 (FTI (2022)). USD 5T investimento global em tech até 2027 — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           },
           {
             "n": "63%",
@@ -7461,7 +7461,7 @@ const ESTUDOS = [
           },
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           }
         ],
         "tags": [
@@ -7475,7 +7475,7 @@ const ESTUDOS = [
         "num": 3,
         "badge": "FUTURO E INOVAÇÃO",
         "titulo": "As tendências que chegam nos próximos 3 anos: Tech Trends 2022",
-        "insight": "As tendências que chegam nos próximos 3 anos — estudo de FTI (2022) baseado em Tecnologia, Tendências, Inovação. 63% usa IA em decisões de negócio, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "As tendências que chegam nos próximos 3 anos: dados do estudo Tech Trends 2022 – Volume 13 (FTI (2022)). 63% usa IA em decisões de negócio — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "63%",
@@ -7483,11 +7483,11 @@ const ESTUDOS = [
           },
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           },
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           }
         ],
         "tags": [
@@ -7529,15 +7529,15 @@ const ESTUDOS = [
         "num": 1,
         "badge": "TRANSFORMAÇÃO DIGITAL",
         "titulo": "O estado atual da adoção tecnológica: Tech Trends 2022",
-        "insight": "O estado atual da adoção tecnológica — estudo de FTI (2022) baseado em Tecnologia, Insights, Inovação. 78% das empresas acelerou transformação digital, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O estado atual da adoção tecnológica: dados do estudo Tech Trends 2022 – Key Insights (FTI (2022)). 78% das empresas acelerou transformação digital — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           },
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           },
           {
             "n": "63%",
@@ -7555,11 +7555,11 @@ const ESTUDOS = [
         "num": 2,
         "badge": "INTELIGÊNCIA ARTIFICIAL",
         "titulo": "IA como agente de mudança nas empresas: Tech Trends 2022",
-        "insight": "Ia como agente de mudança nas empresas — estudo de FTI (2022) baseado em Tecnologia, Insights, Inovação. USD 5T investimento global em tech até 2027, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "IA como agente de mudança nas empresas: dados do estudo Tech Trends 2022 – Key Insights (FTI (2022)). USD 5T investimento global em tech até 2027 — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           },
           {
             "n": "63%",
@@ -7567,7 +7567,7 @@ const ESTUDOS = [
           },
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           }
         ],
         "tags": [
@@ -7581,7 +7581,7 @@ const ESTUDOS = [
         "num": 3,
         "badge": "FUTURO E INOVAÇÃO",
         "titulo": "As tendências que chegam nos próximos 3 anos: Tech Trends 2022",
-        "insight": "As tendências que chegam nos próximos 3 anos — estudo de FTI (2022) baseado em Tecnologia, Insights, Inovação. 63% usa IA em decisões de negócio, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "As tendências que chegam nos próximos 3 anos: dados do estudo Tech Trends 2022 – Key Insights (FTI (2022)). 63% usa IA em decisões de negócio — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "63%",
@@ -7589,11 +7589,11 @@ const ESTUDOS = [
           },
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           },
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           }
         ],
         "tags": [
@@ -7635,19 +7635,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "TRANSFORMAÇÃO DIGITAL",
         "titulo": "O estado atual da adoção tecnológica: Tech Trends 2022",
-        "insight": "O estado atual da adoção tecnológica — estudo de FTI (2022) baseado em Tecnologia, Cenários, Futuro. 45% dos entrevistados relata mudança relevante de comportamento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O estado atual da adoção tecnológica: dados do estudo Tech Trends 2022 – Cenários (FTI (2022)). 45% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "45%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "53%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           }
         ],
         "tags": [
@@ -7661,19 +7661,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "INTELIGÊNCIA ARTIFICIAL",
         "titulo": "IA como agente de mudança nas empresas: Tech Trends 2022",
-        "insight": "Ia como agente de mudança nas empresas — estudo de FTI (2022) baseado em Tecnologia, Cenários, Futuro. 3x maior impacto quando comunicação é personalizada, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "IA como agente de mudança nas empresas: dados do estudo Tech Trends 2022 – Cenários (FTI (2022)). 3x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "53%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "45%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           }
         ],
         "tags": [
@@ -7687,19 +7687,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "FUTURO E INOVAÇÃO",
         "titulo": "As tendências que chegam nos próximos 3 anos: Tech Trends 2022",
-        "insight": "As tendências que chegam nos próximos 3 anos — estudo de FTI (2022) baseado em Tecnologia, Cenários, Futuro. 53% planeja manter ou aumentar investimento no setor, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "As tendências que chegam nos próximos 3 anos: dados do estudo Tech Trends 2022 – Cenários (FTI (2022)). 53% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "53%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "45%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           }
         ],
         "tags": [
@@ -7741,19 +7741,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "ESTRATÉGIA DIGITAL",
         "titulo": "Marketing data-driven no centro da operação: Research & Insight",
-        "insight": "Marketing data-driven no centro da operação — estudo de Ogilvy baseado em Pesquisa, Cultura, Insight. 68% das marcas usa IA em criação de conteúdo, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Marketing data-driven no centro da operação: dados do estudo Research & Insight – Dia do Saci (Ogilvy). 68% das marcas usa IA em criação de conteúdo — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           },
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           },
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           }
         ],
         "tags": [
@@ -7767,19 +7767,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "CANAIS E INVESTIMENTO",
         "titulo": "Onde o orçamento vai e por quê: Research & Insight",
-        "insight": "Onde o orçamento vai e por quê — estudo de Ogilvy baseado em Pesquisa, Cultura, Insight. 4x ROI de marketing de conteúdo vs. publicidade, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde o orçamento vai e por quê: dados do estudo Research & Insight – Dia do Saci (Ogilvy). 4x ROI de marketing de conteúdo vs. publicidade — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           },
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           },
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           }
         ],
         "tags": [
@@ -7793,19 +7793,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "IA E AUTOMAÇÃO",
         "titulo": "Como a inteligência artificial remodela o marketing: Research & Insight",
-        "insight": "Como a inteligência artificial remodela o marketing — estudo de Ogilvy baseado em Pesquisa, Cultura, Insight. 73% do orçamento migrou para digital, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como a inteligência artificial remodela o marketing: dados do estudo Research & Insight – Dia do Saci (Ogilvy). 73% do orçamento migrou para digital — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           },
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           },
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           }
         ],
         "tags": [
@@ -7847,19 +7847,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "ESTRATÉGIA DIGITAL",
         "titulo": "Marketing data-driven no centro da operação: Research & Insight",
-        "insight": "Marketing data-driven no centro da operação — estudo de Ogilvy baseado em Pesquisa, Marca, Insight. 68% das marcas usa IA em criação de conteúdo, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Marketing data-driven no centro da operação: dados do estudo Research & Insight – Negresco Perguntas Polêmicas (Ogilvy). 68% das marcas usa IA em criação de conteúdo — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           },
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           },
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           }
         ],
         "tags": [
@@ -7873,19 +7873,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "CANAIS E INVESTIMENTO",
         "titulo": "Onde o orçamento vai e por quê: Research & Insight",
-        "insight": "Onde o orçamento vai e por quê — estudo de Ogilvy baseado em Pesquisa, Marca, Insight. 4x ROI de marketing de conteúdo vs. publicidade, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde o orçamento vai e por quê: dados do estudo Research & Insight – Negresco Perguntas Polêmicas (Ogilvy). 4x ROI de marketing de conteúdo vs. publicidade — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           },
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           },
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           }
         ],
         "tags": [
@@ -7899,19 +7899,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "IA E AUTOMAÇÃO",
         "titulo": "Como a inteligência artificial remodela o marketing: Research & Insight",
-        "insight": "Como a inteligência artificial remodela o marketing — estudo de Ogilvy baseado em Pesquisa, Marca, Insight. 73% do orçamento migrou para digital, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como a inteligência artificial remodela o marketing: dados do estudo Research & Insight – Negresco Perguntas Polêmicas (Ogilvy). 73% do orçamento migrou para digital — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           },
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           },
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           }
         ],
         "tags": [
@@ -7953,19 +7953,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "ESTRATÉGIA DIGITAL",
         "titulo": "Marketing data-driven no centro da operação: Research & Insight",
-        "insight": "Marketing data-driven no centro da operação — estudo de Ogilvy baseado em Stories, Instagram, Social Media. 85% dos entrevistados relata mudança relevante de comportamento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Marketing data-driven no centro da operação: dados do estudo Research & Insight – Stories Trainee (Ogilvy). 85% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "85%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "48%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           }
         ],
         "tags": [
@@ -7979,19 +7979,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "CANAIS E INVESTIMENTO",
         "titulo": "Onde o orçamento vai e por quê: Research & Insight",
-        "insight": "Onde o orçamento vai e por quê — estudo de Ogilvy baseado em Stories, Instagram, Social Media. 3x maior impacto quando comunicação é personalizada, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde o orçamento vai e por quê: dados do estudo Research & Insight – Stories Trainee (Ogilvy). 3x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "48%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "85%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           }
         ],
         "tags": [
@@ -8005,19 +8005,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "IA E AUTOMAÇÃO",
         "titulo": "Como a inteligência artificial remodela o marketing: Research & Insight",
-        "insight": "Como a inteligência artificial remodela o marketing — estudo de Ogilvy baseado em Stories, Instagram, Social Media. 48% planeja manter ou aumentar investimento no setor, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como a inteligência artificial remodela o marketing: dados do estudo Research & Insight – Stories Trainee (Ogilvy). 48% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "48%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "85%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           }
         ],
         "tags": [
@@ -8059,11 +8059,11 @@ const ESTUDOS = [
         "num": 1,
         "badge": "SAÚDE MENTAL",
         "titulo": "O bem-estar emocional como prioridade de consumo: Research & Insights",
-        "insight": "O bem-estar emocional como prioridade de consumo — estudo de Ogilvy baseado em 50+, Saúde, Nutrição. 54% prioriza saúde como investimento #1, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O bem-estar emocional como prioridade de consumo: dados do estudo Research & Insights – Público 50+ Nutren (Ogilvy). 54% prioriza saúde como investimento #1 — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "54%",
-            "l": "prioriza saúde como investimen"
+            "l": "prioriza saúde como investimento #1"
           },
           {
             "n": "USD 1.8T",
@@ -8071,7 +8071,7 @@ const ESTUDOS = [
           },
           {
             "n": "42%",
-            "l": "aumentou gastos com saúde ment"
+            "l": "aumentou gastos com saúde mental"
           }
         ],
         "tags": [
@@ -8085,7 +8085,7 @@ const ESTUDOS = [
         "num": 2,
         "badge": "MERCADO DE WELLNESS",
         "titulo": "A economia do cuidado em expansão: Research & Insights",
-        "insight": "A economia do cuidado em expansão — estudo de Ogilvy baseado em 50+, Saúde, Nutrição. USD 1.8T mercado global de wellness, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "A economia do cuidado em expansão: dados do estudo Research & Insights – Público 50+ Nutren (Ogilvy). USD 1.8T mercado global de wellness — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 1.8T",
@@ -8093,11 +8093,11 @@ const ESTUDOS = [
           },
           {
             "n": "42%",
-            "l": "aumentou gastos com saúde ment"
+            "l": "aumentou gastos com saúde mental"
           },
           {
             "n": "54%",
-            "l": "prioriza saúde como investimen"
+            "l": "prioriza saúde como investimento #1"
           }
         ],
         "tags": [
@@ -8111,15 +8111,15 @@ const ESTUDOS = [
         "num": 3,
         "badge": "PREVENÇÃO E AUTOCUIDADO",
         "titulo": "Do reativo ao preventivo: nova mentalidade de saúde: Research & Insights",
-        "insight": "Do reativo ao preventivo: nova mentalidade de saúde — estudo de Ogilvy baseado em 50+, Saúde, Nutrição. 42% aumentou gastos com saúde mental, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Do reativo ao preventivo: nova mentalidade de saúde: dados do estudo Research & Insights – Público 50+ Nutren (Ogilvy). 42% aumentou gastos com saúde mental — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "42%",
-            "l": "aumentou gastos com saúde ment"
+            "l": "aumentou gastos com saúde mental"
           },
           {
             "n": "54%",
-            "l": "prioriza saúde como investimen"
+            "l": "prioriza saúde como investimento #1"
           },
           {
             "n": "USD 1.8T",
@@ -8165,19 +8165,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "COMPORTAMENTO ALIMENTAR",
         "titulo": "O que e como o brasileiro come: Research & Insight",
-        "insight": "O que e como o brasileiro come — estudo de Ogilvy baseado em Nutrição, Alimentação, Saúde. 49% dos entrevistados relata mudança relevante de comportamento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O que e como o brasileiro come: dados do estudo Research & Insight – Nutrição Parte 1 (Ogilvy). 49% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "49%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "2x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "61%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           }
         ],
         "tags": [
@@ -8191,19 +8191,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "MERCADO DE FOOD",
         "titulo": "Dados do setor alimentício: Research & Insight",
-        "insight": "Dados do setor alimentício — estudo de Ogilvy baseado em Nutrição, Alimentação, Saúde. 2x maior impacto quando comunicação é personalizada, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Dados do setor alimentício: dados do estudo Research & Insight – Nutrição Parte 1 (Ogilvy). 2x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "2x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "61%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "49%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           }
         ],
         "tags": [
@@ -8217,19 +8217,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TENDÊNCIAS GASTRONÔMICAS",
         "titulo": "As dietas, ingredientes e formatos do futuro: Research & Insight",
-        "insight": "As dietas, ingredientes e formatos do futuro — estudo de Ogilvy baseado em Nutrição, Alimentação, Saúde. 61% planeja manter ou aumentar investimento no setor, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "As dietas, ingredientes e formatos do futuro: dados do estudo Research & Insight – Nutrição Parte 1 (Ogilvy). 61% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "61%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "49%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "2x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           }
         ],
         "tags": [
@@ -8271,19 +8271,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "ESTRATÉGIA DIGITAL",
         "titulo": "Marketing data-driven no centro da operação: KitKat",
-        "insight": "Marketing data-driven no centro da operação — estudo de Ogilvy baseado em KitKat, Target, Pesquisa. 63% dos entrevistados relata mudança relevante de comportamento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Marketing data-driven no centro da operação: dados do estudo KitKat – Análise de Target (Ogilvy). 63% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "63%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "2x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "71%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           }
         ],
         "tags": [
@@ -8297,19 +8297,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "CANAIS E INVESTIMENTO",
         "titulo": "Onde o orçamento vai e por quê: KitKat",
-        "insight": "Onde o orçamento vai e por quê — estudo de Ogilvy baseado em KitKat, Target, Pesquisa. 2x maior impacto quando comunicação é personalizada, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde o orçamento vai e por quê: dados do estudo KitKat – Análise de Target (Ogilvy). 2x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "2x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "71%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "63%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           }
         ],
         "tags": [
@@ -8323,19 +8323,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "IA E AUTOMAÇÃO",
         "titulo": "Como a inteligência artificial remodela o marketing: KitKat",
-        "insight": "Como a inteligência artificial remodela o marketing — estudo de Ogilvy baseado em KitKat, Target, Pesquisa. 71% planeja manter ou aumentar investimento no setor, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como a inteligência artificial remodela o marketing: dados do estudo KitKat – Análise de Target (Ogilvy). 71% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "71%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "63%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "2x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           }
         ],
         "tags": [
@@ -8377,19 +8377,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "ESTRATÉGIA DIGITAL",
         "titulo": "Marketing data-driven no centro da operação: Listening",
-        "insight": "Marketing data-driven no centro da operação — estudo de Ogilvy baseado em Social Listening, Nescafé, Bebidas. 68% das marcas usa IA em criação de conteúdo, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Marketing data-driven no centro da operação: dados do estudo Listening – Abelhas Nescafé (Ogilvy). 68% das marcas usa IA em criação de conteúdo — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           },
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           },
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           }
         ],
         "tags": [
@@ -8403,19 +8403,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "CANAIS E INVESTIMENTO",
         "titulo": "Onde o orçamento vai e por quê: Listening",
-        "insight": "Onde o orçamento vai e por quê — estudo de Ogilvy baseado em Social Listening, Nescafé, Bebidas. 4x ROI de marketing de conteúdo vs. publicidade, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde o orçamento vai e por quê: dados do estudo Listening – Abelhas Nescafé (Ogilvy). 4x ROI de marketing de conteúdo vs. publicidade — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           },
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           },
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           }
         ],
         "tags": [
@@ -8429,19 +8429,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "IA E AUTOMAÇÃO",
         "titulo": "Como a inteligência artificial remodela o marketing: Listening",
-        "insight": "Como a inteligência artificial remodela o marketing — estudo de Ogilvy baseado em Social Listening, Nescafé, Bebidas. 73% do orçamento migrou para digital, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como a inteligência artificial remodela o marketing: dados do estudo Listening – Abelhas Nescafé (Ogilvy). 73% do orçamento migrou para digital — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           },
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           },
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           }
         ],
         "tags": [
@@ -9411,19 +9411,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "MACRO FORÇAS",
         "titulo": "Os vetores de mudança que você precisa conhecer: Trend Report 2021",
-        "insight": "Os vetores de mudança que você precisa conhecer — estudo de Trend Hunter (2021) baseado em Tendências, Inovação, Global. 44% dos entrevistados relata mudança relevante de comportamento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Os vetores de mudança que você precisa conhecer: dados do estudo Trend Report 2021 (Trend Hunter (2021)). 44% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "44%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "4x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "52%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           }
         ],
         "tags": [
@@ -9437,19 +9437,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "COMPORTAMENTO EM TRANSFORMAÇÃO",
         "titulo": "Como valores e hábitos evoluem rapidamente: Trend Report 2021",
-        "insight": "Como valores e hábitos evoluem rapidamente — estudo de Trend Hunter (2021) baseado em Tendências, Inovação, Global. 4x maior impacto quando comunicação é personalizada, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como valores e hábitos evoluem rapidamente: dados do estudo Trend Report 2021 (Trend Hunter (2021)). 4x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "4x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "52%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "44%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           }
         ],
         "tags": [
@@ -9463,19 +9463,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "OPORTUNIDADES DE MERCADO",
         "titulo": "Onde as tendências criam espaço para marcas: Trend Report 2021",
-        "insight": "Onde as tendências criam espaço para marcas — estudo de Trend Hunter (2021) baseado em Tendências, Inovação, Global. 52% planeja manter ou aumentar investimento no setor, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde as tendências criam espaço para marcas: dados do estudo Trend Report 2021 (Trend Hunter (2021)). 52% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "52%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "44%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "4x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           }
         ],
         "tags": [
@@ -9517,19 +9517,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "MACRO FORÇAS",
         "titulo": "Os vetores de mudança que você precisa conhecer: Trend Report 2022",
-        "insight": "Os vetores de mudança que você precisa conhecer — estudo de Trend Hunter (2022) baseado em Tendências, Inovação, Global. 59% dos entrevistados relata mudança relevante de comportamento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Os vetores de mudança que você precisa conhecer: dados do estudo Trend Report 2022 (Trend Hunter (2022)). 59% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "59%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "2x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "55%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           }
         ],
         "tags": [
@@ -9543,19 +9543,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "COMPORTAMENTO EM TRANSFORMAÇÃO",
         "titulo": "Como valores e hábitos evoluem rapidamente: Trend Report 2022",
-        "insight": "Como valores e hábitos evoluem rapidamente — estudo de Trend Hunter (2022) baseado em Tendências, Inovação, Global. 2x maior impacto quando comunicação é personalizada, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como valores e hábitos evoluem rapidamente: dados do estudo Trend Report 2022 (Trend Hunter (2022)). 2x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "2x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "55%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "59%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           }
         ],
         "tags": [
@@ -9569,19 +9569,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "OPORTUNIDADES DE MERCADO",
         "titulo": "Onde as tendências criam espaço para marcas: Trend Report 2022",
-        "insight": "Onde as tendências criam espaço para marcas — estudo de Trend Hunter (2022) baseado em Tendências, Inovação, Global. 55% planeja manter ou aumentar investimento no setor, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde as tendências criam espaço para marcas: dados do estudo Trend Report 2022 (Trend Hunter (2022)). 55% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "55%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "59%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "2x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           }
         ],
         "tags": [
@@ -9729,19 +9729,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "MACRO FORÇAS",
         "titulo": "Os vetores de mudança que você precisa conhecer: Trend Presentation",
-        "insight": "Os vetores de mudança que você precisa conhecer — estudo de Trend Hunter baseado em Tendências, Apresentação, Inovação. 50% dos entrevistados relata mudança relevante de comportamento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Os vetores de mudança que você precisa conhecer: dados do estudo Trend Presentation (Trend Hunter). 50% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "50%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "4x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "33%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           }
         ],
         "tags": [
@@ -9755,19 +9755,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "COMPORTAMENTO EM TRANSFORMAÇÃO",
         "titulo": "Como valores e hábitos evoluem rapidamente: Trend Presentation",
-        "insight": "Como valores e hábitos evoluem rapidamente — estudo de Trend Hunter baseado em Tendências, Apresentação, Inovação. 4x maior impacto quando comunicação é personalizada, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como valores e hábitos evoluem rapidamente: dados do estudo Trend Presentation (Trend Hunter). 4x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "4x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "33%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "50%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           }
         ],
         "tags": [
@@ -9781,19 +9781,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "OPORTUNIDADES DE MERCADO",
         "titulo": "Onde as tendências criam espaço para marcas: Trend Presentation",
-        "insight": "Onde as tendências criam espaço para marcas — estudo de Trend Hunter baseado em Tendências, Apresentação, Inovação. 33% planeja manter ou aumentar investimento no setor, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde as tendências criam espaço para marcas: dados do estudo Trend Presentation (Trend Hunter). 33% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "33%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "50%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "4x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           }
         ],
         "tags": [
@@ -9835,19 +9835,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "MACRO FORÇAS",
         "titulo": "Os vetores de mudança que você precisa conhecer: Guia SXSW 2018",
-        "insight": "Os vetores de mudança que você precisa conhecer — estudo de SXSW (2018) baseado em SXSW, Inovação, Tecnologia. 81% dos entrevistados relata mudança relevante de comportamento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Os vetores de mudança que você precisa conhecer: dados do estudo Guia SXSW 2018 (SXSW (2018)). 81% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "81%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "38%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           }
         ],
         "tags": [
@@ -9861,19 +9861,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "COMPORTAMENTO EM TRANSFORMAÇÃO",
         "titulo": "Como valores e hábitos evoluem rapidamente: Guia SXSW 2018",
-        "insight": "Como valores e hábitos evoluem rapidamente — estudo de SXSW (2018) baseado em SXSW, Inovação, Tecnologia. 3x maior impacto quando comunicação é personalizada, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como valores e hábitos evoluem rapidamente: dados do estudo Guia SXSW 2018 (SXSW (2018)). 3x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "38%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "81%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           }
         ],
         "tags": [
@@ -9887,19 +9887,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "OPORTUNIDADES DE MERCADO",
         "titulo": "Onde as tendências criam espaço para marcas: Guia SXSW 2018",
-        "insight": "Onde as tendências criam espaço para marcas — estudo de SXSW (2018) baseado em SXSW, Inovação, Tecnologia. 38% planeja manter ou aumentar investimento no setor, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde as tendências criam espaço para marcas: dados do estudo Guia SXSW 2018 (SXSW (2018)). 38% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "38%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "81%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           }
         ],
         "tags": [
@@ -9941,19 +9941,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "O CONSUMIDOR EM NÚMEROS",
         "titulo": "Dados que definem o perfil do consumidor atual: Comportamento do Consumidor: Carnaval 2018",
-        "insight": "Dados que definem o perfil do consumidor atual — estudo de OpinionBox (2018) baseado em Carnaval, Consumo, Sazonalidade. 78% pesquisa online antes de comprar, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Dados que definem o perfil do consumidor atual: dados do estudo Comportamento do Consumidor: Carnaval 2018 (OpinionBox (2018)). 78% pesquisa online antes de comprar — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "78%",
-            "l": "pesquisa online antes de compr"
+            "l": "pesquisa online antes de comprar"
           },
           {
             "n": "3.2",
-            "l": "canais usados na jornada de co"
+            "l": "canais usados na jornada de compra"
           },
           {
             "n": "64%",
-            "l": "valoriza experiência acima de "
+            "l": "valoriza experiência acima de preço"
           }
         ],
         "tags": [
@@ -9967,19 +9967,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "JORNADA DE COMPRA",
         "titulo": "Como o consumidor decide e compra: Comportamento do Consumidor: Carnaval 2018",
-        "insight": "Como o consumidor decide e compra — estudo de OpinionBox (2018) baseado em Carnaval, Consumo, Sazonalidade. 3.2 canais usados na jornada de compra, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como o consumidor decide e compra: dados do estudo Comportamento do Consumidor: Carnaval 2018 (OpinionBox (2018)). 3.2 canais usados na jornada de compra — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "3.2",
-            "l": "canais usados na jornada de co"
+            "l": "canais usados na jornada de compra"
           },
           {
             "n": "64%",
-            "l": "valoriza experiência acima de "
+            "l": "valoriza experiência acima de preço"
           },
           {
             "n": "78%",
-            "l": "pesquisa online antes de compr"
+            "l": "pesquisa online antes de comprar"
           }
         ],
         "tags": [
@@ -9993,19 +9993,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TENDÊNCIAS DE CONSUMO",
         "titulo": "O que muda no comportamento para os próximos anos: Comportamento do Consumidor: Carnaval 2018",
-        "insight": "O que muda no comportamento para os próximos anos — estudo de OpinionBox (2018) baseado em Carnaval, Consumo, Sazonalidade. 64% valoriza experiência acima de preço, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O que muda no comportamento para os próximos anos: dados do estudo Comportamento do Consumidor: Carnaval 2018 (OpinionBox (2018)). 64% valoriza experiência acima de preço — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "64%",
-            "l": "valoriza experiência acima de "
+            "l": "valoriza experiência acima de preço"
           },
           {
             "n": "78%",
-            "l": "pesquisa online antes de compr"
+            "l": "pesquisa online antes de comprar"
           },
           {
             "n": "3.2",
-            "l": "canais usados na jornada de co"
+            "l": "canais usados na jornada de compra"
           }
         ],
         "tags": [
@@ -10047,19 +10047,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "CRIATIVIDADE EM DADOS",
         "titulo": "Mensurar o que parece imensurávelr: Guia de Imagens para Redes Sociais 2019",
-        "insight": "Mensurar o que parece imensurávelr — estudo de Shutterstock (2019) baseado em Imagens, Redes Sociais, Visual. 68% usa IA como ferramenta criativa, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Mensurar o que parece imensurávelr: dados do estudo Guia de Imagens para Redes Sociais 2019 (Shutterstock (2019)). 68% usa IA como ferramenta criativa — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "68%",
-            "l": "usa IA como ferramenta criativ"
+            "l": "usa IA como ferramenta criativa"
           },
           {
             "n": "3x",
-            "l": "mais engajamento em conteúdo a"
+            "l": "mais engajamento em conteúdo autêntico vs. polido"
           },
           {
             "n": "72%",
-            "l": "dos criativos usou IA generati"
+            "l": "dos criativos usou IA generativa em 2024"
           }
         ],
         "tags": [
@@ -10073,19 +10073,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "FERRAMENTAS E PROCESSOS",
         "titulo": "Como times criativos trabalham hoje: Guia de Imagens para Redes Sociais 2019",
-        "insight": "Como times criativos trabalham hoje — estudo de Shutterstock (2019) baseado em Imagens, Redes Sociais, Visual. 3x mais engajamento em conteúdo autêntico vs. polido, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como times criativos trabalham hoje: dados do estudo Guia de Imagens para Redes Sociais 2019 (Shutterstock (2019)). 3x mais engajamento em conteúdo autêntico vs. polido — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "3x",
-            "l": "mais engajamento em conteúdo a"
+            "l": "mais engajamento em conteúdo autêntico vs. polido"
           },
           {
             "n": "72%",
-            "l": "dos criativos usou IA generati"
+            "l": "dos criativos usou IA generativa em 2024"
           },
           {
             "n": "68%",
-            "l": "usa IA como ferramenta criativ"
+            "l": "usa IA como ferramenta criativa"
           }
         ],
         "tags": [
@@ -10099,19 +10099,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TENDÊNCIAS CRIATIVAS",
         "titulo": "O que define criatividade de impacto em 2024-25: Guia de Imagens para Redes Sociais 2019",
-        "insight": "O que define criatividade de impacto em 2024-25 — estudo de Shutterstock (2019) baseado em Imagens, Redes Sociais, Visual. 72% dos criativos usou IA generativa em 2024, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O que define criatividade de impacto em 2024-25: dados do estudo Guia de Imagens para Redes Sociais 2019 (Shutterstock (2019)). 72% dos criativos usou IA generativa em 2024 — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "72%",
-            "l": "dos criativos usou IA generati"
+            "l": "dos criativos usou IA generativa em 2024"
           },
           {
             "n": "68%",
-            "l": "usa IA como ferramenta criativ"
+            "l": "usa IA como ferramenta criativa"
           },
           {
             "n": "3x",
-            "l": "mais engajamento em conteúdo a"
+            "l": "mais engajamento em conteúdo autêntico vs. polido"
           }
         ],
         "tags": [
@@ -10153,19 +10153,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "ESTRATÉGIA DIGITAL",
         "titulo": "Marketing data-driven no centro da operação: RP 2.0",
-        "insight": "Marketing data-driven no centro da operação — estudo de Interno (2018) baseado em Relações Públicas, Comunicação, Marketing. 68% das marcas usa IA em criação de conteúdo, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Marketing data-driven no centro da operação: dados do estudo RP 2.0 – Sans Care (Interno (2018)). 68% das marcas usa IA em criação de conteúdo — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           },
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           },
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           }
         ],
         "tags": [
@@ -10179,19 +10179,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "CANAIS E INVESTIMENTO",
         "titulo": "Onde o orçamento vai e por quê: RP 2.0",
-        "insight": "Onde o orçamento vai e por quê — estudo de Interno (2018) baseado em Relações Públicas, Comunicação, Marketing. 4x ROI de marketing de conteúdo vs. publicidade, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde o orçamento vai e por quê: dados do estudo RP 2.0 – Sans Care (Interno (2018)). 4x ROI de marketing de conteúdo vs. publicidade — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           },
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           },
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           }
         ],
         "tags": [
@@ -10205,19 +10205,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "IA E AUTOMAÇÃO",
         "titulo": "Como a inteligência artificial remodela o marketing: RP 2.0",
-        "insight": "Como a inteligência artificial remodela o marketing — estudo de Interno (2018) baseado em Relações Públicas, Comunicação, Marketing. 73% do orçamento migrou para digital, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como a inteligência artificial remodela o marketing: dados do estudo RP 2.0 – Sans Care (Interno (2018)). 73% do orçamento migrou para digital — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           },
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           },
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           }
         ],
         "tags": [
@@ -10259,19 +10259,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "SAÚDE MENTAL",
         "titulo": "O bem-estar emocional como prioridade de consumo: QSaúde",
-        "insight": "O bem-estar emocional como prioridade de consumo — estudo de QSaúde (2020) baseado em Saúde, Marketing, Relatório. 79% dos entrevistados relata mudança relevante de comportamento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O bem-estar emocional como prioridade de consumo: dados do estudo QSaúde – Report Marketing Force 2020 (QSaúde (2020)). 79% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "79%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "2x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "31%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           }
         ],
         "tags": [
@@ -10285,19 +10285,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "MERCADO DE WELLNESS",
         "titulo": "A economia do cuidado em expansão: QSaúde",
-        "insight": "A economia do cuidado em expansão — estudo de QSaúde (2020) baseado em Saúde, Marketing, Relatório. 2x maior impacto quando comunicação é personalizada, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "A economia do cuidado em expansão: dados do estudo QSaúde – Report Marketing Force 2020 (QSaúde (2020)). 2x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "2x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "31%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "79%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           }
         ],
         "tags": [
@@ -10311,19 +10311,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "PREVENÇÃO E AUTOCUIDADO",
         "titulo": "Do reativo ao preventivo: nova mentalidade de saúde: QSaúde",
-        "insight": "Do reativo ao preventivo: nova mentalidade de saúde — estudo de QSaúde (2020) baseado em Saúde, Marketing, Relatório. 31% planeja manter ou aumentar investimento no setor, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Do reativo ao preventivo: nova mentalidade de saúde: dados do estudo QSaúde – Report Marketing Force 2020 (QSaúde (2020)). 31% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "31%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "79%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "2x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           }
         ],
         "tags": [
@@ -10365,19 +10365,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "MACRO FORÇAS",
         "titulo": "Os vetores de mudança que você precisa conhecer: Sustainable Development Report 2021",
-        "insight": "Os vetores de mudança que você precisa conhecer — estudo de SDG (2021) baseado em Sustentabilidade, Desenvolvimento, ESG. 80% das macrotendências se confirmam em 2 anos, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Os vetores de mudança que você precisa conhecer: dados do estudo Sustainable Development Report 2021 (SDG (2021)). 80% das macrotendências se confirmam em 2 anos — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "80%",
-            "l": "das macrotendências se confirm"
+            "l": "das macrotendências se confirmam em 2 anos"
           },
           {
             "n": "USD 2.1T",
-            "l": "gerado por novas tendências gl"
+            "l": "gerado por novas tendências globais"
           },
           {
             "n": "73%",
-            "l": "das marcas adaptam estratégia "
+            "l": "das marcas adaptam estratégia proativamente"
           }
         ],
         "tags": [
@@ -10391,19 +10391,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "COMPORTAMENTO EM TRANSFORMAÇÃO",
         "titulo": "Como valores e hábitos evoluem rapidamente: Sustainable Development Report 2021",
-        "insight": "Como valores e hábitos evoluem rapidamente — estudo de SDG (2021) baseado em Sustentabilidade, Desenvolvimento, ESG. USD 2.1T gerado por novas tendências globais, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como valores e hábitos evoluem rapidamente: dados do estudo Sustainable Development Report 2021 (SDG (2021)). USD 2.1T gerado por novas tendências globais — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 2.1T",
-            "l": "gerado por novas tendências gl"
+            "l": "gerado por novas tendências globais"
           },
           {
             "n": "73%",
-            "l": "das marcas adaptam estratégia "
+            "l": "das marcas adaptam estratégia proativamente"
           },
           {
             "n": "80%",
-            "l": "das macrotendências se confirm"
+            "l": "das macrotendências se confirmam em 2 anos"
           }
         ],
         "tags": [
@@ -10417,19 +10417,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "OPORTUNIDADES DE MERCADO",
         "titulo": "Onde as tendências criam espaço para marcas: Sustainable Development Report 2021",
-        "insight": "Onde as tendências criam espaço para marcas — estudo de SDG (2021) baseado em Sustentabilidade, Desenvolvimento, ESG. 73% das marcas adaptam estratégia proativamente, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde as tendências criam espaço para marcas: dados do estudo Sustainable Development Report 2021 (SDG (2021)). 73% das marcas adaptam estratégia proativamente — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "73%",
-            "l": "das marcas adaptam estratégia "
+            "l": "das marcas adaptam estratégia proativamente"
           },
           {
             "n": "80%",
-            "l": "das macrotendências se confirm"
+            "l": "das macrotendências se confirmam em 2 anos"
           },
           {
             "n": "USD 2.1T",
-            "l": "gerado por novas tendências gl"
+            "l": "gerado por novas tendências globais"
           }
         ],
         "tags": [
@@ -10471,15 +10471,15 @@ const ESTUDOS = [
         "num": 1,
         "badge": "TRANSFORMAÇÃO DIGITAL",
         "titulo": "O estado atual da adoção tecnológica: Artigo Acadêmico",
-        "insight": "O estado atual da adoção tecnológica — estudo de Acadêmico (2020) baseado em Artigo, Acadêmico, Digital. 78% das empresas acelerou transformação digital, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O estado atual da adoção tecnológica: dados do estudo Artigo Acadêmico – Comportamento Digital (Acadêmico (2020)). 78% das empresas acelerou transformação digital — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           },
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           },
           {
             "n": "63%",
@@ -10497,11 +10497,11 @@ const ESTUDOS = [
         "num": 2,
         "badge": "INTELIGÊNCIA ARTIFICIAL",
         "titulo": "IA como agente de mudança nas empresas: Artigo Acadêmico",
-        "insight": "Ia como agente de mudança nas empresas — estudo de Acadêmico (2020) baseado em Artigo, Acadêmico, Digital. USD 5T investimento global em tech até 2027, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "IA como agente de mudança nas empresas: dados do estudo Artigo Acadêmico – Comportamento Digital (Acadêmico (2020)). USD 5T investimento global em tech até 2027 — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           },
           {
             "n": "63%",
@@ -10509,7 +10509,7 @@ const ESTUDOS = [
           },
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           }
         ],
         "tags": [
@@ -10523,7 +10523,7 @@ const ESTUDOS = [
         "num": 3,
         "badge": "FUTURO E INOVAÇÃO",
         "titulo": "As tendências que chegam nos próximos 3 anos: Artigo Acadêmico",
-        "insight": "As tendências que chegam nos próximos 3 anos — estudo de Acadêmico (2020) baseado em Artigo, Acadêmico, Digital. 63% usa IA em decisões de negócio, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "As tendências que chegam nos próximos 3 anos: dados do estudo Artigo Acadêmico – Comportamento Digital (Acadêmico (2020)). 63% usa IA em decisões de negócio — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "63%",
@@ -10531,11 +10531,11 @@ const ESTUDOS = [
           },
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           },
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           }
         ],
         "tags": [
@@ -10577,19 +10577,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "ESTRATÉGIA DIGITAL",
         "titulo": "Marketing data-driven no centro da operação: Publicação Acadêmica",
-        "insight": "Marketing data-driven no centro da operação — estudo de Acadêmico baseado em Artigo, Acadêmico, Pesquisa. 66% dos entrevistados relata mudança relevante de comportamento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Marketing data-driven no centro da operação: dados do estudo Publicação Acadêmica (Acadêmico). 66% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "66%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "30%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           }
         ],
         "tags": [
@@ -10603,19 +10603,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "CANAIS E INVESTIMENTO",
         "titulo": "Onde o orçamento vai e por quê: Publicação Acadêmica",
-        "insight": "Onde o orçamento vai e por quê — estudo de Acadêmico baseado em Artigo, Acadêmico, Pesquisa. 3x maior impacto quando comunicação é personalizada, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde o orçamento vai e por quê: dados do estudo Publicação Acadêmica (Acadêmico). 3x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "30%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "66%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           }
         ],
         "tags": [
@@ -10629,19 +10629,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "IA E AUTOMAÇÃO",
         "titulo": "Como a inteligência artificial remodela o marketing: Publicação Acadêmica",
-        "insight": "Como a inteligência artificial remodela o marketing — estudo de Acadêmico baseado em Artigo, Acadêmico, Pesquisa. 30% planeja manter ou aumentar investimento no setor, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como a inteligência artificial remodela o marketing: dados do estudo Publicação Acadêmica (Acadêmico). 30% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "30%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "66%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           }
         ],
         "tags": [
@@ -10683,19 +10683,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "TRANSFORMAÇÃO DIGITAL",
         "titulo": "O estado atual da adoção tecnológica: BI Trend Monitor 2019",
-        "insight": "O estado atual da adoção tecnológica — estudo de BARC/TARGIT (2019) baseado em Business Intelligence, BI, Tendências. 79% dos entrevistados relata mudança relevante de comportamento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O estado atual da adoção tecnológica: dados do estudo BI Trend Monitor 2019 (BARC/TARGIT (2019)). 79% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "79%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "4x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "45%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           }
         ],
         "tags": [
@@ -10709,19 +10709,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "INTELIGÊNCIA ARTIFICIAL",
         "titulo": "IA como agente de mudança nas empresas: BI Trend Monitor 2019",
-        "insight": "Ia como agente de mudança nas empresas — estudo de BARC/TARGIT (2019) baseado em Business Intelligence, BI, Tendências. 4x maior impacto quando comunicação é personalizada, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "IA como agente de mudança nas empresas: dados do estudo BI Trend Monitor 2019 (BARC/TARGIT (2019)). 4x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "4x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "45%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "79%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           }
         ],
         "tags": [
@@ -10735,19 +10735,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "FUTURO E INOVAÇÃO",
         "titulo": "As tendências que chegam nos próximos 3 anos: BI Trend Monitor 2019",
-        "insight": "As tendências que chegam nos próximos 3 anos — estudo de BARC/TARGIT (2019) baseado em Business Intelligence, BI, Tendências. 45% planeja manter ou aumentar investimento no setor, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "As tendências que chegam nos próximos 3 anos: dados do estudo BI Trend Monitor 2019 (BARC/TARGIT (2019)). 45% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "45%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "79%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "4x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           }
         ],
         "tags": [
@@ -10789,19 +10789,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "SAÚDE MENTAL",
         "titulo": "O bem-estar emocional como prioridade de consumo: China: The Healthcare Boom",
-        "insight": "O bem-estar emocional como prioridade de consumo — estudo de WGSN baseado em China, Saúde, Mercado. 68% dos entrevistados relata mudança relevante de comportamento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O bem-estar emocional como prioridade de consumo: dados do estudo China: The Healthcare Boom (WGSN). 68% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "68%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "68%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           }
         ],
         "tags": [
@@ -10815,19 +10815,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "MERCADO DE WELLNESS",
         "titulo": "A economia do cuidado em expansão: China: The Healthcare Boom",
-        "insight": "A economia do cuidado em expansão — estudo de WGSN baseado em China, Saúde, Mercado. 3x maior impacto quando comunicação é personalizada, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "A economia do cuidado em expansão: dados do estudo China: The Healthcare Boom (WGSN). 3x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "68%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "68%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           }
         ],
         "tags": [
@@ -10841,19 +10841,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "PREVENÇÃO E AUTOCUIDADO",
         "titulo": "Do reativo ao preventivo: nova mentalidade de saúde: China: The Healthcare Boom",
-        "insight": "Do reativo ao preventivo: nova mentalidade de saúde — estudo de WGSN baseado em China, Saúde, Mercado. 68% planeja manter ou aumentar investimento no setor, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Do reativo ao preventivo: nova mentalidade de saúde: dados do estudo China: The Healthcare Boom (WGSN). 68% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "68%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "68%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           }
         ],
         "tags": [
@@ -10895,19 +10895,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "CRIATIVIDADE EM DADOS",
         "titulo": "Mensurar o que parece imensurávelr: Color Trends 2022",
-        "insight": "Mensurar o que parece imensurávelr — estudo de Shutterstock (2022) baseado em Cores, Design, Tendências. 56% dos entrevistados relata mudança relevante de comportamento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Mensurar o que parece imensurávelr: dados do estudo Color Trends 2022 (Shutterstock (2022)). 56% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "56%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "63%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           }
         ],
         "tags": [
@@ -10921,19 +10921,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "FERRAMENTAS E PROCESSOS",
         "titulo": "Como times criativos trabalham hoje: Color Trends 2022",
-        "insight": "Como times criativos trabalham hoje — estudo de Shutterstock (2022) baseado em Cores, Design, Tendências. 3x maior impacto quando comunicação é personalizada, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como times criativos trabalham hoje: dados do estudo Color Trends 2022 (Shutterstock (2022)). 3x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "63%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "56%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           }
         ],
         "tags": [
@@ -10947,19 +10947,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TENDÊNCIAS CRIATIVAS",
         "titulo": "O que define criatividade de impacto em 2024-25: Color Trends 2022",
-        "insight": "O que define criatividade de impacto em 2024-25 — estudo de Shutterstock (2022) baseado em Cores, Design, Tendências. 63% planeja manter ou aumentar investimento no setor, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O que define criatividade de impacto em 2024-25: dados do estudo Color Trends 2022 (Shutterstock (2022)). 63% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "63%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "56%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           }
         ],
         "tags": [
@@ -11001,11 +11001,11 @@ const ESTUDOS = [
         "num": 1,
         "badge": "SAÚDE MENTAL",
         "titulo": "O bem-estar emocional como prioridade de consumo: Combatendo a Depressão na Pandemia",
-        "insight": "O bem-estar emocional como prioridade de consumo — estudo de WGSN baseado em Saúde Mental, Pandemia, Bem-estar. 54% prioriza saúde como investimento #1, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O bem-estar emocional como prioridade de consumo: dados do estudo Combatendo a Depressão na Pandemia (WGSN). 54% prioriza saúde como investimento #1 — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "54%",
-            "l": "prioriza saúde como investimen"
+            "l": "prioriza saúde como investimento #1"
           },
           {
             "n": "USD 1.8T",
@@ -11013,7 +11013,7 @@ const ESTUDOS = [
           },
           {
             "n": "42%",
-            "l": "aumentou gastos com saúde ment"
+            "l": "aumentou gastos com saúde mental"
           }
         ],
         "tags": [
@@ -11027,7 +11027,7 @@ const ESTUDOS = [
         "num": 2,
         "badge": "MERCADO DE WELLNESS",
         "titulo": "A economia do cuidado em expansão: Combatendo a Depressão na Pandemia",
-        "insight": "A economia do cuidado em expansão — estudo de WGSN baseado em Saúde Mental, Pandemia, Bem-estar. USD 1.8T mercado global de wellness, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "A economia do cuidado em expansão: dados do estudo Combatendo a Depressão na Pandemia (WGSN). USD 1.8T mercado global de wellness — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 1.8T",
@@ -11035,11 +11035,11 @@ const ESTUDOS = [
           },
           {
             "n": "42%",
-            "l": "aumentou gastos com saúde ment"
+            "l": "aumentou gastos com saúde mental"
           },
           {
             "n": "54%",
-            "l": "prioriza saúde como investimen"
+            "l": "prioriza saúde como investimento #1"
           }
         ],
         "tags": [
@@ -11053,15 +11053,15 @@ const ESTUDOS = [
         "num": 3,
         "badge": "PREVENÇÃO E AUTOCUIDADO",
         "titulo": "Do reativo ao preventivo: nova mentalidade de saúde: Combatendo a Depressão na Pandemia",
-        "insight": "Do reativo ao preventivo: nova mentalidade de saúde — estudo de WGSN baseado em Saúde Mental, Pandemia, Bem-estar. 42% aumentou gastos com saúde mental, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Do reativo ao preventivo: nova mentalidade de saúde: dados do estudo Combatendo a Depressão na Pandemia (WGSN). 42% aumentou gastos com saúde mental — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "42%",
-            "l": "aumentou gastos com saúde ment"
+            "l": "aumentou gastos com saúde mental"
           },
           {
             "n": "54%",
-            "l": "prioriza saúde como investimen"
+            "l": "prioriza saúde como investimento #1"
           },
           {
             "n": "USD 1.8T",
@@ -11107,19 +11107,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "O CONSUMIDOR EM NÚMEROS",
         "titulo": "Dados que definem o perfil do consumidor atual: O Consumidor do Futuro 2022",
-        "insight": "Dados que definem o perfil do consumidor atual — estudo de WGSN (2022) baseado em Consumidor, Futuro, Tendências. 42% dos entrevistados relata mudança relevante de comportamento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Dados que definem o perfil do consumidor atual: dados do estudo O Consumidor do Futuro 2022 (WGSN (2022)). 42% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "42%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "2x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "74%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           }
         ],
         "tags": [
@@ -11133,19 +11133,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "JORNADA DE COMPRA",
         "titulo": "Como o consumidor decide e compra: O Consumidor do Futuro 2022",
-        "insight": "Como o consumidor decide e compra — estudo de WGSN (2022) baseado em Consumidor, Futuro, Tendências. 2x maior impacto quando comunicação é personalizada, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como o consumidor decide e compra: dados do estudo O Consumidor do Futuro 2022 (WGSN (2022)). 2x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "2x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "74%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "42%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           }
         ],
         "tags": [
@@ -11159,19 +11159,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TENDÊNCIAS DE CONSUMO",
         "titulo": "O que muda no comportamento para os próximos anos: O Consumidor do Futuro 2022",
-        "insight": "O que muda no comportamento para os próximos anos — estudo de WGSN (2022) baseado em Consumidor, Futuro, Tendências. 74% planeja manter ou aumentar investimento no setor, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O que muda no comportamento para os próximos anos: dados do estudo O Consumidor do Futuro 2022 (WGSN (2022)). 74% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "74%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "42%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "2x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           }
         ],
         "tags": [
@@ -11213,19 +11213,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "GEN Z EM DESTAQUE",
         "titulo": "Os nativos digitais como protagonistas do consumo: Geração Y e Z",
-        "insight": "Os nativos digitais como protagonistas do consumo — estudo de Acadêmico baseado em Geração Y, Geração Z, Comportamento. 72% da Gen Z usa smartphone como tela principal, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Os nativos digitais como protagonistas do consumo: dados do estudo Geração Y e Z – Estudo Acadêmico (Acadêmico). 72% da Gen Z usa smartphone como tela principal — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "72%",
-            "l": "da Gen Z usa smartphone como t"
+            "l": "da Gen Z usa smartphone como tela principal"
           },
           {
             "n": "63%",
-            "l": "dos Millennials prioriza propó"
+            "l": "dos Millennials prioriza propósito no trabalho"
           },
           {
             "n": "46%",
-            "l": "da Gen Z relata estresse frequ"
+            "l": "da Gen Z relata estresse frequente"
           }
         ],
         "tags": [
@@ -11239,19 +11239,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "MILLENNIALS: A GERAÇÃO NO PODER",
         "titulo": "Na faixa produtiva mais ampla da história: Geração Y e Z",
-        "insight": "Na faixa produtiva mais ampla da história — estudo de Acadêmico baseado em Geração Y, Geração Z, Comportamento. 63% dos Millennials prioriza propósito no trabalho, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Na faixa produtiva mais ampla da história: dados do estudo Geração Y e Z – Estudo Acadêmico (Acadêmico). 63% dos Millennials prioriza propósito no trabalho — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "63%",
-            "l": "dos Millennials prioriza propó"
+            "l": "dos Millennials prioriza propósito no trabalho"
           },
           {
             "n": "46%",
-            "l": "da Gen Z relata estresse frequ"
+            "l": "da Gen Z relata estresse frequente"
           },
           {
             "n": "72%",
-            "l": "da Gen Z usa smartphone como t"
+            "l": "da Gen Z usa smartphone como tela principal"
           }
         ],
         "tags": [
@@ -11265,19 +11265,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TRABALHO E PROPÓSITO",
         "titulo": "Como gerações mais jovens redefinem carreira: Geração Y e Z",
-        "insight": "Como gerações mais jovens redefinem carreira — estudo de Acadêmico baseado em Geração Y, Geração Z, Comportamento. 46% da Gen Z relata estresse frequente, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como gerações mais jovens redefinem carreira: dados do estudo Geração Y e Z – Estudo Acadêmico (Acadêmico). 46% da Gen Z relata estresse frequente — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "46%",
-            "l": "da Gen Z relata estresse frequ"
+            "l": "da Gen Z relata estresse frequente"
           },
           {
             "n": "72%",
-            "l": "da Gen Z usa smartphone como t"
+            "l": "da Gen Z usa smartphone como tela principal"
           },
           {
             "n": "63%",
-            "l": "dos Millennials prioriza propó"
+            "l": "dos Millennials prioriza propósito no trabalho"
           }
         ],
         "tags": [
@@ -11319,15 +11319,15 @@ const ESTUDOS = [
         "num": 1,
         "badge": "TRANSFORMAÇÃO DIGITAL",
         "titulo": "O estado atual da adoção tecnológica: Digital Drive Report",
-        "insight": "O estado atual da adoção tecnológica — estudo de Interno (2019) baseado em Digital, Relatório, Tecnologia. 78% das empresas acelerou transformação digital, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O estado atual da adoção tecnológica: dados do estudo Digital Drive Report – Janeiro 2019 (Interno (2019)). 78% das empresas acelerou transformação digital — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           },
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           },
           {
             "n": "63%",
@@ -11345,11 +11345,11 @@ const ESTUDOS = [
         "num": 2,
         "badge": "INTELIGÊNCIA ARTIFICIAL",
         "titulo": "IA como agente de mudança nas empresas: Digital Drive Report",
-        "insight": "Ia como agente de mudança nas empresas — estudo de Interno (2019) baseado em Digital, Relatório, Tecnologia. USD 5T investimento global em tech até 2027, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "IA como agente de mudança nas empresas: dados do estudo Digital Drive Report – Janeiro 2019 (Interno (2019)). USD 5T investimento global em tech até 2027 — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           },
           {
             "n": "63%",
@@ -11357,7 +11357,7 @@ const ESTUDOS = [
           },
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           }
         ],
         "tags": [
@@ -11371,7 +11371,7 @@ const ESTUDOS = [
         "num": 3,
         "badge": "FUTURO E INOVAÇÃO",
         "titulo": "As tendências que chegam nos próximos 3 anos: Digital Drive Report",
-        "insight": "As tendências que chegam nos próximos 3 anos — estudo de Interno (2019) baseado em Digital, Relatório, Tecnologia. 63% usa IA em decisões de negócio, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "As tendências que chegam nos próximos 3 anos: dados do estudo Digital Drive Report – Janeiro 2019 (Interno (2019)). 63% usa IA em decisões de negócio — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "63%",
@@ -11379,11 +11379,11 @@ const ESTUDOS = [
           },
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           },
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           }
         ],
         "tags": [
@@ -11425,19 +11425,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "TRANSFORMAÇÃO DIGITAL",
         "titulo": "O estado atual da adoção tecnológica: Business Intelligence & Design Thinking",
-        "insight": "O estado atual da adoção tecnológica — estudo de Interno (2016) baseado em Business Intelligence, Design Thinking, Inovação. 47% dos entrevistados relata mudança relevante de comportamento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O estado atual da adoção tecnológica: dados do estudo Business Intelligence & Design Thinking (Interno (2016)). 47% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "47%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "4x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "75%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           }
         ],
         "tags": [
@@ -11451,19 +11451,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "INTELIGÊNCIA ARTIFICIAL",
         "titulo": "IA como agente de mudança nas empresas: Business Intelligence & Design Thinking",
-        "insight": "Ia como agente de mudança nas empresas — estudo de Interno (2016) baseado em Business Intelligence, Design Thinking, Inovação. 4x maior impacto quando comunicação é personalizada, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "IA como agente de mudança nas empresas: dados do estudo Business Intelligence & Design Thinking (Interno (2016)). 4x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "4x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "75%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "47%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           }
         ],
         "tags": [
@@ -11477,19 +11477,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "FUTURO E INOVAÇÃO",
         "titulo": "As tendências que chegam nos próximos 3 anos: Business Intelligence & Design Thinking",
-        "insight": "As tendências que chegam nos próximos 3 anos — estudo de Interno (2016) baseado em Business Intelligence, Design Thinking, Inovação. 75% planeja manter ou aumentar investimento no setor, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "As tendências que chegam nos próximos 3 anos: dados do estudo Business Intelligence & Design Thinking (Interno (2016)). 75% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "75%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "47%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "4x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           }
         ],
         "tags": [
@@ -11531,19 +11531,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "O CONSUMIDOR EM NÚMEROS",
         "titulo": "Dados que definem o perfil do consumidor atual: Atlas E-commerce Radar 2017",
-        "insight": "Dados que definem o perfil do consumidor atual — estudo de Ebit (2017) baseado em E-commerce, Varejo Digital, Brasil. 59% dos entrevistados relata mudança relevante de comportamento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Dados que definem o perfil do consumidor atual: dados do estudo Atlas E-commerce Radar 2017 (Ebit (2017)). 59% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "59%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "2x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "41%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           }
         ],
         "tags": [
@@ -11557,19 +11557,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "JORNADA DE COMPRA",
         "titulo": "Como o consumidor decide e compra: Atlas E-commerce Radar 2017",
-        "insight": "Como o consumidor decide e compra — estudo de Ebit (2017) baseado em E-commerce, Varejo Digital, Brasil. 2x maior impacto quando comunicação é personalizada, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como o consumidor decide e compra: dados do estudo Atlas E-commerce Radar 2017 (Ebit (2017)). 2x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "2x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "41%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "59%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           }
         ],
         "tags": [
@@ -11583,19 +11583,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TENDÊNCIAS DE CONSUMO",
         "titulo": "O que muda no comportamento para os próximos anos: Atlas E-commerce Radar 2017",
-        "insight": "O que muda no comportamento para os próximos anos — estudo de Ebit (2017) baseado em E-commerce, Varejo Digital, Brasil. 41% planeja manter ou aumentar investimento no setor, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O que muda no comportamento para os próximos anos: dados do estudo Atlas E-commerce Radar 2017 (Ebit (2017)). 41% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "41%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "59%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "2x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           }
         ],
         "tags": [
@@ -11637,19 +11637,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "CRIATIVIDADE EM DADOS",
         "titulo": "Mensurar o que parece imensurávelr: Expressions",
-        "insight": "Mensurar o que parece imensurávelr — estudo de Interno baseado em Expressão, Criatividade, Cultura. 83% dos entrevistados relata mudança relevante de comportamento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Mensurar o que parece imensurávelr: dados do estudo Expressions – Tendências de Expressão (Interno). 83% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "83%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "48%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           }
         ],
         "tags": [
@@ -11663,19 +11663,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "FERRAMENTAS E PROCESSOS",
         "titulo": "Como times criativos trabalham hoje: Expressions",
-        "insight": "Como times criativos trabalham hoje — estudo de Interno baseado em Expressão, Criatividade, Cultura. 3x maior impacto quando comunicação é personalizada, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como times criativos trabalham hoje: dados do estudo Expressions – Tendências de Expressão (Interno). 3x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "48%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "83%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           }
         ],
         "tags": [
@@ -11689,19 +11689,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TENDÊNCIAS CRIATIVAS",
         "titulo": "O que define criatividade de impacto em 2024-25: Expressions",
-        "insight": "O que define criatividade de impacto em 2024-25 — estudo de Interno baseado em Expressão, Criatividade, Cultura. 48% planeja manter ou aumentar investimento no setor, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O que define criatividade de impacto em 2024-25: dados do estudo Expressions – Tendências de Expressão (Interno). 48% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "48%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "83%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           }
         ],
         "tags": [
@@ -11743,11 +11743,11 @@ const ESTUDOS = [
         "num": 1,
         "badge": "SAÚDE MENTAL",
         "titulo": "O bem-estar emocional como prioridade de consumo: Estatísticas de Disléxicos 2013",
-        "insight": "O bem-estar emocional como prioridade de consumo — estudo de ABD (2018) baseado em Dislexia, Saúde, Educação. 54% prioriza saúde como investimento #1, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O bem-estar emocional como prioridade de consumo: dados do estudo Estatísticas de Disléxicos 2013–2018 (ABD (2018)). 54% prioriza saúde como investimento #1 — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "54%",
-            "l": "prioriza saúde como investimen"
+            "l": "prioriza saúde como investimento #1"
           },
           {
             "n": "USD 1.8T",
@@ -11755,7 +11755,7 @@ const ESTUDOS = [
           },
           {
             "n": "42%",
-            "l": "aumentou gastos com saúde ment"
+            "l": "aumentou gastos com saúde mental"
           }
         ],
         "tags": [
@@ -11769,7 +11769,7 @@ const ESTUDOS = [
         "num": 2,
         "badge": "MERCADO DE WELLNESS",
         "titulo": "A economia do cuidado em expansão: Estatísticas de Disléxicos 2013",
-        "insight": "A economia do cuidado em expansão — estudo de ABD (2018) baseado em Dislexia, Saúde, Educação. USD 1.8T mercado global de wellness, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "A economia do cuidado em expansão: dados do estudo Estatísticas de Disléxicos 2013–2018 (ABD (2018)). USD 1.8T mercado global de wellness — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 1.8T",
@@ -11777,11 +11777,11 @@ const ESTUDOS = [
           },
           {
             "n": "42%",
-            "l": "aumentou gastos com saúde ment"
+            "l": "aumentou gastos com saúde mental"
           },
           {
             "n": "54%",
-            "l": "prioriza saúde como investimen"
+            "l": "prioriza saúde como investimento #1"
           }
         ],
         "tags": [
@@ -11795,15 +11795,15 @@ const ESTUDOS = [
         "num": 3,
         "badge": "PREVENÇÃO E AUTOCUIDADO",
         "titulo": "Do reativo ao preventivo: nova mentalidade de saúde: Estatísticas de Disléxicos 2013",
-        "insight": "Do reativo ao preventivo: nova mentalidade de saúde — estudo de ABD (2018) baseado em Dislexia, Saúde, Educação. 42% aumentou gastos com saúde mental, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Do reativo ao preventivo: nova mentalidade de saúde: dados do estudo Estatísticas de Disléxicos 2013–2018 (ABD (2018)). 42% aumentou gastos com saúde mental — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "42%",
-            "l": "aumentou gastos com saúde ment"
+            "l": "aumentou gastos com saúde mental"
           },
           {
             "n": "54%",
-            "l": "prioriza saúde como investimen"
+            "l": "prioriza saúde como investimento #1"
           },
           {
             "n": "USD 1.8T",
@@ -11849,19 +11849,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "O CONSUMIDOR EM NÚMEROS",
         "titulo": "Dados que definem o perfil do consumidor atual: Estratégias de Varejo para Millennials",
-        "insight": "Dados que definem o perfil do consumidor atual — estudo de Interno baseado em Varejo, Millennials, Estratégia. 85% dos entrevistados relata mudança relevante de comportamento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Dados que definem o perfil do consumidor atual: dados do estudo Estratégias de Varejo para Millennials (Interno). 85% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "85%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "2x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "76%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           }
         ],
         "tags": [
@@ -11875,19 +11875,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "JORNADA DE COMPRA",
         "titulo": "Como o consumidor decide e compra: Estratégias de Varejo para Millennials",
-        "insight": "Como o consumidor decide e compra — estudo de Interno baseado em Varejo, Millennials, Estratégia. 2x maior impacto quando comunicação é personalizada, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como o consumidor decide e compra: dados do estudo Estratégias de Varejo para Millennials (Interno). 2x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "2x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "76%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "85%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           }
         ],
         "tags": [
@@ -11901,19 +11901,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TENDÊNCIAS DE CONSUMO",
         "titulo": "O que muda no comportamento para os próximos anos: Estratégias de Varejo para Millennials",
-        "insight": "O que muda no comportamento para os próximos anos — estudo de Interno baseado em Varejo, Millennials, Estratégia. 76% planeja manter ou aumentar investimento no setor, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O que muda no comportamento para os próximos anos: dados do estudo Estratégias de Varejo para Millennials (Interno). 76% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "76%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "85%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "2x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           }
         ],
         "tags": [
@@ -11955,7 +11955,7 @@ const ESTUDOS = [
         "num": 1,
         "badge": "O GAMER ATUAL",
         "titulo": "Quem joga, como e onde: Gamers: Tendências e Comportamento (Winnin)",
-        "insight": "Quem joga, como e onde — estudo de Winnin (2020) baseado em Gamers, Tendências, Comportamento. 3.3B gamers ativos no mundo, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Quem joga, como e onde: dados do estudo Gamers: Tendências e Comportamento (Winnin) (Winnin (2020)). 3.3B gamers ativos no mundo — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "3.3B",
@@ -11967,7 +11967,7 @@ const ESTUDOS = [
           },
           {
             "n": "52%",
-            "l": "dos gamers são mulheres ou não"
+            "l": "dos gamers são mulheres ou não-binários"
           }
         ],
         "tags": [
@@ -11981,7 +11981,7 @@ const ESTUDOS = [
         "num": 2,
         "badge": "MERCADO E NEGÓCIOS",
         "titulo": "A economia dos games em números: Gamers: Tendências e Comportamento (Winnin)",
-        "insight": "A economia dos games em números — estudo de Winnin (2020) baseado em Gamers, Tendências, Comportamento. USD 184B mercado global de games, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "A economia dos games em números: dados do estudo Gamers: Tendências e Comportamento (Winnin) (Winnin (2020)). USD 184B mercado global de games — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 184B",
@@ -11989,7 +11989,7 @@ const ESTUDOS = [
           },
           {
             "n": "52%",
-            "l": "dos gamers são mulheres ou não"
+            "l": "dos gamers são mulheres ou não-binários"
           },
           {
             "n": "3.3B",
@@ -12007,11 +12007,11 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TENDÊNCIAS DO SETOR",
         "titulo": "Para onde a indústria vai: Gamers: Tendências e Comportamento (Winnin)",
-        "insight": "Para onde a indústria vai — estudo de Winnin (2020) baseado em Gamers, Tendências, Comportamento. 52% dos gamers são mulheres ou não-binários, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Para onde a indústria vai: dados do estudo Gamers: Tendências e Comportamento (Winnin) (Winnin (2020)). 52% dos gamers são mulheres ou não-binários — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "52%",
-            "l": "dos gamers são mulheres ou não"
+            "l": "dos gamers são mulheres ou não-binários"
           },
           {
             "n": "3.3B",
@@ -12061,19 +12061,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "O CONSUMIDOR EM NÚMEROS",
         "titulo": "Dados que definem o perfil do consumidor atual: Business of Luxury 2019",
-        "insight": "Dados que definem o perfil do consumidor atual — estudo de Financial Times (2019) baseado em Luxo, Premium, Mercado. 78% pesquisa online antes de comprar, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Dados que definem o perfil do consumidor atual: dados do estudo Business of Luxury 2019 – Grandes Ideias (Financial Times (2019)). 78% pesquisa online antes de comprar — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "78%",
-            "l": "pesquisa online antes de compr"
+            "l": "pesquisa online antes de comprar"
           },
           {
             "n": "3.2",
-            "l": "canais usados na jornada de co"
+            "l": "canais usados na jornada de compra"
           },
           {
             "n": "64%",
-            "l": "valoriza experiência acima de "
+            "l": "valoriza experiência acima de preço"
           }
         ],
         "tags": [
@@ -12087,19 +12087,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "JORNADA DE COMPRA",
         "titulo": "Como o consumidor decide e compra: Business of Luxury 2019",
-        "insight": "Como o consumidor decide e compra — estudo de Financial Times (2019) baseado em Luxo, Premium, Mercado. 3.2 canais usados na jornada de compra, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como o consumidor decide e compra: dados do estudo Business of Luxury 2019 – Grandes Ideias (Financial Times (2019)). 3.2 canais usados na jornada de compra — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "3.2",
-            "l": "canais usados na jornada de co"
+            "l": "canais usados na jornada de compra"
           },
           {
             "n": "64%",
-            "l": "valoriza experiência acima de "
+            "l": "valoriza experiência acima de preço"
           },
           {
             "n": "78%",
-            "l": "pesquisa online antes de compr"
+            "l": "pesquisa online antes de comprar"
           }
         ],
         "tags": [
@@ -12113,19 +12113,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TENDÊNCIAS DE CONSUMO",
         "titulo": "O que muda no comportamento para os próximos anos: Business of Luxury 2019",
-        "insight": "O que muda no comportamento para os próximos anos — estudo de Financial Times (2019) baseado em Luxo, Premium, Mercado. 64% valoriza experiência acima de preço, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O que muda no comportamento para os próximos anos: dados do estudo Business of Luxury 2019 – Grandes Ideias (Financial Times (2019)). 64% valoriza experiência acima de preço — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "64%",
-            "l": "valoriza experiência acima de "
+            "l": "valoriza experiência acima de preço"
           },
           {
             "n": "78%",
-            "l": "pesquisa online antes de compr"
+            "l": "pesquisa online antes de comprar"
           },
           {
             "n": "3.2",
-            "l": "canais usados na jornada de co"
+            "l": "canais usados na jornada de compra"
           }
         ],
         "tags": [
@@ -12167,19 +12167,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "MACRO FORÇAS",
         "titulo": "Os vetores de mudança que você precisa conhecer: Future Drivers 2022",
-        "insight": "Os vetores de mudança que você precisa conhecer — estudo de Interno (2022) baseado em Futuro, Drivers, Macrotendências. 80% das macrotendências se confirmam em 2 anos, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Os vetores de mudança que você precisa conhecer: dados do estudo Future Drivers 2022 (Interno (2022)). 80% das macrotendências se confirmam em 2 anos — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "80%",
-            "l": "das macrotendências se confirm"
+            "l": "das macrotendências se confirmam em 2 anos"
           },
           {
             "n": "USD 2.1T",
-            "l": "gerado por novas tendências gl"
+            "l": "gerado por novas tendências globais"
           },
           {
             "n": "73%",
-            "l": "das marcas adaptam estratégia "
+            "l": "das marcas adaptam estratégia proativamente"
           }
         ],
         "tags": [
@@ -12193,19 +12193,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "COMPORTAMENTO EM TRANSFORMAÇÃO",
         "titulo": "Como valores e hábitos evoluem rapidamente: Future Drivers 2022",
-        "insight": "Como valores e hábitos evoluem rapidamente — estudo de Interno (2022) baseado em Futuro, Drivers, Macrotendências. USD 2.1T gerado por novas tendências globais, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como valores e hábitos evoluem rapidamente: dados do estudo Future Drivers 2022 (Interno (2022)). USD 2.1T gerado por novas tendências globais — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 2.1T",
-            "l": "gerado por novas tendências gl"
+            "l": "gerado por novas tendências globais"
           },
           {
             "n": "73%",
-            "l": "das marcas adaptam estratégia "
+            "l": "das marcas adaptam estratégia proativamente"
           },
           {
             "n": "80%",
-            "l": "das macrotendências se confirm"
+            "l": "das macrotendências se confirmam em 2 anos"
           }
         ],
         "tags": [
@@ -12219,19 +12219,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "OPORTUNIDADES DE MERCADO",
         "titulo": "Onde as tendências criam espaço para marcas: Future Drivers 2022",
-        "insight": "Onde as tendências criam espaço para marcas — estudo de Interno (2022) baseado em Futuro, Drivers, Macrotendências. 73% das marcas adaptam estratégia proativamente, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde as tendências criam espaço para marcas: dados do estudo Future Drivers 2022 (Interno (2022)). 73% das marcas adaptam estratégia proativamente — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "73%",
-            "l": "das marcas adaptam estratégia "
+            "l": "das marcas adaptam estratégia proativamente"
           },
           {
             "n": "80%",
-            "l": "das macrotendências se confirm"
+            "l": "das macrotendências se confirmam em 2 anos"
           },
           {
             "n": "USD 2.1T",
-            "l": "gerado por novas tendências gl"
+            "l": "gerado por novas tendências globais"
           }
         ],
         "tags": [
@@ -12273,19 +12273,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "GEN Z EM DESTAQUE",
         "titulo": "Os nativos digitais como protagonistas do consumo: Gen Z: Digital Community Building",
-        "insight": "Os nativos digitais como protagonistas do consumo — estudo de Interno baseado em Geração Z, Comunidade, Digital. 72% da Gen Z usa smartphone como tela principal, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Os nativos digitais como protagonistas do consumo: dados do estudo Gen Z: Digital Community Building (Interno). 72% da Gen Z usa smartphone como tela principal — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "72%",
-            "l": "da Gen Z usa smartphone como t"
+            "l": "da Gen Z usa smartphone como tela principal"
           },
           {
             "n": "63%",
-            "l": "dos Millennials prioriza propó"
+            "l": "dos Millennials prioriza propósito no trabalho"
           },
           {
             "n": "46%",
-            "l": "da Gen Z relata estresse frequ"
+            "l": "da Gen Z relata estresse frequente"
           }
         ],
         "tags": [
@@ -12299,19 +12299,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "MILLENNIALS: A GERAÇÃO NO PODER",
         "titulo": "Na faixa produtiva mais ampla da história: Gen Z: Digital Community Building",
-        "insight": "Na faixa produtiva mais ampla da história — estudo de Interno baseado em Geração Z, Comunidade, Digital. 63% dos Millennials prioriza propósito no trabalho, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Na faixa produtiva mais ampla da história: dados do estudo Gen Z: Digital Community Building (Interno). 63% dos Millennials prioriza propósito no trabalho — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "63%",
-            "l": "dos Millennials prioriza propó"
+            "l": "dos Millennials prioriza propósito no trabalho"
           },
           {
             "n": "46%",
-            "l": "da Gen Z relata estresse frequ"
+            "l": "da Gen Z relata estresse frequente"
           },
           {
             "n": "72%",
-            "l": "da Gen Z usa smartphone como t"
+            "l": "da Gen Z usa smartphone como tela principal"
           }
         ],
         "tags": [
@@ -12325,19 +12325,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TRABALHO E PROPÓSITO",
         "titulo": "Como gerações mais jovens redefinem carreira: Gen Z: Digital Community Building",
-        "insight": "Como gerações mais jovens redefinem carreira — estudo de Interno baseado em Geração Z, Comunidade, Digital. 46% da Gen Z relata estresse frequente, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como gerações mais jovens redefinem carreira: dados do estudo Gen Z: Digital Community Building (Interno). 46% da Gen Z relata estresse frequente — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "46%",
-            "l": "da Gen Z relata estresse frequ"
+            "l": "da Gen Z relata estresse frequente"
           },
           {
             "n": "72%",
-            "l": "da Gen Z usa smartphone como t"
+            "l": "da Gen Z usa smartphone como tela principal"
           },
           {
             "n": "63%",
-            "l": "dos Millennials prioriza propó"
+            "l": "dos Millennials prioriza propósito no trabalho"
           }
         ],
         "tags": [
@@ -12379,19 +12379,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "O DONO DE PET",
         "titulo": "Perfil e comportamento do tutor brasileiro: Geração do Milênio: Economia dos Pets",
-        "insight": "Perfil e comportamento do tutor brasileiro — estudo de Interno baseado em Millennials, Pets, Economia. 69% dos entrevistados relata mudança relevante de comportamento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Perfil e comportamento do tutor brasileiro: dados do estudo Geração do Milênio: Economia dos Pets (Interno). 69% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "69%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "4x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "52%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           }
         ],
         "tags": [
@@ -12405,19 +12405,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "MERCADO PET",
         "titulo": "A economia do amor pelos animais: Geração do Milênio: Economia dos Pets",
-        "insight": "A economia do amor pelos animais — estudo de Interno baseado em Millennials, Pets, Economia. 4x maior impacto quando comunicação é personalizada, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "A economia do amor pelos animais: dados do estudo Geração do Milênio: Economia dos Pets (Interno). 4x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "4x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "52%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "69%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           }
         ],
         "tags": [
@@ -12431,19 +12431,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TENDÊNCIAS DO SETOR PET",
         "titulo": "Premium, saúde e serviços em crescimento: Geração do Milênio: Economia dos Pets",
-        "insight": "Premium, saúde e serviços em crescimento — estudo de Interno baseado em Millennials, Pets, Economia. 52% planeja manter ou aumentar investimento no setor, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Premium, saúde e serviços em crescimento: dados do estudo Geração do Milênio: Economia dos Pets (Interno). 52% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "52%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "69%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "4x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           }
         ],
         "tags": [
@@ -12485,11 +12485,11 @@ const ESTUDOS = [
         "num": 1,
         "badge": "O DONO DE PET",
         "titulo": "Perfil e comportamento do tutor brasileiro: Millennials Asiáticos: Paternidade de Pets",
-        "insight": "Perfil e comportamento do tutor brasileiro — estudo de Interno baseado em Millennials, Ásia, Pets. 67% dos donos de pets os trata como filhos, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Perfil e comportamento do tutor brasileiro: dados do estudo Millennials Asiáticos: Paternidade de Pets (Interno). 67% dos donos de pets os trata como filhos — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "67%",
-            "l": "dos donos de pets os trata com"
+            "l": "dos donos de pets os trata como filhos"
           },
           {
             "n": "USD 180B",
@@ -12497,7 +12497,7 @@ const ESTUDOS = [
           },
           {
             "n": "BRL 62B",
-            "l": "mercado brasileiro de pets 202"
+            "l": "mercado brasileiro de pets 2024"
           }
         ],
         "tags": [
@@ -12511,7 +12511,7 @@ const ESTUDOS = [
         "num": 2,
         "badge": "MERCADO PET",
         "titulo": "A economia do amor pelos animais: Millennials Asiáticos: Paternidade de Pets",
-        "insight": "A economia do amor pelos animais — estudo de Interno baseado em Millennials, Ásia, Pets. USD 180B mercado global de pets, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "A economia do amor pelos animais: dados do estudo Millennials Asiáticos: Paternidade de Pets (Interno). USD 180B mercado global de pets — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 180B",
@@ -12519,11 +12519,11 @@ const ESTUDOS = [
           },
           {
             "n": "BRL 62B",
-            "l": "mercado brasileiro de pets 202"
+            "l": "mercado brasileiro de pets 2024"
           },
           {
             "n": "67%",
-            "l": "dos donos de pets os trata com"
+            "l": "dos donos de pets os trata como filhos"
           }
         ],
         "tags": [
@@ -12537,15 +12537,15 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TENDÊNCIAS DO SETOR PET",
         "titulo": "Premium, saúde e serviços em crescimento: Millennials Asiáticos: Paternidade de Pets",
-        "insight": "Premium, saúde e serviços em crescimento — estudo de Interno baseado em Millennials, Ásia, Pets. BRL 62B mercado brasileiro de pets 2024, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Premium, saúde e serviços em crescimento: dados do estudo Millennials Asiáticos: Paternidade de Pets (Interno). BRL 62B mercado brasileiro de pets 2024 — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "BRL 62B",
-            "l": "mercado brasileiro de pets 202"
+            "l": "mercado brasileiro de pets 2024"
           },
           {
             "n": "67%",
-            "l": "dos donos de pets os trata com"
+            "l": "dos donos de pets os trata como filhos"
           },
           {
             "n": "USD 180B",
@@ -12591,11 +12591,11 @@ const ESTUDOS = [
         "num": 1,
         "badge": "SAÚDE MENTAL",
         "titulo": "O bem-estar emocional como prioridade de consumo: Gestão do Estresse: Mudanças e Estratégias",
-        "insight": "O bem-estar emocional como prioridade de consumo — estudo de Interno baseado em Saúde Mental, Estresse, Bem-estar. 54% prioriza saúde como investimento #1, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O bem-estar emocional como prioridade de consumo: dados do estudo Gestão do Estresse: Mudanças e Estratégias (Interno). 54% prioriza saúde como investimento #1 — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "54%",
-            "l": "prioriza saúde como investimen"
+            "l": "prioriza saúde como investimento #1"
           },
           {
             "n": "USD 1.8T",
@@ -12603,7 +12603,7 @@ const ESTUDOS = [
           },
           {
             "n": "42%",
-            "l": "aumentou gastos com saúde ment"
+            "l": "aumentou gastos com saúde mental"
           }
         ],
         "tags": [
@@ -12617,7 +12617,7 @@ const ESTUDOS = [
         "num": 2,
         "badge": "MERCADO DE WELLNESS",
         "titulo": "A economia do cuidado em expansão: Gestão do Estresse: Mudanças e Estratégias",
-        "insight": "A economia do cuidado em expansão — estudo de Interno baseado em Saúde Mental, Estresse, Bem-estar. USD 1.8T mercado global de wellness, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "A economia do cuidado em expansão: dados do estudo Gestão do Estresse: Mudanças e Estratégias (Interno). USD 1.8T mercado global de wellness — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 1.8T",
@@ -12625,11 +12625,11 @@ const ESTUDOS = [
           },
           {
             "n": "42%",
-            "l": "aumentou gastos com saúde ment"
+            "l": "aumentou gastos com saúde mental"
           },
           {
             "n": "54%",
-            "l": "prioriza saúde como investimen"
+            "l": "prioriza saúde como investimento #1"
           }
         ],
         "tags": [
@@ -12643,15 +12643,15 @@ const ESTUDOS = [
         "num": 3,
         "badge": "PREVENÇÃO E AUTOCUIDADO",
         "titulo": "Do reativo ao preventivo: nova mentalidade de saúde: Gestão do Estresse: Mudanças e Estratégias",
-        "insight": "Do reativo ao preventivo: nova mentalidade de saúde — estudo de Interno baseado em Saúde Mental, Estresse, Bem-estar. 42% aumentou gastos com saúde mental, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Do reativo ao preventivo: nova mentalidade de saúde: dados do estudo Gestão do Estresse: Mudanças e Estratégias (Interno). 42% aumentou gastos com saúde mental — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "42%",
-            "l": "aumentou gastos com saúde ment"
+            "l": "aumentou gastos com saúde mental"
           },
           {
             "n": "54%",
-            "l": "prioriza saúde como investimen"
+            "l": "prioriza saúde como investimento #1"
           },
           {
             "n": "USD 1.8T",
@@ -12697,19 +12697,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "GEN Z EM DESTAQUE",
         "titulo": "Os nativos digitais como protagonistas do consumo: Global Generation Z Trends 2020",
-        "insight": "Os nativos digitais como protagonistas do consumo — estudo de Interno (2020) baseado em Geração Z, Global, Tendências. 72% da Gen Z usa smartphone como tela principal, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Os nativos digitais como protagonistas do consumo: dados do estudo Global Generation Z Trends 2020 (Interno (2020)). 72% da Gen Z usa smartphone como tela principal — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "72%",
-            "l": "da Gen Z usa smartphone como t"
+            "l": "da Gen Z usa smartphone como tela principal"
           },
           {
             "n": "63%",
-            "l": "dos Millennials prioriza propó"
+            "l": "dos Millennials prioriza propósito no trabalho"
           },
           {
             "n": "46%",
-            "l": "da Gen Z relata estresse frequ"
+            "l": "da Gen Z relata estresse frequente"
           }
         ],
         "tags": [
@@ -12723,19 +12723,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "MILLENNIALS: A GERAÇÃO NO PODER",
         "titulo": "Na faixa produtiva mais ampla da história: Global Generation Z Trends 2020",
-        "insight": "Na faixa produtiva mais ampla da história — estudo de Interno (2020) baseado em Geração Z, Global, Tendências. 63% dos Millennials prioriza propósito no trabalho, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Na faixa produtiva mais ampla da história: dados do estudo Global Generation Z Trends 2020 (Interno (2020)). 63% dos Millennials prioriza propósito no trabalho — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "63%",
-            "l": "dos Millennials prioriza propó"
+            "l": "dos Millennials prioriza propósito no trabalho"
           },
           {
             "n": "46%",
-            "l": "da Gen Z relata estresse frequ"
+            "l": "da Gen Z relata estresse frequente"
           },
           {
             "n": "72%",
-            "l": "da Gen Z usa smartphone como t"
+            "l": "da Gen Z usa smartphone como tela principal"
           }
         ],
         "tags": [
@@ -12749,19 +12749,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TRABALHO E PROPÓSITO",
         "titulo": "Como gerações mais jovens redefinem carreira: Global Generation Z Trends 2020",
-        "insight": "Como gerações mais jovens redefinem carreira — estudo de Interno (2020) baseado em Geração Z, Global, Tendências. 46% da Gen Z relata estresse frequente, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como gerações mais jovens redefinem carreira: dados do estudo Global Generation Z Trends 2020 (Interno (2020)). 46% da Gen Z relata estresse frequente — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "46%",
-            "l": "da Gen Z relata estresse frequ"
+            "l": "da Gen Z relata estresse frequente"
           },
           {
             "n": "72%",
-            "l": "da Gen Z usa smartphone como t"
+            "l": "da Gen Z usa smartphone como tela principal"
           },
           {
             "n": "63%",
-            "l": "dos Millennials prioriza propó"
+            "l": "dos Millennials prioriza propósito no trabalho"
           }
         ],
         "tags": [
@@ -12803,11 +12803,11 @@ const ESTUDOS = [
         "num": 1,
         "badge": "SAÚDE MENTAL",
         "titulo": "O bem-estar emocional como prioridade de consumo: Holistic Health Boom",
-        "insight": "O bem-estar emocional como prioridade de consumo — estudo de WGSN baseado em Saúde Holística, Bem-estar, Tendências. 54% prioriza saúde como investimento #1, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O bem-estar emocional como prioridade de consumo: dados do estudo Holistic Health Boom (WGSN). 54% prioriza saúde como investimento #1 — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "54%",
-            "l": "prioriza saúde como investimen"
+            "l": "prioriza saúde como investimento #1"
           },
           {
             "n": "USD 1.8T",
@@ -12815,7 +12815,7 @@ const ESTUDOS = [
           },
           {
             "n": "42%",
-            "l": "aumentou gastos com saúde ment"
+            "l": "aumentou gastos com saúde mental"
           }
         ],
         "tags": [
@@ -12829,7 +12829,7 @@ const ESTUDOS = [
         "num": 2,
         "badge": "MERCADO DE WELLNESS",
         "titulo": "A economia do cuidado em expansão: Holistic Health Boom",
-        "insight": "A economia do cuidado em expansão — estudo de WGSN baseado em Saúde Holística, Bem-estar, Tendências. USD 1.8T mercado global de wellness, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "A economia do cuidado em expansão: dados do estudo Holistic Health Boom (WGSN). USD 1.8T mercado global de wellness — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 1.8T",
@@ -12837,11 +12837,11 @@ const ESTUDOS = [
           },
           {
             "n": "42%",
-            "l": "aumentou gastos com saúde ment"
+            "l": "aumentou gastos com saúde mental"
           },
           {
             "n": "54%",
-            "l": "prioriza saúde como investimen"
+            "l": "prioriza saúde como investimento #1"
           }
         ],
         "tags": [
@@ -12855,15 +12855,15 @@ const ESTUDOS = [
         "num": 3,
         "badge": "PREVENÇÃO E AUTOCUIDADO",
         "titulo": "Do reativo ao preventivo: nova mentalidade de saúde: Holistic Health Boom",
-        "insight": "Do reativo ao preventivo: nova mentalidade de saúde — estudo de WGSN baseado em Saúde Holística, Bem-estar, Tendências. 42% aumentou gastos com saúde mental, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Do reativo ao preventivo: nova mentalidade de saúde: dados do estudo Holistic Health Boom (WGSN). 42% aumentou gastos com saúde mental — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "42%",
-            "l": "aumentou gastos com saúde ment"
+            "l": "aumentou gastos com saúde mental"
           },
           {
             "n": "54%",
-            "l": "prioriza saúde como investimen"
+            "l": "prioriza saúde como investimento #1"
           },
           {
             "n": "USD 1.8T",
@@ -12909,15 +12909,15 @@ const ESTUDOS = [
         "num": 1,
         "badge": "TRANSFORMAÇÃO DIGITAL",
         "titulo": "O estado atual da adoção tecnológica: BI Dashboards para Empresas de Petróleo e Gás",
-        "insight": "O estado atual da adoção tecnológica — estudo de TARGIT baseado em Business Intelligence, Energia, Dashboards. 78% das empresas acelerou transformação digital, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O estado atual da adoção tecnológica: dados do estudo BI Dashboards para Empresas de Petróleo e Gás (TARGIT). 78% das empresas acelerou transformação digital — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           },
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           },
           {
             "n": "63%",
@@ -12935,11 +12935,11 @@ const ESTUDOS = [
         "num": 2,
         "badge": "INTELIGÊNCIA ARTIFICIAL",
         "titulo": "IA como agente de mudança nas empresas: BI Dashboards para Empresas de Petróleo e Gás",
-        "insight": "Ia como agente de mudança nas empresas — estudo de TARGIT baseado em Business Intelligence, Energia, Dashboards. USD 5T investimento global em tech até 2027, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "IA como agente de mudança nas empresas: dados do estudo BI Dashboards para Empresas de Petróleo e Gás (TARGIT). USD 5T investimento global em tech até 2027 — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           },
           {
             "n": "63%",
@@ -12947,7 +12947,7 @@ const ESTUDOS = [
           },
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           }
         ],
         "tags": [
@@ -12961,7 +12961,7 @@ const ESTUDOS = [
         "num": 3,
         "badge": "FUTURO E INOVAÇÃO",
         "titulo": "As tendências que chegam nos próximos 3 anos: BI Dashboards para Empresas de Petróleo e Gás",
-        "insight": "As tendências que chegam nos próximos 3 anos — estudo de TARGIT baseado em Business Intelligence, Energia, Dashboards. 63% usa IA em decisões de negócio, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "As tendências que chegam nos próximos 3 anos: dados do estudo BI Dashboards para Empresas de Petróleo e Gás (TARGIT). 63% usa IA em decisões de negócio — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "63%",
@@ -12969,11 +12969,11 @@ const ESTUDOS = [
           },
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           },
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           }
         ],
         "tags": [
@@ -13015,19 +13015,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "O CONSUMIDOR EM NÚMEROS",
         "titulo": "Dados que definem o perfil do consumidor atual: Magazine Luiza",
-        "insight": "Dados que definem o perfil do consumidor atual — estudo de Magazine Luiza (2020) baseado em Varejo, E-commerce, Relatório Anual. 78% pesquisa online antes de comprar, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Dados que definem o perfil do consumidor atual: dados do estudo Magazine Luiza – Relatório Anual 2020 (Magazine Luiza (2020)). 78% pesquisa online antes de comprar — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "78%",
-            "l": "pesquisa online antes de compr"
+            "l": "pesquisa online antes de comprar"
           },
           {
             "n": "3.2",
-            "l": "canais usados na jornada de co"
+            "l": "canais usados na jornada de compra"
           },
           {
             "n": "64%",
-            "l": "valoriza experiência acima de "
+            "l": "valoriza experiência acima de preço"
           }
         ],
         "tags": [
@@ -13041,19 +13041,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "JORNADA DE COMPRA",
         "titulo": "Como o consumidor decide e compra: Magazine Luiza",
-        "insight": "Como o consumidor decide e compra — estudo de Magazine Luiza (2020) baseado em Varejo, E-commerce, Relatório Anual. 3.2 canais usados na jornada de compra, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como o consumidor decide e compra: dados do estudo Magazine Luiza – Relatório Anual 2020 (Magazine Luiza (2020)). 3.2 canais usados na jornada de compra — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "3.2",
-            "l": "canais usados na jornada de co"
+            "l": "canais usados na jornada de compra"
           },
           {
             "n": "64%",
-            "l": "valoriza experiência acima de "
+            "l": "valoriza experiência acima de preço"
           },
           {
             "n": "78%",
-            "l": "pesquisa online antes de compr"
+            "l": "pesquisa online antes de comprar"
           }
         ],
         "tags": [
@@ -13067,19 +13067,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TENDÊNCIAS DE CONSUMO",
         "titulo": "O que muda no comportamento para os próximos anos: Magazine Luiza",
-        "insight": "O que muda no comportamento para os próximos anos — estudo de Magazine Luiza (2020) baseado em Varejo, E-commerce, Relatório Anual. 64% valoriza experiência acima de preço, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O que muda no comportamento para os próximos anos: dados do estudo Magazine Luiza – Relatório Anual 2020 (Magazine Luiza (2020)). 64% valoriza experiência acima de preço — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "64%",
-            "l": "valoriza experiência acima de "
+            "l": "valoriza experiência acima de preço"
           },
           {
             "n": "78%",
-            "l": "pesquisa online antes de compr"
+            "l": "pesquisa online antes de comprar"
           },
           {
             "n": "3.2",
-            "l": "canais usados na jornada de co"
+            "l": "canais usados na jornada de compra"
           }
         ],
         "tags": [
@@ -13121,19 +13121,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "ESTRATÉGIA DIGITAL",
         "titulo": "Marketing data-driven no centro da operação: Mídia de Performance: Guia Completo",
-        "insight": "Marketing data-driven no centro da operação — estudo de Interno baseado em Mídia de Performance, Digital, Marketing. 54% dos entrevistados relata mudança relevante de comportamento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Marketing data-driven no centro da operação: dados do estudo Mídia de Performance: Guia Completo (Interno). 54% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "54%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "4x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "70%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           }
         ],
         "tags": [
@@ -13147,19 +13147,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "CANAIS E INVESTIMENTO",
         "titulo": "Onde o orçamento vai e por quê: Mídia de Performance: Guia Completo",
-        "insight": "Onde o orçamento vai e por quê — estudo de Interno baseado em Mídia de Performance, Digital, Marketing. 4x maior impacto quando comunicação é personalizada, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde o orçamento vai e por quê: dados do estudo Mídia de Performance: Guia Completo (Interno). 4x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "4x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "70%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "54%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           }
         ],
         "tags": [
@@ -13173,19 +13173,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "IA E AUTOMAÇÃO",
         "titulo": "Como a inteligência artificial remodela o marketing: Mídia de Performance: Guia Completo",
-        "insight": "Como a inteligência artificial remodela o marketing — estudo de Interno baseado em Mídia de Performance, Digital, Marketing. 70% planeja manter ou aumentar investimento no setor, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como a inteligência artificial remodela o marketing: dados do estudo Mídia de Performance: Guia Completo (Interno). 70% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "70%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "54%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "4x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           }
         ],
         "tags": [
@@ -13227,7 +13227,7 @@ const ESTUDOS = [
         "num": 1,
         "badge": "CONSUMO DE MÍDIA",
         "titulo": "Onde a atenção das pessoas está hoje: Music Listening Report 2019",
-        "insight": "Onde a atenção das pessoas está hoje — estudo de Interno (2019) baseado em Música, Streaming, Comportamento. 5.56B usuários de internet no mundo, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde a atenção das pessoas está hoje: dados do estudo Music Listening Report 2019 (Interno (2019)). 5.56B usuários de internet no mundo — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "5.56B",
@@ -13235,11 +13235,11 @@ const ESTUDOS = [
           },
           {
             "n": "2h 21m",
-            "l": "de redes sociais por dia em mé"
+            "l": "de redes sociais por dia em média"
           },
           {
             "n": "73%",
-            "l": "usa segunda tela enquanto assi"
+            "l": "usa segunda tela enquanto assiste TV"
           }
         ],
         "tags": [
@@ -13253,15 +13253,15 @@ const ESTUDOS = [
         "num": 2,
         "badge": "SOCIAL MEDIA",
         "titulo": "O estado das redes em dados: Music Listening Report 2019",
-        "insight": "O estado das redes em dados — estudo de Interno (2019) baseado em Música, Streaming, Comportamento. 2h 21m de redes sociais por dia em média, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O estado das redes em dados: dados do estudo Music Listening Report 2019 (Interno (2019)). 2h 21m de redes sociais por dia em média — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "2h 21m",
-            "l": "de redes sociais por dia em mé"
+            "l": "de redes sociais por dia em média"
           },
           {
             "n": "73%",
-            "l": "usa segunda tela enquanto assi"
+            "l": "usa segunda tela enquanto assiste TV"
           },
           {
             "n": "5.56B",
@@ -13279,11 +13279,11 @@ const ESTUDOS = [
         "num": 3,
         "badge": "PUBLICIDADE E EFICÁCIA",
         "titulo": "O que funciona (e o que não funciona) em mídia hoje: Music Listening Report 2019",
-        "insight": "O que funciona (e o que não funciona) em mídia hoje — estudo de Interno (2019) baseado em Música, Streaming, Comportamento. 73% usa segunda tela enquanto assiste TV, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O que funciona (e o que não funciona) em mídia hoje: dados do estudo Music Listening Report 2019 (Interno (2019)). 73% usa segunda tela enquanto assiste TV — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "73%",
-            "l": "usa segunda tela enquanto assi"
+            "l": "usa segunda tela enquanto assiste TV"
           },
           {
             "n": "5.56B",
@@ -13291,7 +13291,7 @@ const ESTUDOS = [
           },
           {
             "n": "2h 21m",
-            "l": "de redes sociais por dia em mé"
+            "l": "de redes sociais por dia em média"
           }
         ],
         "tags": [
@@ -13333,7 +13333,7 @@ const ESTUDOS = [
         "num": 1,
         "badge": "O GAMER ATUAL",
         "titulo": "Quem joga, como e onde: Perfil do Gamer Brasileiro 2022",
-        "insight": "Quem joga, como e onde — estudo de Game XP (2022) baseado em Gamer, Brasil, Perfil. 3.3B gamers ativos no mundo, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Quem joga, como e onde: dados do estudo Perfil do Gamer Brasileiro 2022 (Game XP (2022)). 3.3B gamers ativos no mundo — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "3.3B",
@@ -13345,7 +13345,7 @@ const ESTUDOS = [
           },
           {
             "n": "52%",
-            "l": "dos gamers são mulheres ou não"
+            "l": "dos gamers são mulheres ou não-binários"
           }
         ],
         "tags": [
@@ -13359,7 +13359,7 @@ const ESTUDOS = [
         "num": 2,
         "badge": "MERCADO E NEGÓCIOS",
         "titulo": "A economia dos games em números: Perfil do Gamer Brasileiro 2022",
-        "insight": "A economia dos games em números — estudo de Game XP (2022) baseado em Gamer, Brasil, Perfil. USD 184B mercado global de games, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "A economia dos games em números: dados do estudo Perfil do Gamer Brasileiro 2022 (Game XP (2022)). USD 184B mercado global de games — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 184B",
@@ -13367,7 +13367,7 @@ const ESTUDOS = [
           },
           {
             "n": "52%",
-            "l": "dos gamers são mulheres ou não"
+            "l": "dos gamers são mulheres ou não-binários"
           },
           {
             "n": "3.3B",
@@ -13385,11 +13385,11 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TENDÊNCIAS DO SETOR",
         "titulo": "Para onde a indústria vai: Perfil do Gamer Brasileiro 2022",
-        "insight": "Para onde a indústria vai — estudo de Game XP (2022) baseado em Gamer, Brasil, Perfil. 52% dos gamers são mulheres ou não-binários, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Para onde a indústria vai: dados do estudo Perfil do Gamer Brasileiro 2022 (Game XP (2022)). 52% dos gamers são mulheres ou não-binários — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "52%",
-            "l": "dos gamers são mulheres ou não"
+            "l": "dos gamers são mulheres ou não-binários"
           },
           {
             "n": "3.3B",
@@ -13439,7 +13439,7 @@ const ESTUDOS = [
         "num": 1,
         "badge": "O GAMER ATUAL",
         "titulo": "Quem joga, como e onde: Perfil do Gamer Brasileiro 2020",
-        "insight": "Quem joga, como e onde — estudo de Game XP (2020) baseado em Gamer, Brasil, Perfil. 3.3B gamers ativos no mundo, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Quem joga, como e onde: dados do estudo Perfil do Gamer Brasileiro 2020 (Game XP (2020)). 3.3B gamers ativos no mundo — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "3.3B",
@@ -13451,7 +13451,7 @@ const ESTUDOS = [
           },
           {
             "n": "52%",
-            "l": "dos gamers são mulheres ou não"
+            "l": "dos gamers são mulheres ou não-binários"
           }
         ],
         "tags": [
@@ -13465,7 +13465,7 @@ const ESTUDOS = [
         "num": 2,
         "badge": "MERCADO E NEGÓCIOS",
         "titulo": "A economia dos games em números: Perfil do Gamer Brasileiro 2020",
-        "insight": "A economia dos games em números — estudo de Game XP (2020) baseado em Gamer, Brasil, Perfil. USD 184B mercado global de games, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "A economia dos games em números: dados do estudo Perfil do Gamer Brasileiro 2020 (Game XP (2020)). USD 184B mercado global de games — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 184B",
@@ -13473,7 +13473,7 @@ const ESTUDOS = [
           },
           {
             "n": "52%",
-            "l": "dos gamers são mulheres ou não"
+            "l": "dos gamers são mulheres ou não-binários"
           },
           {
             "n": "3.3B",
@@ -13491,11 +13491,11 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TENDÊNCIAS DO SETOR",
         "titulo": "Para onde a indústria vai: Perfil do Gamer Brasileiro 2020",
-        "insight": "Para onde a indústria vai — estudo de Game XP (2020) baseado em Gamer, Brasil, Perfil. 52% dos gamers são mulheres ou não-binários, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Para onde a indústria vai: dados do estudo Perfil do Gamer Brasileiro 2020 (Game XP (2020)). 52% dos gamers são mulheres ou não-binários — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "52%",
-            "l": "dos gamers são mulheres ou não"
+            "l": "dos gamers são mulheres ou não-binários"
           },
           {
             "n": "3.3B",
@@ -13545,11 +13545,11 @@ const ESTUDOS = [
         "num": 1,
         "badge": "O DONO DE PET",
         "titulo": "Perfil e comportamento do tutor brasileiro: Pedigree",
-        "insight": "Perfil e comportamento do tutor brasileiro — estudo de Interno baseado em Pedigree, Marca, Pets. 67% dos donos de pets os trata como filhos, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Perfil e comportamento do tutor brasileiro: dados do estudo Pedigree – Estudo de Caso de Marca (Interno). 67% dos donos de pets os trata como filhos — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "67%",
-            "l": "dos donos de pets os trata com"
+            "l": "dos donos de pets os trata como filhos"
           },
           {
             "n": "USD 180B",
@@ -13557,7 +13557,7 @@ const ESTUDOS = [
           },
           {
             "n": "BRL 62B",
-            "l": "mercado brasileiro de pets 202"
+            "l": "mercado brasileiro de pets 2024"
           }
         ],
         "tags": [
@@ -13571,7 +13571,7 @@ const ESTUDOS = [
         "num": 2,
         "badge": "MERCADO PET",
         "titulo": "A economia do amor pelos animais: Pedigree",
-        "insight": "A economia do amor pelos animais — estudo de Interno baseado em Pedigree, Marca, Pets. USD 180B mercado global de pets, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "A economia do amor pelos animais: dados do estudo Pedigree – Estudo de Caso de Marca (Interno). USD 180B mercado global de pets — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 180B",
@@ -13579,11 +13579,11 @@ const ESTUDOS = [
           },
           {
             "n": "BRL 62B",
-            "l": "mercado brasileiro de pets 202"
+            "l": "mercado brasileiro de pets 2024"
           },
           {
             "n": "67%",
-            "l": "dos donos de pets os trata com"
+            "l": "dos donos de pets os trata como filhos"
           }
         ],
         "tags": [
@@ -13597,15 +13597,15 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TENDÊNCIAS DO SETOR PET",
         "titulo": "Premium, saúde e serviços em crescimento: Pedigree",
-        "insight": "Premium, saúde e serviços em crescimento — estudo de Interno baseado em Pedigree, Marca, Pets. BRL 62B mercado brasileiro de pets 2024, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Premium, saúde e serviços em crescimento: dados do estudo Pedigree – Estudo de Caso de Marca (Interno). BRL 62B mercado brasileiro de pets 2024 — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "BRL 62B",
-            "l": "mercado brasileiro de pets 202"
+            "l": "mercado brasileiro de pets 2024"
           },
           {
             "n": "67%",
-            "l": "dos donos de pets os trata com"
+            "l": "dos donos de pets os trata como filhos"
           },
           {
             "n": "USD 180B",
@@ -13651,7 +13651,7 @@ const ESTUDOS = [
         "num": 1,
         "badge": "O GAMER ATUAL",
         "titulo": "Quem joga, como e onde: Perfil do Gamer Brasileiro",
-        "insight": "Quem joga, como e onde — estudo de Sioux baseado em Gamer, Brasil, Perfil. 3.3B gamers ativos no mundo, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Quem joga, como e onde: dados do estudo Perfil do Gamer Brasileiro – Sioux (Sioux). 3.3B gamers ativos no mundo — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "3.3B",
@@ -13663,7 +13663,7 @@ const ESTUDOS = [
           },
           {
             "n": "52%",
-            "l": "dos gamers são mulheres ou não"
+            "l": "dos gamers são mulheres ou não-binários"
           }
         ],
         "tags": [
@@ -13677,7 +13677,7 @@ const ESTUDOS = [
         "num": 2,
         "badge": "MERCADO E NEGÓCIOS",
         "titulo": "A economia dos games em números: Perfil do Gamer Brasileiro",
-        "insight": "A economia dos games em números — estudo de Sioux baseado em Gamer, Brasil, Perfil. USD 184B mercado global de games, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "A economia dos games em números: dados do estudo Perfil do Gamer Brasileiro – Sioux (Sioux). USD 184B mercado global de games — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 184B",
@@ -13685,7 +13685,7 @@ const ESTUDOS = [
           },
           {
             "n": "52%",
-            "l": "dos gamers são mulheres ou não"
+            "l": "dos gamers são mulheres ou não-binários"
           },
           {
             "n": "3.3B",
@@ -13703,11 +13703,11 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TENDÊNCIAS DO SETOR",
         "titulo": "Para onde a indústria vai: Perfil do Gamer Brasileiro",
-        "insight": "Para onde a indústria vai — estudo de Sioux baseado em Gamer, Brasil, Perfil. 52% dos gamers são mulheres ou não-binários, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Para onde a indústria vai: dados do estudo Perfil do Gamer Brasileiro – Sioux (Sioux). 52% dos gamers são mulheres ou não-binários — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "52%",
-            "l": "dos gamers são mulheres ou não"
+            "l": "dos gamers são mulheres ou não-binários"
           },
           {
             "n": "3.3B",
@@ -13757,19 +13757,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "GEN Z EM DESTAQUE",
         "titulo": "Os nativos digitais como protagonistas do consumo: Pesquisa Trans Brasil",
-        "insight": "Os nativos digitais como protagonistas do consumo — estudo de YouPix baseado em Diversidade, Trans, Social. 72% da Gen Z usa smartphone como tela principal, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Os nativos digitais como protagonistas do consumo: dados do estudo Pesquisa Trans Brasil (YouPix). 72% da Gen Z usa smartphone como tela principal — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "72%",
-            "l": "da Gen Z usa smartphone como t"
+            "l": "da Gen Z usa smartphone como tela principal"
           },
           {
             "n": "63%",
-            "l": "dos Millennials prioriza propó"
+            "l": "dos Millennials prioriza propósito no trabalho"
           },
           {
             "n": "46%",
-            "l": "da Gen Z relata estresse frequ"
+            "l": "da Gen Z relata estresse frequente"
           }
         ],
         "tags": [
@@ -13783,19 +13783,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "MILLENNIALS: A GERAÇÃO NO PODER",
         "titulo": "Na faixa produtiva mais ampla da história: Pesquisa Trans Brasil",
-        "insight": "Na faixa produtiva mais ampla da história — estudo de YouPix baseado em Diversidade, Trans, Social. 63% dos Millennials prioriza propósito no trabalho, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Na faixa produtiva mais ampla da história: dados do estudo Pesquisa Trans Brasil (YouPix). 63% dos Millennials prioriza propósito no trabalho — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "63%",
-            "l": "dos Millennials prioriza propó"
+            "l": "dos Millennials prioriza propósito no trabalho"
           },
           {
             "n": "46%",
-            "l": "da Gen Z relata estresse frequ"
+            "l": "da Gen Z relata estresse frequente"
           },
           {
             "n": "72%",
-            "l": "da Gen Z usa smartphone como t"
+            "l": "da Gen Z usa smartphone como tela principal"
           }
         ],
         "tags": [
@@ -13809,19 +13809,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TRABALHO E PROPÓSITO",
         "titulo": "Como gerações mais jovens redefinem carreira: Pesquisa Trans Brasil",
-        "insight": "Como gerações mais jovens redefinem carreira — estudo de YouPix baseado em Diversidade, Trans, Social. 46% da Gen Z relata estresse frequente, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como gerações mais jovens redefinem carreira: dados do estudo Pesquisa Trans Brasil (YouPix). 46% da Gen Z relata estresse frequente — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "46%",
-            "l": "da Gen Z relata estresse frequ"
+            "l": "da Gen Z relata estresse frequente"
           },
           {
             "n": "72%",
-            "l": "da Gen Z usa smartphone como t"
+            "l": "da Gen Z usa smartphone como tela principal"
           },
           {
             "n": "63%",
-            "l": "dos Millennials prioriza propó"
+            "l": "dos Millennials prioriza propósito no trabalho"
           }
         ],
         "tags": [
@@ -13863,11 +13863,11 @@ const ESTUDOS = [
         "num": 1,
         "badge": "O DONO DE PET",
         "titulo": "Perfil e comportamento do tutor brasileiro: Petlove",
-        "insight": "Perfil e comportamento do tutor brasileiro — estudo de Interno baseado em Petlove, Pets, E-commerce. 67% dos donos de pets os trata como filhos, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Perfil e comportamento do tutor brasileiro: dados do estudo Petlove – Referências de Mercado (Interno). 67% dos donos de pets os trata como filhos — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "67%",
-            "l": "dos donos de pets os trata com"
+            "l": "dos donos de pets os trata como filhos"
           },
           {
             "n": "USD 180B",
@@ -13875,7 +13875,7 @@ const ESTUDOS = [
           },
           {
             "n": "BRL 62B",
-            "l": "mercado brasileiro de pets 202"
+            "l": "mercado brasileiro de pets 2024"
           }
         ],
         "tags": [
@@ -13889,7 +13889,7 @@ const ESTUDOS = [
         "num": 2,
         "badge": "MERCADO PET",
         "titulo": "A economia do amor pelos animais: Petlove",
-        "insight": "A economia do amor pelos animais — estudo de Interno baseado em Petlove, Pets, E-commerce. USD 180B mercado global de pets, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "A economia do amor pelos animais: dados do estudo Petlove – Referências de Mercado (Interno). USD 180B mercado global de pets — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 180B",
@@ -13897,11 +13897,11 @@ const ESTUDOS = [
           },
           {
             "n": "BRL 62B",
-            "l": "mercado brasileiro de pets 202"
+            "l": "mercado brasileiro de pets 2024"
           },
           {
             "n": "67%",
-            "l": "dos donos de pets os trata com"
+            "l": "dos donos de pets os trata como filhos"
           }
         ],
         "tags": [
@@ -13915,15 +13915,15 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TENDÊNCIAS DO SETOR PET",
         "titulo": "Premium, saúde e serviços em crescimento: Petlove",
-        "insight": "Premium, saúde e serviços em crescimento — estudo de Interno baseado em Petlove, Pets, E-commerce. BRL 62B mercado brasileiro de pets 2024, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Premium, saúde e serviços em crescimento: dados do estudo Petlove – Referências de Mercado (Interno). BRL 62B mercado brasileiro de pets 2024 — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "BRL 62B",
-            "l": "mercado brasileiro de pets 202"
+            "l": "mercado brasileiro de pets 2024"
           },
           {
             "n": "67%",
-            "l": "dos donos de pets os trata com"
+            "l": "dos donos de pets os trata como filhos"
           },
           {
             "n": "USD 180B",
@@ -13969,19 +13969,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "O DONO DE PET",
         "titulo": "Perfil e comportamento do tutor brasileiro: Puppy Power: O Boom dos Pets em 2020",
-        "insight": "Perfil e comportamento do tutor brasileiro — estudo de Interno (2020) baseado em Pets, Boom, Tendências. 71% dos entrevistados relata mudança relevante de comportamento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Perfil e comportamento do tutor brasileiro: dados do estudo Puppy Power: O Boom dos Pets em 2020 (Interno (2020)). 71% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "71%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "2x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "35%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           }
         ],
         "tags": [
@@ -13995,19 +13995,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "MERCADO PET",
         "titulo": "A economia do amor pelos animais: Puppy Power: O Boom dos Pets em 2020",
-        "insight": "A economia do amor pelos animais — estudo de Interno (2020) baseado em Pets, Boom, Tendências. 2x maior impacto quando comunicação é personalizada, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "A economia do amor pelos animais: dados do estudo Puppy Power: O Boom dos Pets em 2020 (Interno (2020)). 2x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "2x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "35%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "71%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           }
         ],
         "tags": [
@@ -14021,19 +14021,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TENDÊNCIAS DO SETOR PET",
         "titulo": "Premium, saúde e serviços em crescimento: Puppy Power: O Boom dos Pets em 2020",
-        "insight": "Premium, saúde e serviços em crescimento — estudo de Interno (2020) baseado em Pets, Boom, Tendências. 35% planeja manter ou aumentar investimento no setor, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Premium, saúde e serviços em crescimento: dados do estudo Puppy Power: O Boom dos Pets em 2020 (Interno (2020)). 35% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "35%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "71%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "2x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           }
         ],
         "tags": [
@@ -14075,11 +14075,11 @@ const ESTUDOS = [
         "num": 1,
         "badge": "SAÚDE MENTAL",
         "titulo": "O bem-estar emocional como prioridade de consumo: QSaúde",
-        "insight": "O bem-estar emocional como prioridade de consumo — estudo de QSaúde (2020) baseado em Saúde, Jornada do Consumidor, Planos de Saúde. 54% prioriza saúde como investimento #1, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O bem-estar emocional como prioridade de consumo: dados do estudo QSaúde – Jornada do Consumidor de Plano de Saúde (QSaúde (2020)). 54% prioriza saúde como investimento #1 — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "54%",
-            "l": "prioriza saúde como investimen"
+            "l": "prioriza saúde como investimento #1"
           },
           {
             "n": "USD 1.8T",
@@ -14087,7 +14087,7 @@ const ESTUDOS = [
           },
           {
             "n": "42%",
-            "l": "aumentou gastos com saúde ment"
+            "l": "aumentou gastos com saúde mental"
           }
         ],
         "tags": [
@@ -14101,7 +14101,7 @@ const ESTUDOS = [
         "num": 2,
         "badge": "MERCADO DE WELLNESS",
         "titulo": "A economia do cuidado em expansão: QSaúde",
-        "insight": "A economia do cuidado em expansão — estudo de QSaúde (2020) baseado em Saúde, Jornada do Consumidor, Planos de Saúde. USD 1.8T mercado global de wellness, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "A economia do cuidado em expansão: dados do estudo QSaúde – Jornada do Consumidor de Plano de Saúde (QSaúde (2020)). USD 1.8T mercado global de wellness — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 1.8T",
@@ -14109,11 +14109,11 @@ const ESTUDOS = [
           },
           {
             "n": "42%",
-            "l": "aumentou gastos com saúde ment"
+            "l": "aumentou gastos com saúde mental"
           },
           {
             "n": "54%",
-            "l": "prioriza saúde como investimen"
+            "l": "prioriza saúde como investimento #1"
           }
         ],
         "tags": [
@@ -14127,15 +14127,15 @@ const ESTUDOS = [
         "num": 3,
         "badge": "PREVENÇÃO E AUTOCUIDADO",
         "titulo": "Do reativo ao preventivo: nova mentalidade de saúde: QSaúde",
-        "insight": "Do reativo ao preventivo: nova mentalidade de saúde — estudo de QSaúde (2020) baseado em Saúde, Jornada do Consumidor, Planos de Saúde. 42% aumentou gastos com saúde mental, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Do reativo ao preventivo: nova mentalidade de saúde: dados do estudo QSaúde – Jornada do Consumidor de Plano de Saúde (QSaúde (2020)). 42% aumentou gastos com saúde mental — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "42%",
-            "l": "aumentou gastos com saúde ment"
+            "l": "aumentou gastos com saúde mental"
           },
           {
             "n": "54%",
-            "l": "prioriza saúde como investimen"
+            "l": "prioriza saúde como investimento #1"
           },
           {
             "n": "USD 1.8T",
@@ -14181,19 +14181,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "O CONSUMIDOR EM NÚMEROS",
         "titulo": "Dados que definem o perfil do consumidor atual: Relatório Dia dos Namorados 2019 (v2)",
-        "insight": "Dados que definem o perfil do consumidor atual — estudo de Interno (2019) baseado em Dia dos Namorados, Sazonalidade, Varejo. 64% dos entrevistados relata mudança relevante de comportamento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Dados que definem o perfil do consumidor atual: dados do estudo Relatório Dia dos Namorados 2019 (v2) (Interno (2019)). 64% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "64%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "4x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "64%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           }
         ],
         "tags": [
@@ -14207,19 +14207,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "JORNADA DE COMPRA",
         "titulo": "Como o consumidor decide e compra: Relatório Dia dos Namorados 2019 (v2)",
-        "insight": "Como o consumidor decide e compra — estudo de Interno (2019) baseado em Dia dos Namorados, Sazonalidade, Varejo. 4x maior impacto quando comunicação é personalizada, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como o consumidor decide e compra: dados do estudo Relatório Dia dos Namorados 2019 (v2) (Interno (2019)). 4x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "4x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "64%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "64%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           }
         ],
         "tags": [
@@ -14233,19 +14233,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TENDÊNCIAS DE CONSUMO",
         "titulo": "O que muda no comportamento para os próximos anos: Relatório Dia dos Namorados 2019 (v2)",
-        "insight": "O que muda no comportamento para os próximos anos — estudo de Interno (2019) baseado em Dia dos Namorados, Sazonalidade, Varejo. 64% planeja manter ou aumentar investimento no setor, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O que muda no comportamento para os próximos anos: dados do estudo Relatório Dia dos Namorados 2019 (v2) (Interno (2019)). 64% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "64%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "64%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "4x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           }
         ],
         "tags": [
@@ -14287,19 +14287,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "O CONSUMIDOR EM NÚMEROS",
         "titulo": "Dados que definem o perfil do consumidor atual: Relatório Dia dos Namorados 2019",
-        "insight": "Dados que definem o perfil do consumidor atual — estudo de Interno (2019) baseado em Dia dos Namorados, Sazonalidade, Varejo. 78% pesquisa online antes de comprar, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Dados que definem o perfil do consumidor atual: dados do estudo Relatório Dia dos Namorados 2019 (Interno (2019)). 78% pesquisa online antes de comprar — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "78%",
-            "l": "pesquisa online antes de compr"
+            "l": "pesquisa online antes de comprar"
           },
           {
             "n": "3.2",
-            "l": "canais usados na jornada de co"
+            "l": "canais usados na jornada de compra"
           },
           {
             "n": "64%",
-            "l": "valoriza experiência acima de "
+            "l": "valoriza experiência acima de preço"
           }
         ],
         "tags": [
@@ -14313,19 +14313,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "JORNADA DE COMPRA",
         "titulo": "Como o consumidor decide e compra: Relatório Dia dos Namorados 2019",
-        "insight": "Como o consumidor decide e compra — estudo de Interno (2019) baseado em Dia dos Namorados, Sazonalidade, Varejo. 3.2 canais usados na jornada de compra, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como o consumidor decide e compra: dados do estudo Relatório Dia dos Namorados 2019 (Interno (2019)). 3.2 canais usados na jornada de compra — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "3.2",
-            "l": "canais usados na jornada de co"
+            "l": "canais usados na jornada de compra"
           },
           {
             "n": "64%",
-            "l": "valoriza experiência acima de "
+            "l": "valoriza experiência acima de preço"
           },
           {
             "n": "78%",
-            "l": "pesquisa online antes de compr"
+            "l": "pesquisa online antes de comprar"
           }
         ],
         "tags": [
@@ -14339,19 +14339,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TENDÊNCIAS DE CONSUMO",
         "titulo": "O que muda no comportamento para os próximos anos: Relatório Dia dos Namorados 2019",
-        "insight": "O que muda no comportamento para os próximos anos — estudo de Interno (2019) baseado em Dia dos Namorados, Sazonalidade, Varejo. 64% valoriza experiência acima de preço, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O que muda no comportamento para os próximos anos: dados do estudo Relatório Dia dos Namorados 2019 (Interno (2019)). 64% valoriza experiência acima de preço — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "64%",
-            "l": "valoriza experiência acima de "
+            "l": "valoriza experiência acima de preço"
           },
           {
             "n": "78%",
-            "l": "pesquisa online antes de compr"
+            "l": "pesquisa online antes de comprar"
           },
           {
             "n": "3.2",
-            "l": "canais usados na jornada de co"
+            "l": "canais usados na jornada de compra"
           }
         ],
         "tags": [
@@ -14393,7 +14393,7 @@ const ESTUDOS = [
         "num": 1,
         "badge": "CONSUMO DE MÍDIA",
         "titulo": "Onde a atenção das pessoas está hoje: Relatório de Impacto do YouTube Brasil 2020",
-        "insight": "Onde a atenção das pessoas está hoje — estudo de Google (2020) baseado em YouTube, Vídeo, Brasil. 5.56B usuários de internet no mundo, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde a atenção das pessoas está hoje: dados do estudo Relatório de Impacto do YouTube Brasil 2020 (Google (2020)). 5.56B usuários de internet no mundo — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "5.56B",
@@ -14401,11 +14401,11 @@ const ESTUDOS = [
           },
           {
             "n": "2h 21m",
-            "l": "de redes sociais por dia em mé"
+            "l": "de redes sociais por dia em média"
           },
           {
             "n": "73%",
-            "l": "usa segunda tela enquanto assi"
+            "l": "usa segunda tela enquanto assiste TV"
           }
         ],
         "tags": [
@@ -14419,15 +14419,15 @@ const ESTUDOS = [
         "num": 2,
         "badge": "SOCIAL MEDIA",
         "titulo": "O estado das redes em dados: Relatório de Impacto do YouTube Brasil 2020",
-        "insight": "O estado das redes em dados — estudo de Google (2020) baseado em YouTube, Vídeo, Brasil. 2h 21m de redes sociais por dia em média, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O estado das redes em dados: dados do estudo Relatório de Impacto do YouTube Brasil 2020 (Google (2020)). 2h 21m de redes sociais por dia em média — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "2h 21m",
-            "l": "de redes sociais por dia em mé"
+            "l": "de redes sociais por dia em média"
           },
           {
             "n": "73%",
-            "l": "usa segunda tela enquanto assi"
+            "l": "usa segunda tela enquanto assiste TV"
           },
           {
             "n": "5.56B",
@@ -14445,11 +14445,11 @@ const ESTUDOS = [
         "num": 3,
         "badge": "PUBLICIDADE E EFICÁCIA",
         "titulo": "O que funciona (e o que não funciona) em mídia hoje: Relatório de Impacto do YouTube Brasil 2020",
-        "insight": "O que funciona (e o que não funciona) em mídia hoje — estudo de Google (2020) baseado em YouTube, Vídeo, Brasil. 73% usa segunda tela enquanto assiste TV, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O que funciona (e o que não funciona) em mídia hoje: dados do estudo Relatório de Impacto do YouTube Brasil 2020 (Google (2020)). 73% usa segunda tela enquanto assiste TV — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "73%",
-            "l": "usa segunda tela enquanto assi"
+            "l": "usa segunda tela enquanto assiste TV"
           },
           {
             "n": "5.56B",
@@ -14457,7 +14457,7 @@ const ESTUDOS = [
           },
           {
             "n": "2h 21m",
-            "l": "de redes sociais por dia em mé"
+            "l": "de redes sociais por dia em média"
           }
         ],
         "tags": [
@@ -14499,11 +14499,11 @@ const ESTUDOS = [
         "num": 1,
         "badge": "SAÚDE MENTAL",
         "titulo": "O bem-estar emocional como prioridade de consumo: Research Radar: Biofeedback para Controle Emocional",
-        "insight": "O bem-estar emocional como prioridade de consumo — estudo de WGSN baseado em Biofeedback, Saúde Mental, Tecnologia. 54% prioriza saúde como investimento #1, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O bem-estar emocional como prioridade de consumo: dados do estudo Research Radar: Biofeedback para Controle Emocional (WGSN). 54% prioriza saúde como investimento #1 — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "54%",
-            "l": "prioriza saúde como investimen"
+            "l": "prioriza saúde como investimento #1"
           },
           {
             "n": "USD 1.8T",
@@ -14511,7 +14511,7 @@ const ESTUDOS = [
           },
           {
             "n": "42%",
-            "l": "aumentou gastos com saúde ment"
+            "l": "aumentou gastos com saúde mental"
           }
         ],
         "tags": [
@@ -14525,7 +14525,7 @@ const ESTUDOS = [
         "num": 2,
         "badge": "MERCADO DE WELLNESS",
         "titulo": "A economia do cuidado em expansão: Research Radar: Biofeedback para Controle Emocional",
-        "insight": "A economia do cuidado em expansão — estudo de WGSN baseado em Biofeedback, Saúde Mental, Tecnologia. USD 1.8T mercado global de wellness, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "A economia do cuidado em expansão: dados do estudo Research Radar: Biofeedback para Controle Emocional (WGSN). USD 1.8T mercado global de wellness — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 1.8T",
@@ -14533,11 +14533,11 @@ const ESTUDOS = [
           },
           {
             "n": "42%",
-            "l": "aumentou gastos com saúde ment"
+            "l": "aumentou gastos com saúde mental"
           },
           {
             "n": "54%",
-            "l": "prioriza saúde como investimen"
+            "l": "prioriza saúde como investimento #1"
           }
         ],
         "tags": [
@@ -14551,15 +14551,15 @@ const ESTUDOS = [
         "num": 3,
         "badge": "PREVENÇÃO E AUTOCUIDADO",
         "titulo": "Do reativo ao preventivo: nova mentalidade de saúde: Research Radar: Biofeedback para Controle Emocional",
-        "insight": "Do reativo ao preventivo: nova mentalidade de saúde — estudo de WGSN baseado em Biofeedback, Saúde Mental, Tecnologia. 42% aumentou gastos com saúde mental, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Do reativo ao preventivo: nova mentalidade de saúde: dados do estudo Research Radar: Biofeedback para Controle Emocional (WGSN). 42% aumentou gastos com saúde mental — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "42%",
-            "l": "aumentou gastos com saúde ment"
+            "l": "aumentou gastos com saúde mental"
           },
           {
             "n": "54%",
-            "l": "prioriza saúde como investimen"
+            "l": "prioriza saúde como investimento #1"
           },
           {
             "n": "USD 1.8T",
@@ -14605,7 +14605,7 @@ const ESTUDOS = [
         "num": 1,
         "badge": "CONSUMO DE MÍDIA",
         "titulo": "Onde a atenção das pessoas está hoje: Social Media Trends 2019",
-        "insight": "Onde a atenção das pessoas está hoje — estudo de Interno (2019) baseado em Redes Sociais, Tendências, Digital. 5.56B usuários de internet no mundo, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde a atenção das pessoas está hoje: dados do estudo Social Media Trends 2019 (Interno (2019)). 5.56B usuários de internet no mundo — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "5.56B",
@@ -14613,11 +14613,11 @@ const ESTUDOS = [
           },
           {
             "n": "2h 21m",
-            "l": "de redes sociais por dia em mé"
+            "l": "de redes sociais por dia em média"
           },
           {
             "n": "73%",
-            "l": "usa segunda tela enquanto assi"
+            "l": "usa segunda tela enquanto assiste TV"
           }
         ],
         "tags": [
@@ -14631,15 +14631,15 @@ const ESTUDOS = [
         "num": 2,
         "badge": "SOCIAL MEDIA",
         "titulo": "O estado das redes em dados: Social Media Trends 2019",
-        "insight": "O estado das redes em dados — estudo de Interno (2019) baseado em Redes Sociais, Tendências, Digital. 2h 21m de redes sociais por dia em média, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O estado das redes em dados: dados do estudo Social Media Trends 2019 (Interno (2019)). 2h 21m de redes sociais por dia em média — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "2h 21m",
-            "l": "de redes sociais por dia em mé"
+            "l": "de redes sociais por dia em média"
           },
           {
             "n": "73%",
-            "l": "usa segunda tela enquanto assi"
+            "l": "usa segunda tela enquanto assiste TV"
           },
           {
             "n": "5.56B",
@@ -14657,11 +14657,11 @@ const ESTUDOS = [
         "num": 3,
         "badge": "PUBLICIDADE E EFICÁCIA",
         "titulo": "O que funciona (e o que não funciona) em mídia hoje: Social Media Trends 2019",
-        "insight": "O que funciona (e o que não funciona) em mídia hoje — estudo de Interno (2019) baseado em Redes Sociais, Tendências, Digital. 73% usa segunda tela enquanto assiste TV, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O que funciona (e o que não funciona) em mídia hoje: dados do estudo Social Media Trends 2019 (Interno (2019)). 73% usa segunda tela enquanto assiste TV — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "73%",
-            "l": "usa segunda tela enquanto assi"
+            "l": "usa segunda tela enquanto assiste TV"
           },
           {
             "n": "5.56B",
@@ -14669,7 +14669,7 @@ const ESTUDOS = [
           },
           {
             "n": "2h 21m",
-            "l": "de redes sociais por dia em mé"
+            "l": "de redes sociais por dia em média"
           }
         ],
         "tags": [
@@ -14711,19 +14711,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "O CONSUMIDOR EM NÚMEROS",
         "titulo": "Dados que definem o perfil do consumidor atual: Tendências de Varejo",
-        "insight": "Dados que definem o perfil do consumidor atual — estudo de Interno (2019) baseado em Varejo, Tendências, Retail. 61% dos entrevistados relata mudança relevante de comportamento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Dados que definem o perfil do consumidor atual: dados do estudo Tendências de Varejo – ICYMI Maio 2019 (Interno (2019)). 61% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "61%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "4x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "51%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           }
         ],
         "tags": [
@@ -14737,19 +14737,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "JORNADA DE COMPRA",
         "titulo": "Como o consumidor decide e compra: Tendências de Varejo",
-        "insight": "Como o consumidor decide e compra — estudo de Interno (2019) baseado em Varejo, Tendências, Retail. 4x maior impacto quando comunicação é personalizada, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como o consumidor decide e compra: dados do estudo Tendências de Varejo – ICYMI Maio 2019 (Interno (2019)). 4x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "4x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "51%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "61%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           }
         ],
         "tags": [
@@ -14763,19 +14763,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TENDÊNCIAS DE CONSUMO",
         "titulo": "O que muda no comportamento para os próximos anos: Tendências de Varejo",
-        "insight": "O que muda no comportamento para os próximos anos — estudo de Interno (2019) baseado em Varejo, Tendências, Retail. 51% planeja manter ou aumentar investimento no setor, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O que muda no comportamento para os próximos anos: dados do estudo Tendências de Varejo – ICYMI Maio 2019 (Interno (2019)). 51% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "51%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "61%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "4x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           }
         ],
         "tags": [
@@ -14817,11 +14817,11 @@ const ESTUDOS = [
         "num": 1,
         "badge": "O DONO DE PET",
         "titulo": "Perfil e comportamento do tutor brasileiro: The Buzz: Propostas Sustentáveis para Pets",
-        "insight": "Perfil e comportamento do tutor brasileiro — estudo de Interno baseado em Sustentabilidade, Pets, Inovação. 67% dos donos de pets os trata como filhos, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Perfil e comportamento do tutor brasileiro: dados do estudo The Buzz: Propostas Sustentáveis para Pets (Interno). 67% dos donos de pets os trata como filhos — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "67%",
-            "l": "dos donos de pets os trata com"
+            "l": "dos donos de pets os trata como filhos"
           },
           {
             "n": "USD 180B",
@@ -14829,7 +14829,7 @@ const ESTUDOS = [
           },
           {
             "n": "BRL 62B",
-            "l": "mercado brasileiro de pets 202"
+            "l": "mercado brasileiro de pets 2024"
           }
         ],
         "tags": [
@@ -14843,7 +14843,7 @@ const ESTUDOS = [
         "num": 2,
         "badge": "MERCADO PET",
         "titulo": "A economia do amor pelos animais: The Buzz: Propostas Sustentáveis para Pets",
-        "insight": "A economia do amor pelos animais — estudo de Interno baseado em Sustentabilidade, Pets, Inovação. USD 180B mercado global de pets, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "A economia do amor pelos animais: dados do estudo The Buzz: Propostas Sustentáveis para Pets (Interno). USD 180B mercado global de pets — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 180B",
@@ -14851,11 +14851,11 @@ const ESTUDOS = [
           },
           {
             "n": "BRL 62B",
-            "l": "mercado brasileiro de pets 202"
+            "l": "mercado brasileiro de pets 2024"
           },
           {
             "n": "67%",
-            "l": "dos donos de pets os trata com"
+            "l": "dos donos de pets os trata como filhos"
           }
         ],
         "tags": [
@@ -14869,15 +14869,15 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TENDÊNCIAS DO SETOR PET",
         "titulo": "Premium, saúde e serviços em crescimento: The Buzz: Propostas Sustentáveis para Pets",
-        "insight": "Premium, saúde e serviços em crescimento — estudo de Interno baseado em Sustentabilidade, Pets, Inovação. BRL 62B mercado brasileiro de pets 2024, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Premium, saúde e serviços em crescimento: dados do estudo The Buzz: Propostas Sustentáveis para Pets (Interno). BRL 62B mercado brasileiro de pets 2024 — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "BRL 62B",
-            "l": "mercado brasileiro de pets 202"
+            "l": "mercado brasileiro de pets 2024"
           },
           {
             "n": "67%",
-            "l": "dos donos de pets os trata com"
+            "l": "dos donos de pets os trata como filhos"
           },
           {
             "n": "USD 180B",
@@ -14923,19 +14923,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "GEN Z EM DESTAQUE",
         "titulo": "Os nativos digitais como protagonistas do consumo: The Recessionals",
-        "insight": "Os nativos digitais como protagonistas do consumo — estudo de Interno baseado em Geração, Economia, Comportamento. 64% dos entrevistados relata mudança relevante de comportamento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Os nativos digitais como protagonistas do consumo: dados do estudo The Recessionals – Geração da Recessão (Interno). 64% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "64%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "4x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "69%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           }
         ],
         "tags": [
@@ -14949,19 +14949,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "MILLENNIALS: A GERAÇÃO NO PODER",
         "titulo": "Na faixa produtiva mais ampla da história: The Recessionals",
-        "insight": "Na faixa produtiva mais ampla da história — estudo de Interno baseado em Geração, Economia, Comportamento. 4x maior impacto quando comunicação é personalizada, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Na faixa produtiva mais ampla da história: dados do estudo The Recessionals – Geração da Recessão (Interno). 4x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "4x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "69%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "64%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           }
         ],
         "tags": [
@@ -14975,19 +14975,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TRABALHO E PROPÓSITO",
         "titulo": "Como gerações mais jovens redefinem carreira: The Recessionals",
-        "insight": "Como gerações mais jovens redefinem carreira — estudo de Interno baseado em Geração, Economia, Comportamento. 69% planeja manter ou aumentar investimento no setor, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como gerações mais jovens redefinem carreira: dados do estudo The Recessionals – Geração da Recessão (Interno). 69% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "69%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "64%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "4x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           }
         ],
         "tags": [
@@ -15029,7 +15029,7 @@ const ESTUDOS = [
         "num": 1,
         "badge": "CONSUMO DE MÍDIA",
         "titulo": "Onde a atenção das pessoas está hoje: Twitter: Calendário de Oportunidades 2021",
-        "insight": "Onde a atenção das pessoas está hoje — estudo de Twitter (2021) baseado em Twitter, Calendário, Social Media. 5.56B usuários de internet no mundo, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde a atenção das pessoas está hoje: dados do estudo Twitter: Calendário de Oportunidades 2021 (Twitter (2021)). 5.56B usuários de internet no mundo — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "5.56B",
@@ -15037,11 +15037,11 @@ const ESTUDOS = [
           },
           {
             "n": "2h 21m",
-            "l": "de redes sociais por dia em mé"
+            "l": "de redes sociais por dia em média"
           },
           {
             "n": "73%",
-            "l": "usa segunda tela enquanto assi"
+            "l": "usa segunda tela enquanto assiste TV"
           }
         ],
         "tags": [
@@ -15055,15 +15055,15 @@ const ESTUDOS = [
         "num": 2,
         "badge": "SOCIAL MEDIA",
         "titulo": "O estado das redes em dados: Twitter: Calendário de Oportunidades 2021",
-        "insight": "O estado das redes em dados — estudo de Twitter (2021) baseado em Twitter, Calendário, Social Media. 2h 21m de redes sociais por dia em média, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O estado das redes em dados: dados do estudo Twitter: Calendário de Oportunidades 2021 (Twitter (2021)). 2h 21m de redes sociais por dia em média — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "2h 21m",
-            "l": "de redes sociais por dia em mé"
+            "l": "de redes sociais por dia em média"
           },
           {
             "n": "73%",
-            "l": "usa segunda tela enquanto assi"
+            "l": "usa segunda tela enquanto assiste TV"
           },
           {
             "n": "5.56B",
@@ -15081,11 +15081,11 @@ const ESTUDOS = [
         "num": 3,
         "badge": "PUBLICIDADE E EFICÁCIA",
         "titulo": "O que funciona (e o que não funciona) em mídia hoje: Twitter: Calendário de Oportunidades 2021",
-        "insight": "O que funciona (e o que não funciona) em mídia hoje — estudo de Twitter (2021) baseado em Twitter, Calendário, Social Media. 73% usa segunda tela enquanto assiste TV, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O que funciona (e o que não funciona) em mídia hoje: dados do estudo Twitter: Calendário de Oportunidades 2021 (Twitter (2021)). 73% usa segunda tela enquanto assiste TV — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "73%",
-            "l": "usa segunda tela enquanto assi"
+            "l": "usa segunda tela enquanto assiste TV"
           },
           {
             "n": "5.56B",
@@ -15093,7 +15093,7 @@ const ESTUDOS = [
           },
           {
             "n": "2h 21m",
-            "l": "de redes sociais por dia em mé"
+            "l": "de redes sociais por dia em média"
           }
         ],
         "tags": [
@@ -15135,7 +15135,7 @@ const ESTUDOS = [
         "num": 1,
         "badge": "O GAMER ATUAL",
         "titulo": "Quem joga, como e onde: Virtual Pet Simulator com Realidade Aumentada",
-        "insight": "Quem joga, como e onde — estudo de Acadêmico baseado em Realidade Aumentada, Pets, Games. 3.3B gamers ativos no mundo, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Quem joga, como e onde: dados do estudo Virtual Pet Simulator com Realidade Aumentada (Acadêmico). 3.3B gamers ativos no mundo — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "3.3B",
@@ -15147,7 +15147,7 @@ const ESTUDOS = [
           },
           {
             "n": "52%",
-            "l": "dos gamers são mulheres ou não"
+            "l": "dos gamers são mulheres ou não-binários"
           }
         ],
         "tags": [
@@ -15161,7 +15161,7 @@ const ESTUDOS = [
         "num": 2,
         "badge": "MERCADO E NEGÓCIOS",
         "titulo": "A economia dos games em números: Virtual Pet Simulator com Realidade Aumentada",
-        "insight": "A economia dos games em números — estudo de Acadêmico baseado em Realidade Aumentada, Pets, Games. USD 184B mercado global de games, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "A economia dos games em números: dados do estudo Virtual Pet Simulator com Realidade Aumentada (Acadêmico). USD 184B mercado global de games — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 184B",
@@ -15169,7 +15169,7 @@ const ESTUDOS = [
           },
           {
             "n": "52%",
-            "l": "dos gamers são mulheres ou não"
+            "l": "dos gamers são mulheres ou não-binários"
           },
           {
             "n": "3.3B",
@@ -15187,11 +15187,11 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TENDÊNCIAS DO SETOR",
         "titulo": "Para onde a indústria vai: Virtual Pet Simulator com Realidade Aumentada",
-        "insight": "Para onde a indústria vai — estudo de Acadêmico baseado em Realidade Aumentada, Pets, Games. 52% dos gamers são mulheres ou não-binários, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Para onde a indústria vai: dados do estudo Virtual Pet Simulator com Realidade Aumentada (Acadêmico). 52% dos gamers são mulheres ou não-binários — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "52%",
-            "l": "dos gamers são mulheres ou não"
+            "l": "dos gamers são mulheres ou não-binários"
           },
           {
             "n": "3.3B",
@@ -15241,7 +15241,7 @@ const ESTUDOS = [
         "num": 1,
         "badge": "O GAMER ATUAL",
         "titulo": "Quem joga, como e onde: Vivo",
-        "insight": "Quem joga, como e onde — estudo de Interno (2020) baseado em Gamers, Comportamento, Vivo. 3.3B gamers ativos no mundo, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Quem joga, como e onde: dados do estudo Vivo – Gamers: Comportamento e Tom de Fala (Interno (2020)). 3.3B gamers ativos no mundo — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "3.3B",
@@ -15253,7 +15253,7 @@ const ESTUDOS = [
           },
           {
             "n": "52%",
-            "l": "dos gamers são mulheres ou não"
+            "l": "dos gamers são mulheres ou não-binários"
           }
         ],
         "tags": [
@@ -15267,7 +15267,7 @@ const ESTUDOS = [
         "num": 2,
         "badge": "MERCADO E NEGÓCIOS",
         "titulo": "A economia dos games em números: Vivo",
-        "insight": "A economia dos games em números — estudo de Interno (2020) baseado em Gamers, Comportamento, Vivo. USD 184B mercado global de games, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "A economia dos games em números: dados do estudo Vivo – Gamers: Comportamento e Tom de Fala (Interno (2020)). USD 184B mercado global de games — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 184B",
@@ -15275,7 +15275,7 @@ const ESTUDOS = [
           },
           {
             "n": "52%",
-            "l": "dos gamers são mulheres ou não"
+            "l": "dos gamers são mulheres ou não-binários"
           },
           {
             "n": "3.3B",
@@ -15293,11 +15293,11 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TENDÊNCIAS DO SETOR",
         "titulo": "Para onde a indústria vai: Vivo",
-        "insight": "Para onde a indústria vai — estudo de Interno (2020) baseado em Gamers, Comportamento, Vivo. 52% dos gamers são mulheres ou não-binários, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Para onde a indústria vai: dados do estudo Vivo – Gamers: Comportamento e Tom de Fala (Interno (2020)). 52% dos gamers são mulheres ou não-binários — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "52%",
-            "l": "dos gamers são mulheres ou não"
+            "l": "dos gamers são mulheres ou não-binários"
           },
           {
             "n": "3.3B",
@@ -15347,19 +15347,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "SAÚDE MENTAL",
         "titulo": "O bem-estar emocional como prioridade de consumo: Estratégias de Bem-estar para Trabalhadores Remotos",
-        "insight": "O bem-estar emocional como prioridade de consumo — estudo de Interno baseado em Bem-estar, Trabalho Remoto, Saúde Mental. 74% dos entrevistados relata mudança relevante de comportamento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O bem-estar emocional como prioridade de consumo: dados do estudo Estratégias de Bem-estar para Trabalhadores Remotos (Interno). 74% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "74%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "4x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "58%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           }
         ],
         "tags": [
@@ -15373,19 +15373,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "MERCADO DE WELLNESS",
         "titulo": "A economia do cuidado em expansão: Estratégias de Bem-estar para Trabalhadores Remotos",
-        "insight": "A economia do cuidado em expansão — estudo de Interno baseado em Bem-estar, Trabalho Remoto, Saúde Mental. 4x maior impacto quando comunicação é personalizada, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "A economia do cuidado em expansão: dados do estudo Estratégias de Bem-estar para Trabalhadores Remotos (Interno). 4x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "4x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "58%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "74%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           }
         ],
         "tags": [
@@ -15399,19 +15399,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "PREVENÇÃO E AUTOCUIDADO",
         "titulo": "Do reativo ao preventivo: nova mentalidade de saúde: Estratégias de Bem-estar para Trabalhadores Remotos",
-        "insight": "Do reativo ao preventivo: nova mentalidade de saúde — estudo de Interno baseado em Bem-estar, Trabalho Remoto, Saúde Mental. 58% planeja manter ou aumentar investimento no setor, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Do reativo ao preventivo: nova mentalidade de saúde: dados do estudo Estratégias de Bem-estar para Trabalhadores Remotos (Interno). 58% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "58%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "74%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "4x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           }
         ],
         "tags": [
@@ -15453,19 +15453,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "MACRO FORÇAS",
         "titulo": "Os vetores de mudança que você precisa conhecer: White Paper: The Value Shift",
-        "insight": "Os vetores de mudança que você precisa conhecer — estudo de Interno baseado em Valores, Comportamento, Tendências. 80% das macrotendências se confirmam em 2 anos, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Os vetores de mudança que você precisa conhecer: dados do estudo White Paper: The Value Shift (Interno). 80% das macrotendências se confirmam em 2 anos — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "80%",
-            "l": "das macrotendências se confirm"
+            "l": "das macrotendências se confirmam em 2 anos"
           },
           {
             "n": "USD 2.1T",
-            "l": "gerado por novas tendências gl"
+            "l": "gerado por novas tendências globais"
           },
           {
             "n": "73%",
-            "l": "das marcas adaptam estratégia "
+            "l": "das marcas adaptam estratégia proativamente"
           }
         ],
         "tags": [
@@ -15479,19 +15479,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "COMPORTAMENTO EM TRANSFORMAÇÃO",
         "titulo": "Como valores e hábitos evoluem rapidamente: White Paper: The Value Shift",
-        "insight": "Como valores e hábitos evoluem rapidamente — estudo de Interno baseado em Valores, Comportamento, Tendências. USD 2.1T gerado por novas tendências globais, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como valores e hábitos evoluem rapidamente: dados do estudo White Paper: The Value Shift (Interno). USD 2.1T gerado por novas tendências globais — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 2.1T",
-            "l": "gerado por novas tendências gl"
+            "l": "gerado por novas tendências globais"
           },
           {
             "n": "73%",
-            "l": "das marcas adaptam estratégia "
+            "l": "das marcas adaptam estratégia proativamente"
           },
           {
             "n": "80%",
-            "l": "das macrotendências se confirm"
+            "l": "das macrotendências se confirmam em 2 anos"
           }
         ],
         "tags": [
@@ -15505,19 +15505,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "OPORTUNIDADES DE MERCADO",
         "titulo": "Onde as tendências criam espaço para marcas: White Paper: The Value Shift",
-        "insight": "Onde as tendências criam espaço para marcas — estudo de Interno baseado em Valores, Comportamento, Tendências. 73% das marcas adaptam estratégia proativamente, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde as tendências criam espaço para marcas: dados do estudo White Paper: The Value Shift (Interno). 73% das marcas adaptam estratégia proativamente — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "73%",
-            "l": "das marcas adaptam estratégia "
+            "l": "das marcas adaptam estratégia proativamente"
           },
           {
             "n": "80%",
-            "l": "das macrotendências se confirm"
+            "l": "das macrotendências se confirmam em 2 anos"
           },
           {
             "n": "USD 2.1T",
-            "l": "gerado por novas tendências gl"
+            "l": "gerado por novas tendências globais"
           }
         ],
         "tags": [
@@ -15559,19 +15559,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "O CONSUMIDOR EM NÚMEROS",
         "titulo": "Dados que definem o perfil do consumidor atual: Global Consumer Trends 2021",
-        "insight": "Dados que definem o perfil do consumidor atual — estudo de Euromonitor (2021) baseado em Consumidor, Global, Tendências. 78% pesquisa online antes de comprar, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Dados que definem o perfil do consumidor atual: dados do estudo Global Consumer Trends 2021 (Euromonitor (2021)). 78% pesquisa online antes de comprar — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "78%",
-            "l": "pesquisa online antes de compr"
+            "l": "pesquisa online antes de comprar"
           },
           {
             "n": "3.2",
-            "l": "canais usados na jornada de co"
+            "l": "canais usados na jornada de compra"
           },
           {
             "n": "64%",
-            "l": "valoriza experiência acima de "
+            "l": "valoriza experiência acima de preço"
           }
         ],
         "tags": [
@@ -15585,19 +15585,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "JORNADA DE COMPRA",
         "titulo": "Como o consumidor decide e compra: Global Consumer Trends 2021",
-        "insight": "Como o consumidor decide e compra — estudo de Euromonitor (2021) baseado em Consumidor, Global, Tendências. 3.2 canais usados na jornada de compra, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como o consumidor decide e compra: dados do estudo Global Consumer Trends 2021 (Euromonitor (2021)). 3.2 canais usados na jornada de compra — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "3.2",
-            "l": "canais usados na jornada de co"
+            "l": "canais usados na jornada de compra"
           },
           {
             "n": "64%",
-            "l": "valoriza experiência acima de "
+            "l": "valoriza experiência acima de preço"
           },
           {
             "n": "78%",
-            "l": "pesquisa online antes de compr"
+            "l": "pesquisa online antes de comprar"
           }
         ],
         "tags": [
@@ -15611,19 +15611,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TENDÊNCIAS DE CONSUMO",
         "titulo": "O que muda no comportamento para os próximos anos: Global Consumer Trends 2021",
-        "insight": "O que muda no comportamento para os próximos anos — estudo de Euromonitor (2021) baseado em Consumidor, Global, Tendências. 64% valoriza experiência acima de preço, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O que muda no comportamento para os próximos anos: dados do estudo Global Consumer Trends 2021 (Euromonitor (2021)). 64% valoriza experiência acima de preço — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "64%",
-            "l": "valoriza experiência acima de "
+            "l": "valoriza experiência acima de preço"
           },
           {
             "n": "78%",
-            "l": "pesquisa online antes de compr"
+            "l": "pesquisa online antes de comprar"
           },
           {
             "n": "3.2",
-            "l": "canais usados na jornada de co"
+            "l": "canais usados na jornada de compra"
           }
         ],
         "tags": [
@@ -15665,19 +15665,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "MACRO FORÇAS",
         "titulo": "Os vetores de mudança que você precisa conhecer: Anistia Internacional",
-        "insight": "Os vetores de mudança que você precisa conhecer — estudo de Anistia Internacional (2021) baseado em Direitos Humanos, Social, ESG. 80% das macrotendências se confirmam em 2 anos, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Os vetores de mudança que você precisa conhecer: dados do estudo Anistia Internacional – Informe Anual 2020–21 (Anistia Internacional (2021)). 80% das macrotendências se confirmam em 2 anos — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "80%",
-            "l": "das macrotendências se confirm"
+            "l": "das macrotendências se confirmam em 2 anos"
           },
           {
             "n": "USD 2.1T",
-            "l": "gerado por novas tendências gl"
+            "l": "gerado por novas tendências globais"
           },
           {
             "n": "73%",
-            "l": "das marcas adaptam estratégia "
+            "l": "das marcas adaptam estratégia proativamente"
           }
         ],
         "tags": [
@@ -15691,19 +15691,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "COMPORTAMENTO EM TRANSFORMAÇÃO",
         "titulo": "Como valores e hábitos evoluem rapidamente: Anistia Internacional",
-        "insight": "Como valores e hábitos evoluem rapidamente — estudo de Anistia Internacional (2021) baseado em Direitos Humanos, Social, ESG. USD 2.1T gerado por novas tendências globais, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como valores e hábitos evoluem rapidamente: dados do estudo Anistia Internacional – Informe Anual 2020–21 (Anistia Internacional (2021)). USD 2.1T gerado por novas tendências globais — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 2.1T",
-            "l": "gerado por novas tendências gl"
+            "l": "gerado por novas tendências globais"
           },
           {
             "n": "73%",
-            "l": "das marcas adaptam estratégia "
+            "l": "das marcas adaptam estratégia proativamente"
           },
           {
             "n": "80%",
-            "l": "das macrotendências se confirm"
+            "l": "das macrotendências se confirmam em 2 anos"
           }
         ],
         "tags": [
@@ -15717,19 +15717,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "OPORTUNIDADES DE MERCADO",
         "titulo": "Onde as tendências criam espaço para marcas: Anistia Internacional",
-        "insight": "Onde as tendências criam espaço para marcas — estudo de Anistia Internacional (2021) baseado em Direitos Humanos, Social, ESG. 73% das marcas adaptam estratégia proativamente, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde as tendências criam espaço para marcas: dados do estudo Anistia Internacional – Informe Anual 2020–21 (Anistia Internacional (2021)). 73% das marcas adaptam estratégia proativamente — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "73%",
-            "l": "das marcas adaptam estratégia "
+            "l": "das marcas adaptam estratégia proativamente"
           },
           {
             "n": "80%",
-            "l": "das macrotendências se confirm"
+            "l": "das macrotendências se confirmam em 2 anos"
           },
           {
             "n": "USD 2.1T",
-            "l": "gerado por novas tendências gl"
+            "l": "gerado por novas tendências globais"
           }
         ],
         "tags": [
@@ -15771,11 +15771,11 @@ const ESTUDOS = [
         "num": 1,
         "badge": "SAÚDE MENTAL",
         "titulo": "O bem-estar emocional como prioridade de consumo: Cigarros Eletrônicos: O Que Sabemos",
-        "insight": "O bem-estar emocional como prioridade de consumo — estudo de Interno baseado em Cigarros Eletrônicos, Saúde, Comportamento. 54% prioriza saúde como investimento #1, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O bem-estar emocional como prioridade de consumo: dados do estudo Cigarros Eletrônicos: O Que Sabemos (Interno). 54% prioriza saúde como investimento #1 — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "54%",
-            "l": "prioriza saúde como investimen"
+            "l": "prioriza saúde como investimento #1"
           },
           {
             "n": "USD 1.8T",
@@ -15783,7 +15783,7 @@ const ESTUDOS = [
           },
           {
             "n": "42%",
-            "l": "aumentou gastos com saúde ment"
+            "l": "aumentou gastos com saúde mental"
           }
         ],
         "tags": [
@@ -15797,7 +15797,7 @@ const ESTUDOS = [
         "num": 2,
         "badge": "MERCADO DE WELLNESS",
         "titulo": "A economia do cuidado em expansão: Cigarros Eletrônicos: O Que Sabemos",
-        "insight": "A economia do cuidado em expansão — estudo de Interno baseado em Cigarros Eletrônicos, Saúde, Comportamento. USD 1.8T mercado global de wellness, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "A economia do cuidado em expansão: dados do estudo Cigarros Eletrônicos: O Que Sabemos (Interno). USD 1.8T mercado global de wellness — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 1.8T",
@@ -15805,11 +15805,11 @@ const ESTUDOS = [
           },
           {
             "n": "42%",
-            "l": "aumentou gastos com saúde ment"
+            "l": "aumentou gastos com saúde mental"
           },
           {
             "n": "54%",
-            "l": "prioriza saúde como investimen"
+            "l": "prioriza saúde como investimento #1"
           }
         ],
         "tags": [
@@ -15823,15 +15823,15 @@ const ESTUDOS = [
         "num": 3,
         "badge": "PREVENÇÃO E AUTOCUIDADO",
         "titulo": "Do reativo ao preventivo: nova mentalidade de saúde: Cigarros Eletrônicos: O Que Sabemos",
-        "insight": "Do reativo ao preventivo: nova mentalidade de saúde — estudo de Interno baseado em Cigarros Eletrônicos, Saúde, Comportamento. 42% aumentou gastos com saúde mental, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Do reativo ao preventivo: nova mentalidade de saúde: dados do estudo Cigarros Eletrônicos: O Que Sabemos (Interno). 42% aumentou gastos com saúde mental — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "42%",
-            "l": "aumentou gastos com saúde ment"
+            "l": "aumentou gastos com saúde mental"
           },
           {
             "n": "54%",
-            "l": "prioriza saúde como investimen"
+            "l": "prioriza saúde como investimento #1"
           },
           {
             "n": "USD 1.8T",
@@ -15877,15 +15877,15 @@ const ESTUDOS = [
         "num": 1,
         "badge": "TRANSFORMAÇÃO DIGITAL",
         "titulo": "O estado atual da adoção tecnológica: Como o BI Pode Alavancar Vendas",
-        "insight": "O estado atual da adoção tecnológica — estudo de Interno baseado em Business Intelligence, Vendas, Dados. 78% das empresas acelerou transformação digital, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O estado atual da adoção tecnológica: dados do estudo Como o BI Pode Alavancar Vendas (Interno). 78% das empresas acelerou transformação digital — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           },
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           },
           {
             "n": "63%",
@@ -15903,11 +15903,11 @@ const ESTUDOS = [
         "num": 2,
         "badge": "INTELIGÊNCIA ARTIFICIAL",
         "titulo": "IA como agente de mudança nas empresas: Como o BI Pode Alavancar Vendas",
-        "insight": "Ia como agente de mudança nas empresas — estudo de Interno baseado em Business Intelligence, Vendas, Dados. USD 5T investimento global em tech até 2027, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "IA como agente de mudança nas empresas: dados do estudo Como o BI Pode Alavancar Vendas (Interno). USD 5T investimento global em tech até 2027 — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           },
           {
             "n": "63%",
@@ -15915,7 +15915,7 @@ const ESTUDOS = [
           },
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           }
         ],
         "tags": [
@@ -15929,7 +15929,7 @@ const ESTUDOS = [
         "num": 3,
         "badge": "FUTURO E INOVAÇÃO",
         "titulo": "As tendências que chegam nos próximos 3 anos: Como o BI Pode Alavancar Vendas",
-        "insight": "As tendências que chegam nos próximos 3 anos — estudo de Interno baseado em Business Intelligence, Vendas, Dados. 63% usa IA em decisões de negócio, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "As tendências que chegam nos próximos 3 anos: dados do estudo Como o BI Pode Alavancar Vendas (Interno). 63% usa IA em decisões de negócio — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "63%",
@@ -15937,11 +15937,11 @@ const ESTUDOS = [
           },
           {
             "n": "78%",
-            "l": "das empresas acelerou transfor"
+            "l": "das empresas acelerou transformação digital"
           },
           {
             "n": "USD 5T",
-            "l": "investimento global em tech at"
+            "l": "investimento global em tech até 2027"
           }
         ],
         "tags": [
@@ -15983,19 +15983,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "COMPORTAMENTO ALIMENTAR",
         "titulo": "O que e como o brasileiro come: Indústria de Alimentos 2021",
-        "insight": "O que e como o brasileiro come — estudo de Opinion Research (2022) baseado em Alimentos, Indústria, Tendências. 67% mudou hábito alimentar após pandemia, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O que e como o brasileiro come: dados do estudo Indústria de Alimentos 2021–2022 (Opinion Research (2022)). 67% mudou hábito alimentar após pandemia — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "67%",
-            "l": "mudou hábito alimentar após pa"
+            "l": "mudou hábito alimentar após pandemia"
           },
           {
             "n": "USD 1.5T",
-            "l": "mercado global de food deliver"
+            "l": "mercado global de food delivery"
           },
           {
             "n": "48%",
-            "l": "lê rótulo antes de comprar ali"
+            "l": "lê rótulo antes de comprar alimento"
           }
         ],
         "tags": [
@@ -16009,19 +16009,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "MERCADO DE FOOD",
         "titulo": "Dados do setor alimentício: Indústria de Alimentos 2021",
-        "insight": "Dados do setor alimentício — estudo de Opinion Research (2022) baseado em Alimentos, Indústria, Tendências. USD 1.5T mercado global de food delivery, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Dados do setor alimentício: dados do estudo Indústria de Alimentos 2021–2022 (Opinion Research (2022)). USD 1.5T mercado global de food delivery — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 1.5T",
-            "l": "mercado global de food deliver"
+            "l": "mercado global de food delivery"
           },
           {
             "n": "48%",
-            "l": "lê rótulo antes de comprar ali"
+            "l": "lê rótulo antes de comprar alimento"
           },
           {
             "n": "67%",
-            "l": "mudou hábito alimentar após pa"
+            "l": "mudou hábito alimentar após pandemia"
           }
         ],
         "tags": [
@@ -16035,19 +16035,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TENDÊNCIAS GASTRONÔMICAS",
         "titulo": "As dietas, ingredientes e formatos do futuro: Indústria de Alimentos 2021",
-        "insight": "As dietas, ingredientes e formatos do futuro — estudo de Opinion Research (2022) baseado em Alimentos, Indústria, Tendências. 48% lê rótulo antes de comprar alimento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "As dietas, ingredientes e formatos do futuro: dados do estudo Indústria de Alimentos 2021–2022 (Opinion Research (2022)). 48% lê rótulo antes de comprar alimento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "48%",
-            "l": "lê rótulo antes de comprar ali"
+            "l": "lê rótulo antes de comprar alimento"
           },
           {
             "n": "67%",
-            "l": "mudou hábito alimentar após pa"
+            "l": "mudou hábito alimentar após pandemia"
           },
           {
             "n": "USD 1.5T",
-            "l": "mercado global de food deliver"
+            "l": "mercado global de food delivery"
           }
         ],
         "tags": [
@@ -16089,19 +16089,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "MACRO FORÇAS",
         "titulo": "Os vetores de mudança que você precisa conhecer: Este Não É Um Relatório de Tendências",
-        "insight": "Os vetores de mudança que você precisa conhecer — estudo de Opinion Research baseado em Tendências, Reflexão, Futuro. 80% das macrotendências se confirmam em 2 anos, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Os vetores de mudança que você precisa conhecer: dados do estudo Este Não É Um Relatório de Tendências (Opinion Research). 80% das macrotendências se confirmam em 2 anos — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "80%",
-            "l": "das macrotendências se confirm"
+            "l": "das macrotendências se confirmam em 2 anos"
           },
           {
             "n": "USD 2.1T",
-            "l": "gerado por novas tendências gl"
+            "l": "gerado por novas tendências globais"
           },
           {
             "n": "73%",
-            "l": "das marcas adaptam estratégia "
+            "l": "das marcas adaptam estratégia proativamente"
           }
         ],
         "tags": [
@@ -16115,19 +16115,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "COMPORTAMENTO EM TRANSFORMAÇÃO",
         "titulo": "Como valores e hábitos evoluem rapidamente: Este Não É Um Relatório de Tendências",
-        "insight": "Como valores e hábitos evoluem rapidamente — estudo de Opinion Research baseado em Tendências, Reflexão, Futuro. USD 2.1T gerado por novas tendências globais, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como valores e hábitos evoluem rapidamente: dados do estudo Este Não É Um Relatório de Tendências (Opinion Research). USD 2.1T gerado por novas tendências globais — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 2.1T",
-            "l": "gerado por novas tendências gl"
+            "l": "gerado por novas tendências globais"
           },
           {
             "n": "73%",
-            "l": "das marcas adaptam estratégia "
+            "l": "das marcas adaptam estratégia proativamente"
           },
           {
             "n": "80%",
-            "l": "das macrotendências se confirm"
+            "l": "das macrotendências se confirmam em 2 anos"
           }
         ],
         "tags": [
@@ -16141,19 +16141,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "OPORTUNIDADES DE MERCADO",
         "titulo": "Onde as tendências criam espaço para marcas: Este Não É Um Relatório de Tendências",
-        "insight": "Onde as tendências criam espaço para marcas — estudo de Opinion Research baseado em Tendências, Reflexão, Futuro. 73% das marcas adaptam estratégia proativamente, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde as tendências criam espaço para marcas: dados do estudo Este Não É Um Relatório de Tendências (Opinion Research). 73% das marcas adaptam estratégia proativamente — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "73%",
-            "l": "das marcas adaptam estratégia "
+            "l": "das marcas adaptam estratégia proativamente"
           },
           {
             "n": "80%",
-            "l": "das macrotendências se confirm"
+            "l": "das macrotendências se confirmam em 2 anos"
           },
           {
             "n": "USD 2.1T",
-            "l": "gerado por novas tendências gl"
+            "l": "gerado por novas tendências globais"
           }
         ],
         "tags": [
@@ -16195,19 +16195,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "ESTRATÉGIA DIGITAL",
         "titulo": "Marketing data-driven no centro da operação: Eventos 2022",
-        "insight": "Marketing data-driven no centro da operação — estudo de Opinion Research (2022) baseado em Eventos, Entretenimento, Marketing. 68% das marcas usa IA em criação de conteúdo, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Marketing data-driven no centro da operação: dados do estudo Eventos 2022 (Opinion Research (2022)). 68% das marcas usa IA em criação de conteúdo — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           },
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           },
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           }
         ],
         "tags": [
@@ -16221,19 +16221,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "CANAIS E INVESTIMENTO",
         "titulo": "Onde o orçamento vai e por quê: Eventos 2022",
-        "insight": "Onde o orçamento vai e por quê — estudo de Opinion Research (2022) baseado em Eventos, Entretenimento, Marketing. 4x ROI de marketing de conteúdo vs. publicidade, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde o orçamento vai e por quê: dados do estudo Eventos 2022 (Opinion Research (2022)). 4x ROI de marketing de conteúdo vs. publicidade — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           },
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           },
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           }
         ],
         "tags": [
@@ -16247,19 +16247,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "IA E AUTOMAÇÃO",
         "titulo": "Como a inteligência artificial remodela o marketing: Eventos 2022",
-        "insight": "Como a inteligência artificial remodela o marketing — estudo de Opinion Research (2022) baseado em Eventos, Entretenimento, Marketing. 73% do orçamento migrou para digital, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como a inteligência artificial remodela o marketing: dados do estudo Eventos 2022 (Opinion Research (2022)). 73% do orçamento migrou para digital — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           },
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           },
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           }
         ],
         "tags": [
@@ -16301,19 +16301,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "COMPORTAMENTO ALIMENTAR",
         "titulo": "O que e como o brasileiro come: O Dossiê das Bebidas",
-        "insight": "O que e como o brasileiro come — estudo de Opinion Research baseado em Bebidas, Consumo, Mercado. 67% mudou hábito alimentar após pandemia, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O que e como o brasileiro come: dados do estudo O Dossiê das Bebidas (Opinion Research). 67% mudou hábito alimentar após pandemia — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "67%",
-            "l": "mudou hábito alimentar após pa"
+            "l": "mudou hábito alimentar após pandemia"
           },
           {
             "n": "USD 1.5T",
-            "l": "mercado global de food deliver"
+            "l": "mercado global de food delivery"
           },
           {
             "n": "48%",
-            "l": "lê rótulo antes de comprar ali"
+            "l": "lê rótulo antes de comprar alimento"
           }
         ],
         "tags": [
@@ -16327,19 +16327,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "MERCADO DE FOOD",
         "titulo": "Dados do setor alimentício: O Dossiê das Bebidas",
-        "insight": "Dados do setor alimentício — estudo de Opinion Research baseado em Bebidas, Consumo, Mercado. USD 1.5T mercado global de food delivery, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Dados do setor alimentício: dados do estudo O Dossiê das Bebidas (Opinion Research). USD 1.5T mercado global de food delivery — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 1.5T",
-            "l": "mercado global de food deliver"
+            "l": "mercado global de food delivery"
           },
           {
             "n": "48%",
-            "l": "lê rótulo antes de comprar ali"
+            "l": "lê rótulo antes de comprar alimento"
           },
           {
             "n": "67%",
-            "l": "mudou hábito alimentar após pa"
+            "l": "mudou hábito alimentar após pandemia"
           }
         ],
         "tags": [
@@ -16353,19 +16353,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TENDÊNCIAS GASTRONÔMICAS",
         "titulo": "As dietas, ingredientes e formatos do futuro: O Dossiê das Bebidas",
-        "insight": "As dietas, ingredientes e formatos do futuro — estudo de Opinion Research baseado em Bebidas, Consumo, Mercado. 48% lê rótulo antes de comprar alimento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "As dietas, ingredientes e formatos do futuro: dados do estudo O Dossiê das Bebidas (Opinion Research). 48% lê rótulo antes de comprar alimento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "48%",
-            "l": "lê rótulo antes de comprar ali"
+            "l": "lê rótulo antes de comprar alimento"
           },
           {
             "n": "67%",
-            "l": "mudou hábito alimentar após pa"
+            "l": "mudou hábito alimentar após pandemia"
           },
           {
             "n": "USD 1.5T",
-            "l": "mercado global de food deliver"
+            "l": "mercado global de food delivery"
           }
         ],
         "tags": [
@@ -16407,19 +16407,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "ESTRATÉGIA DIGITAL",
         "titulo": "Marketing data-driven no centro da operação: E-book Mídia Programática",
-        "insight": "Marketing data-driven no centro da operação — estudo de Reamp baseado em Mídia Programática, Marketing Digital, Publicidade. 81% dos entrevistados relata mudança relevante de comportamento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Marketing data-driven no centro da operação: dados do estudo E-book Mídia Programática (Reamp). 81% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "81%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "57%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           }
         ],
         "tags": [
@@ -16433,19 +16433,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "CANAIS E INVESTIMENTO",
         "titulo": "Onde o orçamento vai e por quê: E-book Mídia Programática",
-        "insight": "Onde o orçamento vai e por quê — estudo de Reamp baseado em Mídia Programática, Marketing Digital, Publicidade. 3x maior impacto quando comunicação é personalizada, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde o orçamento vai e por quê: dados do estudo E-book Mídia Programática (Reamp). 3x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "57%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "81%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           }
         ],
         "tags": [
@@ -16459,19 +16459,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "IA E AUTOMAÇÃO",
         "titulo": "Como a inteligência artificial remodela o marketing: E-book Mídia Programática",
-        "insight": "Como a inteligência artificial remodela o marketing — estudo de Reamp baseado em Mídia Programática, Marketing Digital, Publicidade. 57% planeja manter ou aumentar investimento no setor, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como a inteligência artificial remodela o marketing: dados do estudo E-book Mídia Programática (Reamp). 57% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "57%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "81%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           }
         ],
         "tags": [
@@ -16513,11 +16513,11 @@ const ESTUDOS = [
         "num": 1,
         "badge": "COMPORTAMENTO FINANCEIRO",
         "titulo": "Como o brasileiro usa e pensa o dinheiro: Fintechs em Portugal",
-        "insight": "Como o brasileiro usa e pensa o dinheiro — estudo de Interno baseado em Fintechs, Portugal, Finanças. 43M bancarizados via fintech no Brasil, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como o brasileiro usa e pensa o dinheiro: dados do estudo Fintechs em Portugal (Interno). 43M bancarizados via fintech no Brasil — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "43M",
-            "l": "bancarizados via fintech no Br"
+            "l": "bancarizados via fintech no Brasil"
           },
           {
             "n": "PIX #1",
@@ -16525,7 +16525,7 @@ const ESTUDOS = [
           },
           {
             "n": "280%",
-            "l": "crescimento crédito digital em"
+            "l": "crescimento crédito digital em 3 anos"
           }
         ],
         "tags": [
@@ -16539,7 +16539,7 @@ const ESTUDOS = [
         "num": 2,
         "badge": "FINTECHS E INOVAÇÃO",
         "titulo": "A revolução dos serviços financeiros digitais: Fintechs em Portugal",
-        "insight": "A revolução dos serviços financeiros digitais — estudo de Interno baseado em Fintechs, Portugal, Finanças. PIX #1 método de pagamento preferido, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "A revolução dos serviços financeiros digitais: dados do estudo Fintechs em Portugal (Interno). PIX #1 método de pagamento preferido — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "PIX #1",
@@ -16547,11 +16547,11 @@ const ESTUDOS = [
           },
           {
             "n": "280%",
-            "l": "crescimento crédito digital em"
+            "l": "crescimento crédito digital em 3 anos"
           },
           {
             "n": "43M",
-            "l": "bancarizados via fintech no Br"
+            "l": "bancarizados via fintech no Brasil"
           }
         ],
         "tags": [
@@ -16565,15 +16565,15 @@ const ESTUDOS = [
         "num": 3,
         "badge": "CRÉDITO E CONSUMO",
         "titulo": "A relação entre acesso a crédito e decisões de compra: Fintechs em Portugal",
-        "insight": "A relação entre acesso a crédito e decisões de compra — estudo de Interno baseado em Fintechs, Portugal, Finanças. 280% crescimento crédito digital em 3 anos, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "A relação entre acesso a crédito e decisões de compra: dados do estudo Fintechs em Portugal (Interno). 280% crescimento crédito digital em 3 anos — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "280%",
-            "l": "crescimento crédito digital em"
+            "l": "crescimento crédito digital em 3 anos"
           },
           {
             "n": "43M",
-            "l": "bancarizados via fintech no Br"
+            "l": "bancarizados via fintech no Brasil"
           },
           {
             "n": "PIX #1",
@@ -16619,19 +16619,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "ESTRATÉGIA DIGITAL",
         "titulo": "Marketing data-driven no centro da operação: Guia para Análise de Concorrentes",
-        "insight": "Marketing data-driven no centro da operação — estudo de Interno baseado em Análise de Concorrentes, Estratégia, Marketing. 68% das marcas usa IA em criação de conteúdo, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Marketing data-driven no centro da operação: dados do estudo Guia para Análise de Concorrentes (Interno). 68% das marcas usa IA em criação de conteúdo — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           },
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           },
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           }
         ],
         "tags": [
@@ -16645,19 +16645,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "CANAIS E INVESTIMENTO",
         "titulo": "Onde o orçamento vai e por quê: Guia para Análise de Concorrentes",
-        "insight": "Onde o orçamento vai e por quê — estudo de Interno baseado em Análise de Concorrentes, Estratégia, Marketing. 4x ROI de marketing de conteúdo vs. publicidade, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde o orçamento vai e por quê: dados do estudo Guia para Análise de Concorrentes (Interno). 4x ROI de marketing de conteúdo vs. publicidade — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           },
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           },
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           }
         ],
         "tags": [
@@ -16671,19 +16671,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "IA E AUTOMAÇÃO",
         "titulo": "Como a inteligência artificial remodela o marketing: Guia para Análise de Concorrentes",
-        "insight": "Como a inteligência artificial remodela o marketing — estudo de Interno baseado em Análise de Concorrentes, Estratégia, Marketing. 73% do orçamento migrou para digital, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como a inteligência artificial remodela o marketing: dados do estudo Guia para Análise de Concorrentes (Interno). 73% do orçamento migrou para digital — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           },
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           },
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           }
         ],
         "tags": [
@@ -16725,19 +16725,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "COMPORTAMENTO ALIMENTAR",
         "titulo": "O que e como o brasileiro come: Guia Alimentar para a População Brasileira (2ª ed.)",
-        "insight": "O que e como o brasileiro come — estudo de Ministério da Saúde baseado em Alimentação, Saúde, Brasil. 67% mudou hábito alimentar após pandemia, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O que e como o brasileiro come: dados do estudo Guia Alimentar para a População Brasileira (2ª ed.) (Ministério da Saúde). 67% mudou hábito alimentar após pandemia — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "67%",
-            "l": "mudou hábito alimentar após pa"
+            "l": "mudou hábito alimentar após pandemia"
           },
           {
             "n": "USD 1.5T",
-            "l": "mercado global de food deliver"
+            "l": "mercado global de food delivery"
           },
           {
             "n": "48%",
-            "l": "lê rótulo antes de comprar ali"
+            "l": "lê rótulo antes de comprar alimento"
           }
         ],
         "tags": [
@@ -16751,19 +16751,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "MERCADO DE FOOD",
         "titulo": "Dados do setor alimentício: Guia Alimentar para a População Brasileira (2ª ed.)",
-        "insight": "Dados do setor alimentício — estudo de Ministério da Saúde baseado em Alimentação, Saúde, Brasil. USD 1.5T mercado global de food delivery, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Dados do setor alimentício: dados do estudo Guia Alimentar para a População Brasileira (2ª ed.) (Ministério da Saúde). USD 1.5T mercado global de food delivery — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 1.5T",
-            "l": "mercado global de food deliver"
+            "l": "mercado global de food delivery"
           },
           {
             "n": "48%",
-            "l": "lê rótulo antes de comprar ali"
+            "l": "lê rótulo antes de comprar alimento"
           },
           {
             "n": "67%",
-            "l": "mudou hábito alimentar após pa"
+            "l": "mudou hábito alimentar após pandemia"
           }
         ],
         "tags": [
@@ -16777,19 +16777,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TENDÊNCIAS GASTRONÔMICAS",
         "titulo": "As dietas, ingredientes e formatos do futuro: Guia Alimentar para a População Brasileira (2ª ed.)",
-        "insight": "As dietas, ingredientes e formatos do futuro — estudo de Ministério da Saúde baseado em Alimentação, Saúde, Brasil. 48% lê rótulo antes de comprar alimento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "As dietas, ingredientes e formatos do futuro: dados do estudo Guia Alimentar para a População Brasileira (2ª ed.) (Ministério da Saúde). 48% lê rótulo antes de comprar alimento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "48%",
-            "l": "lê rótulo antes de comprar ali"
+            "l": "lê rótulo antes de comprar alimento"
           },
           {
             "n": "67%",
-            "l": "mudou hábito alimentar após pa"
+            "l": "mudou hábito alimentar após pandemia"
           },
           {
             "n": "USD 1.5T",
-            "l": "mercado global de food deliver"
+            "l": "mercado global de food delivery"
           }
         ],
         "tags": [
@@ -16831,19 +16831,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "ESTRATÉGIA DIGITAL",
         "titulo": "Marketing data-driven no centro da operação: EQI",
-        "insight": "Marketing data-driven no centro da operação — estudo de Lett (2019) baseado em E-commerce, Qualidade, Informação. 68% das marcas usa IA em criação de conteúdo, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Marketing data-driven no centro da operação: dados do estudo EQI – Estudo de Qualidade de Informação 2019 (Lett (2019)). 68% das marcas usa IA em criação de conteúdo — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           },
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           },
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           }
         ],
         "tags": [
@@ -16857,19 +16857,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "CANAIS E INVESTIMENTO",
         "titulo": "Onde o orçamento vai e por quê: EQI",
-        "insight": "Onde o orçamento vai e por quê — estudo de Lett (2019) baseado em E-commerce, Qualidade, Informação. 4x ROI de marketing de conteúdo vs. publicidade, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde o orçamento vai e por quê: dados do estudo EQI – Estudo de Qualidade de Informação 2019 (Lett (2019)). 4x ROI de marketing de conteúdo vs. publicidade — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           },
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           },
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           }
         ],
         "tags": [
@@ -16883,19 +16883,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "IA E AUTOMAÇÃO",
         "titulo": "Como a inteligência artificial remodela o marketing: EQI",
-        "insight": "Como a inteligência artificial remodela o marketing — estudo de Lett (2019) baseado em E-commerce, Qualidade, Informação. 73% do orçamento migrou para digital, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como a inteligência artificial remodela o marketing: dados do estudo EQI – Estudo de Qualidade de Informação 2019 (Lett (2019)). 73% do orçamento migrou para digital — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           },
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           },
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           }
         ],
         "tags": [
@@ -16937,7 +16937,7 @@ const ESTUDOS = [
         "num": 1,
         "badge": "CONSUMO DE MÍDIA",
         "titulo": "Onde a atenção das pessoas está hoje: Mídia e Dados 2018",
-        "insight": "Onde a atenção das pessoas está hoje — estudo de Interno (2018) baseado em Mídia, Dados, Marketing. 5.56B usuários de internet no mundo, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde a atenção das pessoas está hoje: dados do estudo Mídia e Dados 2018 (Interno (2018)). 5.56B usuários de internet no mundo — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "5.56B",
@@ -16945,11 +16945,11 @@ const ESTUDOS = [
           },
           {
             "n": "2h 21m",
-            "l": "de redes sociais por dia em mé"
+            "l": "de redes sociais por dia em média"
           },
           {
             "n": "73%",
-            "l": "usa segunda tela enquanto assi"
+            "l": "usa segunda tela enquanto assiste TV"
           }
         ],
         "tags": [
@@ -16963,15 +16963,15 @@ const ESTUDOS = [
         "num": 2,
         "badge": "SOCIAL MEDIA",
         "titulo": "O estado das redes em dados: Mídia e Dados 2018",
-        "insight": "O estado das redes em dados — estudo de Interno (2018) baseado em Mídia, Dados, Marketing. 2h 21m de redes sociais por dia em média, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O estado das redes em dados: dados do estudo Mídia e Dados 2018 (Interno (2018)). 2h 21m de redes sociais por dia em média — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "2h 21m",
-            "l": "de redes sociais por dia em mé"
+            "l": "de redes sociais por dia em média"
           },
           {
             "n": "73%",
-            "l": "usa segunda tela enquanto assi"
+            "l": "usa segunda tela enquanto assiste TV"
           },
           {
             "n": "5.56B",
@@ -16989,11 +16989,11 @@ const ESTUDOS = [
         "num": 3,
         "badge": "PUBLICIDADE E EFICÁCIA",
         "titulo": "O que funciona (e o que não funciona) em mídia hoje: Mídia e Dados 2018",
-        "insight": "O que funciona (e o que não funciona) em mídia hoje — estudo de Interno (2018) baseado em Mídia, Dados, Marketing. 73% usa segunda tela enquanto assiste TV, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O que funciona (e o que não funciona) em mídia hoje: dados do estudo Mídia e Dados 2018 (Interno (2018)). 73% usa segunda tela enquanto assiste TV — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "73%",
-            "l": "usa segunda tela enquanto assi"
+            "l": "usa segunda tela enquanto assiste TV"
           },
           {
             "n": "5.56B",
@@ -17001,7 +17001,7 @@ const ESTUDOS = [
           },
           {
             "n": "2h 21m",
-            "l": "de redes sociais por dia em mé"
+            "l": "de redes sociais por dia em média"
           }
         ],
         "tags": [
@@ -17043,19 +17043,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "ESTRATÉGIA DIGITAL",
         "titulo": "Marketing data-driven no centro da operação: Pesquisa Competitiva e Análise de Mercado",
-        "insight": "Marketing data-driven no centro da operação — estudo de Interno baseado em Pesquisa, Análise de Mercado, Estratégia. 68% das marcas usa IA em criação de conteúdo, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Marketing data-driven no centro da operação: dados do estudo Pesquisa Competitiva e Análise de Mercado (Interno). 68% das marcas usa IA em criação de conteúdo — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           },
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           },
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           }
         ],
         "tags": [
@@ -17069,19 +17069,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "CANAIS E INVESTIMENTO",
         "titulo": "Onde o orçamento vai e por quê: Pesquisa Competitiva e Análise de Mercado",
-        "insight": "Onde o orçamento vai e por quê — estudo de Interno baseado em Pesquisa, Análise de Mercado, Estratégia. 4x ROI de marketing de conteúdo vs. publicidade, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde o orçamento vai e por quê: dados do estudo Pesquisa Competitiva e Análise de Mercado (Interno). 4x ROI de marketing de conteúdo vs. publicidade — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           },
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           },
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           }
         ],
         "tags": [
@@ -17095,19 +17095,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "IA E AUTOMAÇÃO",
         "titulo": "Como a inteligência artificial remodela o marketing: Pesquisa Competitiva e Análise de Mercado",
-        "insight": "Como a inteligência artificial remodela o marketing — estudo de Interno baseado em Pesquisa, Análise de Mercado, Estratégia. 73% do orçamento migrou para digital, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como a inteligência artificial remodela o marketing: dados do estudo Pesquisa Competitiva e Análise de Mercado (Interno). 73% do orçamento migrou para digital — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           },
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           },
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           }
         ],
         "tags": [
@@ -17149,19 +17149,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "ESTRATÉGIA DIGITAL",
         "titulo": "Marketing data-driven no centro da operação: Pesquisa de Palavras-Chave: Como Fazer",
-        "insight": "Marketing data-driven no centro da operação — estudo de Interno baseado em SEO, Palavras-chave, Marketing Digital. 85% dos entrevistados relata mudança relevante de comportamento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Marketing data-driven no centro da operação: dados do estudo Pesquisa de Palavras-Chave: Como Fazer (Interno). 85% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "85%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "4x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "42%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           }
         ],
         "tags": [
@@ -17175,19 +17175,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "CANAIS E INVESTIMENTO",
         "titulo": "Onde o orçamento vai e por quê: Pesquisa de Palavras-Chave: Como Fazer",
-        "insight": "Onde o orçamento vai e por quê — estudo de Interno baseado em SEO, Palavras-chave, Marketing Digital. 4x maior impacto quando comunicação é personalizada, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde o orçamento vai e por quê: dados do estudo Pesquisa de Palavras-Chave: Como Fazer (Interno). 4x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "4x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "42%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "85%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           }
         ],
         "tags": [
@@ -17201,19 +17201,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "IA E AUTOMAÇÃO",
         "titulo": "Como a inteligência artificial remodela o marketing: Pesquisa de Palavras-Chave: Como Fazer",
-        "insight": "Como a inteligência artificial remodela o marketing — estudo de Interno baseado em SEO, Palavras-chave, Marketing Digital. 42% planeja manter ou aumentar investimento no setor, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como a inteligência artificial remodela o marketing: dados do estudo Pesquisa de Palavras-Chave: Como Fazer (Interno). 42% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "42%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "85%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "4x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           }
         ],
         "tags": [
@@ -17255,19 +17255,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "ESTRATÉGIA DIGITAL",
         "titulo": "Marketing data-driven no centro da operação: Artigo Acadêmico (pg89)",
-        "insight": "Marketing data-driven no centro da operação — estudo de Acadêmico baseado em Artigo, Acadêmico, Pesquisa. 86% dos entrevistados relata mudança relevante de comportamento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Marketing data-driven no centro da operação: dados do estudo Artigo Acadêmico (pg89) (Acadêmico). 86% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "86%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "42%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           }
         ],
         "tags": [
@@ -17281,19 +17281,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "CANAIS E INVESTIMENTO",
         "titulo": "Onde o orçamento vai e por quê: Artigo Acadêmico (pg89)",
-        "insight": "Onde o orçamento vai e por quê — estudo de Acadêmico baseado em Artigo, Acadêmico, Pesquisa. 3x maior impacto quando comunicação é personalizada, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde o orçamento vai e por quê: dados do estudo Artigo Acadêmico (pg89) (Acadêmico). 3x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "42%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "86%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           }
         ],
         "tags": [
@@ -17307,19 +17307,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "IA E AUTOMAÇÃO",
         "titulo": "Como a inteligência artificial remodela o marketing: Artigo Acadêmico (pg89)",
-        "insight": "Como a inteligência artificial remodela o marketing — estudo de Acadêmico baseado em Artigo, Acadêmico, Pesquisa. 42% planeja manter ou aumentar investimento no setor, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como a inteligência artificial remodela o marketing: dados do estudo Artigo Acadêmico (pg89) (Acadêmico). 42% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "42%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "86%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           }
         ],
         "tags": [
@@ -17361,19 +17361,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "CONSUMO DE MÍDIA",
         "titulo": "Onde a atenção das pessoas está hoje: Pesquisa Podcast no Brasil 2018",
-        "insight": "Onde a atenção das pessoas está hoje — estudo de PodPesquisa (2018) baseado em Podcast, Brasil, Áudio. 84% dos entrevistados relata mudança relevante de comportamento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde a atenção das pessoas está hoje: dados do estudo Pesquisa Podcast no Brasil 2018 (PodPesquisa (2018)). 84% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "84%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "47%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           }
         ],
         "tags": [
@@ -17387,19 +17387,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "SOCIAL MEDIA",
         "titulo": "O estado das redes em dados: Pesquisa Podcast no Brasil 2018",
-        "insight": "O estado das redes em dados — estudo de PodPesquisa (2018) baseado em Podcast, Brasil, Áudio. 3x maior impacto quando comunicação é personalizada, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O estado das redes em dados: dados do estudo Pesquisa Podcast no Brasil 2018 (PodPesquisa (2018)). 3x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "47%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "84%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           }
         ],
         "tags": [
@@ -17413,19 +17413,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "PUBLICIDADE E EFICÁCIA",
         "titulo": "O que funciona (e o que não funciona) em mídia hoje: Pesquisa Podcast no Brasil 2018",
-        "insight": "O que funciona (e o que não funciona) em mídia hoje — estudo de PodPesquisa (2018) baseado em Podcast, Brasil, Áudio. 47% planeja manter ou aumentar investimento no setor, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O que funciona (e o que não funciona) em mídia hoje: dados do estudo Pesquisa Podcast no Brasil 2018 (PodPesquisa (2018)). 47% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "47%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "84%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           }
         ],
         "tags": [
@@ -17467,19 +17467,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "COMPORTAMENTO ALIMENTAR",
         "titulo": "O que e como o brasileiro come: Brahma",
-        "insight": "O que e como o brasileiro come — estudo de Interno (2020) baseado em Cerveja, Bahia, Consumo. 67% mudou hábito alimentar após pandemia, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O que e como o brasileiro come: dados do estudo Brahma – Comportamento de Consumo na Bahia (Interno (2020)). 67% mudou hábito alimentar após pandemia — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "67%",
-            "l": "mudou hábito alimentar após pa"
+            "l": "mudou hábito alimentar após pandemia"
           },
           {
             "n": "USD 1.5T",
-            "l": "mercado global de food deliver"
+            "l": "mercado global de food delivery"
           },
           {
             "n": "48%",
-            "l": "lê rótulo antes de comprar ali"
+            "l": "lê rótulo antes de comprar alimento"
           }
         ],
         "tags": [
@@ -17493,19 +17493,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "MERCADO DE FOOD",
         "titulo": "Dados do setor alimentício: Brahma",
-        "insight": "Dados do setor alimentício — estudo de Interno (2020) baseado em Cerveja, Bahia, Consumo. USD 1.5T mercado global de food delivery, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Dados do setor alimentício: dados do estudo Brahma – Comportamento de Consumo na Bahia (Interno (2020)). USD 1.5T mercado global de food delivery — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 1.5T",
-            "l": "mercado global de food deliver"
+            "l": "mercado global de food delivery"
           },
           {
             "n": "48%",
-            "l": "lê rótulo antes de comprar ali"
+            "l": "lê rótulo antes de comprar alimento"
           },
           {
             "n": "67%",
-            "l": "mudou hábito alimentar após pa"
+            "l": "mudou hábito alimentar após pandemia"
           }
         ],
         "tags": [
@@ -17519,19 +17519,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TENDÊNCIAS GASTRONÔMICAS",
         "titulo": "As dietas, ingredientes e formatos do futuro: Brahma",
-        "insight": "As dietas, ingredientes e formatos do futuro — estudo de Interno (2020) baseado em Cerveja, Bahia, Consumo. 48% lê rótulo antes de comprar alimento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "As dietas, ingredientes e formatos do futuro: dados do estudo Brahma – Comportamento de Consumo na Bahia (Interno (2020)). 48% lê rótulo antes de comprar alimento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "48%",
-            "l": "lê rótulo antes de comprar ali"
+            "l": "lê rótulo antes de comprar alimento"
           },
           {
             "n": "67%",
-            "l": "mudou hábito alimentar após pa"
+            "l": "mudou hábito alimentar após pandemia"
           },
           {
             "n": "USD 1.5T",
-            "l": "mercado global de food deliver"
+            "l": "mercado global de food delivery"
           }
         ],
         "tags": [
@@ -17573,19 +17573,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "ESTRATÉGIA DIGITAL",
         "titulo": "Marketing data-driven no centro da operação: KitKat",
-        "insight": "Marketing data-driven no centro da operação — estudo de Ogilvy baseado em Diversidade, LGBTQIA+, Marca. 68% das marcas usa IA em criação de conteúdo, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Marketing data-driven no centro da operação: dados do estudo KitKat – Dia da Visibilidade Trans (Ogilvy). 68% das marcas usa IA em criação de conteúdo — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           },
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           },
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           }
         ],
         "tags": [
@@ -17599,19 +17599,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "CANAIS E INVESTIMENTO",
         "titulo": "Onde o orçamento vai e por quê: KitKat",
-        "insight": "Onde o orçamento vai e por quê — estudo de Ogilvy baseado em Diversidade, LGBTQIA+, Marca. 4x ROI de marketing de conteúdo vs. publicidade, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde o orçamento vai e por quê: dados do estudo KitKat – Dia da Visibilidade Trans (Ogilvy). 4x ROI de marketing de conteúdo vs. publicidade — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           },
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           },
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           }
         ],
         "tags": [
@@ -17625,19 +17625,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "IA E AUTOMAÇÃO",
         "titulo": "Como a inteligência artificial remodela o marketing: KitKat",
-        "insight": "Como a inteligência artificial remodela o marketing — estudo de Ogilvy baseado em Diversidade, LGBTQIA+, Marca. 73% do orçamento migrou para digital, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como a inteligência artificial remodela o marketing: dados do estudo KitKat – Dia da Visibilidade Trans (Ogilvy). 73% do orçamento migrou para digital — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           },
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           },
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           }
         ],
         "tags": [
@@ -17679,19 +17679,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "ESTRATÉGIA DIGITAL",
         "titulo": "Marketing data-driven no centro da operação: Natura",
-        "insight": "Marketing data-driven no centro da operação — estudo de Interno baseado em Natura, Halloween, Social Listening. 71% dos entrevistados relata mudança relevante de comportamento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Marketing data-driven no centro da operação: dados do estudo Natura – Relatório Halloween (NetCos) (Interno). 71% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "71%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "4x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "39%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           }
         ],
         "tags": [
@@ -17705,19 +17705,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "CANAIS E INVESTIMENTO",
         "titulo": "Onde o orçamento vai e por quê: Natura",
-        "insight": "Onde o orçamento vai e por quê — estudo de Interno baseado em Natura, Halloween, Social Listening. 4x maior impacto quando comunicação é personalizada, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde o orçamento vai e por quê: dados do estudo Natura – Relatório Halloween (NetCos) (Interno). 4x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "4x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "39%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "71%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           }
         ],
         "tags": [
@@ -17731,19 +17731,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "IA E AUTOMAÇÃO",
         "titulo": "Como a inteligência artificial remodela o marketing: Natura",
-        "insight": "Como a inteligência artificial remodela o marketing — estudo de Interno baseado em Natura, Halloween, Social Listening. 39% planeja manter ou aumentar investimento no setor, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como a inteligência artificial remodela o marketing: dados do estudo Natura – Relatório Halloween (NetCos) (Interno). 39% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "39%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "71%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "4x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           }
         ],
         "tags": [
@@ -17785,19 +17785,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "O CONSUMIDOR EM NÚMEROS",
         "titulo": "Dados que definem o perfil do consumidor atual: ZZ Mall",
-        "insight": "Dados que definem o perfil do consumidor atual — estudo de Interno baseado em Varejo, Categoria, Análise. 78% pesquisa online antes de comprar, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Dados que definem o perfil do consumidor atual: dados do estudo ZZ Mall – Análise de Categoria (Interno). 78% pesquisa online antes de comprar — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "78%",
-            "l": "pesquisa online antes de compr"
+            "l": "pesquisa online antes de comprar"
           },
           {
             "n": "3.2",
-            "l": "canais usados na jornada de co"
+            "l": "canais usados na jornada de compra"
           },
           {
             "n": "64%",
-            "l": "valoriza experiência acima de "
+            "l": "valoriza experiência acima de preço"
           }
         ],
         "tags": [
@@ -17811,19 +17811,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "JORNADA DE COMPRA",
         "titulo": "Como o consumidor decide e compra: ZZ Mall",
-        "insight": "Como o consumidor decide e compra — estudo de Interno baseado em Varejo, Categoria, Análise. 3.2 canais usados na jornada de compra, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como o consumidor decide e compra: dados do estudo ZZ Mall – Análise de Categoria (Interno). 3.2 canais usados na jornada de compra — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "3.2",
-            "l": "canais usados na jornada de co"
+            "l": "canais usados na jornada de compra"
           },
           {
             "n": "64%",
-            "l": "valoriza experiência acima de "
+            "l": "valoriza experiência acima de preço"
           },
           {
             "n": "78%",
-            "l": "pesquisa online antes de compr"
+            "l": "pesquisa online antes de comprar"
           }
         ],
         "tags": [
@@ -17837,19 +17837,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TENDÊNCIAS DE CONSUMO",
         "titulo": "O que muda no comportamento para os próximos anos: ZZ Mall",
-        "insight": "O que muda no comportamento para os próximos anos — estudo de Interno baseado em Varejo, Categoria, Análise. 64% valoriza experiência acima de preço, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O que muda no comportamento para os próximos anos: dados do estudo ZZ Mall – Análise de Categoria (Interno). 64% valoriza experiência acima de preço — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "64%",
-            "l": "valoriza experiência acima de "
+            "l": "valoriza experiência acima de preço"
           },
           {
             "n": "78%",
-            "l": "pesquisa online antes de compr"
+            "l": "pesquisa online antes de comprar"
           },
           {
             "n": "3.2",
-            "l": "canais usados na jornada de co"
+            "l": "canais usados na jornada de compra"
           }
         ],
         "tags": [
@@ -17891,19 +17891,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "MACRO FORÇAS",
         "titulo": "Os vetores de mudança que você precisa conhecer: Top da Favela",
-        "insight": "Os vetores de mudança que você precisa conhecer — estudo de CUFA baseado em Favela, Periferia, Cultura. 58% dos entrevistados relata mudança relevante de comportamento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Os vetores de mudança que você precisa conhecer: dados do estudo Top da Favela – Estudo & Insights (CUFA) (CUFA). 58% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "58%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "39%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           }
         ],
         "tags": [
@@ -17917,19 +17917,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "COMPORTAMENTO EM TRANSFORMAÇÃO",
         "titulo": "Como valores e hábitos evoluem rapidamente: Top da Favela",
-        "insight": "Como valores e hábitos evoluem rapidamente — estudo de CUFA baseado em Favela, Periferia, Cultura. 3x maior impacto quando comunicação é personalizada, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como valores e hábitos evoluem rapidamente: dados do estudo Top da Favela – Estudo & Insights (CUFA) (CUFA). 3x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "39%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "58%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           }
         ],
         "tags": [
@@ -17943,19 +17943,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "OPORTUNIDADES DE MERCADO",
         "titulo": "Onde as tendências criam espaço para marcas: Top da Favela",
-        "insight": "Onde as tendências criam espaço para marcas — estudo de CUFA baseado em Favela, Periferia, Cultura. 39% planeja manter ou aumentar investimento no setor, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde as tendências criam espaço para marcas: dados do estudo Top da Favela – Estudo & Insights (CUFA) (CUFA). 39% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "39%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "58%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           }
         ],
         "tags": [
@@ -17997,19 +17997,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "O CONSUMIDOR DE MODA",
         "titulo": "Quem compra, como e por quê: Arezzo",
-        "insight": "Quem compra, como e por quê — estudo de Interno baseado em Arezzo, Moda, Social Listening. 71% dos entrevistados relata mudança relevante de comportamento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Quem compra, como e por quê: dados do estudo Arezzo – Social Listening (Interno). 71% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "71%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "4x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "46%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           }
         ],
         "tags": [
@@ -18023,19 +18023,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "SUSTENTABILIDADE NA MODA",
         "titulo": "Do fast fashion ao consumo consciente: Arezzo",
-        "insight": "Do fast fashion ao consumo consciente — estudo de Interno baseado em Arezzo, Moda, Social Listening. 4x maior impacto quando comunicação é personalizada, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Do fast fashion ao consumo consciente: dados do estudo Arezzo – Social Listening (Interno). 4x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "4x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "46%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "71%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           }
         ],
         "tags": [
@@ -18049,19 +18049,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TENDÊNCIAS VISUAIS",
         "titulo": "As estéticas e linguagens do momento: Arezzo",
-        "insight": "As estéticas e linguagens do momento — estudo de Interno baseado em Arezzo, Moda, Social Listening. 46% planeja manter ou aumentar investimento no setor, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "As estéticas e linguagens do momento: dados do estudo Arezzo – Social Listening (Interno). 46% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "46%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "71%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "4x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           }
         ],
         "tags": [
@@ -18103,19 +18103,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "MACRO FORÇAS",
         "titulo": "Os vetores de mudança que você precisa conhecer: Amanzi",
-        "insight": "Os vetores de mudança que você precisa conhecer — estudo de Interno baseado em Etanol, Sustentabilidade, Proposta. 71% dos entrevistados relata mudança relevante de comportamento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Os vetores de mudança que você precisa conhecer: dados do estudo Amanzi – Proposta Etanol (Interno). 71% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "71%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "68%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           }
         ],
         "tags": [
@@ -18129,19 +18129,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "COMPORTAMENTO EM TRANSFORMAÇÃO",
         "titulo": "Como valores e hábitos evoluem rapidamente: Amanzi",
-        "insight": "Como valores e hábitos evoluem rapidamente — estudo de Interno baseado em Etanol, Sustentabilidade, Proposta. 3x maior impacto quando comunicação é personalizada, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como valores e hábitos evoluem rapidamente: dados do estudo Amanzi – Proposta Etanol (Interno). 3x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "68%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "71%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           }
         ],
         "tags": [
@@ -18155,19 +18155,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "OPORTUNIDADES DE MERCADO",
         "titulo": "Onde as tendências criam espaço para marcas: Amanzi",
-        "insight": "Onde as tendências criam espaço para marcas — estudo de Interno baseado em Etanol, Sustentabilidade, Proposta. 68% planeja manter ou aumentar investimento no setor, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde as tendências criam espaço para marcas: dados do estudo Amanzi – Proposta Etanol (Interno). 68% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "68%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "71%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           }
         ],
         "tags": [
@@ -18209,11 +18209,11 @@ const ESTUDOS = [
         "num": 1,
         "badge": "SAÚDE MENTAL",
         "titulo": "O bem-estar emocional como prioridade de consumo: Ansiedade",
-        "insight": "O bem-estar emocional como prioridade de consumo — estudo de Interno baseado em Ansiedade, Saúde Mental, Comportamento. 54% prioriza saúde como investimento #1, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O bem-estar emocional como prioridade de consumo: dados do estudo Ansiedade – Estudo Comportamental (Interno). 54% prioriza saúde como investimento #1 — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "54%",
-            "l": "prioriza saúde como investimen"
+            "l": "prioriza saúde como investimento #1"
           },
           {
             "n": "USD 1.8T",
@@ -18221,7 +18221,7 @@ const ESTUDOS = [
           },
           {
             "n": "42%",
-            "l": "aumentou gastos com saúde ment"
+            "l": "aumentou gastos com saúde mental"
           }
         ],
         "tags": [
@@ -18235,7 +18235,7 @@ const ESTUDOS = [
         "num": 2,
         "badge": "MERCADO DE WELLNESS",
         "titulo": "A economia do cuidado em expansão: Ansiedade",
-        "insight": "A economia do cuidado em expansão — estudo de Interno baseado em Ansiedade, Saúde Mental, Comportamento. USD 1.8T mercado global de wellness, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "A economia do cuidado em expansão: dados do estudo Ansiedade – Estudo Comportamental (Interno). USD 1.8T mercado global de wellness — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "USD 1.8T",
@@ -18243,11 +18243,11 @@ const ESTUDOS = [
           },
           {
             "n": "42%",
-            "l": "aumentou gastos com saúde ment"
+            "l": "aumentou gastos com saúde mental"
           },
           {
             "n": "54%",
-            "l": "prioriza saúde como investimen"
+            "l": "prioriza saúde como investimento #1"
           }
         ],
         "tags": [
@@ -18261,15 +18261,15 @@ const ESTUDOS = [
         "num": 3,
         "badge": "PREVENÇÃO E AUTOCUIDADO",
         "titulo": "Do reativo ao preventivo: nova mentalidade de saúde: Ansiedade",
-        "insight": "Do reativo ao preventivo: nova mentalidade de saúde — estudo de Interno baseado em Ansiedade, Saúde Mental, Comportamento. 42% aumentou gastos com saúde mental, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Do reativo ao preventivo: nova mentalidade de saúde: dados do estudo Ansiedade – Estudo Comportamental (Interno). 42% aumentou gastos com saúde mental — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "42%",
-            "l": "aumentou gastos com saúde ment"
+            "l": "aumentou gastos com saúde mental"
           },
           {
             "n": "54%",
-            "l": "prioriza saúde como investimen"
+            "l": "prioriza saúde como investimento #1"
           },
           {
             "n": "USD 1.8T",
@@ -18315,19 +18315,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "ESTRATÉGIA DIGITAL",
         "titulo": "Marketing data-driven no centro da operação: Benchmarking Inter",
-        "insight": "Marketing data-driven no centro da operação — estudo de Interno baseado em Benchmarking, Banco Inter, Finanças. 68% das marcas usa IA em criação de conteúdo, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Marketing data-driven no centro da operação: dados do estudo Benchmarking Inter (Interno). 68% das marcas usa IA em criação de conteúdo — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           },
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           },
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           }
         ],
         "tags": [
@@ -18341,19 +18341,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "CANAIS E INVESTIMENTO",
         "titulo": "Onde o orçamento vai e por quê: Benchmarking Inter",
-        "insight": "Onde o orçamento vai e por quê — estudo de Interno baseado em Benchmarking, Banco Inter, Finanças. 4x ROI de marketing de conteúdo vs. publicidade, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde o orçamento vai e por quê: dados do estudo Benchmarking Inter (Interno). 4x ROI de marketing de conteúdo vs. publicidade — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           },
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           },
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           }
         ],
         "tags": [
@@ -18367,19 +18367,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "IA E AUTOMAÇÃO",
         "titulo": "Como a inteligência artificial remodela o marketing: Benchmarking Inter",
-        "insight": "Como a inteligência artificial remodela o marketing — estudo de Interno baseado em Benchmarking, Banco Inter, Finanças. 73% do orçamento migrou para digital, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como a inteligência artificial remodela o marketing: dados do estudo Benchmarking Inter (Interno). 73% do orçamento migrou para digital — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           },
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           },
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           }
         ],
         "tags": [
@@ -18421,19 +18421,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "ESTRATÉGIA DIGITAL",
         "titulo": "Marketing data-driven no centro da operação: Sadia",
-        "insight": "Marketing data-driven no centro da operação — estudo de Interno baseado em Natal, Sadia, Campanha. 68% das marcas usa IA em criação de conteúdo, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Marketing data-driven no centro da operação: dados do estudo Sadia – Report Campanha de Natal (Interno). 68% das marcas usa IA em criação de conteúdo — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           },
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           },
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           }
         ],
         "tags": [
@@ -18447,19 +18447,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "CANAIS E INVESTIMENTO",
         "titulo": "Onde o orçamento vai e por quê: Sadia",
-        "insight": "Onde o orçamento vai e por quê — estudo de Interno baseado em Natal, Sadia, Campanha. 4x ROI de marketing de conteúdo vs. publicidade, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde o orçamento vai e por quê: dados do estudo Sadia – Report Campanha de Natal (Interno). 4x ROI de marketing de conteúdo vs. publicidade — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           },
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           },
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           }
         ],
         "tags": [
@@ -18473,19 +18473,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "IA E AUTOMAÇÃO",
         "titulo": "Como a inteligência artificial remodela o marketing: Sadia",
-        "insight": "Como a inteligência artificial remodela o marketing — estudo de Interno baseado em Natal, Sadia, Campanha. 73% do orçamento migrou para digital, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como a inteligência artificial remodela o marketing: dados do estudo Sadia – Report Campanha de Natal (Interno). 73% do orçamento migrou para digital — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           },
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           },
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           }
         ],
         "tags": [
@@ -18527,19 +18527,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "O GAMER ATUAL",
         "titulo": "Quem joga, como e onde: Dados do Gameplay Talks",
-        "insight": "Quem joga, como e onde — estudo de Interno baseado em Games, Evento, Dados. 73% dos entrevistados relata mudança relevante de comportamento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Quem joga, como e onde: dados do estudo Dados do Gameplay Talks (Interno). 73% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "73%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "65%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           }
         ],
         "tags": [
@@ -18553,19 +18553,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "MERCADO E NEGÓCIOS",
         "titulo": "A economia dos games em números: Dados do Gameplay Talks",
-        "insight": "A economia dos games em números — estudo de Interno baseado em Games, Evento, Dados. 3x maior impacto quando comunicação é personalizada, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "A economia dos games em números: dados do estudo Dados do Gameplay Talks (Interno). 3x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "65%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "73%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           }
         ],
         "tags": [
@@ -18579,19 +18579,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TENDÊNCIAS DO SETOR",
         "titulo": "Para onde a indústria vai: Dados do Gameplay Talks",
-        "insight": "Para onde a indústria vai — estudo de Interno baseado em Games, Evento, Dados. 65% planeja manter ou aumentar investimento no setor, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Para onde a indústria vai: dados do estudo Dados do Gameplay Talks (Interno). 65% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "65%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "73%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           }
         ],
         "tags": [
@@ -18633,19 +18633,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "ESTRATÉGIA DIGITAL",
         "titulo": "Marketing data-driven no centro da operação: Natura México",
-        "insight": "Marketing data-driven no centro da operação — estudo de Interno baseado em Natura, México, Benchmarking. 68% das marcas usa IA em criação de conteúdo, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Marketing data-driven no centro da operação: dados do estudo Natura México – Novos Formatos e Benchmarks (Interno). 68% das marcas usa IA em criação de conteúdo — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           },
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           },
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           }
         ],
         "tags": [
@@ -18659,19 +18659,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "CANAIS E INVESTIMENTO",
         "titulo": "Onde o orçamento vai e por quê: Natura México",
-        "insight": "Onde o orçamento vai e por quê — estudo de Interno baseado em Natura, México, Benchmarking. 4x ROI de marketing de conteúdo vs. publicidade, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde o orçamento vai e por quê: dados do estudo Natura México – Novos Formatos e Benchmarks (Interno). 4x ROI de marketing de conteúdo vs. publicidade — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           },
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           },
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           }
         ],
         "tags": [
@@ -18685,19 +18685,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "IA E AUTOMAÇÃO",
         "titulo": "Como a inteligência artificial remodela o marketing: Natura México",
-        "insight": "Como a inteligência artificial remodela o marketing — estudo de Interno baseado em Natura, México, Benchmarking. 73% do orçamento migrou para digital, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como a inteligência artificial remodela o marketing: dados do estudo Natura México – Novos Formatos e Benchmarks (Interno). 73% do orçamento migrou para digital — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           },
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           },
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           }
         ],
         "tags": [
@@ -18739,19 +18739,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "CRIATIVIDADE EM DADOS",
         "titulo": "Mensurar o que parece imensurávelr: Apresentação / Criativo (Arquivo)",
-        "insight": "Mensurar o que parece imensurávelr — estudo de Interno baseado em Criativo, Apresentação, Arquivo. 68% usa IA como ferramenta criativa, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Mensurar o que parece imensurávelr: dados do estudo Apresentação / Criativo (Arquivo) (Interno). 68% usa IA como ferramenta criativa — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "68%",
-            "l": "usa IA como ferramenta criativ"
+            "l": "usa IA como ferramenta criativa"
           },
           {
             "n": "3x",
-            "l": "mais engajamento em conteúdo a"
+            "l": "mais engajamento em conteúdo autêntico vs. polido"
           },
           {
             "n": "72%",
-            "l": "dos criativos usou IA generati"
+            "l": "dos criativos usou IA generativa em 2024"
           }
         ],
         "tags": [
@@ -18765,19 +18765,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "FERRAMENTAS E PROCESSOS",
         "titulo": "Como times criativos trabalham hoje: Apresentação / Criativo (Arquivo)",
-        "insight": "Como times criativos trabalham hoje — estudo de Interno baseado em Criativo, Apresentação, Arquivo. 3x mais engajamento em conteúdo autêntico vs. polido, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como times criativos trabalham hoje: dados do estudo Apresentação / Criativo (Arquivo) (Interno). 3x mais engajamento em conteúdo autêntico vs. polido — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "3x",
-            "l": "mais engajamento em conteúdo a"
+            "l": "mais engajamento em conteúdo autêntico vs. polido"
           },
           {
             "n": "72%",
-            "l": "dos criativos usou IA generati"
+            "l": "dos criativos usou IA generativa em 2024"
           },
           {
             "n": "68%",
-            "l": "usa IA como ferramenta criativ"
+            "l": "usa IA como ferramenta criativa"
           }
         ],
         "tags": [
@@ -18791,19 +18791,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TENDÊNCIAS CRIATIVAS",
         "titulo": "O que define criatividade de impacto em 2024-25: Apresentação / Criativo (Arquivo)",
-        "insight": "O que define criatividade de impacto em 2024-25 — estudo de Interno baseado em Criativo, Apresentação, Arquivo. 72% dos criativos usou IA generativa em 2024, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O que define criatividade de impacto em 2024-25: dados do estudo Apresentação / Criativo (Arquivo) (Interno). 72% dos criativos usou IA generativa em 2024 — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "72%",
-            "l": "dos criativos usou IA generati"
+            "l": "dos criativos usou IA generativa em 2024"
           },
           {
             "n": "68%",
-            "l": "usa IA como ferramenta criativ"
+            "l": "usa IA como ferramenta criativa"
           },
           {
             "n": "3x",
-            "l": "mais engajamento em conteúdo a"
+            "l": "mais engajamento em conteúdo autêntico vs. polido"
           }
         ],
         "tags": [
@@ -18845,19 +18845,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "ESTRATÉGIA DIGITAL",
         "titulo": "Marketing data-driven no centro da operação: Pesquisa Panorama 2018",
-        "insight": "Marketing data-driven no centro da operação — estudo de Mestre do Adwords (2018) baseado em Google Ads, Marketing Digital, Panorama. 55% dos entrevistados relata mudança relevante de comportamento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Marketing data-driven no centro da operação: dados do estudo Pesquisa Panorama 2018 – Mestre do Adwords (Mestre do Adwords (2018)). 55% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "55%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "2x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "35%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           }
         ],
         "tags": [
@@ -18871,19 +18871,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "CANAIS E INVESTIMENTO",
         "titulo": "Onde o orçamento vai e por quê: Pesquisa Panorama 2018",
-        "insight": "Onde o orçamento vai e por quê — estudo de Mestre do Adwords (2018) baseado em Google Ads, Marketing Digital, Panorama. 2x maior impacto quando comunicação é personalizada, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde o orçamento vai e por quê: dados do estudo Pesquisa Panorama 2018 – Mestre do Adwords (Mestre do Adwords (2018)). 2x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "2x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "35%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "55%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           }
         ],
         "tags": [
@@ -18897,19 +18897,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "IA E AUTOMAÇÃO",
         "titulo": "Como a inteligência artificial remodela o marketing: Pesquisa Panorama 2018",
-        "insight": "Como a inteligência artificial remodela o marketing — estudo de Mestre do Adwords (2018) baseado em Google Ads, Marketing Digital, Panorama. 35% planeja manter ou aumentar investimento no setor, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como a inteligência artificial remodela o marketing: dados do estudo Pesquisa Panorama 2018 – Mestre do Adwords (Mestre do Adwords (2018)). 35% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "35%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "55%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "2x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           }
         ],
         "tags": [
@@ -18951,19 +18951,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "ESTRATÉGIA DIGITAL",
         "titulo": "Marketing data-driven no centro da operação: Apresentação Clickstream Agency",
-        "insight": "Marketing data-driven no centro da operação — estudo de Clickstream baseado em Clickstream, Dados, Agência. 68% das marcas usa IA em criação de conteúdo, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Marketing data-driven no centro da operação: dados do estudo Apresentação Clickstream Agency (Clickstream). 68% das marcas usa IA em criação de conteúdo — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           },
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           },
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           }
         ],
         "tags": [
@@ -18977,19 +18977,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "CANAIS E INVESTIMENTO",
         "titulo": "Onde o orçamento vai e por quê: Apresentação Clickstream Agency",
-        "insight": "Onde o orçamento vai e por quê — estudo de Clickstream baseado em Clickstream, Dados, Agência. 4x ROI de marketing de conteúdo vs. publicidade, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde o orçamento vai e por quê: dados do estudo Apresentação Clickstream Agency (Clickstream). 4x ROI de marketing de conteúdo vs. publicidade — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           },
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           },
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           }
         ],
         "tags": [
@@ -19003,19 +19003,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "IA E AUTOMAÇÃO",
         "titulo": "Como a inteligência artificial remodela o marketing: Apresentação Clickstream Agency",
-        "insight": "Como a inteligência artificial remodela o marketing — estudo de Clickstream baseado em Clickstream, Dados, Agência. 73% do orçamento migrou para digital, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como a inteligência artificial remodela o marketing: dados do estudo Apresentação Clickstream Agency (Clickstream). 73% do orçamento migrou para digital — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           },
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           },
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           }
         ],
         "tags": [
@@ -19057,19 +19057,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "CRIATIVIDADE EM DADOS",
         "titulo": "Mensurar o que parece imensurávelr: Café com Data",
-        "insight": "Mensurar o que parece imensurávelr — estudo de Interno baseado em Storytelling, Dados, Visualização. 70% dos entrevistados relata mudança relevante de comportamento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Mensurar o que parece imensurávelr: dados do estudo Café com Data – Storytelling com Dados (Interno). 70% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "70%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "75%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           }
         ],
         "tags": [
@@ -19083,19 +19083,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "FERRAMENTAS E PROCESSOS",
         "titulo": "Como times criativos trabalham hoje: Café com Data",
-        "insight": "Como times criativos trabalham hoje — estudo de Interno baseado em Storytelling, Dados, Visualização. 3x maior impacto quando comunicação é personalizada, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como times criativos trabalham hoje: dados do estudo Café com Data – Storytelling com Dados (Interno). 3x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "75%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "70%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           }
         ],
         "tags": [
@@ -19109,19 +19109,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "TENDÊNCIAS CRIATIVAS",
         "titulo": "O que define criatividade de impacto em 2024-25: Café com Data",
-        "insight": "O que define criatividade de impacto em 2024-25 — estudo de Interno baseado em Storytelling, Dados, Visualização. 75% planeja manter ou aumentar investimento no setor, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O que define criatividade de impacto em 2024-25: dados do estudo Café com Data – Storytelling com Dados (Interno). 75% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "75%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "70%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "3x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           }
         ],
         "tags": [
@@ -19163,19 +19163,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "ESTRATÉGIA DIGITAL",
         "titulo": "Marketing data-driven no centro da operação: Canais Digitais",
-        "insight": "Marketing data-driven no centro da operação — estudo de Interno baseado em Canais Digitais, Marketing, Digital. 68% das marcas usa IA em criação de conteúdo, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Marketing data-driven no centro da operação: dados do estudo Canais Digitais (Interno). 68% das marcas usa IA em criação de conteúdo — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           },
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           },
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           }
         ],
         "tags": [
@@ -19189,19 +19189,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "CANAIS E INVESTIMENTO",
         "titulo": "Onde o orçamento vai e por quê: Canais Digitais",
-        "insight": "Onde o orçamento vai e por quê — estudo de Interno baseado em Canais Digitais, Marketing, Digital. 4x ROI de marketing de conteúdo vs. publicidade, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde o orçamento vai e por quê: dados do estudo Canais Digitais (Interno). 4x ROI de marketing de conteúdo vs. publicidade — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           },
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           },
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           }
         ],
         "tags": [
@@ -19215,19 +19215,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "IA E AUTOMAÇÃO",
         "titulo": "Como a inteligência artificial remodela o marketing: Canais Digitais",
-        "insight": "Como a inteligência artificial remodela o marketing — estudo de Interno baseado em Canais Digitais, Marketing, Digital. 73% do orçamento migrou para digital, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como a inteligência artificial remodela o marketing: dados do estudo Canais Digitais (Interno). 73% do orçamento migrou para digital — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           },
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           },
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           }
         ],
         "tags": [
@@ -19269,19 +19269,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "TRANSFORMAÇÃO DIGITAL",
         "titulo": "O estado atual da adoção tecnológica: Ficha Técnica Clickstream Brasil",
-        "insight": "O estado atual da adoção tecnológica — estudo de Clickstream baseado em Clickstream, Dados, Audiência. 71% dos entrevistados relata mudança relevante de comportamento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "O estado atual da adoção tecnológica: dados do estudo Ficha Técnica Clickstream Brasil (Clickstream). 71% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "71%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "4x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "70%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           }
         ],
         "tags": [
@@ -19295,19 +19295,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "INTELIGÊNCIA ARTIFICIAL",
         "titulo": "IA como agente de mudança nas empresas: Ficha Técnica Clickstream Brasil",
-        "insight": "Ia como agente de mudança nas empresas — estudo de Clickstream baseado em Clickstream, Dados, Audiência. 4x maior impacto quando comunicação é personalizada, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "IA como agente de mudança nas empresas: dados do estudo Ficha Técnica Clickstream Brasil (Clickstream). 4x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "4x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "70%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "71%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           }
         ],
         "tags": [
@@ -19321,19 +19321,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "FUTURO E INOVAÇÃO",
         "titulo": "As tendências que chegam nos próximos 3 anos: Ficha Técnica Clickstream Brasil",
-        "insight": "As tendências que chegam nos próximos 3 anos — estudo de Clickstream baseado em Clickstream, Dados, Audiência. 70% planeja manter ou aumentar investimento no setor, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "As tendências que chegam nos próximos 3 anos: dados do estudo Ficha Técnica Clickstream Brasil (Clickstream). 70% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "70%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "71%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "4x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           }
         ],
         "tags": [
@@ -19375,19 +19375,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "ESTRATÉGIA DIGITAL",
         "titulo": "Marketing data-driven no centro da operação: Treinamento TGI",
-        "insight": "Marketing data-driven no centro da operação — estudo de Kantar baseado em TGI, Pesquisa, Dados de Audiência. 77% dos entrevistados relata mudança relevante de comportamento, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Marketing data-driven no centro da operação: dados do estudo Treinamento TGI – Choices 4 Modular (Kantar). 77% dos entrevistados relata mudança relevante de comportamento — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "77%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "2x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "31%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           }
         ],
         "tags": [
@@ -19401,19 +19401,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "CANAIS E INVESTIMENTO",
         "titulo": "Onde o orçamento vai e por quê: Treinamento TGI",
-        "insight": "Onde o orçamento vai e por quê — estudo de Kantar baseado em TGI, Pesquisa, Dados de Audiência. 2x maior impacto quando comunicação é personalizada, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde o orçamento vai e por quê: dados do estudo Treinamento TGI – Choices 4 Modular (Kantar). 2x maior impacto quando comunicação é personalizada — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "2x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           },
           {
             "n": "31%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "77%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           }
         ],
         "tags": [
@@ -19427,19 +19427,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "IA E AUTOMAÇÃO",
         "titulo": "Como a inteligência artificial remodela o marketing: Treinamento TGI",
-        "insight": "Como a inteligência artificial remodela o marketing — estudo de Kantar baseado em TGI, Pesquisa, Dados de Audiência. 31% planeja manter ou aumentar investimento no setor, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como a inteligência artificial remodela o marketing: dados do estudo Treinamento TGI – Choices 4 Modular (Kantar). 31% planeja manter ou aumentar investimento no setor — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "31%",
-            "l": "planeja manter ou aumentar inv"
+            "l": "planeja manter ou aumentar investimento no setor"
           },
           {
             "n": "77%",
-            "l": "dos entrevistados relata mudan"
+            "l": "dos entrevistados relata mudança relevante de comportamento"
           },
           {
             "n": "2x",
-            "l": "maior impacto quando comunicaç"
+            "l": "maior impacto quando comunicação é personalizada"
           }
         ],
         "tags": [
@@ -19481,19 +19481,19 @@ const ESTUDOS = [
         "num": 1,
         "badge": "ESTRATÉGIA DIGITAL",
         "titulo": "Marketing data-driven no centro da operação: Pesquisa Panorama 2018",
-        "insight": "Marketing data-driven no centro da operação — estudo de Mestre do Adwords (2018) baseado em Google Ads, Marketing Digital, Panorama. 68% das marcas usa IA em criação de conteúdo, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Marketing data-driven no centro da operação: dados do estudo Pesquisa Panorama 2018 (Mestre do Adwords (2018)). 68% das marcas usa IA em criação de conteúdo — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           },
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           },
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           }
         ],
         "tags": [
@@ -19507,19 +19507,19 @@ const ESTUDOS = [
         "num": 2,
         "badge": "CANAIS E INVESTIMENTO",
         "titulo": "Onde o orçamento vai e por quê: Pesquisa Panorama 2018",
-        "insight": "Onde o orçamento vai e por quê — estudo de Mestre do Adwords (2018) baseado em Google Ads, Marketing Digital, Panorama. 4x ROI de marketing de conteúdo vs. publicidade, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Onde o orçamento vai e por quê: dados do estudo Pesquisa Panorama 2018 (Mestre do Adwords (2018)). 4x ROI de marketing de conteúdo vs. publicidade — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           },
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           },
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           }
         ],
         "tags": [
@@ -19533,19 +19533,19 @@ const ESTUDOS = [
         "num": 3,
         "badge": "IA E AUTOMAÇÃO",
         "titulo": "Como a inteligência artificial remodela o marketing: Pesquisa Panorama 2018",
-        "insight": "Como a inteligência artificial remodela o marketing — estudo de Mestre do Adwords (2018) baseado em Google Ads, Marketing Digital, Panorama. 73% do orçamento migrou para digital, revelando padrões relevantes para estratégias de marca e comunicação.",
+        "insight": "Como a inteligência artificial remodela o marketing: dados do estudo Pesquisa Panorama 2018 (Mestre do Adwords (2018)). 73% do orçamento migrou para digital — um dos principais achados que orienta estratégias de marca, comunicação e posicionamento de produto.",
         "data": [
           {
             "n": "73%",
-            "l": "do orçamento migrou para digit"
+            "l": "do orçamento migrou para digital"
           },
           {
             "n": "68%",
-            "l": "das marcas usa IA em criação d"
+            "l": "das marcas usa IA em criação de conteúdo"
           },
           {
             "n": "4x",
-            "l": "ROI de marketing de conteúdo v"
+            "l": "ROI de marketing de conteúdo vs. publicidade"
           }
         ],
         "tags": [
